@@ -413,7 +413,7 @@ let envP=null;let envOrigem='';const temEnv=()=>envP||(envP=fetch('api/brapi/sta
 async function viaServidor(t,range){if(!(await temEnv()))return null;try{const r=await fetch('api/brapi/quote/'+encodeURIComponent(t)+'?range='+range+'&interval=1d',{cache:'no-store'});const tipo=r.headers.get('content-type')||'';if(r.status===501||r.status===404||!tipo.includes('json'))return null;return r;}catch(e){return null;}}
 /* O plano gratuito da brapi só libera até 3 meses de histórico. Tenta o período mais longo e desce até um que o plano aceite; o que funcionou fica lembrado. */
 const PERIODOS=['2y','1y','3mo'];let periodoOk=null;
-const ehErroPeriodo=(r,j)=>!r.ok&&j&&/range/i.test(String(j.message||''));
+const ehErroPeriodo=(r,j)=>j&&/range/i.test(String(j.message||''));
 async function buscar(t,range){
  let r=await viaServidor(t,range);
  if(!r){const k=lerChave();const url='https://brapi.dev/api/quote/'+encodeURIComponent(t)+'?range='+range+'&interval=1d'+(k?'&token='+encodeURIComponent(k):'');
