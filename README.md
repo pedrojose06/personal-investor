@@ -39,6 +39,7 @@ O painel nasceu como um dashboard do Claude. O `index.html` da raiz traz uma ver
 | `leitura.json` | Notas: o que mudou, contra-argumento, divergências e lacunas |
 | `historico.json` | Cada previsão registrada, para a aba "Previsto x realizado" |
 | `fechamento.json` | Relatório do último fechamento: Ibovespa, dólar, maiores altas e baixas e acertos do dia |
+| `analises/*.json` | Análises de papéis escritas pelo Claude sob demanda, usadas pela aba "Analisar papel" |
 
 ### Como ler as probabilidades
 
@@ -55,6 +56,41 @@ Regra de avaliação: previsão de queda acerta com variação negativa no fecha
 ### Atualizar o histórico à mão
 
 Depois do fechamento, preencha em `historico.json` os campos `realizado` (variação no fechamento, por exemplo `"−3,2%"`) e `resultado` (`"Acertou"` ou `"Errou"`). O placar da aba "Previsto x realizado" calcula sozinho a taxa de acerto e a confiança média das previsões avaliadas.
+
+## Aba "Analisar papel"
+
+Digite o código de um papel (por exemplo, `PETR4`) e a página mostra:
+
+1. **Leitura técnica automática.** Busca dois anos de cotações na [brapi.dev](https://brapi.dev) e avalia 11 sinais: variação do dia, preço contra as médias de 20, 50 e 200 dias, cruzamento das médias de 50 e 200, IFR de 14 dias, retorno em 1 e 3 meses, posição na faixa de 52 semanas, volume e volatilidade. Cada sinal puxa para subida, para queda ou fica neutro, com o motivo escrito ao lado. O placar dá o viés: subida (2 sinais ou mais de saldo positivo), queda (2 ou mais de saldo negativo) ou indefinição.
+2. **Gráfico do último ano** com as médias de 50 e 200 dias.
+3. **Leitura do Claude**, com notícias, balanço e valuation, quando existir `data/analises/TICKER.json`.
+4. **No painel de hoje**: se o papel está no top 10 do dia ou aparece no radar de notícias.
+
+Sem chave, a brapi só libera `PETR4`, `VALE3`, `ITUB4` e `MGLU3`. Para os outros papéis, crie uma chave gratuita na brapi.dev e cole no campo "Chave da brapi" da aba. Ela fica salva só no navegador (localStorage). O link `/#papel=PETR4` abre a aba já com o papel analisado.
+
+### Pedir a análise do Claude
+
+No chat do Claude Code, peça `analise TICKER`. O Claude pesquisa notícias e fundamentos e grava `data/analises/TICKER.json` no formato abaixo, além de acrescentar o papel em `data/analises/index.json` (que alimenta os atalhos da aba):
+
+```json
+{
+  "ticker": "PETR4",
+  "empresa": "Petrobras",
+  "data": "12/11/2026",
+  "hora": "18:30",
+  "preco_ref": "R$ 44,86",
+  "vies": "Subida | Queda | Lateral",
+  "chance": 60,
+  "horizonte": "Próximas 4 semanas",
+  "resumo": "Uma ou duas frases com a conclusão.",
+  "a_favor_subida": ["..."],
+  "a_favor_queda": ["..."],
+  "o_que_observar": ["..."],
+  "fontes": [{ "nome": "InfoMoney", "url": "https://..." }]
+}
+```
+
+Os sinais técnicos são regras mecânicas sobre o preço passado: não consideram notícias e não garantem o futuro.
 
 ## Origem dos dados
 
