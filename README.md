@@ -78,7 +78,7 @@ Digite o código de um papel (por exemplo, `PETR4`) e a página mostra:
 3. **Leitura do Claude**, com notícias, balanço e valuation, quando existir `data/analises/TICKER.json`.
 4. **No painel de hoje**: se o papel está no top 10 do dia ou aparece no radar de notícias.
 
-Sem chave, a brapi só libera `PETR4`, `VALE3`, `ITUB4` e `MGLU3`. Para os outros papéis, coloque a chave no `.env` e rode `python servidor.py` (veja "Como abrir"), ou cole a chave no campo "Chave da brapi" da aba, que a salva só no navegador (localStorage). O link `/#papel=PETR4` abre a aba já com o papel analisado.
+Sem chave, a brapi só libera `PETR4`, `VALE3`, `ITUB4` e `MGLU3`. O plano gratuito com chave libera todos os papéis, mas só 3 meses de histórico: a aba tenta 2 anos, depois 1 ano e por fim 3 meses, e nesse caso deixa de fora os sinais que pedem mais tempo (média de 200 dias e cruzamento das médias), com um aviso. Para os outros papéis, coloque a chave no `.env` e rode `python servidor.py` (veja "Como abrir"), ou cole a chave no campo "Chave da brapi" da aba, que a salva só no navegador (localStorage). O link `/#papel=PETR4` abre a aba já com o papel analisado.
 
 ### Pedir a análise do Claude
 
