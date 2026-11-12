@@ -1,0 +1,58 @@
+[
+ {
+  "indicador": "Ibovespa",
+  "valor": "170.920 pts",
+  "variacao": "−0,66%",
+  "hora": "10h33",
+  "fonte": "BPMoney"
+ },
+ {
+  "indicador": "Ibovespa, fechamento anterior",
+  "valor": "172.060 pts",
+  "variacao": "+0,42%",
+  "hora": "11/11",
+  "fonte": "Relatório do radar"
+ },
+ {
+  "indicador": "IPCA de outubro",
+  "valor": "0,14%",
+  "variacao": "esperado 0,25%",
+  "hora": "9h00",
+  "fonte": "IBGE, via Money Times"
+ },
+ {
+  "indicador": "IPCA em 12 meses",
+  "valor": "4,63%",
+  "variacao": "esperado 4,73%",
+  "hora": "9h00",
+  "fonte": "IBGE, via Ativo Virtual"
+ },
+ {
+  "indicador": "Dólar à vista",
+  "valor": "R$ 5,592",
+  "variacao": "+0,55%",
+  "hora": "9h10",
+  "fonte": "BPMoney"
+ },
+ {
+  "indicador": "Futuro do Nasdaq",
+  "valor": "n/d",
+  "variacao": "−0,63%",
+  "hora": "7h30",
+  "fonte": "Money Times"
+ },
+ {
+  "indicador": "Brent",
+  "valor": "US$ 92,25",
+  "variacao": "−0,55%",
+  "hora": "7h30",
+  "fonte": "Money Times"
+ },
+ {
+  "indicador": "Treasury de 10 anos",
+  "valor": "4,99%",
+  "variacao": "n/d",
+  "hora": "manhã",
+  "fonte": "Relatório do radar"
+ }
+]

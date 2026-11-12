@@ -1,0 +1,23 @@
+[
+ {
+  "cenario": "Queda",
+  "faixa": "fechar abaixo de −0,5%",
+  "relatorio": 35,
+  "agora": 55,
+  "motivo": "Ibovespa em −0,66% às 10h33, com Banco do Brasil caindo cerca de 11%. Dólar perto de R$ 5,60 e futuros de Nova York negativos reforçam."
+ },
+ {
+  "cenario": "Lateral",
+  "faixa": "fechar entre −0,5% e +0,5%",
+  "relatorio": 40,
+  "agora": 33,
+  "motivo": "O IPCA de 0,14% (esperado 0,25%) alivia os juros curtos e pode devolver o índice à faixa neutra ao longo do dia."
+ },
+ {
+  "cenario": "Alta",
+  "faixa": "fechar acima de +0,5%",
+  "relatorio": 25,
+  "agora": 12,
+  "motivo": "Pediria uma virada de mais de 1 ponto percentual com BB e Nasdaq pesando. Votação do pacote fiscal no Senado seria o gatilho mais plausível."
+ }
+]

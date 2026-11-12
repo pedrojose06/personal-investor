@@ -1,0 +1,52 @@
+[
+ {
+  "id": "anthropic-ipo",
+  "titulo": "IPO da Anthropic na Nasdaq",
+  "status": "Confirmado",
+  "quando": "Preço em 18/11, estreia prevista para 19/11",
+  "resumo": "A dona do Claude vai ofertar 825 milhões de ações entre US$ 70 e US$ 78, sob o ticker ANT, o que a avalia em até cerca de US$ 1,4 trilhão. No topo da faixa a oferta movimenta US$ 64,35 bi. A empresa ainda dá prejuízo e os sócios antigos podem vender ações desde o primeiro dia.",
+  "impacto": "As fontes só citam reserva por corretoras americanas, então o caminho para o brasileiro é comprar depois da estreia, por conta no exterior. Nenhum BDR foi anunciado. A estreia serve de termômetro para o apetite por IA e pode mexer com o Nasdaq e com os BDRs de tecnologia. Um especialista ouvido pelo Bora Investir sugere esperar de 6 a 12 meses antes de entrar.",
+  "fonte": "CNBC, TechCrunch, Yahoo Finance, Bora Investir",
+  "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+ },
+ {
+  "id": "nvidia-ceo",
+  "titulo": "Nvidia: conselho avalia a saída do CEO",
+  "status": "Em andamento",
+  "quando": "Sem data para a decisão; balanço em 17/11",
+  "resumo": "Reportagens dizem que o conselho se prepara para destituir Jensen Huang por conduta pessoal. A ação caiu cerca de 8% no after-hours de 11/11.",
+  "impacto": "Afeta o BDR NVDC34 e o humor do Nasdaq. Como a Nvidia é referência do setor de IA, o desfecho também pesa no clima em que a Anthropic estreia.",
+  "fonte": "Money Times (cita WSJ), relatório do radar",
+  "link": "https://www.moneytimes.com.br/balancos-mexem-com-o-dia-enquanto-exterior-acompanha-caso-nvidia-nvda-ibovespa-em-dolar-cai-nesta-quinta-feira-12-rens/"
+ },
+ {
+  "id": "pacote-fiscal",
+  "titulo": "Pacote fiscal no Senado",
+  "status": "Em andamento",
+  "quando": "Votação pode ocorrer hoje ou ser adiada",
+  "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit primário.",
+  "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
+  "fonte": "InfoMoney, relatório do radar",
+  "link": "https://www.infomoney.com.br/mercados/ibovespa-futuro-cai-com-balancos-e-ipca-no-radar-apos-proposta-fiscal-do-governo/"
+ },
+ {
+  "id": "fed-dezembro",
+  "titulo": "Fed pode subir os juros em dezembro",
+  "status": "Expectativa de mercado",
+  "quando": "Reunião em 8 e 9/12",
+  "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 90% de chance, e o Treasury de 10 anos está perto de 5%.",
+  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, pressionar o dólar para cima e pesar em ações de crescimento.",
+  "fonte": "Yahoo Finance (CME FedWatch), relatório do radar",
+  "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html"
+ },
+ {
+  "id": "openai-ipo",
+  "titulo": "Possível IPO da OpenAI",
+  "status": "Não confirmado",
+  "quando": "27/11 em um único calendário",
+  "resumo": "O calendário de IPOs do Investing.com lista a OpenAI para 27/11, sem preço nem valor. Não encontrei confirmação em outra fonte.",
+  "impacto": "Trate como rumor. Se confirmado, seriam duas ofertas gigantes de IA disputando o mesmo capital em poucos dias.",
+  "fonte": "Investing.com",
+  "link": "https://www.investing.com/ipo-calendar/"
+ }
+]

@@ -1,0 +1,246 @@
+<meta name="dash-one-writer">
+<style>
+.tv{display:flex;flex-direction:column;gap:calc(var(--cds-gap-xl) * 1.5);color:var(--color-fg);font-family:var(--font-anthropic-sans);font-size:var(--cds-font-size-body);max-width:1080px;margin:0 auto}
+.tv button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;text-align:left;cursor:pointer}
+.tv button:focus-visible{outline:2px solid var(--color-fg);outline-offset:2px}
+.tv-kicker{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:0;letter-spacing:.04em;text-transform:uppercase}
+.tv-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:calc(var(--cds-font-size-title) * 1.35);margin:8px 0 0;line-height:1.15}
+.tv-title span{text-transform:lowercase}
+.tv-sub{color:var(--color-fg-muted);margin:8px 0 0}
+.tv-sub b{color:var(--color-fg);font-weight:var(--cds-font-weight-medium);font-variant-numeric:tabular-nums}
+.tv-h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0}
+.tv-note{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:4px 0 var(--cds-gap-md)}
+.tv-muted{color:var(--color-fg-muted)}
+.tv-ok{color:var(--color-ok)}.tv-bad{color:var(--color-bad)}.tv-warnc{color:var(--color-warn)}
+.tv .tv-bg-ok{background:var(--color-ok)}.tv .tv-bg-bad{background:var(--color-bad)}.tv .tv-bg-warnc{background:var(--color-warn)}
+.tv-split{position:relative;min-height:84px;margin-top:var(--cds-gap-lg)}
+.tv-stack{display:flex;height:40px;border-radius:10px;overflow:hidden;gap:3px}
+.tv .tv-seg{height:100%;min-width:6px;color:var(--color-bg);font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);padding:0 12px;white-space:nowrap;overflow:hidden;display:flex;align-items:center}
+.tv-legend{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:14px}
+.tv .tv-leg{display:flex;align-items:baseline;gap:8px}
+.tv-dot{width:9px;height:9px;border-radius:50%;align-self:center;flex:none}
+.tv-lnum{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-heading);font-variant-numeric:tabular-nums}
+.tv-lwas{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);font-variant-numeric:tabular-nums}
+.tv-tip{position:absolute;z-index:3;max-width:min(300px,100%);background:var(--cds-surface-popover,var(--color-panel));border:1px solid var(--cds-border,var(--color-border-line));box-shadow:var(--cds-shadow-popover,0 4px 16px rgba(0,0,0,.15));border-radius:var(--cds-radius);padding:10px 12px;font-size:var(--cds-font-size-caption);pointer-events:none}
+.tv-tip b{display:block;font-weight:var(--cds-font-weight-medium);margin-bottom:2px}
+.tv-tip p{margin:4px 0 0;color:var(--cds-text-secondary,var(--color-fg-muted))}
+#acoes{position:relative}
+.tv-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:var(--cds-gap-xl) calc(var(--cds-gap-xl) * 1.5);align-items:start}
+.tv-list{list-style:none;margin:0;padding:0;min-height:200px;display:grid;gap:4px}
+.tv .tv-rowb{width:100%;display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:2px 10px;align-items:baseline;padding:10px 12px;border-radius:10px;background:linear-gradient(90deg,var(--tint) var(--p),transparent var(--p))}
+.tv-list-bad .tv-rowb{--tint:color-mix(in srgb,var(--color-bad) 10%,transparent)}
+.tv-list-ok .tv-rowb{--tint:color-mix(in srgb,var(--color-ok) 10%,transparent)}
+.tv .tv-rowb:hover{box-shadow:inset 0 0 0 1px var(--color-border-line)}
+.tv-pos{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.tv-name{display:flex;gap:8px;align-items:baseline;min-width:0}
+.tv-ticker{font-weight:var(--cds-font-weight-medium);letter-spacing:.02em}
+.tv-emp{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tv-chance{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-heading);font-variant-numeric:tabular-nums}
+.tv-line2{grid-column:2 / 4;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);min-width:0}
+.tv-tag{display:inline-block;border-radius:999px;padding:1px 9px;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);border:1px solid currentColor;white-space:nowrap}
+.tv-tag.tv-muted{font-weight:400}
+.tv-gat{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1 1 140px}
+.tv-modal{position:absolute;inset:0;z-index:5}
+.tv-modal:empty{display:none}
+.tv .tv-back{position:absolute;inset:-8px;background:color-mix(in srgb,var(--color-bg) 72%,transparent);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);border-radius:12px;cursor:default}
+.tv-card{position:absolute;left:50%;transform:translateX(-50%);width:min(520px,calc(100% - 8px));box-sizing:border-box;background:var(--cds-surface-popover,var(--color-panel));border:1px solid var(--cds-border,var(--color-border-line));box-shadow:var(--cds-shadow-popover,0 12px 40px rgba(0,0,0,.25));border-radius:14px;padding:20px 22px;outline:none}
+.tv-chead{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:12px;align-items:start}
+.tv-cticker{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);line-height:1.1}
+.tv-cchance{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;line-height:1.1;text-align:right}
+.tv-cdir{font-size:var(--cds-font-size-caption);text-align:right}
+.tv .tv-x{width:28px;height:28px;border-radius:50%;text-align:center;font-size:18px;line-height:28px;color:var(--color-fg-muted)}
+.tv .tv-x:hover{background:var(--color-border-line)}
+.tv-f{margin-top:14px}
+.tv-fl{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);letter-spacing:.04em;text-transform:uppercase;margin-bottom:3px}
+.tv-f p{margin:0}
+.tv-f .tv-tag{margin-bottom:6px}
+.tv-cmeta{display:flex;flex-wrap:wrap;gap:6px 24px}
+.tv-cfoot{margin:16px 0 0;padding-top:10px;border-top:1px solid var(--color-border-line);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tv-agenda{list-style:none;margin:0;padding:0;min-height:160px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:0 calc(var(--cds-gap-xl) * 1.5)}
+.tv-agenda li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid var(--color-border-line)}
+.tv-hora{font-variant-numeric:tabular-nums;color:var(--color-fg-muted)}
+.tv-agenda li.tv-hi .tv-hora{color:var(--color-warn);font-weight:var(--cds-font-weight-medium)}
+.tv-agenda li.tv-done{opacity:.5}
+.tv-tiles{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--cds-gap-lg) var(--cds-gap-xl);min-height:110px}
+.tv .tv-tile{display:block}
+.tv-tlabel{display:block;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tv-tval{display:block;font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-heading);font-variant-numeric:tabular-nums;margin:2px 0}
+.tv-tvar{display:block;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.tv-notes summary{cursor:pointer;color:var(--color-fg-muted)}
+.tv-leitura{display:grid;gap:var(--cds-gap-md);margin-top:var(--cds-gap-md);max-width:70ch}
+.tv-leitura h3{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0 0 2px}
+.tv-leitura p{margin:0;color:var(--color-fg-muted)}
+.tv-foot{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0}
+.tv-tabs{display:flex;gap:4px;border-bottom:1px solid var(--color-border-line)}
+.tv .tv-tab{padding:8px 14px;color:var(--color-fg-muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tv .tv-tab[aria-selected=true]{color:var(--color-fg);border-bottom-color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.tv-page{display:flex;flex-direction:column;gap:calc(var(--cds-gap-xl) * 1.5)}
+.tv-page[hidden]{display:none}
+.tv-score{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--cds-gap-lg) var(--cds-gap-xl);min-height:70px}
+.tv-snum{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;line-height:1.15}
+.tv-slabel{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tv-msg{margin:0;max-width:70ch}
+.tv-table-wrap{overflow-x:auto}
+.tv-table{border-collapse:collapse;width:100%}
+.tv-table th,.tv-table td{text-align:left;padding:9px 16px 9px 0;border-bottom:1px solid var(--color-border-line);font-variant-numeric:tabular-nums;vertical-align:top}
+.tv-table th{color:var(--color-fg-muted);font-weight:400;font-size:var(--cds-font-size-caption);white-space:nowrap}
+.tv-table td.tv-nw{white-space:nowrap}
+.tv-news{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:var(--cds-gap-lg);min-height:160px}
+.tv-ncard{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.tv-nmeta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tv-ntitle{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-heading);margin:0;line-height:1.25}
+.tv-ncard p{margin:0}
+.tv-nimp{border-top:1px solid var(--color-border-line);padding-top:8px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tv-nimp b{color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.tv-nsrc{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:auto}
+.tv-nsrc a{color:inherit;text-decoration:underline}
+[data-dash-source-state=refreshing]{opacity:.5}
+</style>
+<div class="tv">
+<nav class="tv-tabs" role="tablist" aria-label="Seções do painel">
+<button type="button" class="tv-tab" role="tab" id="tab-hoje" data-tab="hoje" aria-selected="true">Hoje</button>
+<button type="button" class="tv-tab" role="tab" id="tab-acertos" data-tab="acertos" aria-selected="false">Previsto x realizado</button>
+</nav>
+<section class="tv-page" id="hoje">
+<header id="veredito">
+<p class="tv-kicker">Painel de tendências B3 · <span data-draw="data" data-source="resumo" data-field="data" data-row="0">—</span> · <span data-draw="hora" data-source="resumo" data-field="atualizado" data-row="0">—</span></p>
+<h1 class="tv-title">Ibovespa hoje: tendência de <span data-draw="lider" data-source="lider" data-field="cenario" data-row="0">—</span></h1>
+<p class="tv-sub"><b data-draw="lider-prob" data-source="lider" data-field="agora" data-row="0">—</b> de chance estimada, <b data-draw="lider-delta" data-source="lider" data-field="delta" data-row="0">—</b> pontos percentuais desde o relatório da tarefa agendada.</p>
+<div class="tv-split" data-draw="split" data-source="mercado">—</div>
+<p class="tv-note">Passe o cursor ou toque em um cenário para ver o motivo. Análise hipotética para estudo: as chances são estimativas subjetivas e podem estar erradas.</p>
+</header>
+<section id="acoes">
+<div class="tv-cols">
+<div id="top-queda">
+<h2 class="tv-h2">Top 10 em tendência de queda</h2>
+<p class="tv-note">A etiqueta indica o que a notícia sugere para depois da queda. Toque em uma ação para abrir os detalhes.</p>
+<ol class="tv-list tv-list-bad" data-draw="queda" data-source="acoes"></ol>
+</div>
+<div id="top-subida">
+<h2 class="tv-h2">Top 10 em tendência de subida</h2>
+<p class="tv-note">Ordenadas pela chance estimada. Toque em uma ação para abrir os detalhes.</p>
+<ol class="tv-list tv-list-ok" data-draw="subida" data-source="acoes"></ol>
+</div>
+</div>
+<div class="tv-modal" data-draw="modal" data-source="acoes"></div>
+</section>
+<section id="radar">
+<h2 class="tv-h2">Radar de notícias</h2>
+<p class="tv-note">Assuntos de maior alcance que podem mexer com o mercado nos próximos dias, com o estado de cada um: confirmado, em andamento ou ainda rumor.</p>
+<div class="tv-news" data-draw="noticias" data-source="noticias">—</div>
+</section>
+<section id="agenda">
+<h2 class="tv-h2">O que ainda sai hoje</h2>
+<p class="tv-note">Horário de Brasília. Em destaque, os eventos com mais potencial de mexer com o índice.</p>
+<ul class="tv-agenda" data-draw="agenda" data-source="agenda"></ul>
+</section>
+<section id="retrato">
+<h2 class="tv-h2">Retrato da manhã</h2>
+<p class="tv-note">Passe o cursor ou toque em um número para ver a hora e a fonte.</p>
+<div class="tv-tiles" data-draw="indicadores" data-source="indicadores">—</div>
+</section>
+<details class="tv-notes" id="notas">
+<summary>Notas de leitura: base dos dados, o que mudou, contra-argumento e lacunas</summary>
+<div class="tv-leitura">
+<div><h3>Base dos dados</h3><p data-draw="base" data-source="resumo" data-field="base" data-row="0">—</p></div>
+</div>
+<div class="tv-leitura" data-draw="leitura" data-source="leitura">—</div>
+</details>
+</section>
+<section class="tv-page" id="acertos" hidden>
+<header id="acertos-topo">
+<p class="tv-kicker">Painel de tendências B3 · calibração</p>
+<h1 class="tv-title">Previsto x realizado</h1>
+<p class="tv-sub">Cada previsão é comparada com o fechamento do pregão a que se refere. Uma previsão de queda acerta quando o ativo fecha abaixo da referência, e uma de subida acerta quando fecha acima. Para o Ibovespa vale a faixa do cenário.</p>
+</header>
+<div class="tv-score" id="placar" data-draw="placar" data-source="placar">—</div>
+<p class="tv-msg tv-msg-vazio" hidden>Ainda não há pregão encerrado para comparar: o painel começou em 12/11/2026. As previsões abaixo ficam pendentes até o fechamento do pregão indicado.</p>
+<p class="tv-msg tv-msg-ok" hidden>Compare a taxa de acerto com a confiança média. Taxa abaixo da confiança indica estimativas otimistas demais; taxa acima indica estimativas tímidas.</p>
+<section id="historico">
+<h2 class="tv-h2">Previsões registradas</h2>
+<p class="tv-note">A referência é o preço contra o qual a previsão é medida. O realizado é a variação no fechamento.</p>
+<div class="tv-table-wrap">
+<table class="tv-table" data-source="historico" data-row-key="id">
+<thead><tr><th data-field="pregao">Pregão</th><th data-field="item">Ativo</th><th data-field="previsto">Previsão</th><th data-field="chance">Chance</th><th data-field="referencia">Referência</th><th data-field="realizado">Realizado</th><th data-field="resultado">Resultado</th></tr></thead>
+<tbody data-draw="historico"></tbody>
+</table>
+</div>
+</section>
+</section>
+<p class="tv-foot">Material de estudo, sem ordem de compra ou venda e sem consultoria financeira habilitada. As decisões são suas; considere horizonte, liquidez, diversificação e o custo de estar errado.</p>
+</div>
+<script>
+const rows=(id)=>{const g=dash.data(id);return g.status==='ok'&&Array.isArray(g.data)?g.data:null;};
+const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=String(txt);return e;};
+const enc=(v)=>String(v).replace(/[%&=]/g,(c)=>'%'+c.charCodeAt(0).toString(16).toUpperCase());
+const mark=(e,src,field,where)=>{e.dataset.source=src;e.dataset.field=field;if(where)e.dataset.where=where;return e;};
+const tone=(c)=>({Queda:'bad',Alta:'ok',Lateral:'warnc'})[c]||'warnc';
+const tagTone=(l)=>({'Pode se recuperar':'ok','Pode continuar caindo':'bad'})[l]||'muted';
+const pct=(v)=>Math.max(0,Math.min(100,Number(v)||0));
+const tipper=(box)=>{const tip=el('div','tv-tip');tip.hidden=true;let cur=null;let pinned=false;
+ const show=(anchor,nodes)=>{cur=anchor;tip.replaceChildren(...nodes);tip.hidden=false;const b=box.getBoundingClientRect();const a=anchor.getBoundingClientRect();const w=tip.offsetWidth;tip.style.left=Math.max(0,Math.min(a.left-b.left+a.width/2-w/2,b.width-w))+'px';tip.style.top=(a.bottom-b.top+8)+'px';};
+ const hide=()=>{cur=null;pinned=false;tip.hidden=true;};
+ const bind=(anchor,make)=>{anchor.addEventListener('mouseenter',()=>{if(!pinned)show(anchor,make());});anchor.addEventListener('mouseleave',()=>{if(!pinned)hide();});anchor.addEventListener('focus',()=>{if(!pinned)show(anchor,make());});anchor.addEventListener('blur',hide);anchor.addEventListener('click',()=>{if(pinned&&cur===anchor){hide();}else{show(anchor,make());pinned=true;}});};
+ return {tip,bind};};
+dash.calc('lider',{inputs:['mercado'],title:'Cenário mais provável agora',description:'Cenário com a maior chance na leitura atual e a diferença, em pontos percentuais, para a chance que o relatório dava a ele.',fn:(mercado)=>{const r=[...mercado].sort((a,b)=>Number(b.agora)-Number(a.agora))[0];return r?[{cenario:r.cenario,agora:Number(r.agora),relatorio:Number(r.relatorio),delta:Number(r.agora)-Number(r.relatorio)}]:[];}});
+const one=(name,id,pick,after)=>dash.draw(name,(e)=>{const r=rows(id);if(!r||!r.length){e.textContent='—';return;}e.textContent=pick(r[0]);if(after)after(e,r[0]);});
+one('data','resumo',(r)=>r.data);
+one('hora','resumo',(r)=>r.atualizado);
+one('base','resumo',(r)=>r.base);
+one('lider','lider',(r)=>r.cenario,(e,r)=>{e.className='tv-'+tone(r.cenario);});
+one('lider-prob','lider',(r)=>r.agora+'%');
+one('lider-delta','lider',(r)=>(r.delta>0?'+':'')+r.delta);
+dash.draw('split',(box)=>{const r=rows('mercado');if(!r){box.replaceChildren('—');return;}
+ const T=tipper(box);
+ const info=(m)=>()=>{const w='cenario='+enc(m.cenario);const p1=el('p');p1.append('Agora ',mark(el('span',null,m.agora+'%'),'mercado','agora',w),' · no relatório ',mark(el('span',null,m.relatorio+'%'),'mercado','relatorio',w));return [el('b',null,m.cenario+': '+m.faixa),p1,mark(el('p',null,m.motivo),'mercado','motivo',w)];};
+ const stack=el('div','tv-stack');
+ r.forEach((m)=>{const seg=el('button','tv-seg tv-bg-'+tone(m.cenario),Number(m.agora)>=18?m.cenario+' '+m.agora+'%':'');seg.type='button';seg.style.width=pct(m.agora)+'%';seg.setAttribute('aria-label',m.cenario+', '+m.agora+'% de chance');T.bind(seg,info(m));stack.append(seg);});
+ const legend=el('div','tv-legend');
+ r.forEach((m)=>{const w='cenario='+enc(m.cenario);const b=el('button','tv-leg');b.type='button';const was=el('span','tv-lwas');was.append('era ',mark(el('span',null,m.relatorio+'%'),'mercado','relatorio',w));b.append(el('span','tv-dot tv-bg-'+tone(m.cenario)),mark(el('span',null,m.cenario),'mercado','cenario',w),mark(el('span','tv-lnum',m.agora+'%'),'mercado','agora',w),was);T.bind(b,info(m));legend.append(b);});
+ box.replaceChildren(stack,legend,T.tip);});
+let sel=null;let selTop=0;
+dash.draw('modal',(box)=>{const r=rows('acoes');const a=r&&sel?r.find((x)=>x.ticker===sel):null;if(!a){box.replaceChildren();return;}
+ const close=()=>{sel=null;dash.draw('modal');};
+ const w='ticker='+enc(a.ticker);const t=a.lado==='queda'?'bad':'ok';
+ const back=el('button','tv-back');back.type='button';back.setAttribute('aria-label','Fechar detalhes');back.addEventListener('click',close);
+ const card=el('div','tv-card');card.setAttribute('role','dialog');card.setAttribute('aria-label','Detalhes de '+a.ticker);card.tabIndex=-1;card.addEventListener('keydown',(ev)=>{if(ev.key==='Escape')close();});
+ const head=el('div','tv-chead');const left=el('div');left.append(mark(el('div','tv-cticker',a.ticker),'acoes','ticker',w),mark(el('div','tv-muted',a.empresa),'acoes','empresa',w));const right=el('div');right.append(mark(el('div','tv-cchance tv-'+t,a.chance+'%'),'acoes','chance',w),el('div','tv-cdir tv-muted',a.lado==='queda'?'chance de queda':'chance de subida'));const x=el('button','tv-x','×');x.type='button';x.setAttribute('aria-label','Fechar');x.addEventListener('click',close);head.append(left,right,x);
+ const field=(label,...nodes)=>{const f=el('div','tv-f');f.append(el('div','tv-fl',label),...nodes);return f;};
+ card.append(head);
+ if(a.leitura){card.append(field('Depois da queda',mark(el('span','tv-tag tv-'+tagTone(a.leitura),a.leitura),'acoes','leitura',w),mark(el('p',null,a.leitura_motivo),'acoes','leitura_motivo',w)));}
+ card.append(field('Por que está na lista',mark(el('p',null,a.motivo),'acoes','motivo',w)),field('Próximo gatilho',mark(el('p',null,a.gatilho),'acoes','gatilho',w)));
+ const meta=el('div','tv-cmeta');meta.append(field('Evidência',mark(el('p',null,a.evidencia),'acoes','evidencia',w)),field('Horizonte',mark(el('p',null,a.horizonte),'acoes','horizonte',w)),field('Fontes',mark(el('p',null,a.fonte),'acoes','fonte',w)));card.append(meta);
+ card.append(el('p','tv-cfoot','Leitura para estudo, feita só com as notícias de hoje. Sem ordem de compra ou venda.'));
+ box.replaceChildren(back,card);
+ const max=box.clientHeight-card.offsetHeight-8;card.style.top=Math.max(8,Math.min(selTop-24,max))+'px';
+ card.focus({preventScroll:true});card.scrollIntoView({block:'nearest'});});
+const lista=(name,lado,t)=>dash.draw(name,(box)=>{const r=rows('acoes');if(!r){box.replaceChildren();return;}
+ box.replaceChildren(...r.filter((a)=>a.lado===lado).sort((a,b)=>Number(a.pos)-Number(b.pos)).map((a)=>{const w='ticker='+enc(a.ticker);const li=el('li');const b=el('button','tv-rowb');b.type='button';b.style.setProperty('--p',pct(a.chance)+'%');
+  const name=el('span','tv-name');name.append(mark(el('span','tv-ticker',a.ticker),'acoes','ticker',w),mark(el('span','tv-emp',a.empresa),'acoes','empresa',w));
+  const l2=el('span','tv-line2');if(a.leitura)l2.append(mark(el('span','tv-tag tv-'+tagTone(a.leitura),a.leitura),'acoes','leitura',w));l2.append(mark(el('span','tv-gat',a.gatilho),'acoes','gatilho',w));
+  b.append(mark(el('span','tv-pos',a.pos),'acoes','pos',w),name,mark(el('span','tv-chance tv-'+t,a.chance+'%'),'acoes','chance',w),l2);
+  b.addEventListener('click',()=>{const sec=b.closest('section');selTop=sec?b.getBoundingClientRect().top-sec.getBoundingClientRect().top:0;sel=a.ticker;dash.draw('modal');});
+  li.append(b);return li;}));});
+lista('queda','queda','bad');
+lista('subida','subida','ok');
+dash.draw('agenda',(box)=>{const r=rows('agenda');if(!r){box.replaceChildren();return;}
+ box.replaceChildren(...r.map((a,i)=>{const li=el('li',(a.destaque==='sim'?'tv-hi':'')+(a.status==='saiu'?' tv-done':''));const h=el('span','tv-hora',a.hora);h.dataset.source='agenda';h.dataset.field='hora';h.dataset.row=String(i);const ev=el('span',null,a.evento);ev.dataset.source='agenda';ev.dataset.field='evento';ev.dataset.row=String(i);li.append(h,ev);return li;}));});
+dash.draw('indicadores',(box)=>{const r=rows('indicadores');if(!r){box.replaceChildren('—');return;}
+ const T=tipper(box);
+ box.replaceChildren(...r.map((i)=>{const w='indicador='+enc(i.indicador);const v=String(i.variacao);const cls=v.startsWith('+')?' tv-ok':(v.startsWith('−')||v.startsWith('-'))?' tv-bad':' tv-muted';const b=el('button','tv-tile');b.type='button';b.append(mark(el('span','tv-tlabel',i.indicador),'indicadores','indicador',w),mark(el('span','tv-tval',i.valor),'indicadores','valor',w),mark(el('span','tv-tvar'+cls,i.variacao),'indicadores','variacao',w));T.bind(b,()=>{const p=el('p');p.style.margin='0';p.append(mark(el('span',null,i.hora),'indicadores','hora',w),' · ',mark(el('span',null,i.fonte),'indicadores','fonte',w));return [el('b',null,i.indicador),p];});return b;}),T.tip);});
+dash.draw('leitura',(box)=>{const r=rows('leitura');if(!r){box.replaceChildren('—');return;}
+ box.replaceChildren(...r.map((n)=>{const w='topico='+enc(n.topico);const d=el('div');d.append(mark(el('h3',null,n.topico),'leitura','topico',w),mark(el('p',null,n.texto),'leitura','texto',w));return d;}));});
+const stTone=(s)=>({'Confirmado':'ok','Não confirmado':'warnc'})[s]||'muted';
+dash.draw('noticias',(box)=>{const r=rows('noticias');if(!r){box.replaceChildren('—');return;}
+ box.replaceChildren(...r.map((n)=>{const w='id='+enc(n.id);const c=el('article','tv-ncard');const meta=el('div','tv-nmeta');meta.append(mark(el('span','tv-tag tv-'+stTone(n.status),n.status),'noticias','status',w),mark(el('span',null,n.quando),'noticias','quando',w));const imp=el('p','tv-nimp');imp.append(el('b',null,'Para o investidor brasileiro: '),mark(el('span',null,n.impacto),'noticias','impacto',w));const src=el('p','tv-nsrc');src.append('Fontes: ',mark(el('span',null,n.fonte),'noticias','fonte',w));if(/^https:\/\//.test(String(n.link||''))){const a=el('a',null,'abrir a principal');a.href=n.link;a.target='_blank';a.rel='noopener noreferrer';src.append(' · ',a);}c.append(meta,mark(el('h3','tv-ntitle',n.titulo),'noticias','titulo',w),mark(el('p',null,n.resumo),'noticias','resumo',w),imp,src);return c;}));});
+dash.calc('placar',{inputs:['historico'],title:'Placar das previsões',description:'Quantas previsões foram registradas, quantas já têm resultado, quantas acertaram a direção, a taxa de acerto e a chance média que tinha sido atribuída às previsões já avaliadas.',fn:(historico)=>{const av=historico.filter((h)=>h.resultado==='Acertou'||h.resultado==='Errou');const ac=av.filter((h)=>h.resultado==='Acertou').length;return [{previsoes:historico.length,avaliadas:av.length,pendentes:historico.length-av.length,acertos:ac,taxa:av.length?Math.round(100*ac/av.length):null,confianca:av.length?Math.round(av.reduce((s,h)=>s+Number(h.chance),0)/av.length):null}];}});
+dash.draw('placar',(box)=>{const g=dash.data('placar');const p=g.status==='ok'&&Array.isArray(g.data)?g.data[0]:null;if(!p){box.replaceChildren('—');return;}
+ const tile=(label,field,txt)=>{const d=el('div');const n=el('div','tv-snum',txt);n.dataset.source='placar';n.dataset.field=field;n.dataset.row='0';d.append(n,el('div','tv-slabel',label));return d;};
+ box.replaceChildren(tile('previsões registradas','previsoes',p.previsoes),tile('já avaliadas','avaliadas',p.avaliadas),tile('aguardando fechamento','pendentes',p.pendentes),tile('taxa de acerto','taxa',p.taxa==null?'—':p.taxa+'%'),tile('confiança média atribuída','confianca',p.confianca==null?'—':p.confianca+'%'));});
+dash.draw('historico',(tb)=>{const r=rows('historico');if(!r){tb.replaceChildren();return;}
+ tb.replaceChildren(...r.map((h)=>{const tr=el('tr');tr.dataset.key=enc(h.id);const res=h.resultado==='Acertou'?'tv-ok':h.resultado==='Errou'?'tv-bad':'tv-muted';const item=el('td','tv-nw',h.item);item.style.fontWeight='var(--cds-font-weight-medium)';tr.append(el('td','tv-nw',h.pregao),item,el('td',null,h.previsto),el('td','tv-nw',h.chance+'%'),el('td',null,h.referencia),el('td','tv-nw',h.realizado||'—'),el('td','tv-nw '+res,h.resultado));return tr;}));});
+dash.onData(()=>{const g=dash.data('placar');const p=g.status==='ok'&&Array.isArray(g.data)?g.data[0]:null;const n=p?p.avaliadas:null;document.querySelectorAll('#dash-root .tv-msg-vazio').forEach((m)=>{m.hidden=n!==0;});document.querySelectorAll('#dash-root .tv-msg-ok').forEach((m)=>{m.hidden=!(n>0);});});
+const abre=(id)=>{const pages=document.querySelectorAll('#dash-root .tv-page');if(![...pages].some((s)=>s.id===id))return;pages.forEach((s)=>{s.hidden=s.id!==id;});document.querySelectorAll('#dash-root .tv-tab').forEach((b)=>{b.setAttribute('aria-selected',String(b.dataset.tab===id));});};
+document.querySelectorAll('#dash-root .tv-tab').forEach((b)=>{b.addEventListener('click',()=>{abre(b.dataset.tab);dash.setLink(b.dataset.tab);});});
+if(location.hash==='#acertos')abre('acertos');
+</script>
