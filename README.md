@@ -6,19 +6,31 @@ Painel de estudo de investimentos para acompanhar a tendência do Ibovespa e das
 
 ## Como abrir
 
-A página carrega os dados com `fetch`, então precisa de um servidor HTTP (abrir o arquivo direto no navegador não funciona):
+A página carrega os dados com `fetch`, então precisa de um servidor HTTP (abrir o arquivo direto no navegador não funciona). O jeito recomendado é o `servidor.py`, que só usa a biblioteca padrão do Python:
 
 ```bash
-npx serve .
-# ou
-python3 -m http.server 8000
+python servidor.py
 ```
 
-Depois acesse `http://localhost:3000` (serve) ou `http://localhost:8000` (Python).
+Depois acesse `http://localhost:8000`. No Windows, se `python` não for encontrado, use `py servidor.py`.
+
+### Chave da brapi no `.env`
+
+Para consultar qualquer papel na aba "Analisar papel", crie uma chave gratuita em [brapi.dev](https://brapi.dev/dashboard), copie o `.env.example` para `.env` e cole a chave:
+
+```
+BRAPI_TOKEN=sua_chave_aqui
+```
+
+O `servidor.py` lê o `.env` a cada consulta (não precisa reiniciar) e faz a chamada à brapi por você, então a chave não vai para o navegador. O `.env` está no `.gitignore` e o servidor se recusa a entregar arquivos ocultos como `.env` e `.git`.
+
+Também funciona com `python -m http.server 8000` ou `npx serve .`, mas aí o `.env` não é lido e a chave precisa ser colada no campo da própria aba.
 
 ## Estrutura
 
 ```
+servidor.py         Servidor local: serve a página e repassa as cotações à brapi com a chave do .env
+.env.example        Modelo do .env (copie para .env e cole a chave da brapi)
 index.html          Página de entrada: define as cores e fontes e carrega o painel
 painel/index.html   O painel em si (estilo, marcação e desenhos)
 data/*.json         Os dados exibidos, um arquivo por bloco
@@ -66,7 +78,7 @@ Digite o código de um papel (por exemplo, `PETR4`) e a página mostra:
 3. **Leitura do Claude**, com notícias, balanço e valuation, quando existir `data/analises/TICKER.json`.
 4. **No painel de hoje**: se o papel está no top 10 do dia ou aparece no radar de notícias.
 
-Sem chave, a brapi só libera `PETR4`, `VALE3`, `ITUB4` e `MGLU3`. Para os outros papéis, crie uma chave gratuita na brapi.dev e cole no campo "Chave da brapi" da aba. Ela fica salva só no navegador (localStorage). O link `/#papel=PETR4` abre a aba já com o papel analisado.
+Sem chave, a brapi só libera `PETR4`, `VALE3`, `ITUB4` e `MGLU3`. Para os outros papéis, coloque a chave no `.env` e rode `python servidor.py` (veja "Como abrir"), ou cole a chave no campo "Chave da brapi" da aba, que a salva só no navegador (localStorage). O link `/#papel=PETR4` abre a aba já com o papel analisado.
 
 ### Pedir a análise do Claude
 

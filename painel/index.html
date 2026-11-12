@@ -406,11 +406,15 @@ function grafico(h,largura){
  hit.addEventListener('pointermove',mover);hit.addEventListener('pointerdown',mover);hit.addEventListener('pointerleave',sair);
  box.append(leg,svg,tip);return box;}
 
+/* Com o servidor.py, a cotação passa por /api/brapi e usa a chave do .env. Sem ele (ou sem chave no .env), vai direto à brapi com a chave do navegador. */
+async function viaServidor(t){try{const r=await fetch('api/brapi/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d',{cache:'no-store'});const tipo=r.headers.get('content-type')||'';if(r.status===501||r.status===404||!tipo.includes('json'))return null;return r;}catch(e){return null;}}
 async function cotacao(t){
- const k=lerChave();const url='https://brapi.dev/api/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d'+(k?'&token='+encodeURIComponent(k):'');
- let r;try{r=await fetch(url);}catch(e){return {erro:'Não foi possível falar com a brapi.dev. Verifique a conexão.'};}
+ let r=await viaServidor(t);
+ if(!r){const k=lerChave();const url='https://brapi.dev/api/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d'+(k?'&token='+encodeURIComponent(k):'');
+ try{r=await fetch(url);}catch(e){return {erro:'Não foi possível falar com a brapi.dev. Verifique a conexão.'};}}
  let j=null;try{j=await r.json();}catch(e){}
- if(r.status===401||(j&&j.code==='MISSING_TOKEN'))return {erro:'A brapi só libera '+LIVRES.join(', ')+' sem chave. Para '+t+', crie uma chave gratuita em brapi.dev e cole no campo "Chave da brapi" acima.',chave:true};
+ if(j&&j.code==='INVALID_TOKEN')return {erro:'A brapi recusou a chave por ser inválida. Confira o BRAPI_TOKEN no arquivo .env (ou a chave salva no campo acima) e tente de novo.',chave:true};
+ if(r.status===401||(j&&j.code==='MISSING_TOKEN'))return {erro:'A brapi só libera '+LIVRES.join(', ')+' sem chave. Para '+t+', crie uma chave gratuita em brapi.dev e coloque no arquivo .env (rodando com python servidor.py) ou cole no campo "Chave da brapi" acima.',chave:true};
  if(r.status===402||r.status===403)return {erro:'A brapi recusou o pedido ('+r.status+'): '+((j&&j.message)||'limite do plano ou chave inválida')+'.',chave:true};
  if(r.status===429)return {erro:'Muitos pedidos seguidos à brapi. Espere um minuto e tente de novo.'};
  if(!r.ok||!j||!j.results||!j.results.length)return {erro:'Não encontrei o papel '+t+' na brapi'+((j&&j.message)?': '+j.message:'')+'. Confira o código (ex.: PETR4, BBDC4, BOVA11).'};
@@ -483,7 +487,7 @@ const form=document.getElementById('papel-form');
 if(form&&!form.dataset.pronto){form.dataset.pronto='1';
  form.addEventListener('submit',(ev)=>{ev.preventDefault();analisar(document.getElementById('papel-ticker').value);});
  const tk=document.getElementById('papel-token'),est=document.getElementById('papel-token-estado');
- const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';};tk.value=lerChave();mostra();
+ const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok?r.json():null).then((j)=>{if(j&&j.token){est.textContent='Chave lida do arquivo .env pelo servidor.py: as consultas usam ela automaticamente.';const d=document.querySelector('#dash-root .tv-chave summary');if(d)d.textContent='Chave da brapi: usando a do .env';}}).catch(()=>{});};tk.value=lerChave();mostra();
  document.getElementById('papel-token-salvar').addEventListener('click',()=>{const ok=gravarChave(tk.value.trim());est.textContent=ok?(tk.value.trim()?'Chave salva neste navegador.':'Chave apagada.'):'Este navegador bloqueou o armazenamento; a chave não foi salva.';});
  chips();
  const m=location.hash.match(/^#papel=([A-Za-z0-9]+)/);if(m)analisar(m[1]);}
