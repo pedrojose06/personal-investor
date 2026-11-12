@@ -24,7 +24,7 @@ BRAPI_TOKEN=sua_chave_aqui
 
 O `servidor.py` lê o `.env` a cada consulta (não precisa reiniciar) e faz a chamada à brapi por você, então a chave não vai para o navegador. O `.env` está no `.gitignore` e o servidor se recusa a entregar arquivos ocultos como `.env` e `.git`.
 
-Também funciona com `python -m http.server 8000` ou `npx serve .`, mas aí o `.env` não é lido e a chave precisa ser colada no campo da própria aba.
+Se o `.env` não existir ou estiver sem `BRAPI_TOKEN`, a aba mostra o campo "Chave da brapi" para você colar uma chave pessoal, que fica salva só no navegador. Com a chave no `.env`, esse campo some. O mesmo campo aparece se você usar `python -m http.server 8000` ou `npx serve .`, que não leem o `.env`.
 
 ## Estrutura
 

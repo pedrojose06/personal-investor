@@ -114,6 +114,7 @@
 .tv .tv-chip{border:1px solid var(--color-border-line);border-radius:999px;padding:2px 10px;font-size:var(--cds-font-size-caption)}
 .tv .tv-chip:hover{border-color:var(--color-fg)}
 .tv-chave{margin-top:4px}
+.tv-chave[hidden]{display:none}
 .tv-chave .tv-busca-row{margin-top:4px}
 .tv-phead{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline}
 .tv-preco{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums}
@@ -238,6 +239,7 @@
 <button type="submit" class="tv-btn">Analisar</button>
 </div>
 <div class="tv-chips" id="papel-chips"></div>
+<p class="tv-note" id="papel-env" hidden>Chave da brapi lida do arquivo .env pelo servidor.py: as consultas usam ela automaticamente.</p>
 <details class="tv-notes tv-chave">
 <summary>Chave da brapi (para papéis além de PETR4, VALE3, ITUB4 e MGLU3)</summary>
 <p class="tv-note">As cotações vêm da <a href="https://brapi.dev" target="_blank" rel="noopener">brapi.dev</a>. Sem chave, ela só libera quatro papéis de teste. Crie uma chave gratuita no site e cole aqui. Ela fica salva só neste navegador.</p>
@@ -485,7 +487,7 @@ const form=document.getElementById('papel-form');
 if(form&&!form.dataset.pronto){form.dataset.pronto='1';
  form.addEventListener('submit',(ev)=>{ev.preventDefault();analisar(document.getElementById('papel-ticker').value);});
  const tk=document.getElementById('papel-token'),est=document.getElementById('papel-token-estado');
- const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok?r.json():null).then((j)=>{if(j&&j.token){est.textContent='Chave lida do arquivo .env pelo servidor.py: as consultas usam ela automaticamente.';const d=document.querySelector('#dash-root .tv-chave summary');if(d)d.textContent='Chave da brapi: usando a do .env';}}).catch(()=>{});};tk.value=lerChave();mostra();
+ const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok&&(r.headers.get('content-type')||'').includes('json')?r.json():null).then((j)=>{const env=!!(j&&j.token);const d=document.querySelector('#dash-root .tv-chave');if(d)d.hidden=env;const n=document.getElementById('papel-env');if(n)n.hidden=!env;}).catch(()=>{});};tk.value=lerChave();mostra();
  document.getElementById('papel-token-salvar').addEventListener('click',()=>{const ok=gravarChave(tk.value.trim());est.textContent=ok?(tk.value.trim()?'Chave salva neste navegador.':'Chave apagada.'):'Este navegador bloqueou o armazenamento; a chave não foi salva.';});
  chips();
  const m=location.hash.match(/^#papel=([A-Za-z0-9]+)/);if(m)analisar(m[1]);}
