@@ -6,8 +6,8 @@
   "previsto": "Lateral: fechar entre −0,5% e +0,5%",
   "chance": 40,
   "referencia": "172.060 pts, fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−0,43%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-12-IBOV-revisao",
@@ -16,8 +16,8 @@
   "previsto": "Queda: fechar abaixo de −0,5%",
   "chance": 55,
   "referencia": "172.060 pts, fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−0,43%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-12-BBAS3",
@@ -26,8 +26,8 @@
   "previsto": "Queda",
   "chance": 85,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−8,35%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-12-COGN3",
@@ -36,8 +36,8 @@
   "previsto": "Queda",
   "chance": 70,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+3,95%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-12-NVDC34",
@@ -47,7 +47,7 @@
   "chance": 70,
   "referencia": "Fechamento de 11/11",
   "realizado": "",
-  "resultado": "Pendente"
+  "resultado": "Sem dado"
  },
  {
   "id": "2026-11-12-ENEV3",
@@ -57,7 +57,7 @@
   "chance": 65,
   "referencia": "Fechamento de 11/11",
   "realizado": "",
-  "resultado": "Pendente"
+  "resultado": "Sem dado"
  },
  {
   "id": "2026-11-12-BEEF3",
@@ -66,8 +66,8 @@
   "previsto": "Queda",
   "chance": 62,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+5,65%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-12-AMER3",
@@ -76,8 +76,8 @@
   "previsto": "Queda",
   "chance": 62,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−20,12%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-13-NATU3",
@@ -106,8 +106,8 @@
   "previsto": "Queda",
   "chance": 55,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−4,06%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-13-ROXO34",
@@ -126,8 +126,8 @@
   "previsto": "Subida",
   "chance": 68,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+3,61%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-12-BPAC11",
@@ -136,8 +136,8 @@
   "previsto": "Subida",
   "chance": 65,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−3,24%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-12-AZZA3",
@@ -146,8 +146,8 @@
   "previsto": "Subida",
   "chance": 62,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+9,95%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-12-EQTL3",
@@ -157,7 +157,7 @@
   "chance": 60,
   "referencia": "Fechamento de 11/11",
   "realizado": "",
-  "resultado": "Pendente"
+  "resultado": "Sem dado"
  },
  {
   "id": "2026-11-12-SLCE3",
@@ -166,8 +166,8 @@
   "previsto": "Subida",
   "chance": 60,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+7,68%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-12-MRVE3",
@@ -177,7 +177,7 @@
   "chance": 58,
   "referencia": "Fechamento de 11/11",
   "realizado": "",
-  "resultado": "Pendente"
+  "resultado": "Sem dado"
  },
  {
   "id": "2026-11-13-CYRE3",
@@ -207,7 +207,7 @@
   "chance": 55,
   "referencia": "Fechamento de 11/11",
   "realizado": "",
-  "resultado": "Pendente"
+  "resultado": "Sem dado"
  },
  {
   "id": "2026-11-12-PETR4",
@@ -216,7 +216,7 @@
   "previsto": "Subida",
   "chance": 52,
   "referencia": "Fechamento de 11/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+2,64%",
+  "resultado": "Acertou"
  }
 ]

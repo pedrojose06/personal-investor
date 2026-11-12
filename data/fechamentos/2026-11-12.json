@@ -1,0 +1,75 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "12/11/2026",
+  "hora": "18h54",
+  "ibov": "171.324 pts",
+  "ibov_var": "−0,43%",
+  "dolar": "R$ 5,65",
+  "dolar_var": "+1,62%",
+  "acertos": "8 de 12",
+  "texto": "O Ibovespa caiu 0,43% puxado pelo tombo de 8,35% do Banco do Brasil, que cortou projeções e dividendos após o lucro do 3º tri recuar 66,5%; Petrobras (+2,64%) e o petróleo em alta (Brent +3,3%, com a tensão EUA–Irã) amorteceram a queda. O dólar subiu 1,62%, a R$ 5,65, maior nível em 17 meses, com dúvidas sobre o pacote fiscal no Congresso, Treasury de 10 anos acima de 5% e aposta de alta de juros pelo Fed; a renúncia de Jensen Huang na Nvidia pesou sobre tecnologia. Divergência: alguns veículos publicaram o Ibovespa a 170.680 pts (−0,80%), leitura anterior ao leilão de fechamento; usamos o fechamento de 171.324 pts (InfoMoney, Exame). Previsões: 8 acertos em 12 avaliadas, com o cenário lateral do relatório certo e a revisão de queda errada; maior acerto foi BBAS3 (queda com 85%, caiu 8,35%) e maior erro foi BEEF3 (queda com 62%, subiu 5,65%); 5 papéis ficaram sem fechamento confiável (NVDC34, ENEV3, EQTL3, MRVE3, TAEE11).",
+  "fontes": "InfoMoney (fechamento ~17h06), Exame (18h38), BPMoney (18h22), O Reporter (17h19), InfoMoney (Cogna, 18h30)"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "HAPV3",
+  "empresa": "Hapvida",
+  "var": "+14,90%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "AZZA3",
+  "empresa": "Azzas 2154",
+  "var": "+9,95%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "BEEF3",
+  "empresa": "Minerva",
+  "var": "+5,65%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "UGPA3",
+  "empresa": "Ultrapar",
+  "var": "+4,55%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "SUZB3",
+  "empresa": "Suzano",
+  "var": "+4,16%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "BBAS3",
+  "empresa": "Banco do Brasil",
+  "var": "−8,35%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "MGLU3",
+  "empresa": "Magazine Luiza",
+  "var": "−7,70%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "TEND3",
+  "empresa": "Tenda",
+  "var": "−6,95%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "CSNA3",
+  "empresa": "CSN",
+  "var": "−6,42%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "CSAN3",
+  "empresa": "Cosan",
+  "var": "−5,94%"
+ }
+]
