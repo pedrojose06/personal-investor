@@ -342,8 +342,6 @@ if(location.hash==='#papel'||location.hash.startsWith('#papel='))abre('papel');
 </script>
 <script>
 /* Aba "Analisar papel": leitura técnica automática (brapi.dev) + análise escrita pelo Claude (data/analises) + cruzamento com o painel do dia. */
-const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=String(txt);return e;};
-const rows=(id)=>{const g=dash.data(id);return g.status==='ok'&&Array.isArray(g.data)?g.data:null;};
 const CHAVE='pi-brapi-token';
 const lerChave=()=>{try{return localStorage.getItem(CHAVE)||'';}catch(e){return '';}};
 const gravarChave=(v)=>{try{if(v)localStorage.setItem(CHAVE,v);else localStorage.removeItem(CHAVE);return true;}catch(e){return false;}};
