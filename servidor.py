@@ -60,6 +60,12 @@ class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=RAIZ, **kwargs)
 
+    def end_headers(self):
+        # Sem cache: depois de um git pull, o navegador sempre pega a versão nova.
+        if not self.path.startswith("/api/"):
+            self.send_header("Cache-Control", "no-cache")
+        super().end_headers()
+
     def responder_json(self, status, dados):
         corpo = json.dumps(dados, ensure_ascii=False).encode("utf-8")
         self.send_response(status)

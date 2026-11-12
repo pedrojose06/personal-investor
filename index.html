@@ -80,8 +80,8 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);line-height:1.5}
 
   try {
     const [html] = await Promise.all([
-      fetch('painel/index.html').then((r) => { if (!r.ok) throw new Error('painel/index.html: ' + r.status); return r.text(); }),
-      ...DATASETS.map((id) => fetch('data/' + id + '.json').then((r) => { if (!r.ok) throw new Error('data/' + id + '.json: ' + r.status); return r.json(); }).then((rows) => { data[id] = rows; })),
+      fetch('painel/index.html',{cache:'no-store'}).then((r) => { if (!r.ok) throw new Error('painel/index.html: ' + r.status); return r.text(); }),
+      ...DATASETS.map((id) => fetch('data/' + id + '.json',{cache:'no-store'}).then((r) => { if (!r.ok) throw new Error('data/' + id + '.json: ' + r.status); return r.json(); }).then((rows) => { data[id] = rows; })),
     ]);
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const scripts = [...doc.querySelectorAll('script')];
