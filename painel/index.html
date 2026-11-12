@@ -344,6 +344,8 @@ if(location.hash==='#papel'||location.hash.startsWith('#papel='))abre('papel');
 </script>
 <script>
 /* Aba "Analisar papel": leitura técnica automática (brapi.dev) + análise escrita pelo Claude (data/analises) + cruzamento com o painel do dia. */
+const pEl=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=String(txt);return e;};
+const pRows=(id)=>{const g=dash.data(id);return g.status==='ok'&&Array.isArray(g.data)?g.data:null;};
 const CHAVE='pi-brapi-token';
 const lerChave=()=>{try{return localStorage.getItem(CHAVE)||'';}catch(e){return '';}};
 const gravarChave=(v)=>{try{if(v)localStorage.setItem(CHAVE,v);else localStorage.removeItem(CHAVE);return true;}catch(e){return false;}};
@@ -383,9 +385,9 @@ function sinais(q,h){
  return out;}
 
 function grafico(h,largura){
- const box=el('div','tv-graf');const cc=h.map((x)=>x.c);const ini=Math.max(0,cc.length-252);
+ const box=pEl('div','tv-graf');const cc=h.map((x)=>x.c);const ini=Math.max(0,cc.length-252);
  const s50=cc.map((_,i)=>mm(cc,50,i)).slice(ini),s200=cc.map((_,i)=>mm(cc,200,i)).slice(ini);h=h.slice(ini);const c=cc.slice(ini);const N=c.length;
- const leg=el('div','tv-graf-leg');[['Preço de fechamento','var(--color-fg)',''],['Média de 50 dias','var(--color-warn)',''],['Média de 200 dias','var(--color-fg-muted)','dashed']].forEach(([t,cor,st])=>{const s=el('span');const i=el('i');i.style.borderTopColor=cor;if(st)i.style.borderTopStyle=st;s.append(i,t);leg.append(s);});
+ const leg=pEl('div','tv-graf-leg');[['Preço de fechamento','var(--color-fg)',''],['Média de 50 dias','var(--color-warn)',''],['Média de 200 dias','var(--color-fg-muted)','dashed']].forEach(([t,cor,st])=>{const s=pEl('span');const i=pEl('i');i.style.borderTopColor=cor;if(st)i.style.borderTopStyle=st;s.append(i,t);leg.append(s);});
  const W=Math.max(320,largura||900),H=260,L=8,R=56,T=10,B=24;
  const all=[...c,...s50.filter((x)=>x!=null),...s200.filter((x)=>x!=null)];const lo=Math.min(...all),hi=Math.max(...all),pad=(hi-lo)*.06||1;
  const X=(i)=>L+(W-L-R)*i/(N-1),Y=(v)=>T+(H-T-B)*(1-(v-lo+pad)/(hi-lo+2*pad));
@@ -397,17 +399,18 @@ function grafico(h,largura){
  path(s200,'var(--color-fg-muted)',{'stroke-dasharray':'5 4'});path(s50,'var(--color-warn)');path(c,'var(--color-fg)');
  const cross=mk('line',{y1:T,y2:H-B,stroke:'var(--color-fg-muted)','stroke-width':1,visibility:'hidden'});const dot=mk('circle',{r:4,fill:'var(--color-fg)',stroke:'var(--color-bg)','stroke-width':2,visibility:'hidden'});svg.append(cross,dot);
  const hit=mk('rect',{x:L,y:T,width:W-L-R,height:H-T-B,fill:'transparent'});svg.append(hit);
- const tip=el('div','tv-tip');tip.hidden=true;
+ const tip=pEl('div','tv-tip');tip.hidden=true;
  const mover=(ev)=>{const r=svg.getBoundingClientRect();const x=(ev.clientX-r.left)*W/r.width;const i=Math.max(0,Math.min(N-1,Math.round((x-L)/(W-L-R)*(N-1))));
   cross.setAttribute('x1',X(i));cross.setAttribute('x2',X(i));cross.setAttribute('visibility','visible');dot.setAttribute('cx',X(i));dot.setAttribute('cy',Y(c[i]));dot.setAttribute('visibility','visible');
-  const d=new Date(h[i].t*1000);tip.replaceChildren(el('b',null,d.toLocaleDateString('pt-BR')),el('p',null,'Fechamento: '+brl(c[i])),el('p',null,'Média 50: '+(s50[i]!=null?brl(s50[i]):'—')),el('p',null,'Média 200: '+(s200[i]!=null?brl(s200[i]):'—')));tip.hidden=false;
+  const d=new Date(h[i].t*1000);tip.replaceChildren(pEl('b',null,d.toLocaleDateString('pt-BR')),pEl('p',null,'Fechamento: '+brl(c[i])),pEl('p',null,'Média 50: '+(s50[i]!=null?brl(s50[i]):'—')),pEl('p',null,'Média 200: '+(s200[i]!=null?brl(s200[i]):'—')));tip.hidden=false;
   const px=X(i)/W*r.width;const w=tip.offsetWidth;tip.style.left=Math.max(0,Math.min(px+12,r.width-w))+'px';tip.style.top='8px';};
  const sair=()=>{cross.setAttribute('visibility','hidden');dot.setAttribute('visibility','hidden');tip.hidden=true;};
  hit.addEventListener('pointermove',mover);hit.addEventListener('pointerdown',mover);hit.addEventListener('pointerleave',sair);
  box.append(leg,svg,tip);return box;}
 
 /* Com o servidor.py, a cotação passa por /api/brapi e usa a chave do .env. Sem ele (ou sem chave no .env), vai direto à brapi com a chave do navegador. */
-async function viaServidor(t){try{const r=await fetch('api/brapi/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d',{cache:'no-store'});const tipo=r.headers.get('content-type')||'';if(r.status===501||r.status===404||!tipo.includes('json'))return null;return r;}catch(e){return null;}}
+let envP=null;const temEnv=()=>envP||(envP=fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok&&(r.headers.get('content-type')||'').includes('json')?r.json():null).then((j)=>!!(j&&j.token)).catch(()=>false));
+async function viaServidor(t){if(!(await temEnv()))return null;try{const r=await fetch('api/brapi/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d',{cache:'no-store'});const tipo=r.headers.get('content-type')||'';if(r.status===501||r.status===404||!tipo.includes('json'))return null;return r;}catch(e){return null;}}
 async function cotacao(t){
  let r=await viaServidor(t);
  if(!r){const k=lerChave();const url='https://brapi.dev/api/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d'+(k?'&token='+encodeURIComponent(k):'');
@@ -424,54 +427,54 @@ async function cotacao(t){
 async function claude(t){try{const r=await fetch('data/analises/'+t+'.json',{cache:'no-store'});if(!r.ok)return null;return await r.json();}catch(e){return null;}}
 
 function blocoClaude(t,a){
- const sec=el('section');sec.append(el('h2','tv-h2','Leitura do Claude: notícias e fundamentos'));
- if(!a){sec.append(el('p','tv-note','Os sinais acima olham só o preço. Notícias, balanço, dividendos e valuation entram na análise escrita pelo Claude.'));
-  const p=el('p','tv-msg');p.append('Ainda não há análise escrita para '+t+'. Peça no chat do Claude Code: ');const c=el('span','tv-pre','analise '+t);p.append(c,'. A análise fica salva em data/analises/'+t+'.json e aparece aqui.');sec.append(p);return sec;}
+ const sec=pEl('section');sec.append(pEl('h2','tv-h2','Leitura do Claude: notícias e fundamentos'));
+ if(!a){sec.append(pEl('p','tv-note','Os sinais acima olham só o preço. Notícias, balanço, dividendos e valuation entram na análise escrita pelo Claude.'));
+  const p=pEl('p','tv-msg');p.append('Ainda não há análise escrita para '+t+'. Peça no chat do Claude Code: ');const c=pEl('span','tv-pre','analise '+t);p.append(c,'. A análise fica salva em data/analises/'+t+'.json e aparece aqui.');sec.append(p);return sec;}
  const tom=a.vies==='Subida'?'ok':a.vies==='Queda'?'bad':'warnc';
- const meta=el('p','tv-note');meta.textContent='Escrita em '+a.data+(a.hora?' às '+a.hora:'')+(a.preco_ref?' com o papel a '+a.preco_ref:'')+'. Horizonte: '+(a.horizonte||'não informado')+'.';
- const card=el('div','tv-vies');const tit=el('p','tv-vies-t');const sp=el('span','tv-'+tom,a.vies);tit.append('Viés de ',sp,a.chance!=null?' · '+a.chance+'% de chance estimada':'');card.append(tit);if(a.resumo)card.append(el('p',null,a.resumo));
+ const meta=pEl('p','tv-note');meta.textContent='Escrita em '+a.data+(a.hora?' às '+a.hora:'')+(a.preco_ref?' com o papel a '+a.preco_ref:'')+'. Horizonte: '+(a.horizonte||'não informado')+'.';
+ const card=pEl('div','tv-vies');const tit=pEl('p','tv-vies-t');const sp=pEl('span','tv-'+tom,a.vies);tit.append('Viés de ',sp,a.chance!=null?' · '+a.chance+'% de chance estimada':'');card.append(tit);if(a.resumo)card.append(pEl('p',null,a.resumo));
  sec.append(meta,card);
- const cols=el('div','tv-cols');
- [['Argumentos para subir','a_favor_subida','tv-ok'],['Argumentos para cair','a_favor_queda','tv-bad']].forEach(([tt,k,cl])=>{if(!Array.isArray(a[k])||!a[k].length)return;const d=el('div');d.append(el('h3','tv-h3 '+cl,tt));const ul=el('ul','tv-lista');a[k].forEach((x)=>ul.append(el('li',null,x)));d.append(ul);cols.append(d);});
+ const cols=pEl('div','tv-cols');
+ [['Argumentos para subir','a_favor_subida','tv-ok'],['Argumentos para cair','a_favor_queda','tv-bad']].forEach(([tt,k,cl])=>{if(!Array.isArray(a[k])||!a[k].length)return;const d=pEl('div');d.append(pEl('h3','tv-h3 '+cl,tt));const ul=pEl('ul','tv-lista');a[k].forEach((x)=>ul.append(pEl('li',null,x)));d.append(ul);cols.append(d);});
  if(cols.childNodes.length)sec.append(cols);
- if(Array.isArray(a.o_que_observar)&&a.o_que_observar.length){const d=el('div');d.append(el('h3','tv-h3','O que observar antes de comprar'));const ul=el('ul','tv-lista');a.o_que_observar.forEach((x)=>ul.append(el('li',null,x)));d.append(ul);sec.append(d);}
- if(Array.isArray(a.fontes)&&a.fontes.length){const p=el('p','tv-nsrc');p.append('Fontes: ');a.fontes.forEach((f,i)=>{if(i)p.append(', ');if(f.url){const l=el('a',null,f.nome||f.url);l.href=f.url;l.target='_blank';l.rel='noopener';p.append(l);}else p.append(f.nome||String(f));});sec.append(p);}
+ if(Array.isArray(a.o_que_observar)&&a.o_que_observar.length){const d=pEl('div');d.append(pEl('h3','tv-h3','O que observar antes de comprar'));const ul=pEl('ul','tv-lista');a.o_que_observar.forEach((x)=>ul.append(pEl('li',null,x)));d.append(ul);sec.append(d);}
+ if(Array.isArray(a.fontes)&&a.fontes.length){const p=pEl('p','tv-nsrc');p.append('Fontes: ');a.fontes.forEach((f,i)=>{if(i)p.append(', ');if(f.url){const l=pEl('a',null,f.nome||f.url);l.href=f.url;l.target='_blank';l.rel='noopener';p.append(l);}else p.append(f.nome||String(f));});sec.append(p);}
  return sec;}
 
 function blocoPainel(t,q){
  const nome=String((q&&(q.longName||q.shortName))||'').split(/\s+/)[0].toLowerCase();const raiz=t.slice(0,4);
- const acs=(rows('acoes')||[]).filter((a)=>String(a.ticker||'').toUpperCase()===t);
- const nts=(rows('noticias')||[]).filter((n)=>{const s=(n.titulo+' '+n.resumo+' '+n.impacto).toUpperCase();return s.includes(raiz)||(nome.length>3&&s.includes(nome.toUpperCase()));});
+ const acs=(pRows('acoes')||[]).filter((a)=>String(a.ticker||'').toUpperCase()===t);
+ const nts=(pRows('noticias')||[]).filter((n)=>{const s=(n.titulo+' '+n.resumo+' '+n.impacto).toUpperCase();return s.includes(raiz)||(nome.length>3&&s.includes(nome.toUpperCase()));});
  if(!acs.length&&!nts.length)return null;
- const sec=el('section');sec.append(el('h2','tv-h2','No painel de hoje'));
- acs.forEach((a)=>{const card=el('div','tv-vies');const tit=el('p','tv-vies-t');tit.append(a.ticker+' está no top 10 de ',el('span',a.lado==='queda'?'tv-bad':'tv-ok',a.lado),' · '+a.chance+'%');card.append(tit,el('p',null,a.motivo));if(a.leitura)card.append(el('p','tv-muted',a.leitura+': '+(a.leitura_motivo||'')));card.append(el('p','tv-nsrc','Gatilho: '+a.gatilho+' · Fontes: '+a.fonte));sec.append(card);});
- nts.forEach((n)=>{const card=el('div','tv-ncard');card.append(el('p','tv-ntitle',n.titulo),el('p',null,n.resumo),el('p','tv-nimp',n.impacto));sec.append(card);});
+ const sec=pEl('section');sec.append(pEl('h2','tv-h2','No painel de hoje'));
+ acs.forEach((a)=>{const card=pEl('div','tv-vies');const tit=pEl('p','tv-vies-t');tit.append(a.ticker+' está no top 10 de ',pEl('span',a.lado==='queda'?'tv-bad':'tv-ok',a.lado),' · '+a.chance+'%');card.append(tit,pEl('p',null,a.motivo));if(a.leitura)card.append(pEl('p','tv-muted',a.leitura+': '+(a.leitura_motivo||'')));card.append(pEl('p','tv-nsrc','Gatilho: '+a.gatilho+' · Fontes: '+a.fonte));sec.append(card);});
+ nts.forEach((n)=>{const card=pEl('div','tv-ncard');card.append(pEl('p','tv-ntitle',n.titulo),pEl('p',null,n.resumo),pEl('p','tv-nimp',n.impacto));sec.append(card);});
  return sec;}
 
 let pedido=0;
 async function analisar(t){
  t=String(t||'').toUpperCase().replace(/[^A-Z0-9]/g,'');const res=document.getElementById('papel-res');if(!res)return;
- if(!/^[A-Z0-9]{4,7}$/.test(t)){res.replaceChildren(el('p','tv-aviso','Digite um código válido, como PETR4 ou BOVA11.'));return;}
+ if(!/^[A-Z0-9]{4,7}$/.test(t)){res.replaceChildren(pEl('p','tv-aviso','Digite um código válido, como PETR4 ou BOVA11.'));return;}
  const meu=++pedido;dash.setLink('papel='+t);document.getElementById('papel-ticker').value=t;
- res.replaceChildren(el('p','tv-muted','Buscando '+t+'…'));
+ res.replaceChildren(pEl('p','tv-muted','Buscando '+t+'…'));
  const [cq,a]=await Promise.all([cotacao(t),claude(t)]);if(meu!==pedido)return;
  const partes=[];
- if(cq.erro){const p=el('p','tv-aviso',cq.erro);partes.push(p);if(cq.chave){const d=document.querySelector('#dash-root .tv-chave');if(d)d.open=true;}}
- else if(cq.h.length<30){partes.push(el('p','tv-aviso','A brapi devolveu pouco histórico para '+t+' ('+cq.h.length+' pregões), o que não basta para os sinais.'));}
+ if(cq.erro){const p=pEl('p','tv-aviso',cq.erro);partes.push(p);if(cq.chave){const d=document.querySelector('#dash-root .tv-chave');if(d)d.open=true;}}
+ else if(cq.h.length<30){partes.push(pEl('p','tv-aviso','A brapi devolveu pouco histórico para '+t+' ('+cq.h.length+' pregões), o que não basta para os sinais.'));}
  else{
-  const {q,h}=cq;const head=el('header');const ph=el('div','tv-phead');ph.append(el('span','tv-cticker',t),el('span','tv-preco',brl(q.regularMarketPrice)));const dv=Number(q.regularMarketChangePercent);if(Number.isFinite(dv))ph.append(el('span',dv>0?'tv-ok':dv<0?'tv-bad':'tv-muted',sg(dv,2)+' no dia'));head.append(ph);
-  head.append(el('p','tv-note',(q.longName||q.shortName||'')+' · cotação da brapi.dev de '+new Date(q.regularMarketTime).toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'})+' (pode ter atraso de até 15 minutos ou mais, conforme o plano).'));partes.push(head);
+  const {q,h}=cq;const head=pEl('header');const ph=pEl('div','tv-phead');ph.append(pEl('span','tv-cticker',t),pEl('span','tv-preco',brl(q.regularMarketPrice)));const dv=Number(q.regularMarketChangePercent);if(Number.isFinite(dv))ph.append(pEl('span',dv>0?'tv-ok':dv<0?'tv-bad':'tv-muted',sg(dv,2)+' no dia'));head.append(ph);
+  head.append(pEl('p','tv-note',(q.longName||q.shortName||'')+' · cotação da brapi.dev de '+new Date(q.regularMarketTime).toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'})+' (pode ter atraso de até 15 minutos ou mais, conforme o plano).'));partes.push(head);
   const ss=sinais(q,h);const up=ss.filter((s)=>s.peso>0),dn=ss.filter((s)=>s.peso<0),nt=ss.filter((s)=>s.peso===0);const sc=up.length-dn.length;
   const vies=sc>=2?'subida':sc<=-2?'queda':'indefinição';const tom=sc>=2?'ok':sc<=-2?'bad':'warnc';
-  const card=el('div','tv-vies');const tit=el('p','tv-vies-t');tit.append('O gráfico aponta para ',el('span','tv-'+tom,vies));card.append(el('p','tv-fl','Leitura técnica automática'),tit);
-  const bar=el('div','tv-placar');[[up.length,'ok'],[nt.length,'border'],[dn.length,'bad']].forEach(([n,cl])=>{if(!n)return;const s=el('span');s.style.flex=n;s.style.background=cl==='border'?'var(--color-border-line)':'var(--color-'+cl+')';bar.append(s);});
-  card.append(bar,el('p','tv-note',up.length+' sinais de alta, '+dn.length+' de queda e '+nt.length+' neutros.'));
-  const pq=el('p');const top=(arr)=>arr.slice(0,3).map((s)=>s.nome.charAt(0).toLowerCase()+s.nome.slice(1)).join(', ');
+  const card=pEl('div','tv-vies');const tit=pEl('p','tv-vies-t');tit.append('O gráfico aponta para ',pEl('span','tv-'+tom,vies));card.append(pEl('p','tv-fl','Leitura técnica automática'),tit);
+  const bar=pEl('div','tv-placar');[[up.length,'ok'],[nt.length,'border'],[dn.length,'bad']].forEach(([n,cl])=>{if(!n)return;const s=pEl('span');s.style.flex=n;s.style.background=cl==='border'?'var(--color-border-line)':'var(--color-'+cl+')';bar.append(s);});
+  card.append(bar,pEl('p','tv-note',up.length+' sinais de alta, '+dn.length+' de queda e '+nt.length+' neutros.'));
+  const pq=pEl('p');const top=(arr)=>arr.slice(0,3).map((s)=>s.nome.charAt(0).toLowerCase()+s.nome.slice(1)).join(', ');
   pq.textContent=sc>=2?'Por quê: a maioria dos sinais é positiva ('+top(up)+').'+(dn.length?' Pesam contra: '+top(dn)+'.':''):sc<=-2?'Por quê: a maioria dos sinais é negativa ('+top(dn)+').'+(up.length?' A favor: '+top(up)+'.':''):'Por quê: os sinais se dividem. A favor: '+(top(up)||'nenhum')+'. Contra: '+(top(dn)||'nenhum')+'. Sem tendência clara, esperar uma definição costuma ser mais prudente.';
-  card.append(pq,el('p','tv-note','São regras mecânicas sobre o preço passado (médias móveis, IFR, momento, volume). Não consideram notícias nem balanços e não garantem o futuro.'));partes.push(card);
-  const g=el('section');g.append(el('h2','tv-h2','Último ano'),el('p','tv-note','Preços ajustados por proventos. Passe o cursor ou toque no gráfico para ver cada pregão.'));partes.push(g);
-  const ls=el('section');ls.append(el('h2','tv-h2','Sinal por sinal'),el('p','tv-note','Seta para cima puxa para subida, para baixo puxa para queda, ponto é neutro.'));const ul=el('ul','tv-sinais');
-  ss.forEach((s)=>{const li=el('li');li.append(el('span','tv-sico '+(s.peso>0?'tv-ok':s.peso<0?'tv-bad':'tv-muted'),s.peso>0?'▲':s.peso<0?'▼':'•'),el('span',null,s.nome),el('span','tv-sv',s.valor),el('span','tv-sx',s.porque));ul.append(li);});ls.append(ul);partes.push(ls);
+  card.append(pq,pEl('p','tv-note','São regras mecânicas sobre o preço passado (médias móveis, IFR, momento, volume). Não consideram notícias nem balanços e não garantem o futuro.'));partes.push(card);
+  const g=pEl('section');g.append(pEl('h2','tv-h2','Último ano'),pEl('p','tv-note','Preços ajustados por proventos. Passe o cursor ou toque no gráfico para ver cada pregão.'));partes.push(g);
+  const ls=pEl('section');ls.append(pEl('h2','tv-h2','Sinal por sinal'),pEl('p','tv-note','Seta para cima puxa para subida, para baixo puxa para queda, ponto é neutro.'));const ul=pEl('ul','tv-sinais');
+  ss.forEach((s)=>{const li=pEl('li');li.append(pEl('span','tv-sico '+(s.peso>0?'tv-ok':s.peso<0?'tv-bad':'tv-muted'),s.peso>0?'▲':s.peso<0?'▼':'•'),pEl('span',null,s.nome),pEl('span','tv-sv',s.valor),pEl('span','tv-sx',s.porque));ul.append(li);});ls.append(ul);partes.push(ls);
   res.replaceChildren(...partes);g.append(grafico(h,g.clientWidth));partes.length=0;
  }
  const extra=[blocoClaude(t,a),blocoPainel(t,cq.q)].filter(Boolean);
@@ -480,14 +483,14 @@ async function analisar(t){
 async function chips(){
  const box=document.getElementById('papel-chips');if(!box)return;let idx=[];try{const r=await fetch('data/analises/index.json',{cache:'no-store'});if(r.ok)idx=await r.json();}catch(e){}
  const lista=(Array.isArray(idx)&&idx.length?idx.map((x)=>x.ticker):[]);box.replaceChildren();
- if(lista.length){box.append('Já analisados pelo Claude: ');lista.forEach((t)=>{const b=el('button','tv-chip',t);b.type='button';b.addEventListener('click',()=>analisar(t));box.append(b);});}
- else{box.append('Sem chave da brapi, teste com: ');LIVRES.forEach((t)=>{const b=el('button','tv-chip',t);b.type='button';b.addEventListener('click',()=>analisar(t));box.append(b);});}}
+ if(lista.length){box.append('Já analisados pelo Claude: ');lista.forEach((t)=>{const b=pEl('button','tv-chip',t);b.type='button';b.addEventListener('click',()=>analisar(t));box.append(b);});}
+ else{box.append('Sem chave da brapi, teste com: ');LIVRES.forEach((t)=>{const b=pEl('button','tv-chip',t);b.type='button';b.addEventListener('click',()=>analisar(t));box.append(b);});}}
 
 const form=document.getElementById('papel-form');
 if(form&&!form.dataset.pronto){form.dataset.pronto='1';
  form.addEventListener('submit',(ev)=>{ev.preventDefault();analisar(document.getElementById('papel-ticker').value);});
  const tk=document.getElementById('papel-token'),est=document.getElementById('papel-token-estado');
- const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok&&(r.headers.get('content-type')||'').includes('json')?r.json():null).then((j)=>{const env=!!(j&&j.token);const d=document.querySelector('#dash-root .tv-chave');if(d)d.hidden=env;const n=document.getElementById('papel-env');if(n)n.hidden=!env;}).catch(()=>{});};tk.value=lerChave();mostra();
+ const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';temEnv().then((env)=>{const d=document.querySelector('#dash-root .tv-chave');if(d)d.hidden=env;const n=document.getElementById('papel-env');if(n)n.hidden=!env;}).catch(()=>{});};tk.value=lerChave();mostra();
  document.getElementById('papel-token-salvar').addEventListener('click',()=>{const ok=gravarChave(tk.value.trim());est.textContent=ok?(tk.value.trim()?'Chave salva neste navegador.':'Chave apagada.'):'Este navegador bloqueou o armazenamento; a chave não foi salva.';});
  chips();
  const m=location.hash.match(/^#papel=([A-Za-z0-9]+)/);if(m)analisar(m[1]);}
