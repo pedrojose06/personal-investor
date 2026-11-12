@@ -38,6 +38,7 @@ O painel nasceu como um dashboard do Claude. O `index.html` da raiz traz uma ver
 | `indicadores.json` | Retrato da manhã, cada número com hora e fonte |
 | `leitura.json` | Notas: o que mudou, contra-argumento, divergências e lacunas |
 | `historico.json` | Cada previsão registrada, para a aba "Previsto x realizado" |
+| `fechamento.json` | Relatório do último fechamento: Ibovespa, dólar, maiores altas e baixas e acertos do dia |
 
 ### Como ler as probabilidades
 
@@ -45,7 +46,13 @@ O painel nasceu como um dashboard do Claude. O `index.html` da raiz traz uma ver
 - A referência é o **fechamento do pregão anterior**. Para quem divulga balanço depois do fechamento, o horizonte passa a ser o pregão seguinte, medido contra o fechamento do dia.
 - Os dados são uma foto do momento da atualização, sem cotação em tempo real.
 
-### Atualizar o histórico
+### Rotina de fechamento
+
+Uma tarefa agendada do Claude, "Fechamento de mercado B3", roda em dias úteis às 18h47 (Brasília). Ela busca os fechamentos, avalia as previsões pendentes do dia em `historico.json`, escreve `fechamento.json`, guarda uma cópia em `data/fechamentos/AAAA-MM-DD.json` e faz commit aqui.
+
+Regra de avaliação: previsão de queda acerta com variação negativa no fechamento e previsão de subida acerta com variação positiva (0,00% conta como erro para as duas). Para o Ibovespa vale a faixa do cenário: queda abaixo de −0,5%, lateral entre −0,5% e +0,5%, alta acima de +0,5%. Sem fechamento confiável, o resultado fica "Sem dado" e não entra no placar.
+
+### Atualizar o histórico à mão
 
 Depois do fechamento, preencha em `historico.json` os campos `realizado` (variação no fechamento, por exemplo `"−3,2%"`) e `resultado` (`"Acertou"` ou `"Errou"`). O placar da aba "Previsto x realizado" calcula sozinho a taxa de acerto e a confiança média das previsões avaliadas.
 

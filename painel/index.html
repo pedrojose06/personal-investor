@@ -94,6 +94,15 @@
 .tv-nimp b{color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
 .tv-nsrc{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:auto}
 .tv-nsrc a{color:inherit;text-decoration:underline}
+.tv-h3{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0 0 6px}
+.tv-fech{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:14px;padding:20px 22px;display:flex;flex-direction:column;gap:14px}
+.tv-fech .tv-note{margin:4px 0 0}
+.tv-fech-dados{display:flex;flex-direction:column;gap:16px}
+.tv-fech-dados[hidden]{display:none}
+.tv-mini{list-style:none;margin:0;padding:0;display:grid;min-height:40px}
+.tv-mini li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:6px 0;border-bottom:1px solid var(--color-border-line);font-variant-numeric:tabular-nums}
+.tv-mini li:last-child{border-bottom:0}
+.tv-mini .tv-emp{margin-left:6px}
 [data-dash-source-state=refreshing]{opacity:.5}
 </style>
 <div class="tv">
@@ -153,6 +162,22 @@
 <h1 class="tv-title">Previsto x realizado</h1>
 <p class="tv-sub">Cada previsão é comparada com o fechamento do pregão a que se refere. Uma previsão de queda acerta quando o ativo fecha abaixo da referência, e uma de subida acerta quando fecha acima. Para o Ibovespa vale a faixa do cenário.</p>
 </header>
+<section class="tv-fech" id="fechamento">
+<div>
+<h2 class="tv-h2">Relatório de fechamento</h2>
+<p class="tv-note">Gerado pela rotina de fim de pregão, às 18h47 em dias úteis. Pregão de <span data-draw="fech-data" data-source="fechamento" data-field="data" data-where="tipo=resumo">—</span><span data-draw="fech-hora" data-source="fechamento" data-field="hora" data-where="tipo=resumo"></span>.</p>
+</div>
+<p class="tv-msg" data-draw="fech-texto" data-source="fechamento" data-field="texto" data-where="tipo=resumo">—</p>
+<div class="tv-fech-dados" hidden>
+<div class="tv-score" data-draw="fech-nums" data-source="fechamento">—</div>
+<div class="tv-cols">
+<div><h3 class="tv-h3">Maiores altas do Ibovespa</h3><ol class="tv-mini" data-draw="fech-altas" data-source="fechamento"></ol></div>
+<div><h3 class="tv-h3">Maiores baixas do Ibovespa</h3><ol class="tv-mini" data-draw="fech-baixas" data-source="fechamento"></ol></div>
+</div>
+<p class="tv-nsrc">Fontes: <span data-draw="fech-fontes" data-source="fechamento" data-field="fontes" data-where="tipo=resumo">—</span></p>
+</div>
+</section>
+<h2 class="tv-h2">Placar acumulado</h2>
 <div class="tv-score" id="placar" data-draw="placar" data-source="placar">—</div>
 <p class="tv-msg tv-msg-vazio" hidden>Ainda não há pregão encerrado para comparar: o painel começou em 12/11/2026. As previsões abaixo ficam pendentes até o fechamento do pregão indicado.</p>
 <p class="tv-msg tv-msg-ok" hidden>Compare a taxa de acerto com a confiança média. Taxa abaixo da confiança indica estimativas otimistas demais; taxa acima indica estimativas tímidas.</p>
@@ -233,6 +258,21 @@ dash.draw('leitura',(box)=>{const r=rows('leitura');if(!r){box.replaceChildren('
 const stTone=(s)=>({'Confirmado':'ok','Não confirmado':'warnc'})[s]||'muted';
 dash.draw('noticias',(box)=>{const r=rows('noticias');if(!r){box.replaceChildren('—');return;}
  box.replaceChildren(...r.map((n)=>{const w='id='+enc(n.id);const c=el('article','tv-ncard');const meta=el('div','tv-nmeta');meta.append(mark(el('span','tv-tag tv-'+stTone(n.status),n.status),'noticias','status',w),mark(el('span',null,n.quando),'noticias','quando',w));const imp=el('p','tv-nimp');imp.append(el('b',null,'Para o investidor brasileiro: '),mark(el('span',null,n.impacto),'noticias','impacto',w));const src=el('p','tv-nsrc');src.append('Fontes: ',mark(el('span',null,n.fonte),'noticias','fonte',w));if(/^https:\/\//.test(String(n.link||''))){const a=el('a',null,'abrir a principal');a.href=n.link;a.target='_blank';a.rel='noopener noreferrer';src.append(' · ',a);}c.append(meta,mark(el('h3','tv-ntitle',n.titulo),'noticias','titulo',w),mark(el('p',null,n.resumo),'noticias','resumo',w),imp,src);return c;}));});
+const fres=()=>{const r=rows('fechamento');return r?r.find((x)=>x.tipo==='resumo')||null:null;};
+const fone=(name,pick)=>dash.draw(name,(e)=>{const s=fres();if(!s){e.textContent='—';return;}e.textContent=pick(s);});
+fone('fech-data',(s)=>s.data||'—');
+fone('fech-hora',(s)=>s.hora?' · '+s.hora:'');
+fone('fech-texto',(s)=>s.texto||'—');
+fone('fech-fontes',(s)=>s.fontes||'—');
+const vcls=(v)=>{v=String(v||'');return v.startsWith('+')?'tv-ok':(v.startsWith('−')||v.startsWith('-'))?'tv-bad':'tv-muted';};
+dash.draw('fech-nums',(box)=>{const s=fres();if(!s){box.replaceChildren('—');return;}const w='tipo=resumo';
+ const t=(label,vf,cf)=>{const d=el('div');d.append(mark(el('div','tv-snum',s[vf]||'—'),'fechamento',vf,w));if(cf)d.append(mark(el('div','tv-tvar '+vcls(s[cf]),s[cf]||'—'),'fechamento',cf,w));d.append(el('div','tv-slabel',label));return d;};
+ box.replaceChildren(t('Ibovespa no fechamento','ibov','ibov_var'),t('Dólar no fechamento','dolar','dolar_var'),t('Previsões do dia que acertaram','acertos',null));});
+const flist=(name,tipo)=>dash.draw(name,(box)=>{const r=rows('fechamento');if(!r){box.replaceChildren();return;}
+ box.replaceChildren(...r.filter((x)=>x.tipo===tipo).map((x)=>{const w='tipo='+tipo+'&ticker='+enc(x.ticker);const li=el('li');const n=el('span');n.append(mark(el('span','tv-ticker',x.ticker),'fechamento','ticker',w),mark(el('span','tv-emp',x.empresa||''),'fechamento','empresa',w));li.append(n,mark(el('span',vcls(x.var),x.var),'fechamento','var',w));return li;}));});
+flist('fech-altas','alta');
+flist('fech-baixas','baixa');
+dash.onData(()=>{const s=fres();const ok=!!(s&&s.status==='Publicado');document.querySelectorAll('#dash-root .tv-fech-dados').forEach((d)=>{d.hidden=!ok;});});
 dash.calc('placar',{inputs:['historico'],title:'Placar das previsões',description:'Quantas previsões foram registradas, quantas já têm resultado, quantas acertaram a direção, a taxa de acerto e a chance média que tinha sido atribuída às previsões já avaliadas.',fn:(historico)=>{const av=historico.filter((h)=>h.resultado==='Acertou'||h.resultado==='Errou');const ac=av.filter((h)=>h.resultado==='Acertou').length;return [{previsoes:historico.length,avaliadas:av.length,pendentes:historico.length-av.length,acertos:ac,taxa:av.length?Math.round(100*ac/av.length):null,confianca:av.length?Math.round(av.reduce((s,h)=>s+Number(h.chance),0)/av.length):null}];}});
 dash.draw('placar',(box)=>{const g=dash.data('placar');const p=g.status==='ok'&&Array.isArray(g.data)?g.data[0]:null;if(!p){box.replaceChildren('—');return;}
  const tile=(label,field,txt)=>{const d=el('div');const n=el('div','tv-snum',txt);n.dataset.source='placar';n.dataset.field=field;n.dataset.row='0';d.append(n,el('div','tv-slabel',label));return d;};
