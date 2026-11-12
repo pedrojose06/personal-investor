@@ -37,9 +37,23 @@ def ler_env(caminho):
     return valores
 
 
+def chave_e_origem():
+    """Devolve (chave, origem). Relido a cada consulta: dá para editar o .env sem reiniciar.
+
+    O .env manda: se ele tem a linha BRAPI_TOKEN, vale o que está nela, mesmo vazia.
+    A variável de ambiente só é usada quando o .env não tem essa linha. Isso evita que
+    uma chave carregada antes (por exemplo, pelo VS Code ao abrir o terminal) continue
+    valendo depois de apagada do arquivo.
+    """
+    env = ler_env(os.path.join(RAIZ, ".env"))
+    if "BRAPI_TOKEN" in env:
+        return env["BRAPI_TOKEN"], ".env"
+    valor = os.environ.get("BRAPI_TOKEN", "").strip()
+    return valor, ("variável de ambiente BRAPI_TOKEN" if valor else "")
+
+
 def token():
-    # Relido a cada consulta: dá para editar o .env sem reiniciar o servidor.
-    return os.environ.get("BRAPI_TOKEN") or ler_env(os.path.join(RAIZ, ".env")).get("BRAPI_TOKEN", "")
+    return chave_e_origem()[0]
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -65,7 +79,8 @@ class Handler(SimpleHTTPRequestHandler):
             return
 
         if caminho == "/api/brapi/status":
-            self.responder_json(200, {"token": bool(token())})
+            chave, origem = chave_e_origem()
+            self.responder_json(200, {"token": bool(chave), "origem": origem})
             return
 
         if caminho.startswith(PREFIXO):
@@ -108,7 +123,8 @@ def main():
     porta = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
     servidor = ThreadingHTTPServer(("127.0.0.1", porta), Handler)
     print(f"Painel em http://localhost:{porta}/#papel=PETR4")
-    print("Chave da brapi: " + ("encontrada no .env" if token() else "não encontrada (crie o .env a partir do .env.example)"))
+    chave, origem = chave_e_origem()
+    print("Chave da brapi: " + ("lida de " + origem if chave else "não encontrada (crie o .env a partir do .env.example)"))
     print("Ctrl+C para parar.")
     try:
         servidor.serve_forever()

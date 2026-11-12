@@ -409,7 +409,7 @@ function grafico(h,largura){
  box.append(leg,svg,tip);return box;}
 
 /* Com o servidor.py, a cotação passa por /api/brapi e usa a chave do .env. Sem ele (ou sem chave no .env), vai direto à brapi com a chave do navegador. */
-let envP=null;const temEnv=()=>envP||(envP=fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok&&(r.headers.get('content-type')||'').includes('json')?r.json():null).then((j)=>!!(j&&j.token)).catch(()=>false));
+let envP=null;let envOrigem='';const temEnv=()=>envP||(envP=fetch('api/brapi/status',{cache:'no-store'}).then((r)=>r.ok&&(r.headers.get('content-type')||'').includes('json')?r.json():null).then((j)=>{envOrigem=(j&&j.origem)||'';return !!(j&&j.token);}).catch(()=>false));
 async function viaServidor(t){if(!(await temEnv()))return null;try{const r=await fetch('api/brapi/quote/'+encodeURIComponent(t)+'?range=2y&interval=1d',{cache:'no-store'});const tipo=r.headers.get('content-type')||'';if(r.status===501||r.status===404||!tipo.includes('json'))return null;return r;}catch(e){return null;}}
 async function cotacao(t){
  let r=await viaServidor(t);
@@ -490,7 +490,7 @@ const form=document.getElementById('papel-form');
 if(form&&!form.dataset.pronto){form.dataset.pronto='1';
  form.addEventListener('submit',(ev)=>{ev.preventDefault();analisar(document.getElementById('papel-ticker').value);});
  const tk=document.getElementById('papel-token'),est=document.getElementById('papel-token-estado');
- const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';temEnv().then((env)=>{const d=document.querySelector('#dash-root .tv-chave');if(d)d.hidden=env;const n=document.getElementById('papel-env');if(n)n.hidden=!env;}).catch(()=>{});};tk.value=lerChave();mostra();
+ const mostra=()=>{est.textContent=lerChave()?'Chave salva neste navegador.':'Nenhuma chave salva.';temEnv().then((env)=>{const d=document.querySelector('#dash-root .tv-chave');if(d)d.hidden=env;const n=document.getElementById('papel-env');if(n){n.hidden=!env;if(env)n.textContent=envOrigem==='.env'?'Chave da brapi lida do arquivo .env pelo servidor.py: as consultas usam ela automaticamente.':'Chave da brapi lida da '+envOrigem+' do sistema (o .env não tem a linha BRAPI_TOKEN). Para usar a chave pessoal, adicione BRAPI_TOKEN= vazio no .env.';}}).catch(()=>{});};tk.value=lerChave();mostra();
  document.getElementById('papel-token-salvar').addEventListener('click',()=>{const ok=gravarChave(tk.value.trim());est.textContent=ok?(tk.value.trim()?'Chave salva neste navegador.':'Chave apagada.'):'Este navegador bloqueou o armazenamento; a chave não foi salva.';});
  chips();
  const m=location.hash.match(/^#papel=([A-Za-z0-9]+)/);if(m)analisar(m[1]);}

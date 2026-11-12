@@ -22,7 +22,7 @@ Para consultar qualquer papel na aba "Analisar papel", crie uma chave gratuita e
 BRAPI_TOKEN=sua_chave_aqui
 ```
 
-O `servidor.py` lê o `.env` a cada consulta (não precisa reiniciar) e faz a chamada à brapi por você, então a chave não vai para o navegador. O `.env` está no `.gitignore` e o servidor se recusa a entregar arquivos ocultos como `.env` e `.git`.
+O `servidor.py` lê o `.env` a cada consulta (não precisa reiniciar). O `.env` tem prioridade: se ele tem a linha `BRAPI_TOKEN`, vale o que está nela, mesmo vazia; a variável de ambiente `BRAPI_TOKEN` do sistema só é usada quando o `.env` não tem essa linha. O servidor faz a chamada à brapi por você, então a chave não vai para o navegador. O `.env` está no `.gitignore` e o servidor se recusa a entregar arquivos ocultos como `.env` e `.git`.
 
 Se o `.env` não existir ou estiver sem `BRAPI_TOKEN`, a aba mostra o campo "Chave da brapi" para você colar uma chave pessoal, que fica salva só no navegador. Com a chave no `.env`, esse campo some. O mesmo campo aparece se você usar `python -m http.server 8000` ou `npx serve .`, que não leem o `.env`.
 
