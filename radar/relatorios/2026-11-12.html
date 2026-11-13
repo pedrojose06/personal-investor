@@ -1,0 +1,226 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Radar Pré-Mercado B3</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: terminal de pregão — faixa de cotações no topo, gráfico + cartões, tabela e agenda lado a lado */
+:root{
+  --bg:#f3f4f1; --surface:#ffffff; --fg:#1b2420; --muted:#5d6a64; --line:#d9ddd8;
+  --up:#1f7a4d; --up-bg:#dcefe4;
+  --flat:#a8741a; --flat-bg:#f5e8cc;
+  --down:#b3392f; --down-bg:#f6dcd8;
+  --accent:#23405b;
+  --display:'Fraunces',Georgia,serif; --body:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121815; --surface:#1b231f; --fg:#e8ece9; --muted:#9aa8a1; --line:#2e3a34;
+  --up:#5fcf94; --up-bg:#1d3a2b; --flat:#e2b04f; --flat-bg:#3e3216; --down:#ef7a6e; --down-bg:#432420; --accent:#8fb4d6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121815; --surface:#1b231f; --fg:#e8ece9; --muted:#9aa8a1; --line:#2e3a34;
+  --up:#5fcf94; --up-bg:#1d3a2b; --flat:#e2b04f; --flat-bg:#3e3216; --down:#ef7a6e; --down-bg:#432420; --accent:#8fb4d6; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:20px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:var(--display);font-size:clamp(26px,5vw,38px);line-height:1.1;margin:0 0 6px;text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:36px 0 12px;text-wrap:balance}
+h3{margin:0;font-size:16px}
+.sub{color:var(--muted);margin:0 0 14px;font-family:var(--mono);font-size:12.5px}
+.warn{border:1px solid var(--flat);background:var(--flat-bg);padding:10px 14px;border-radius:6px;font-size:13.5px;margin:12px 0}
+.grid{display:grid;gap:14px}
+.two{grid-template-columns:minmax(0,300px) minmax(0,1fr);align-items:center}
+.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:820px){.two,.three{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px}
+.donut{width:100%;max-width:260px;margin:0 auto;display:block}
+.donut text{fill:var(--fg);font-family:var(--mono)}
+.legend{display:grid;gap:8px}
+.lg{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}
+.sw{width:12px;height:12px;border-radius:2px}
+.bar{height:10px;border-radius:2px;margin-top:4px}
+.pct{font-family:var(--mono);font-weight:500}
+.card{border-top:4px solid var(--c);}
+.card .big{font-family:var(--mono);font-size:34px;font-weight:500;color:var(--c);line-height:1}
+.card .hz{color:var(--muted);font-size:12.5px;font-family:var(--mono)}
+.card p{margin:8px 0}
+.card h4{margin:12px 0 4px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card ul{margin:0;padding-left:18px}
+.card li{margin:3px 0;font-size:14px}
+.up{--c:var(--up)} .flat{--c:var(--flat)} .down{--c:var(--down)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.n{font-family:var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums}
+.pos{color:var(--up)} .neg{color:var(--down)}
+.heat td.h{text-align:center;font-family:var(--mono);font-size:12.5px;min-width:96px}
+.h-p2{background:var(--up-bg);color:var(--up);font-weight:600}
+.h-p1{background:var(--up-bg);color:var(--up)}
+.h-0{background:var(--flat-bg);color:var(--flat)}
+.h-n1{background:var(--down-bg);color:var(--down)}
+.h-n2{background:var(--down-bg);color:var(--down);font-weight:600}
+.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.tl li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:6px 0 6px 14px;position:relative}
+.tl li::before{content:"";position:absolute;left:-6px;top:13px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.tl .t{font-family:var(--mono);font-weight:500;font-size:13px}
+.tl .hi::before{background:var(--down)}
+.tag{display:inline-block;font-size:11px;font-family:var(--mono);padding:1px 6px;border-radius:3px;background:var(--flat-bg);color:var(--flat);margin-left:6px}
+.notes li{margin:6px 0}
+.src{font-size:13px;columns:2 320px}
+.src a{color:var(--accent);word-break:break-word}
+footer{margin-top:28px;font-size:12.5px;color:var(--muted)}
+</style>
+<div class="wrap">
+<h1>Radar pré-mercado B3</h1>
+<p class="sub">Quinta-feira, 12/11/2026 · pesquisa concluída às 10h45 (Brasília)</p>
+<div class="warn"><strong>Análise hipotética, só para estudo.</strong> As probabilidades são estimativas subjetivas e podem estar erradas. Não é consultoria financeira habilitada nem ordem de compra ou venda.</div>
+<div class="warn"><strong>Atenção ao horário.</strong> Esta execução rodou depois da abertura da B3 (10h). Não encontrei futuro do Ibovespa, minério de ferro, curva de DI de ontem nem o resultado do IPCA das 9h. Os cenários usam o que estava disponível e não descrevem o pregão em andamento.</div>
+
+<h2>Probabilidades para o Ibovespa hoje</h2>
+<div class="grid two panel">
+  <svg class="donut" viewBox="0 0 160 160" role="img" aria-label="Alta 25%, lateral 40%, queda 35%">
+    <g transform="rotate(-90 80 80)" fill="none" stroke-width="26">
+      <circle cx="80" cy="80" r="52" pathLength="100" stroke="var(--up)" stroke-dasharray="25 75" stroke-dashoffset="0"/>
+      <circle cx="80" cy="80" r="52" pathLength="100" stroke="var(--flat)" stroke-dasharray="40 60" stroke-dashoffset="-25"/>
+      <circle cx="80" cy="80" r="52" pathLength="100" stroke="var(--down)" stroke-dasharray="35 65" stroke-dashoffset="-65"/>
+    </g>
+    <text x="80" y="78" text-anchor="middle" font-size="11">Ibovespa</text>
+    <text x="80" y="94" text-anchor="middle" font-size="11">172.060 pts</text>
+  </svg>
+  <div class="legend">
+    <div><div class="lg"><span class="sw" style="background:var(--up)"></span><span>Alta (acima de +0,5%)</span><span class="pct">25%</span></div><div class="bar" style="background:var(--up);width:25%"></div></div>
+    <div><div class="lg"><span class="sw" style="background:var(--flat)"></span><span>Lateral (entre -0,5% e +0,5%)</span><span class="pct">40%</span></div><div class="bar" style="background:var(--flat);width:40%"></div></div>
+    <div><div class="lg"><span class="sw" style="background:var(--down)"></span><span>Queda (abaixo de -0,5%)</span><span class="pct">35%</span></div><div class="bar" style="background:var(--down);width:35%"></div></div>
+    <p class="sub" style="margin:6px 0 0">Fechamento de referência: 172.060,44 pts (11/11). Limiares aplicados ao fechamento de hoje.</p>
+  </div>
+</div>
+<p><strong>Mudança em relação à análise anterior:</strong> não encontrei análise anterior no projeto (o único doc, "Investidor", é um modelo ainda não preenchido). Esta é a linha de base para as próximas comparações.</p>
+
+<h2>Cenários</h2>
+<div class="grid three">
+  <article class="panel card up">
+    <h3>Alta</h3><div class="big">25%</div><div class="hz">Horizonte: pregão de hoje</div>
+    <p>Fiscal e petróleo ajudam, e o susto com a Nvidia fica restrito aos EUA.</p>
+    <h4>Por que 25%</h4><p>Bolsa subiu 0,42% ontem, Brent cedeu 1,2% (alivia inflação) e Wall Street fechou em alta. Pesa contra: futuros dos EUA no vermelho, juros americanos de 10 anos perto de 5% e balanço fraco do BB.</p>
+    <h4>Gatilhos</h4><ul><li>Senado vota o pacote fiscal hoje</li><li>IPCA de outubro abaixo de 0,21% a 0,29%</li><li>Nvidia recupera parte da queda</li></ul>
+    <h4>Invalida se</h4><ul><li>Nasdaq abre com perda de mais de 1%</li><li>Dólar volta acima de R$ 5,60</li></ul>
+  </article>
+  <article class="panel card flat">
+    <h3>Lateral (base)</h3><div class="big">40%</div><div class="hz">Horizonte: pregão de hoje</div>
+    <p>Forças opostas se anulam: fiscal e petróleo de um lado, Nvidia, juros e BB do outro.</p>
+    <h4>Por que 40%</h4><p>Maior faixa porque os sinais se dividem quase igualmente. Fica abaixo de 50% porque a notícia da Nvidia e a agenda cheia de falas do Fed aumentam a chance de movimento forte.</p>
+    <h4>Gatilhos</h4><ul><li>Votação do pacote adiada sem drama</li><li>IPCA em linha com o esperado</li><li>Volume baixo e dólar perto de R$ 5,56</li></ul>
+    <h4>Invalida se</h4><ul><li>Dólar se move mais de 1% em qualquer direção</li><li>Surpresa grande no IPCA</li></ul>
+  </article>
+  <article class="panel card down">
+    <h3>Queda</h3><div class="big">35%</div><div class="hz">Horizonte: pregão de hoje</div>
+    <p>Aversão a risco global com a Nvidia e o juro americano, somada à revisão de bancos e Petrobras.</p>
+    <h4>Por que 35%</h4><p>Nvidia caiu cerca de 8% no after-hours, o mercado precifica alta do Fed em dezembro (cerca de 90%), o DXY subiu 0,67% ontem e o BB cortou à metade a projeção de lucro. Não vai a 45% porque a bolsa brasileira já tem fluxo comprador recente e o dólar cedeu.</p>
+    <h4>Gatilhos</h4><ul><li>Nasdaq cai mais de 1,5% na abertura</li><li>Treasury de 10 anos acima de 5%</li><li>Pacote fiscal sem votação e juros longos subindo</li></ul>
+    <h4>Invalida se</h4><ul><li>Nvidia confirma Huang no cargo e reverte a perda</li><li>Fed fala em pausa</li></ul>
+  </article>
+</div>
+
+<h2>Impacto por classe de ativo e setor</h2>
+<div class="panel scroll">
+<table class="heat">
+<tr><th>Classe / setor</th><th>Alta</th><th>Lateral</th><th>Queda</th></tr>
+<tr><td>Ações B3 (índice)</td><td class="h h-p1">+ moderado</td><td class="h h-0">neutro</td><td class="h h-n1">− moderado</td></tr>
+<tr><td>Bancos (BB sob pressão)</td><td class="h h-0">neutro</td><td class="h h-n1">− leve</td><td class="h h-n2">− forte</td></tr>
+<tr><td>Petróleo (Brent em queda)</td><td class="h h-0">neutro</td><td class="h h-n1">− leve</td><td class="h h-n2">− forte</td></tr>
+<tr><td>Mineração (minério sem dado)</td><td class="h h-0">sem dado</td><td class="h h-0">sem dado</td><td class="h h-0">sem dado</td></tr>
+<tr><td>Tecnologia / BDRs de tech</td><td class="h h-p1">+ moderado</td><td class="h h-n1">− leve</td><td class="h h-n2">− forte</td></tr>
+<tr><td>Juros futuros (taxas)</td><td class="h h-p1">taxas caem</td><td class="h h-0">estável</td><td class="h h-n2">taxas sobem</td></tr>
+<tr><td>Câmbio (real)</td><td class="h h-p1">real forte</td><td class="h h-0">neutro</td><td class="h h-n1">real fraco</td></tr>
+<tr><td>FIIs</td><td class="h h-p1">+ leve</td><td class="h h-0">neutro</td><td class="h h-n1">− leve</td></tr>
+<tr><td>Ouro</td><td class="h h-0">neutro</td><td class="h h-n1">− leve</td><td class="h h-0">neutro</td></tr>
+<tr><td>Cripto</td><td class="h h-p1">+ moderado</td><td class="h h-0">neutro</td><td class="h h-n2">− forte</td></tr>
+</table>
+<p class="sub" style="margin:10px 0 0">Direção provável, não valor previsto. O ouro caiu com o dólar forte e a expectativa de alta do Fed; em uma queda geral de risco ele pode se estabilizar.</p>
+</div>
+
+<div class="grid two" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));align-items:start;margin-top:20px">
+<div>
+<h2 style="margin-top:16px">Dados da madrugada</h2>
+<div class="panel scroll">
+<table>
+<tr><th>Ativo</th><th>Nível</th><th>Variação</th><th>Hora (Brasília)</th></tr>
+<tr><td>Ibovespa</td><td class="n">172.060,44</td><td class="n pos">+0,42%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>USD/BRL</td><td class="n">R$ 5,5628</td><td class="n pos">-0,42%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>DXY</td><td class="n">102,890</td><td class="n neg">+0,67%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>S&amp;P 500</td><td class="n">7.619,38</td><td class="n pos">+1,31%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>Nasdaq Composite</td><td class="n">25.466,19</td><td class="n pos">+1,60%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>Dow Jones</td><td class="n">52.486,49</td><td class="n pos">+0,49%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>Nvidia (after-hours)</td><td class="n">n/d</td><td class="n neg">≈ -8%</td><td class="n">noite 11/11</td></tr>
+<tr><td>Futuros EUA</td><td class="n">n/d</td><td class="n neg">em queda</td><td class="n">madrugada</td></tr>
+<tr><td>Stoxx 600 / DAX</td><td class="n">recorde</td><td class="n pos">+0,7% / +1,2%</td><td class="n">fech. 11/11</td></tr>
+<tr><td>Nikkei / Kospi</td><td class="n">n/d</td><td class="n">≈ estável a +0,5%</td><td class="n">madrugada</td></tr>
+<tr><td>Treasury 10 anos</td><td class="n">4,99%</td><td class="n">n/d</td><td class="n">manhã 12/11</td></tr>
+<tr><td>Treasury 2 anos</td><td class="n">4,77%</td><td class="n neg">+3 pb</td><td class="n">manhã 12/11</td></tr>
+<tr><td>DI jan/2028</td><td class="n">14,205%</td><td class="n pos">-1,9 pb</td><td class="n">fech. 10/11</td></tr>
+<tr><td>DI jan/2035</td><td class="n">15,065%</td><td class="n neg">+8,1 pb</td><td class="n">fech. 10/11</td></tr>
+<tr><td>Brent (jan)</td><td class="n">US$ 91,7</td><td class="n pos">-1,2%</td><td class="n">≈ 01h20</td></tr>
+<tr><td>Ouro (dez)</td><td class="n">US$ 3.943</td><td class="n neg">-1,43%</td><td class="n">≈ 09h33</td></tr>
+<tr><td>Bitcoin</td><td class="n">≈ US$ 73.440</td><td class="n neg">-0,66%</td><td class="n">madrugada (hora n/d)</td></tr>
+<tr><td>Minério de ferro</td><td class="n">n/d</td><td class="n">n/d</td><td class="n">não encontrado</td></tr>
+<tr><td>Futuro do Ibovespa</td><td class="n">n/d</td><td class="n">n/d</td><td class="n">não encontrado</td></tr>
+</table>
+</div>
+</div>
+<div>
+<h2 style="margin-top:16px">Agenda do dia (Brasília)</h2>
+<div class="panel">
+<ul class="tl">
+<li class="hi"><span class="t">09:00</span><span>IPCA de outubro. Projeção 0,29% (Bradesco) e 0,21% (Itaú); acumulado em 12 meses iria de 4,6% para 4,7%. <span class="tag">já divulgado, resultado não obtido</span></span></li>
+<li><span class="t">10:30</span><span>Pedidos semanais de seguro-desemprego (EUA); fala de Hammack (Fed)</span></li>
+<li><span class="t">12:00</span><span>Fala de Barr (Fed); vendas de imóveis usados nos EUA</span></li>
+<li><span class="t">13:15</span><span>Fala de Goolsbee (Fed)</span></li>
+<li><span class="t">14:00</span><span>Leilão de Treasury de 30 anos</span></li>
+<li class="hi"><span class="t">dia todo</span><span>Senado pode votar o pacote fiscal (impacto de R$ 50 a 60 bi em 2027). Alcolumbre reúne líderes para decidir se vota ou adia</span></li>
+<li><span class="t">15:10</span><span>Fala de Daly (Fed); 15:30 Schmid (Fed)</span></li>
+<li><span class="t">16:00</span><span>Resultado fiscal de outubro (EUA)</span></li>
+<li><span class="t">16:30</span><span>Lagarde (BCE) em evento na França</span></li>
+<li><span class="t">20:30</span><span>Williams (Fed) em painel</span></li>
+<li><span class="t">após fech.</span><span>Balanços: B3 (B3SA3), Marfrig (MBRF3), Petz/Cobasi (AUAU3), Yduqs (YDUQ3)</span></li>
+</ul>
+<p class="sub" style="margin:10px 0 0">Próximos marcos: balanço da Nvidia em 17/11; cúpula EUA-China (APEC, Shenzhen) na semana que vem; FOMC em 8-9/12.</p>
+</div>
+</div>
+</div>
+
+<h2>Contexto e raciocínio</h2>
+<div class="panel notes"><ul style="margin:0;padding-left:18px">
+<li><strong>Fiscal (fato):</strong> governo enviou pacote de ajuste ao Congresso, com impacto estimado em R$ 50 a 60 bi em 2027 e limite de crescimento real da despesa em 2% (abaixo dos 2,5% do arcabouço). O Senado aprovou a MP das dívidas rurais, que segue para sanção.</li>
+<li><strong>Banco Central (fato):</strong> Selic em 13,75% segundo as fontes consultadas. A ata do Copom foi descrita como dura, citando petróleo, El Niño, fim da escala 6x1 e câmbio. Galípolo disse em 11/11 que decide reunião a reunião e não antecipa cortes.</li>
+<li><strong>Exterior (fato):</strong> o mercado precifica alta de 25 pb do Fed em dezembro (cerca de 90% no CME FedWatch, via Yahoo Finance); parte das fontes fala em até 60 pb de aperto até março de 2027. Treasury de 10 anos em 4,99%.</li>
+<li><strong>Nvidia (fato, fonte única de agência):</strong> o conselho avaliava o futuro do CEO Jensen Huang após reportagens sobre sua conduta pessoal, e a ação caiu cerca de 8% no after-hours. Pode contaminar o setor de tecnologia e os BDRs.</li>
+<li><strong>Petróleo (fato):</strong> negociações EUA-Irã travadas, mas esperança de avanço em Irã e Ucrânia derrubou o Brent para US$ 91,7. Estoques americanos subiram 9 milhões de barris (API).</li>
+<li><strong>Interpretação:</strong> o cenário lateral é o mais provável porque o Ibovespa tem hoje um empurrão (fiscal, real mais forte) e um freio (juro americano, Nvidia, bancos) de tamanho parecido.</li>
+<li><strong>Argumento mais forte contra o cenário-base:</strong> quando o Treasury está perto de 5% e a líder do Nasdaq perde 8%, emergentes costumam sofrer mais do que o comum, e a falta de votação do pacote fiscal pode abrir os juros longos (DI 2035 já subiu 8 pb em 10/11). Isso favorece a queda mais que a calma.</li>
+<li><strong>O que mais surpreenderia:</strong> alta forte (acima de +1,5%) com Nvidia em queda e Treasury em 5%, ou queda forte sem a Nvidia piorar.</li>
+</ul></div>
+
+<h2>Notas, vieses e lacunas</h2>
+<div class="panel notes"><ul style="margin:0;padding-left:18px">
+<li><strong>Divergências:</strong> uma fonte (JournalArta) trouxe S&amp;P 500 em -0,38% a 7.520,93; AP/Yahoo e Saxo indicam alta de 1,3%. Usei a AP/Yahoo e descartei a outra. Nikkei aparece como +0,5% (Yahoo, abertura) e como estável (Saxo). Nasdaq Composite +1,60% (AP) e Nasdaq 100 +2,3% (Saxo) são índices diferentes.</li>
+<li><strong>Fontes frágeis:</strong> resumos em portais menores, com checagem automática marcando alguns trechos como não verificáveis (data do Copom, local da fala de Galípolo). Há também uma manchete de portal falando em Focus com Selic a 13,25% e corte em novembro, o que não bate com a Selic mantida em 13,75%. Confirme no site do BCB.</li>
+<li><strong>Lacunas:</strong> futuro do Ibovespa, minério de ferro, resultado do IPCA, números do balanço do BB (só a descrição "bem abaixo do esperado, projeção de lucro reduzida à metade, dividendos menores" via InfoMoney) e DI de 11/11. Não estimei nenhum desses.</li>
+<li><strong>Viés a vigiar:</strong> ancoragem no fechamento de ontem (alta de 0,42%) e viés de recência com a manchete da Nvidia. Uma notícia dramática de uma empresa nem sempre move o Ibovespa.</li>
+<li><strong>Perfil do investidor:</strong> o doc "Investidor" do projeto está em branco, então não personalizei por ativos acompanhados.</li>
+</ul></div>
+
+<h2>Fontes</h2>
+<div class="panel src"><ul style="margin:0;padding-left:18px">
+<li><a href="https://imirante.com/noticias/brasil/2026/11/11/dolar-cai-042-fecha-r-556-foco-pacote-fiscal">Imirante: dólar e Ibovespa, fechamento 11/11</a></li>
+<li><a href="https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html">Yahoo Finance/AP: índices dos EUA, 11/11</a></li>
+<li><a href="https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026">Saxo: Market Quick Take, 12/11</a></li>
+<li><a href="https://www.infomoney.com.br/mercados/pacote-fiscal-balanco-bb-ipca-agenda-12112026/">InfoMoney: agenda e destaques de 12/11</a></li>
+<li><a href="https://finance.yahoo.com/markets/stocks/articles/asian-stocks-fragile-nvidia-plummets-015524144.html">Yahoo Finance: bolsas asiáticas e Nvidia</a></li>
+<li><a href="https://hdfcsky.com/news/brent-crude-oil-price-today-november-12-2026-brent-falls-1-2percent-to-91-7-as-peace-hopes-weigh">HDFC Sky: petróleo, 12/11</a></li>
+<li><a href="https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html">Yahoo Finance: ouro e expectativa do Fed</a></li>
+<li><a href="https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-com-mercado-repercutindo-ata-do-copom/">CNN Brasil: juros futuros e ata do Copom, 10/11</a></li>
+<li><a href="https://quenty.com.br/resumo/11-novembro-2026/galipolo-evita-antecipar-cortes-na-selic-e-expoe-o-peso-dos-juros-no-bolso">Quenty: Galípolo e Selic, 11/11</a></li>
+</ul></div>
+<footer>Material de estudo, sem recomendação de compra ou venda. Não é consultoria financeira habilitada.</footer>
+</div>
+
+<script src="../historico.js" data-relatorio="2026-11-12"></script>
+</body></html>

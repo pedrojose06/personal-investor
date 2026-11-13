@@ -504,6 +504,17 @@
     margin-bottom: -1px
   }
 
+  .tv a.tv-radar-link {
+    margin-left: auto;
+    padding: 8px 14px;
+    color: var(--color-fg-muted);
+    text-decoration: none
+  }
+
+  .tv a.tv-radar-link:hover {
+    color: var(--color-fg)
+  }
+
   .tv .tv-tab[aria-selected=true] {
     color: var(--color-fg);
     border-bottom-color: var(--color-fg);
@@ -922,6 +933,7 @@
       realizado</button>
     <button type="button" class="tv-tab" role="tab" id="tab-papel" data-tab="papel" aria-selected="false">Analisar
       papel</button>
+    <a class="tv-radar-link" href="radar/">Radar pré-mercado ↗</a>
   </nav>
   <section class="tv-page" id="hoje">
     <header id="veredito">

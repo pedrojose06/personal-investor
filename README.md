@@ -104,6 +104,19 @@ No chat do Claude Code, peça `analise TICKER`. O Claude pesquisa notícias e fu
 
 Os sinais técnicos são regras mecânicas sobre o preço passado: não consideram notícias e não garantem o futuro.
 
+## Radar pré-mercado
+
+A pasta `radar/` guarda os relatórios da tarefa agendada "Radar pré-mercado B3" (dias úteis, 8h13). O painel tem um link "Radar pré-mercado" no canto das abas.
+
+```
+radar/index.html                  Relatório mais recente
+radar/historico.js                Barra no topo para navegar entre as datas
+radar/relatorios/AAAA-MM-DD.html  Um relatório por dia, nunca apagado
+radar/relatorios/index.json       Lista dos relatórios, do mais recente ao mais antigo
+```
+
+A cada execução, a tarefa grava o relatório do dia em `radar/relatorios/`, acrescenta a data no topo do `index.json`, troca o `radar/index.html` pelo relatório novo e faz commit na `main`. O mesmo conteúdo vai para o artefato fixo do Claude (https://claude.ai/artifact/Kx6nMLhv2AL38F5gP85doz).
+
 ## Origem dos dados
 
 Os arquivos de 12/11/2026 foram montados a partir do relatório da tarefa agendada "Radar pré-mercado B3" e de buscas em fontes públicas (InfoMoney, Money Times, Seu Dinheiro, BPMoney, CNN Brasil, CNBC, Yahoo Finance e outras). Cada linha cita suas fontes.
