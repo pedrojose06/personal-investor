@@ -504,6 +504,29 @@
     margin-bottom: -1px
   }
 
+  .tv-radar-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    align-items: baseline;
+    justify-content: space-between
+  }
+
+  .tv a.tv-radar-ant {
+    color: var(--color-fg-muted);
+    font-size: var(--cds-font-size-caption);
+    text-decoration: underline
+  }
+
+  .tv-radar-frame {
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    border: 1px solid var(--color-border-line);
+    border-radius: 14px;
+    background: var(--color-panel)
+  }
+
   .tv a.tv-radar-link {
     margin-left: auto;
     padding: 8px 14px;
@@ -933,64 +956,15 @@
       realizado</button>
     <button type="button" class="tv-tab" role="tab" id="tab-papel" data-tab="papel" aria-selected="false">Analisar
       papel</button>
-    <a class="tv-radar-link" href="radar/">Radar pré-mercado ↗</a>
+    <a class="tv-radar-link" href="radar/anteriores.html">Relatórios anteriores</a>
   </nav>
   <section class="tv-page" id="hoje">
-    <header id="veredito">
-      <p class="tv-kicker">Painel de tendências B3 · <span data-draw="data" data-source="resumo" data-field="data"
-          data-row="0">—</span> · <span data-draw="hora" data-source="resumo" data-field="atualizado"
-          data-row="0">—</span></p>
-      <h1 class="tv-title">Ibovespa hoje: tendência de <span data-draw="lider" data-source="lider" data-field="cenario"
-          data-row="0">—</span></h1>
-      <p class="tv-sub"><b data-draw="lider-prob" data-source="lider" data-field="agora" data-row="0">—</b> de chance
-        estimada, <b data-draw="lider-delta" data-source="lider" data-field="delta" data-row="0">—</b> pontos
-        percentuais desde o relatório da tarefa agendada.</p>
-      <div class="tv-split" data-draw="split" data-source="mercado">—</div>
-      <p class="tv-note">Passe o cursor ou toque em um cenário para ver o motivo. Análise hipotética para estudo: as
-        chances são estimativas subjetivas e podem estar erradas.</p>
-    </header>
-    <section id="acoes">
-      <div class="tv-cols">
-        <div id="top-queda">
-          <h2 class="tv-h2">Top 10 em tendência de queda</h2>
-          <p class="tv-note">A etiqueta indica o que a notícia sugere para depois da queda. Toque em uma ação para abrir
-            os detalhes.</p>
-          <ol class="tv-list tv-list-bad" data-draw="queda" data-source="acoes"></ol>
-        </div>
-        <div id="top-subida">
-          <h2 class="tv-h2">Top 10 em tendência de subida</h2>
-          <p class="tv-note">Ordenadas pela chance estimada. Toque em uma ação para abrir os detalhes.</p>
-          <ol class="tv-list tv-list-ok" data-draw="subida" data-source="acoes"></ol>
-        </div>
-      </div>
-      <div class="tv-modal" data-draw="modal" data-source="acoes"></div>
-    </section>
-    <section id="radar">
-      <h2 class="tv-h2">Radar de notícias</h2>
-      <p class="tv-note">Assuntos de maior alcance que podem mexer com o mercado nos próximos dias, com o estado de cada
-        um: confirmado, em andamento ou ainda rumor.</p>
-      <div class="tv-news" data-draw="noticias" data-source="noticias">—</div>
-    </section>
-    <section id="agenda">
-      <h2 class="tv-h2">O que ainda sai hoje</h2>
-      <p class="tv-note">Horário de Brasília. Em destaque, os eventos com mais potencial de mexer com o índice.</p>
-      <ul class="tv-agenda" data-draw="agenda" data-source="agenda"></ul>
-    </section>
-    <section id="retrato">
-      <h2 class="tv-h2">Retrato da manhã</h2>
-      <p class="tv-note">Passe o cursor ou toque em um número para ver a hora e a fonte.</p>
-      <div class="tv-tiles" data-draw="indicadores" data-source="indicadores">—</div>
-    </section>
-    <details class="tv-notes" id="notas">
-      <summary>Notas de leitura: base dos dados, o que mudou, contra-argumento e lacunas</summary>
-      <div class="tv-leitura">
-        <div>
-          <h3>Base dos dados</h3>
-          <p data-draw="base" data-source="resumo" data-field="base" data-row="0">—</p>
-        </div>
-      </div>
-      <div class="tv-leitura" data-draw="leitura" data-source="leitura">—</div>
-    </details>
+    <div class="tv-radar-head">
+      <p class="tv-kicker">Radar pré-mercado B3 · <span id="radar-data">relatório mais recente</span></p>
+      <a class="tv-radar-ant" href="radar/anteriores.html">Ver relatórios anteriores →</a>
+    </div>
+    <iframe class="tv-radar-frame" id="radar-frame" src="radar/index.html" title="Relatório pré-mercado mais recente" loading="eager"></iframe>
+    <p class="tv-msg" id="radar-erro" hidden>Não foi possível carregar o relatório pré-mercado. Abra pelo link <a href="radar/index.html">radar/index.html</a>.</p>
   </section>
   <section class="tv-page" id="acertos" hidden>
     <header id="acertos-topo">
@@ -1393,4 +1367,30 @@
     chips();
     const m = location.hash.match(/^#papel=([A-Za-z0-9]+)/); if (m) analisar(m[1]);
   }
+</script>
+<script>
+/* Aba Hoje: mostra o relatório pré-mercado mais recente (radar/index.html) com a altura do conteúdo. */
+(function () {
+  const f = document.getElementById('radar-frame');
+  if (!f || f.dataset.pronto) return;
+  f.dataset.pronto = '1';
+  const ajusta = () => { try { const d = f.contentDocument; if (d && d.documentElement) f.style.height = d.documentElement.scrollHeight + 'px'; } catch (e) {} };
+  const pronto = () => {
+    try {
+      const d = f.contentDocument;
+      if (!d || !d.body || !d.body.childElementCount) throw new Error('vazio');
+      ajusta();
+      if (window.ResizeObserver) new ResizeObserver(ajusta).observe(d.documentElement);
+      setTimeout(ajusta, 800);
+    } catch (e) { f.hidden = true; const m = document.getElementById('radar-erro'); if (m) m.hidden = false; }
+  };
+  f.addEventListener('load', pronto);
+  try { if (f.contentDocument && f.contentDocument.readyState === 'complete' && f.contentDocument.body && f.contentDocument.body.childElementCount) pronto(); } catch (e) {}
+  fetch('radar/relatorios/index.json', { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).then((l) => {
+    if (!Array.isArray(l) || !l.length) return;
+    const x = l.slice().sort((a, b) => (a.data < b.data ? 1 : -1))[0];
+    const el = document.getElementById('radar-data');
+    if (el) el.textContent = x.rotulo + (x.resumo ? ' · ' + x.resumo : '');
+  }).catch(() => {});
+})();
 </script>

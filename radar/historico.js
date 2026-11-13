@@ -7,6 +7,16 @@
   if (!script) return;
   var raiz = new URL('.', script.src);
   var atual = script.getAttribute('data-relatorio') || '';
+  var embutido = false;
+  try { embutido = window.self !== window.top; } catch (e) { embutido = true; }
+  if (embutido) {
+    // Dentro da aba Hoje do painel: sem barra, e os links abrem fora do quadro.
+    var abreFora = function () {
+      Array.prototype.forEach.call(document.querySelectorAll('a[href]'), function (a) { if (!a.target) { a.target = '_blank'; a.rel = 'noopener'; } });
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', abreFora); else abreFora();
+    return;
+  }
   fetch(new URL('relatorios/index.json', raiz), { cache: 'no-store' })
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (lista) {
@@ -59,6 +69,15 @@
       if (lista[i + 1]) ant.href = url(lista[i + 1]); else ant.setAttribute('aria-disabled', 'true');
       if (i > 0) prox.href = url(lista[i - 1]); else prox.setAttribute('aria-disabled', 'true');
       document.body.insertBefore(host, document.body.firstChild);
+      fetch(new URL('anteriores.html', raiz), { method: 'HEAD', cache: 'no-store' }).then(function (r) {
+        if (!r.ok) return;
+        var nav = sh.querySelector('.nav');
+        var todos = document.createElement('a'); todos.className = 'b'; todos.target = '_self';
+        todos.href = new URL('anteriores.html', raiz).href; todos.textContent = 'Todos os relat\u00f3rios';
+        var painel = document.createElement('a'); painel.className = 'b'; painel.target = '_self';
+        painel.href = new URL('../', raiz).href; painel.textContent = 'Painel';
+        nav.appendChild(todos); nav.appendChild(painel);
+      }).catch(function () {});
     })
     .catch(function () {});
 

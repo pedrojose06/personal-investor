@@ -1,6 +1,6 @@
 # Personal Investor: painel de tendências B3
 
-Painel de estudo de investimentos para acompanhar a tendência do Ibovespa e das ações da B3 a partir de notícias do dia. Mostra cenários com probabilidades, os 10 papéis com maior chance de queda e de subida, um radar de notícias, a agenda do dia e uma aba que compara o que foi previsto com o que aconteceu.
+Painel de estudo de investimentos para acompanhar a tendência do Ibovespa e das ações da B3 a partir de notícias do dia. A aba Hoje traz o relatório pré-mercado mais recente, com cenários e probabilidades; as outras abas comparam o que foi previsto com o que aconteceu e analisam um papel sob demanda.
 
 > **Material de estudo.** As probabilidades são estimativas subjetivas feitas a partir de notícias e podem estar erradas. Nada aqui é ordem de compra ou venda nem consultoria financeira habilitada.
 
@@ -106,16 +106,19 @@ Os sinais técnicos são regras mecânicas sobre o preço passado: não consider
 
 ## Radar pré-mercado
 
-A pasta `radar/` guarda os relatórios da tarefa agendada "Radar pré-mercado B3" (dias úteis, 8h13). O painel tem um link "Radar pré-mercado" no canto das abas.
+A aba **Hoje** do painel mostra sempre o relatório pré-mercado mais recente (`radar/index.html`), gerado pela tarefa agendada "Radar pré-mercado B3" em dias úteis às 8h13. Os relatórios de dias anteriores ficam em **Relatórios anteriores**, no canto das abas (`radar/anteriores.html`).
 
 ```
-radar/index.html                  Relatório mais recente
-radar/historico.js                Barra no topo para navegar entre as datas
+radar/index.html                  Relatório mais recente (aparece na aba Hoje)
+radar/anteriores.html             Lista de todos os relatórios, por data
+radar/historico.js                Barra no topo de cada relatório para navegar entre as datas
 radar/relatorios/AAAA-MM-DD.html  Um relatório por dia, nunca apagado
 radar/relatorios/index.json       Lista dos relatórios, do mais recente ao mais antigo
 ```
 
 A cada execução, a tarefa grava o relatório do dia em `radar/relatorios/`, acrescenta a data no topo do `index.json`, troca o `radar/index.html` pelo relatório novo e faz commit na `main`. O mesmo conteúdo vai para o artefato fixo do Claude (https://claude.ai/artifact/Kx6nMLhv2AL38F5gP85doz).
+
+Os arquivos `resumo.json`, `mercado.json`, `acoes.json`, `noticias.json`, `agenda.json`, `indicadores.json` e `leitura.json` alimentavam a antiga aba Hoje (versão de 12/11/2026). Eles continuam no repositório, e a aba "Analisar papel" ainda usa `acoes.json` e `noticias.json`.
 
 ## Origem dos dados
 
