@@ -2,8 +2,8 @@
  "resumo": [
   {
    "data": "sexta-feira, 13/11/2026",
-   "atualizado": "antes das 8h30 (Brasília)",
-   "base": "Relatório da tarefa Radar pré-mercado B3 de 13/11, gerado antes das 8h30. O relatório não trouxe papéis individuais, então as listas de top 10 ficam vazias neste pregão; o fechamento de 12/11 vem da rotina de fim de pregão."
+   "atualizado": "10h50 (Brasília), revisão após a abertura",
+   "base": "Relatório da tarefa Radar pré-mercado B3 (antes das 8h30) revisado às 10h50 com a cobertura ao vivo de InfoMoney, Money Times, BPMoney e Metrópoles. O relatório da manhã não trazia papéis individuais nem a aprovação do ajuste fiscal no Senado; as listas de top 10 foram montadas depois da abertura, com parte do movimento do dia já conhecida."
   }
  ],
  "mercado": [
@@ -11,102 +11,401 @@
    "cenario": "Queda",
    "faixa": "fechar abaixo de −0,5%",
    "relatorio": 32,
-   "agora": 32,
-   "motivo": "Fed com alta de 0,25 ponto quase certa em dezembro (cerca de 87%) e chance de 0,5, dólar em máxima de 17 meses e juros longos acima de 15%. Um PPI americano forte às 10h30 pode ativar esse caminho."
+   "agora": 15,
+   "motivo": "Ficou menos provável: o Senado aprovou o texto-base do ajuste fiscal e o PPI americano veio abaixo do esperado (0,3% contra 0,4%). Ainda pesa a avaliação do JPMorgan de que o ajuste é insuficiente, com recomendação de cautela."
   },
   {
    "cenario": "Lateral",
    "faixa": "fechar entre −0,5% e +0,5%",
    "relatorio": 42,
-   "agora": 42,
-   "motivo": "Forças de tamanho parecido: exterior mais calmo (futuros de Nova York em alta) contra câmbio e fiscal pesados. Com varejo às 9h e PPI às 10h30, a faixa costuma ser rompida só depois do dado."
+   "agora": 47,
+   "motivo": "Segue o mais provável. O índice oscilou entre +0,1% e +0,5% na primeira hora, e o dólar ficou praticamente estável perto de R$ 5,65, sem força para uma alta maior."
   },
   {
    "cenario": "Alta",
    "faixa": "fechar acima de +0,5%",
    "relatorio": 26,
-   "agora": 26,
-   "motivo": "Futuros de Nova York positivos (S&P +0,4%, Nasdaq +0,6%) e a queda forte do Banco do Brasil ontem abrem espaço para repique. Dólar alto, juros longos e o risco do PPI limitam a chance."
+   "agora": 38,
+   "motivo": "Subiu porque o índice chegou a +0,51% (172.205 pontos) às 10h34, com fiscal aprovado no Senado, PPI mais fraco, varejo acima do esperado e juros futuros recuando depois da abertura."
   }
  ],
  "indicadores": [
   {
+   "indicador": "Ibovespa",
+   "valor": "172.205 pts",
+   "variacao": "+0,51%",
+   "hora": "10h34",
+   "fonte": "InfoMoney"
+  },
+  {
    "indicador": "Ibovespa, fechamento de 12/11",
    "valor": "171.324 pts",
    "variacao": "−0,43%",
-   "hora": "12/11, 18h54",
-   "fonte": "Rotina de fechamento (o relatório da manhã trouxe 170.680 pts, −0,80%)"
+   "hora": "12/11",
+   "fonte": "InfoMoney, Metrópoles, rotina de fechamento"
+  },
+  {
+   "indicador": "Ibovespa, abertura de 13/11",
+   "valor": "171.621 pts",
+   "variacao": "+0,17%",
+   "hora": "10h15",
+   "fonte": "Metrópoles"
   },
   {
    "indicador": "Dólar à vista",
-   "valor": "R$ 5,651",
-   "variacao": "+1,61%",
-   "hora": "fech. 12/11",
-   "fonte": "O Repórter, O Tempo"
+   "valor": "R$ 5,646",
+   "variacao": "−0,10%",
+   "hora": "10h38",
+   "fonte": "Money Times (InfoMoney trazia R$ 5,663, +0,21%, às 9h34)"
   },
   {
-   "indicador": "Futuro do S&P 500",
-   "valor": "n/d",
-   "variacao": "+0,4%",
-   "hora": "manhã 13/11",
-   "fonte": "Saxo"
+   "indicador": "PPI dos EUA, outubro",
+   "valor": "+0,3% no mês",
+   "variacao": "esperado +0,4%",
+   "hora": "10h30",
+   "fonte": "InfoMoney, TradeMap"
   },
   {
-   "indicador": "Futuro do Nasdaq 100",
-   "valor": "n/d",
-   "variacao": "+0,6%",
-   "hora": "manhã 13/11",
-   "fonte": "Saxo"
+   "indicador": "Varejo IBGE, setembro",
+   "valor": "+0,2% no mês",
+   "variacao": "esperado −0,2%",
+   "hora": "9h00",
+   "fonte": "InfoMoney (consenso Reuters)"
   },
   {
-   "indicador": "Treasury de 10 anos",
-   "valor": "~5,10%",
-   "variacao": "+12 pb",
-   "hora": "fech. 12/11",
-   "fonte": "CappNotes, Saxo"
+   "indicador": "DI jan/2028",
+   "valor": "14,36%",
+   "variacao": "+0,07 pp",
+   "hora": "9h13; recuando às 10h19",
+   "fonte": "InfoMoney"
   },
   {
-   "indicador": "DXY",
-   "valor": "103,19",
-   "variacao": "+0,27%",
-   "hora": "fech. 12/11",
-   "fonte": "CappNotes"
+   "indicador": "EWZ (ETF de Brasil em NY)",
+   "valor": "US$ 31,78",
+   "variacao": "+0,88%",
+   "hora": "pré-mercado",
+   "fonte": "Money Times"
   },
   {
    "indicador": "Brent",
-   "valor": "US$ 95,72",
-   "variacao": "+3,30% ontem",
-   "hora": "13/11, ~5h19",
-   "fonte": "Euribor.com.es, Report.az"
-  },
-  {
-   "indicador": "Hang Seng",
-   "valor": "23.638",
-   "variacao": "−1,55%",
-   "hora": "fech. 13/11",
-   "fonte": "DGABC"
+   "valor": "US$ 96,02",
+   "variacao": "+0,21%",
+   "hora": "manhã",
+   "fonte": "Money Times"
   },
   {
    "indicador": "Bitcoin",
-   "valor": "~US$ 68,5 mil",
-   "variacao": "−6,8% em 24h",
-   "hora": "13/11, ~5h49",
-   "fonte": "BitNotícias"
-  },
-  {
-   "indicador": "Ouro",
-   "valor": "US$ 3.914,70",
-   "variacao": "mínima de 1 ano ontem",
-   "hora": "manhã 13/11",
-   "fonte": "Report.az, Saxo"
+   "valor": "US$ 69.193",
+   "variacao": "−6,1%",
+   "hora": "manhã",
+   "fonte": "Money Times"
   }
  ],
- "acoes": [],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "CSNA3",
+   "empresa": "CSN",
+   "chance": 75,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 1,25 bi no 3T26 (lucro de R$ 76 mi um ano antes), Ebitda −43,5%, fluxo de caixa livre negativo em R$ 3,5 bi e alavancagem de 4,23x. Caía 3,31% às 10h17.",
+   "gatilho": "Teleconferência de resultados: horário não encontrado",
+   "fonte": "InfoMoney, Money Times, ADVFN",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "A queima de caixa e a dívida maior são problemas de fundamento; a venda da CSN Cimentos por R$ 12,7 bi ajuda, mas ainda precisa ser concluída."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "BRKM5",
+   "empresa": "Braskem",
+   "chance": 68,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 1,07 bi no 3T26, contra lucro de R$ 3,3 bi no 2T26. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney, ADVFN",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "O ciclo petroquímico segue fraco e o prejuízo voltou forte depois de um trimestre positivo."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "CMIN3",
+   "empresa": "CSN Mineração",
+   "chance": 65,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 356 mi no 3T26, contra lucro de R$ 696 mi um ano antes, com minério mais barato e frete mais caro. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney, Visno Invest",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Depende do preço do minério, que não foi encontrado para hoje."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "IRBR3",
+   "empresa": "IRB Re",
+   "chance": 65,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo contábil de R$ 456 mi no 3T26 (lucro de R$ 98,7 mi um ano antes); lucro ajustado de R$ 74,1 mi, queda de 25%.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O lucro ajustado ainda é positivo, o que pode limitar a queda."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "HAPV3",
+   "empresa": "Hapvida",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Caía 2,82%, a R$ 5,17, às 10h06, devolvendo parte da alta de 14,9% de quinta, quando o mercado gostou de sinais de estabilização apesar do lucro 70% menor.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney, BPMoney",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "É realização de lucro; analistas dizem que os desafios de fundo seguem praticamente intactos."
+  },
+  {
+   "lado": "queda",
+   "pos": 6,
+   "ticker": "NVDC34",
+   "empresa": "Nvidia (BDR)",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Jensen Huang deixou a empresa e a CFO assumiu interinamente; as ações caíam no pré-mercado de Nova York.",
+   "gatilho": "Abertura de Nova York: 11h30. Balanço em 17/11",
+   "fonte": "InfoMoney, Metrópoles",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "A troca de comando sem sucessor definido mantém a incerteza até o balanço de terça."
+  },
+  {
+   "lado": "queda",
+   "pos": 7,
+   "ticker": "MSFT34",
+   "empresa": "Microsoft (BDR)",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Apagão global de Outlook, Teams e Copilot desde quinta; a ação caía mais de 1% no pré-mercado.",
+   "gatilho": "Abertura de Nova York: 11h30",
+   "fonte": "InfoMoney, Metrópoles",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "Falhas de serviço costumam ter efeito passageiro no preço quando são resolvidas."
+  },
+  {
+   "lado": "queda",
+   "pos": 8,
+   "ticker": "AMAR3",
+   "empresa": "Marisa",
+   "chance": 58,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 52,9 mi no 3T26, revertendo o lucro de um ano antes. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Papel de baixa liquidez; a reação pode ser forte para qualquer lado."
+  },
+  {
+   "lado": "queda",
+   "pos": 9,
+   "ticker": "B3SA3",
+   "empresa": "B3",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Caía 0,61%, a R$ 14,67, às 10h08. Lucro recorrente subiu 10% (R$ 1,4 bi), mas o contábil ficou um pouco abaixo da projeção da Genial.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "BPMoney, InfoMoney, Genial",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "O resultado foi bom (volume diário 26% maior); a queda parece ajuste de expectativa, não problema de fundamento."
+  },
+  {
+   "lado": "queda",
+   "pos": 10,
+   "ticker": "LIGT3",
+   "empresa": "Light",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 56 mi no 3T26, revertendo o lucro de um ano antes. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A empresa está em recuperação, e o papel costuma oscilar com notícias do processo."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "GMAT3",
+   "empresa": "Grupo Mateus",
+   "chance": 75,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Subia 7,55%, a R$ 4,13, na manhã. Lucro de R$ 322 mi no 3T26, alta de 33% sobre o 2T26 (queda de 36% em um ano).",
+   "gatilho": "Sem evento marcado",
+   "fonte": "ADVFN, BPMoney, InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "MBRF3",
+   "empresa": "MBRF",
+   "chance": 68,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 210 mi no 3T26, alta de 123,5%, cancelamento de 16,8 milhões de ações e novo programa de recompra. Subia 1,65% às 10h16.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times, InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "BEEF3",
+   "empresa": "Minerva",
+   "chance": 65,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Subia 7,23% às 10h16, depois de passar por leilão. A fonte não informa o motivo.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 4,
+   "ticker": "CMIG4",
+   "empresa": "Cemig",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 1,7 bi no 3T26, mais que o dobro de um ano antes. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 5,
+   "ticker": "CPLE6",
+   "empresa": "Copel",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 673 mi no 3T26, alta de 80%. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 6,
+   "ticker": "AUAU3",
+   "empresa": "Petz Cobasi",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro ajustado de R$ 96,1 mi no 3T26, alta de 31,1%. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 7,
+   "ticker": "YDUQ3",
+   "empresa": "Yduqs",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 117,6 mi no 3T26, alta de 20,1%; o CEO prevê melhora na geração de caixa em 2027.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 8,
+   "ticker": "AZUL3",
+   "empresa": "Azul",
+   "chance": 58,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Subia 2,38%, a R$ 13,31, às 10h03, recuperando parte da queda de quinta, quando divulgou o 3T26.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "BPMoney, InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 9,
+   "ticker": "ROXO34",
+   "empresa": "Nubank (BDR)",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de US$ 1,09 bi no 3T26, citado como um dos destaques da noite. A fonte não traz comparação anual nem variação de hoje.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney, Money Times",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 10,
+   "ticker": "TFCO4",
+   "empresa": "Track&Field",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 35 mi no 3T26, alta de 17%. Variação de hoje não encontrada.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "InfoMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
  "agenda": [
   {
    "hora": "Madrugada",
    "evento": "Lucros dos bancos japoneses (MUFG, SMFG, Mizuho) e da Generali",
    "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "09:00",
+   "evento": "Varejo de setembro (IBGE): +0,2% no mês e +1,7% em 12 meses, acima do esperado (−0,2% e +1,0%)",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:00",
+   "evento": "Abertura da B3: Ibovespa abriu em leve alta, a 171.621 pontos",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:30",
+   "evento": "PPI dos EUA de outubro: +0,3% no mês (esperado +0,4%); núcleo +0,3%, em linha",
+   "destaque": "sim",
    "status": "saiu"
   },
   {
@@ -116,62 +415,60 @@
    "status": "a vir"
   },
   {
-   "hora": "09:00",
-   "evento": "Vendas no varejo de setembro (IBGE). Consenso: −0,2% no mês, +1% em 12 meses",
-   "destaque": "sim",
-   "status": "a vir"
-  },
-  {
-   "hora": "10:00",
-   "evento": "Abertura da B3",
-   "destaque": "não",
-   "status": "a vir"
-  },
-  {
-   "hora": "10:30",
-   "evento": "PPI dos EUA de outubro. Consenso: +0,4% no mês, núcleo +0,3%; setembro foi +1,3%. Principal evento do dia",
-   "destaque": "sim",
-   "status": "a vir"
-  },
-  {
    "hora": "Dia todo",
-   "evento": "Repercussão dos balanços de Petrobras (lucro do 3T26 abaixo do esperado, segundo manchete do ADVFN) e Banco do Brasil",
+   "evento": "Repercussão dos balanços da noite de ontem: CSN, Braskem, IRB, B3, MBRF, Yduqs, Natura, Cemig, Copel, Grupo Mateus, Nubank e outros",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "17:00",
+   "evento": "Fechamento da B3 (o leilão de fechamento define o valor oficial do índice)",
    "destaque": "não",
    "status": "a vir"
   }
  ],
  "leitura": [
   {
+   "topico": "O que mudou desde o relatório das 8h",
+   "texto": "O relatório da manhã não tinha a aprovação do texto-base do ajuste fiscal no Senado (45 a 31, na noite de quinta), nem o PPI e o varejo. Os três vieram favoráveis: fiscal aprovado, PPI abaixo do esperado e varejo acima. Com o índice a +0,51% às 10h34, a chance de alta sobe de 26% para 38% e a de queda cai de 32% para 15%; lateral continua a mais provável, com 47%."
+  },
+  {
    "topico": "O que mudou em relação a 12/11",
-   "texto": "As chances quase não mudaram: alta de 25% para 26%, lateral de 40% para 42% e queda de 35% para 32%. O exterior está mais calmo (futuros de Nova York em alta), mas o dólar subiu 1,6% ontem, para a máxima de 17 meses, e os juros longos passaram de 15%, o que impede uma melhora maior."
+   "texto": "Ontem o mercado reagiu mal à proposta fiscal e o dólar subiu 1,6%. Hoje a aprovação no Senado alivia parte dessa dúvida, mas os destaques ainda serão votados na terça (17/11) e o texto segue para a Câmara."
   },
   {
-   "topico": "Riscos e o que mais surpreenderia",
-   "texto": "Principais riscos: PPI forte reforçando a alta de 0,5 ponto do Fed, dólar rompendo R$ 5,70, novos desdobramentos do pacote fiscal e ataques à infraestrutura de petróleo saudita. Surpreenderia um PPI bem abaixo do esperado com o dólar caindo mais de 1%, ou o Ibovespa fechando acima de 173 mil pontos."
+   "topico": "Argumento mais forte contra a leitura de alta",
+   "texto": "O JPMorgan considera o ajuste insuficiente (impacto estimado de até R$ 56,1 bi), recomenda cautela com ações brasileiras e prefere exportadoras. O dólar não caiu de forma clara e os juros futuros abriram em alta, o que sugere que o mercado ainda não comprou a melhora fiscal."
   },
   {
-   "topico": "Argumento mais forte contra o cenário lateral",
-   "texto": "Ontem o dólar subiu 1,6% e o mercado mostrou que reage forte a surpresas. O PPI de setembro veio em 1,3%, bem acima das projeções, então a incerteza em torno do dado de hoje é alta. A chance de lateralidade pode estar inflada pela falta de dados dos futuros do Ibovespa."
-  },
-  {
-   "topico": "Vieses a vigiar",
-   "texto": "Ancoragem no fechamento de ontem, viés de recência depois da queda do índice e a tentação de achar que o Banco do Brasil explica tudo, quando dólar e juros pesam mais."
+   "topico": "Como ler a chance de cada ação",
+   "texto": "Hoje as listas foram montadas às 10h50, depois da abertura, então parte do movimento já era conhecida e as chances são mais altas onde o papel já reagia ao balanço. A referência continua sendo o fechamento de 12/11. Papéis sem variação conhecida têm evidência baixa ou média."
   },
   {
    "topico": "Lacunas",
-   "texto": "O relatório não trouxe papéis individuais, futuro do Ibovespa, DI de hoje, minério de ferro nem dólar no pré-mercado. As fontes divergem sobre o fechamento de 12/11: o relatório usou 170.680 pontos (−0,80%), e a rotina de fechamento registrou 171.324 pontos (−0,43%); o retrato acima usa o da rotina."
+   "texto": "Faltam variações confirmadas para vários papéis com balanço (Braskem, IRB, CSN Mineração, Cemig, Copel, Nubank). O dólar diverge entre fontes (R$ 5,646 a R$ 5,663) por horários diferentes. Não encontrei o futuro do Ibovespa antes das 9h, porque o contrato só começa a negociar às 9h."
   }
  ],
  "noticias": [
   {
-   "id": "nvidia-ceo",
-   "titulo": "Nvidia: Jensen Huang deixa o comando",
-   "status": "Confirmado",
-   "quando": "Saída noticiada em 12/11; balanço em 17/11",
-   "resumo": "As bolsas da Ásia e da Europa abriram 13/11 repercutindo a saída de Jensen Huang da Nvidia, que amplia dúvidas sobre o setor de IA. Ontem a ação já tinha caído cerca de 8% no after-hours com a notícia de que o conselho avaliava a saída.",
-   "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
-   "fonte": "DGABC, O Povo, relatório do radar de 13/11",
-   "link": "https://www.dgabc.com.br/Noticia/4368538/bolsas-da-asia-fecham-sem-direcao-unica-apos-saida-de-jensen-huang-da-nvidia"
+   "id": "pacote-fiscal",
+   "titulo": "Ajuste fiscal: Senado aprova o texto-base",
+   "status": "Em andamento",
+   "quando": "Texto-base aprovado na noite de 12/11; destaques na terça, 17/11; depois vai à Câmara",
+   "resumo": "O Senado aprovou o texto-base do ajuste fiscal por 45 votos a 31. Prevê contingenciamento adicional, teto de 2% para o crescimento real das despesas e adiamento de repasses da Lei Kandir, com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit.",
+   "impacto": "Alivia parte da dúvida que levou o dólar à máxima de 17 meses. O JPMorgan, porém, acha o ajuste insuficiente e recomenda cautela com ações brasileiras; a votação dos destaques e a passagem pela Câmara ainda podem desidratar o texto.",
+   "fonte": "InfoMoney, Money Times, Metrópoles",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+  },
+  {
+   "id": "fed-dezembro",
+   "titulo": "Fed em dezembro: PPI de outubro vem abaixo do esperado",
+   "status": "Expectativa de mercado",
+   "quando": "PPI saiu hoje às 10h30; reunião do Fed em 8 e 9/12",
+   "resumo": "O PPI subiu 0,3% em outubro (esperado 0,4%), depois de 1,4% em setembro (revisado); em 12 meses, 6,5%. O mercado ainda precifica alta de 0,25 ponto em dezembro com cerca de 87% de chance.",
+   "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
+   "fonte": "InfoMoney, TradeMap, Saxo",
+   "link": "https://trademap.com.br/noticias/news-8598899"
   },
   {
    "id": "dolar-17-meses",
@@ -184,24 +481,14 @@
    "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
   },
   {
-   "id": "fed-dezembro",
-   "titulo": "Fed pode subir os juros em dezembro; PPI sai hoje",
-   "status": "Expectativa de mercado",
-   "quando": "PPI hoje às 10h30; reunião do Fed em 8 e 9/12",
-   "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 87% de chance e já considera 0,5 ponto. O PPI de outubro (consenso +0,4% no mês) é o dado do dia; em setembro veio 1,3%.",
-   "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
-   "fonte": "Saxo, BitNotícias, relatório do radar de 13/11",
-   "link": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--13-november-2026-13112026"
-  },
-  {
-   "id": "pacote-fiscal",
-   "titulo": "Pacote fiscal no Congresso",
-   "status": "Em andamento",
-   "quando": "Sem data confirmada de votação",
-   "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi, só a partir de 2027. As dúvidas sobre a tramitação ajudaram a levar o dólar à máxima de 17 meses em 12/11.",
-   "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
-   "fonte": "O Repórter, relatório do radar de 13/11",
-   "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+   "id": "nvidia-ceo",
+   "titulo": "Nvidia: Huang deixa a empresa; CFO assume interinamente",
+   "status": "Confirmado",
+   "quando": "Balanço do 3º tri na terça, 17/11",
+   "resumo": "Jensen Huang deixou o cargo de CEO e não terá mais vínculo com a Nvidia; a CFO Colette Kress é a CEO interina. As ações caíam no pré-mercado. A Microsoft também caía mais de 1% depois de um apagão global de Outlook, Teams e Copilot.",
+   "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
+   "fonte": "InfoMoney, Metrópoles, DGABC",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
   },
   {
    "id": "anthropic-ipo",

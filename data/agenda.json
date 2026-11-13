@@ -6,32 +6,38 @@
   "status": "saiu"
  },
  {
+  "hora": "09:00",
+  "evento": "Varejo de setembro (IBGE): +0,2% no mês e +1,7% em 12 meses, acima do esperado (−0,2% e +1,0%)",
+  "destaque": "sim",
+  "status": "saiu"
+ },
+ {
+  "hora": "10:00",
+  "evento": "Abertura da B3: Ibovespa abriu em leve alta, a 171.621 pontos",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "10:30",
+  "evento": "PPI dos EUA de outubro: +0,3% no mês (esperado +0,4%); núcleo +0,3%, em linha",
+  "destaque": "sim",
+  "status": "saiu"
+ },
+ {
   "hora": "Manhã",
   "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
   "destaque": "não",
   "status": "a vir"
  },
  {
-  "hora": "09:00",
-  "evento": "Vendas no varejo de setembro (IBGE). Consenso: −0,2% no mês, +1% em 12 meses",
-  "destaque": "sim",
-  "status": "a vir"
- },
- {
-  "hora": "10:00",
-  "evento": "Abertura da B3",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "10:30",
-  "evento": "PPI dos EUA de outubro. Consenso: +0,4% no mês, núcleo +0,3%; setembro foi +1,3%. Principal evento do dia",
-  "destaque": "sim",
-  "status": "a vir"
- },
- {
   "hora": "Dia todo",
-  "evento": "Repercussão dos balanços de Petrobras (lucro do 3T26 abaixo do esperado, segundo manchete do ADVFN) e Banco do Brasil",
+  "evento": "Repercussão dos balanços da noite de ontem: CSN, Braskem, IRB, B3, MBRF, Yduqs, Natura, Cemig, Copel, Grupo Mateus, Nubank e outros",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "17:00",
+  "evento": "Fechamento da B3 (o leilão de fechamento define o valor oficial do índice)",
   "destaque": "não",
   "status": "a vir"
  }

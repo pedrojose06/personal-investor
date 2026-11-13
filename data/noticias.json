@@ -1,13 +1,23 @@
 [
  {
-  "id": "nvidia-ceo",
-  "titulo": "Nvidia: Jensen Huang deixa o comando",
-  "status": "Confirmado",
-  "quando": "Saída noticiada em 12/11; balanço em 17/11",
-  "resumo": "As bolsas da Ásia e da Europa abriram 13/11 repercutindo a saída de Jensen Huang da Nvidia, que amplia dúvidas sobre o setor de IA. Ontem a ação já tinha caído cerca de 8% no after-hours com a notícia de que o conselho avaliava a saída.",
-  "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
-  "fonte": "DGABC, O Povo, relatório do radar de 13/11",
-  "link": "https://www.dgabc.com.br/Noticia/4368538/bolsas-da-asia-fecham-sem-direcao-unica-apos-saida-de-jensen-huang-da-nvidia"
+  "id": "pacote-fiscal",
+  "titulo": "Ajuste fiscal: Senado aprova o texto-base",
+  "status": "Em andamento",
+  "quando": "Texto-base aprovado na noite de 12/11; destaques na terça, 17/11; depois vai à Câmara",
+  "resumo": "O Senado aprovou o texto-base do ajuste fiscal por 45 votos a 31. Prevê contingenciamento adicional, teto de 2% para o crescimento real das despesas e adiamento de repasses da Lei Kandir, com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit.",
+  "impacto": "Alivia parte da dúvida que levou o dólar à máxima de 17 meses. O JPMorgan, porém, acha o ajuste insuficiente e recomenda cautela com ações brasileiras; a votação dos destaques e a passagem pela Câmara ainda podem desidratar o texto.",
+  "fonte": "InfoMoney, Money Times, Metrópoles",
+  "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+ },
+ {
+  "id": "fed-dezembro",
+  "titulo": "Fed em dezembro: PPI de outubro vem abaixo do esperado",
+  "status": "Expectativa de mercado",
+  "quando": "PPI saiu hoje às 10h30; reunião do Fed em 8 e 9/12",
+  "resumo": "O PPI subiu 0,3% em outubro (esperado 0,4%), depois de 1,4% em setembro (revisado); em 12 meses, 6,5%. O mercado ainda precifica alta de 0,25 ponto em dezembro com cerca de 87% de chance.",
+  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
+  "fonte": "InfoMoney, TradeMap, Saxo",
+  "link": "https://trademap.com.br/noticias/news-8598899"
  },
  {
   "id": "dolar-17-meses",
@@ -20,24 +30,14 @@
   "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
  },
  {
-  "id": "fed-dezembro",
-  "titulo": "Fed pode subir os juros em dezembro; PPI sai hoje",
-  "status": "Expectativa de mercado",
-  "quando": "PPI hoje às 10h30; reunião do Fed em 8 e 9/12",
-  "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 87% de chance e já considera 0,5 ponto. O PPI de outubro (consenso +0,4% no mês) é o dado do dia; em setembro veio 1,3%.",
-  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
-  "fonte": "Saxo, BitNotícias, relatório do radar de 13/11",
-  "link": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--13-november-2026-13112026"
- },
- {
-  "id": "pacote-fiscal",
-  "titulo": "Pacote fiscal no Congresso",
-  "status": "Em andamento",
-  "quando": "Sem data confirmada de votação",
-  "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi, só a partir de 2027. As dúvidas sobre a tramitação ajudaram a levar o dólar à máxima de 17 meses em 12/11.",
-  "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
-  "fonte": "O Repórter, relatório do radar de 13/11",
-  "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+  "id": "nvidia-ceo",
+  "titulo": "Nvidia: Huang deixa a empresa; CFO assume interinamente",
+  "status": "Confirmado",
+  "quando": "Balanço do 3º tri na terça, 17/11",
+  "resumo": "Jensen Huang deixou o cargo de CEO e não terá mais vínculo com a Nvidia; a CFO Colette Kress é a CEO interina. As ações caíam no pré-mercado. A Microsoft também caía mais de 1% depois de um apagão global de Outlook, Teams e Copilot.",
+  "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
+  "fonte": "InfoMoney, Metrópoles, DGABC",
+  "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
  },
  {
   "id": "anthropic-ipo",

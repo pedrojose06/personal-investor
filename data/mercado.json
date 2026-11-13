@@ -3,21 +3,21 @@
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
   "relatorio": 32,
-  "agora": 32,
-  "motivo": "Fed com alta de 0,25 ponto quase certa em dezembro (cerca de 87%) e chance de 0,5, dólar em máxima de 17 meses e juros longos acima de 15%. Um PPI americano forte às 10h30 pode ativar esse caminho."
+  "agora": 15,
+  "motivo": "Ficou menos provável: o Senado aprovou o texto-base do ajuste fiscal e o PPI americano veio abaixo do esperado (0,3% contra 0,4%). Ainda pesa a avaliação do JPMorgan de que o ajuste é insuficiente, com recomendação de cautela."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
   "relatorio": 42,
-  "agora": 42,
-  "motivo": "Forças de tamanho parecido: exterior mais calmo (futuros de Nova York em alta) contra câmbio e fiscal pesados. Com varejo às 9h e PPI às 10h30, a faixa costuma ser rompida só depois do dado."
+  "agora": 47,
+  "motivo": "Segue o mais provável. O índice oscilou entre +0,1% e +0,5% na primeira hora, e o dólar ficou praticamente estável perto de R$ 5,65, sem força para uma alta maior."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
   "relatorio": 26,
-  "agora": 26,
-  "motivo": "Futuros de Nova York positivos (S&P +0,4%, Nasdaq +0,6%) e a queda forte do Banco do Brasil ontem abrem espaço para repique. Dólar alto, juros longos e o risco do PPI limitam a chance."
+  "agora": 38,
+  "motivo": "Subiu porque o índice chegou a +0,51% (172.205 pontos) às 10h34, com fiscal aprovado no Senado, PPI mais fraco, varejo acima do esperado e juros futuros recuando depois da abertura."
  }
 ]

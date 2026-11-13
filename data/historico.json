@@ -228,5 +228,195 @@
   "referencia": "171.324 pts, fechamento de 12/11",
   "realizado": "",
   "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-IBOV-revisao",
+  "pregao": "13/11/2026",
+  "item": "Ibovespa (revisão das 10h50)",
+  "previsto": "Lateral: fechar entre −0,5% e +0,5%",
+  "chance": 47,
+  "referencia": "171.324 pts, fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-CSNA3",
+  "pregao": "13/11/2026",
+  "item": "CSNA3",
+  "previsto": "Queda",
+  "chance": 75,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-BRKM5",
+  "pregao": "13/11/2026",
+  "item": "BRKM5",
+  "previsto": "Queda",
+  "chance": 68,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-CMIN3",
+  "pregao": "13/11/2026",
+  "item": "CMIN3",
+  "previsto": "Queda",
+  "chance": 65,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-IRBR3",
+  "pregao": "13/11/2026",
+  "item": "IRBR3",
+  "previsto": "Queda",
+  "chance": 65,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-HAPV3",
+  "pregao": "13/11/2026",
+  "item": "HAPV3",
+  "previsto": "Queda",
+  "chance": 62,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-NVDC34",
+  "pregao": "13/11/2026",
+  "item": "NVDC34",
+  "previsto": "Queda",
+  "chance": 62,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-MSFT34",
+  "pregao": "13/11/2026",
+  "item": "MSFT34",
+  "previsto": "Queda",
+  "chance": 60,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-AMAR3",
+  "pregao": "13/11/2026",
+  "item": "AMAR3",
+  "previsto": "Queda",
+  "chance": 58,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-B3SA3",
+  "pregao": "13/11/2026",
+  "item": "B3SA3",
+  "previsto": "Queda",
+  "chance": 55,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-LIGT3",
+  "pregao": "13/11/2026",
+  "item": "LIGT3",
+  "previsto": "Queda",
+  "chance": 55,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-GMAT3",
+  "pregao": "13/11/2026",
+  "item": "GMAT3",
+  "previsto": "Subida",
+  "chance": 75,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-MBRF3",
+  "pregao": "13/11/2026",
+  "item": "MBRF3",
+  "previsto": "Subida",
+  "chance": 68,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-BEEF3",
+  "pregao": "13/11/2026",
+  "item": "BEEF3",
+  "previsto": "Subida",
+  "chance": 65,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-CMIG4",
+  "pregao": "13/11/2026",
+  "item": "CMIG4",
+  "previsto": "Subida",
+  "chance": 62,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-CPLE6",
+  "pregao": "13/11/2026",
+  "item": "CPLE6",
+  "previsto": "Subida",
+  "chance": 60,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-AUAU3",
+  "pregao": "13/11/2026",
+  "item": "AUAU3",
+  "previsto": "Subida",
+  "chance": 60,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-AZUL3",
+  "pregao": "13/11/2026",
+  "item": "AZUL3",
+  "previsto": "Subida",
+  "chance": 58,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
+ },
+ {
+  "id": "2026-11-13-TFCO4",
+  "pregao": "13/11/2026",
+  "item": "TFCO4",
+  "previsto": "Subida",
+  "chance": 55,
+  "referencia": "Fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
  }
 ]
