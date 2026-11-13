@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 35,
-  "agora": 55,
-  "motivo": "Ibovespa em −0,66% às 10h33, com Banco do Brasil caindo cerca de 11%. Dólar perto de R$ 5,60 e futuros de Nova York negativos reforçam."
+  "relatorio": 32,
+  "agora": 32,
+  "motivo": "Fed com alta de 0,25 ponto quase certa em dezembro (cerca de 87%) e chance de 0,5, dólar em máxima de 17 meses e juros longos acima de 15%. Um PPI americano forte às 10h30 pode ativar esse caminho."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 40,
-  "agora": 33,
-  "motivo": "O IPCA de 0,14% (esperado 0,25%) alivia os juros curtos e pode devolver o índice à faixa neutra ao longo do dia."
+  "relatorio": 42,
+  "agora": 42,
+  "motivo": "Forças de tamanho parecido: exterior mais calmo (futuros de Nova York em alta) contra câmbio e fiscal pesados. Com varejo às 9h e PPI às 10h30, a faixa costuma ser rompida só depois do dado."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 25,
-  "agora": 12,
-  "motivo": "Pediria uma virada de mais de 1 ponto percentual com BB e Nasdaq pesando. Votação do pacote fiscal no Senado seria o gatilho mais plausível."
+  "relatorio": 26,
+  "agora": 26,
+  "motivo": "Futuros de Nova York positivos (S&P +0,4%, Nasdaq +0,6%) e a queda forte do Banco do Brasil ontem abrem espaço para repique. Dólar alto, juros longos e o risco do PPI limitam a chance."
  }
 ]

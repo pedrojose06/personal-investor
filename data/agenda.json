@@ -1,73 +1,37 @@
 [
  {
-  "hora": "09:00",
-  "evento": "IPCA de outubro: 0,14%, abaixo do esperado (0,25%)",
-  "destaque": "sim",
+  "hora": "Madrugada",
+  "evento": "Lucros dos bancos japoneses (MUFG, SMFG, Mizuho) e da Generali",
+  "destaque": "não",
   "status": "saiu"
  },
  {
-  "hora": "11:00",
-  "evento": "Teleconferência de resultados da Cogna (COGN3)",
+  "hora": "Manhã",
+  "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
   "destaque": "não",
   "status": "a vir"
  },
  {
-  "hora": "11:30",
-  "evento": "Abertura de Nova York, primeiro teste da Nvidia no mercado à vista",
+  "hora": "09:00",
+  "evento": "Vendas no varejo de setembro (IBGE). Consenso: −0,2% no mês, +1% em 12 meses",
   "destaque": "sim",
   "status": "a vir"
  },
  {
-  "hora": "12:00",
-  "evento": "Fala de Barr (Fed) e vendas de imóveis usados nos EUA",
+  "hora": "10:00",
+  "evento": "Abertura da B3",
   "destaque": "não",
   "status": "a vir"
  },
  {
-  "hora": "13:15",
-  "evento": "Fala de Goolsbee (Fed)",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "14:00",
-  "evento": "Leilão de Treasury de 30 anos",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "15:10",
-  "evento": "Falas de Daly e Schmid (Fed)",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "16:00",
-  "evento": "Resultado fiscal de outubro nos EUA",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "dia todo",
-  "evento": "Senado pode votar o pacote fiscal (R$ 50 a 60 bi em 2027)",
+  "hora": "10:30",
+  "evento": "PPI dos EUA de outubro. Consenso: +0,4% no mês, núcleo +0,3%; setembro foi +1,3%. Principal evento do dia",
   "destaque": "sim",
   "status": "a vir"
  },
  {
-  "hora": "após 18h",
-  "evento": "Balanços: B3 (B3SA3), Cemig (CMIG4), Copel (CPLE3), CPFL (CPFE3), Cyrela (CYRE3), Natura (NATU3), MBRF (MBRF3), Yduqs (YDUQ3), Vamos (VAMO3)",
-  "destaque": "sim",
-  "status": "a vir"
- },
- {
-  "hora": "13/11",
-  "evento": "Balanço da Cosan (CSAN3) e teleconferências de B3, Cyrela, Natura e Copel",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "17/11",
-  "evento": "Balanço da Nvidia",
+  "hora": "Dia todo",
+  "evento": "Repercussão dos balanços de Petrobras (lucro do 3T26 abaixo do esperado, segundo manchete do ADVFN) e Banco do Brasil",
   "destaque": "não",
   "status": "a vir"
  }

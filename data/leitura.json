@@ -1,22 +1,22 @@
 [
  {
-  "topico": "O que mudou em relação ao relatório",
-  "texto": "O relatório apontava lateral como cenário mais provável (40%) e não tinha o IPCA, o futuro do índice nem a reação ao balanço do BB. Com o índice em −0,66% e o BB em −11%, a chance de queda sobe de 35% para 55%. O gatilho de queda que o relatório listava (bancos sob pressão) se confirmou; o de alta (IPCA abaixo do esperado) também se confirmou e ainda não bastou."
+  "topico": "O que mudou em relação a 12/11",
+  "texto": "As chances quase não mudaram: alta de 25% para 26%, lateral de 40% para 42% e queda de 35% para 32%. O exterior está mais calmo (futuros de Nova York em alta), mas o dólar subiu 1,6% ontem, para a máxima de 17 meses, e os juros longos passaram de 15%, o que impede uma melhora maior."
  },
  {
-  "topico": "Tendência além de hoje",
-  "texto": "As fontes divergem. Um analista do InfoMoney vê o índice abaixo das médias de 9, 21 e 200 dias após a correção desde a máxima de 209.713 pontos, com suporte em 164.445. O Mercado Hoje classifica a tendência como neutra no médio prazo e de alta no curto."
+  "topico": "Riscos e o que mais surpreenderia",
+  "texto": "Principais riscos: PPI forte reforçando a alta de 0,5 ponto do Fed, dólar rompendo R$ 5,70, novos desdobramentos do pacote fiscal e ataques à infraestrutura de petróleo saudita. Surpreenderia um PPI bem abaixo do esperado com o dólar caindo mais de 1%, ou o Ibovespa fechando acima de 173 mil pontos."
  },
  {
-  "topico": "Argumento mais forte contra a leitura de queda",
-  "texto": "A queda de hoje está concentrada em um papel. O IPCA surpreendeu para baixo, o BTG entregou lucro recorde e o Santander sobe. Se o BB estabilizar e o Senado votar o pacote fiscal, o índice pode voltar à faixa lateral."
+  "topico": "Argumento mais forte contra o cenário lateral",
+  "texto": "Ontem o dólar subiu 1,6% e o mercado mostrou que reage forte a surpresas. O PPI de setembro veio em 1,3%, bem acima das projeções, então a incerteza em torno do dado de hoje é alta. A chance de lateralidade pode estar inflada pela falta de dados dos futuros do Ibovespa."
  },
  {
-  "topico": "Como ler a chance de cada ação",
-  "texto": "É uma estimativa subjetiva de a ação fechar na direção indicada no horizonte do cartão, baseada só nas notícias encontradas. Evidência baixa significa uma única fonte, motivo não confirmado ou leitura por analogia. Ações que divulgam após o fechamento reagem no pregão seguinte."
+  "topico": "Vieses a vigiar",
+  "texto": "Ancoragem no fechamento de ontem, viés de recência depois da queda do índice e a tentação de achar que o Banco do Brasil explica tudo, quando dólar e juros pesam mais."
  },
  {
   "topico": "Lacunas",
-  "texto": "Não encontrei minério de ferro, curva de DI de hoje nem as variações individuais da maioria das ações além de BBAS3, SANB11, PETR4 e VALE3 (−1% às 10h33, sem notícia associada). O perfil do doc Investidor está em branco, então as listas não foram filtradas por ativos que você acompanha."
+  "texto": "O relatório não trouxe papéis individuais, futuro do Ibovespa, DI de hoje, minério de ferro nem dólar no pré-mercado. As fontes divergem sobre o fechamento de 12/11: o relatório usou 170.680 pontos (−0,80%), e a rotina de fechamento registrou 171.324 pontos (−0,43%); o retrato acima usa o da rotina."
  }
 ]

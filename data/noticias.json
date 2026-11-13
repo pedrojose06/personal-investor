@@ -1,5 +1,45 @@
 [
  {
+  "id": "nvidia-ceo",
+  "titulo": "Nvidia: Jensen Huang deixa o comando",
+  "status": "Confirmado",
+  "quando": "Saída noticiada em 12/11; balanço em 17/11",
+  "resumo": "As bolsas da Ásia e da Europa abriram 13/11 repercutindo a saída de Jensen Huang da Nvidia, que amplia dúvidas sobre o setor de IA. Ontem a ação já tinha caído cerca de 8% no after-hours com a notícia de que o conselho avaliava a saída.",
+  "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
+  "fonte": "DGABC, O Povo, relatório do radar de 13/11",
+  "link": "https://www.dgabc.com.br/Noticia/4368538/bolsas-da-asia-fecham-sem-direcao-unica-apos-saida-de-jensen-huang-da-nvidia"
+ },
+ {
+  "id": "dolar-17-meses",
+  "titulo": "Dólar na máxima em 17 meses",
+  "status": "Confirmado",
+  "quando": "Fechamento de 12/11; faixa a vigiar hoje: R$ 5,58 a R$ 5,70",
+  "resumo": "O dólar subiu 1,61% em 12/11, a R$ 5,651, com dúvidas sobre o pacote fiscal, Treasury de 10 anos acima de 5% e apostas de alta de juros pelo Fed.",
+  "impacto": "Dólar alto encarece importados e pressiona a inflação e os juros, o que pesa em varejo, construção e empresas endividadas em dólar. Exportadoras como Petrobras e mineradoras tendem a se proteger.",
+  "fonte": "O Repórter, O Tempo, relatório do radar de 13/11",
+  "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+ },
+ {
+  "id": "fed-dezembro",
+  "titulo": "Fed pode subir os juros em dezembro; PPI sai hoje",
+  "status": "Expectativa de mercado",
+  "quando": "PPI hoje às 10h30; reunião do Fed em 8 e 9/12",
+  "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 87% de chance e já considera 0,5 ponto. O PPI de outubro (consenso +0,4% no mês) é o dado do dia; em setembro veio 1,3%.",
+  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
+  "fonte": "Saxo, BitNotícias, relatório do radar de 13/11",
+  "link": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--13-november-2026-13112026"
+ },
+ {
+  "id": "pacote-fiscal",
+  "titulo": "Pacote fiscal no Congresso",
+  "status": "Em andamento",
+  "quando": "Sem data confirmada de votação",
+  "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi, só a partir de 2027. As dúvidas sobre a tramitação ajudaram a levar o dólar à máxima de 17 meses em 12/11.",
+  "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
+  "fonte": "O Repórter, relatório do radar de 13/11",
+  "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+ },
+ {
   "id": "anthropic-ipo",
   "titulo": "IPO da Anthropic na Nasdaq",
   "status": "Confirmado",
@@ -18,36 +58,6 @@
   "impacto": "A promessa é de custos de negociação menores, mas a liquidez tende a continuar concentrada na B3 por um bom tempo. Para quem acompanha B3SA3, a concorrência pode pressionar tarifas e margens, efeito que só deve aparecer depois da estreia. Os prazos já foram adiados antes: a Base falava em 2025 e a A5X em 2026.",
   "fonte": "IstoÉ Dinheiro, Money Times, Seu Dinheiro, Investidor10, Brazil Journal, Bloomberg Línea",
   "link": "https://www.moneytimes.com.br/concorrencia-a-vista-b3-b3sa3-pode-ser-ameacada-com-novas-bolsas/"
- },
- {
-  "id": "nvidia-ceo",
-  "titulo": "Nvidia: conselho avalia a saída do CEO",
-  "status": "Em andamento",
-  "quando": "Sem data para a decisão; balanço em 17/11",
-  "resumo": "Reportagens dizem que o conselho se prepara para destituir Jensen Huang por conduta pessoal. A ação caiu cerca de 8% no after-hours de 11/11.",
-  "impacto": "Afeta o BDR NVDC34 e o humor do Nasdaq. Como a Nvidia é referência do setor de IA, o desfecho também pesa no clima em que a Anthropic estreia.",
-  "fonte": "Money Times (cita WSJ), relatório do radar",
-  "link": "https://www.moneytimes.com.br/balancos-mexem-com-o-dia-enquanto-exterior-acompanha-caso-nvidia-nvda-ibovespa-em-dolar-cai-nesta-quinta-feira-12-rens/"
- },
- {
-  "id": "pacote-fiscal",
-  "titulo": "Pacote fiscal no Senado",
-  "status": "Em andamento",
-  "quando": "Votação pode ocorrer hoje ou ser adiada",
-  "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit primário.",
-  "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
-  "fonte": "InfoMoney, relatório do radar",
-  "link": "https://www.infomoney.com.br/mercados/ibovespa-futuro-cai-com-balancos-e-ipca-no-radar-apos-proposta-fiscal-do-governo/"
- },
- {
-  "id": "fed-dezembro",
-  "titulo": "Fed pode subir os juros em dezembro",
-  "status": "Expectativa de mercado",
-  "quando": "Reunião em 8 e 9/12",
-  "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 90% de chance, e o Treasury de 10 anos está perto de 5%.",
-  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, pressionar o dólar para cima e pesar em ações de crescimento.",
-  "fonte": "Yahoo Finance (CME FedWatch), relatório do radar",
-  "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html"
  },
  {
   "id": "openai-ipo",

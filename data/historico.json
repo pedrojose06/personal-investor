@@ -218,5 +218,15 @@
   "referencia": "Fechamento de 11/11",
   "realizado": "+2,64%",
   "resultado": "Acertou"
+ },
+ {
+  "id": "2026-11-13-IBOV-relatorio",
+  "pregao": "13/11/2026",
+  "item": "Ibovespa (relatório)",
+  "previsto": "Lateral: fechar entre −0,5% e +0,5%",
+  "chance": 42,
+  "referencia": "171.324 pts, fechamento de 12/11",
+  "realizado": "",
+  "resultado": "Pendente"
  }
 ]

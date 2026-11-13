@@ -1,6 +1,6 @@
 # Personal Investor: painel de tendências B3
 
-Painel de estudo de investimentos para acompanhar a tendência do Ibovespa e das ações da B3 a partir de notícias do dia. A aba Hoje traz o relatório pré-mercado mais recente, com cenários e probabilidades; as outras abas comparam o que foi previsto com o que aconteceu e analisam um papel sob demanda.
+Painel de estudo de investimentos para acompanhar a tendência do Ibovespa e das ações da B3 a partir de notícias do dia. Mostra cenários com probabilidades, os 10 papéis com maior chance de queda e de subida, um radar de notícias, a agenda do dia e, depois do fechamento, o resultado de cada previsão. Outras abas comparam o que foi previsto com o que aconteceu e analisam um papel sob demanda.
 
 > **Material de estudo.** As probabilidades são estimativas subjetivas feitas a partir de notícias e podem estar erradas. Nada aqui é ordem de compra ou venda nem consultoria financeira habilitada.
 
@@ -104,21 +104,21 @@ No chat do Claude Code, peça `analise TICKER`. O Claude pesquisa notícias e fu
 
 Os sinais técnicos são regras mecânicas sobre o preço passado: não consideram notícias e não garantem o futuro.
 
-## Radar pré-mercado
+## Rotina do dia e pregões anteriores
 
-A aba **Hoje** do painel mostra sempre o relatório pré-mercado mais recente (`radar/index.html`), gerado pela tarefa agendada "Radar pré-mercado B3" em dias úteis às 8h13. Os relatórios de dias anteriores ficam em **Relatórios anteriores**, no canto das abas (`radar/anteriores.html`).
+A aba **Hoje** mostra sempre o pregão mais recente, no mesmo layout: cenários do Ibovespa, top 10 de queda e de subida, radar de notícias, agenda, retrato da manhã e notas.
+
+1. **8h13, tarefa "Radar pré-mercado B3"**: pesquisa o pré-mercado e reescreve `resumo.json`, `mercado.json`, `acoes.json`, `noticias.json`, `agenda.json`, `indicadores.json` e `leitura.json` com os dados do dia. Registra as previsões do dia em `historico.json` (pendentes), guarda uma cópia do dia em `data/dias/AAAA-MM-DD.json` e acrescenta a data em `data/dias/index.json`. Também grava o relatório completo em texto em `radar/` e no artefato fixo do Claude (https://claude.ai/artifact/Kx6nMLhv2AL38F5gP85doz).
+2. **18h47, tarefa "Fechamento de mercado B3"**: avalia as previsões do dia e escreve `fechamento.json`. A aba Hoje passa a mostrar o bloco "Fechamento do pregão", e cada papel do top 10 ganha a etiqueta com a variação no fechamento e se a previsão acertou. A tarefa também grava o fechamento na cópia do dia em `data/dias/`.
+
+**Relatórios anteriores** (`anteriores.html`, no canto das abas) lista todos os pregões guardados. Cada um abre no mesmo layout da aba Hoje pelo endereço `/?dia=AAAA-MM-DD`, com um aviso de que é um pregão anterior. O histórico de previsões (`historico.json`) é sempre o geral.
 
 ```
-radar/index.html                  Relatório mais recente (aparece na aba Hoje)
-radar/anteriores.html             Lista de todos os relatórios, por data
-radar/historico.js                Barra no topo de cada relatório para navegar entre as datas
-radar/relatorios/AAAA-MM-DD.html  Um relatório por dia, nunca apagado
-radar/relatorios/index.json       Lista dos relatórios, do mais recente ao mais antigo
+data/dias/AAAA-MM-DD.json         Cópia do pregão: resumo, mercado, acoes, noticias, agenda, indicadores, leitura e fechamento
+data/dias/index.json              Lista dos pregões guardados, do mais recente ao mais antigo
+anteriores.html                   Página "Relatórios anteriores"
+radar/relatorios/AAAA-MM-DD.html  Relatório pré-mercado completo de cada dia, em texto
 ```
-
-A cada execução, a tarefa grava o relatório do dia em `radar/relatorios/`, acrescenta a data no topo do `index.json`, troca o `radar/index.html` pelo relatório novo e faz commit na `main`. O mesmo conteúdo vai para o artefato fixo do Claude (https://claude.ai/artifact/Kx6nMLhv2AL38F5gP85doz).
-
-Os arquivos `resumo.json`, `mercado.json`, `acoes.json`, `noticias.json`, `agenda.json`, `indicadores.json` e `leitura.json` alimentavam a antiga aba Hoje (versão de 12/11/2026). Eles continuam no repositório, e a aba "Analisar papel" ainda usa `acoes.json` e `noticias.json`.
 
 ## Origem dos dados
 

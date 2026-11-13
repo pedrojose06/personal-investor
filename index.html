@@ -45,6 +45,7 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);line-height:1.5}
 
   const dash = {
     colors: ['var(--color-fg)'],
+    dia: null,
     data(id) {
       if (calcs[id]) {
         const inputs = calcs[id].inputs.map((i) => dash.data(i));
@@ -79,9 +80,21 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);line-height:1.5}
   }
 
   try {
+    // ?dia=AAAA-MM-DD abre um pregão anterior com os dados guardados em data/dias/AAAA-MM-DD.json.
+    // O histórico de previsões (historico.json) é sempre o geral.
+    const dia = new URLSearchParams(location.search).get('dia');
+    let pacote = null;
+    if (dia && /^\d{4}-\d{2}-\d{2}$/.test(dia)) {
+      const [idx, p] = await Promise.all([
+        fetch('data/dias/index.json', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : [])).catch(() => []),
+        fetch('data/dias/' + dia + '.json', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      ]);
+      const recente = Array.isArray(idx) && idx.length ? idx.map((x) => x.data).sort().pop() : null;
+      if (p && dia !== recente) { pacote = p; dash.dia = { data: dia, antigo: true }; }
+    }
     const [html] = await Promise.all([
       fetch('painel/index.html',{cache:'no-store'}).then((r) => { if (!r.ok) throw new Error('painel/index.html: ' + r.status); return r.text(); }),
-      ...DATASETS.map((id) => fetch('data/' + id + '.json',{cache:'no-store'}).then((r) => { if (!r.ok) throw new Error('data/' + id + '.json: ' + r.status); return r.json(); }).then((rows) => { data[id] = rows; })),
+      ...DATASETS.map((id) => (pacote && id !== 'historico') ? Promise.resolve().then(() => { data[id] = Array.isArray(pacote[id]) ? pacote[id] : []; }) : fetch('data/' + id + '.json',{cache:'no-store'}).then((r) => { if (!r.ok) throw new Error('data/' + id + '.json: ' + r.status); return r.json(); }).then((rows) => { data[id] = rows; })),
     ]);
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const scripts = [...doc.querySelectorAll('script')];

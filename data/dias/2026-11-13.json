@@ -1,0 +1,238 @@
+{
+ "resumo": [
+  {
+   "data": "sexta-feira, 13/11/2026",
+   "atualizado": "antes das 8h30 (Brasília)",
+   "base": "Relatório da tarefa Radar pré-mercado B3 de 13/11, gerado antes das 8h30. O relatório não trouxe papéis individuais, então as listas de top 10 ficam vazias neste pregão; o fechamento de 12/11 vem da rotina de fim de pregão."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 32,
+   "agora": 32,
+   "motivo": "Fed com alta de 0,25 ponto quase certa em dezembro (cerca de 87%) e chance de 0,5, dólar em máxima de 17 meses e juros longos acima de 15%. Um PPI americano forte às 10h30 pode ativar esse caminho."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 42,
+   "agora": 42,
+   "motivo": "Forças de tamanho parecido: exterior mais calmo (futuros de Nova York em alta) contra câmbio e fiscal pesados. Com varejo às 9h e PPI às 10h30, a faixa costuma ser rompida só depois do dado."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 26,
+   "agora": 26,
+   "motivo": "Futuros de Nova York positivos (S&P +0,4%, Nasdaq +0,6%) e a queda forte do Banco do Brasil ontem abrem espaço para repique. Dólar alto, juros longos e o risco do PPI limitam a chance."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento de 12/11",
+   "valor": "171.324 pts",
+   "variacao": "−0,43%",
+   "hora": "12/11, 18h54",
+   "fonte": "Rotina de fechamento (o relatório da manhã trouxe 170.680 pts, −0,80%)"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,651",
+   "variacao": "+1,61%",
+   "hora": "fech. 12/11",
+   "fonte": "O Repórter, O Tempo"
+  },
+  {
+   "indicador": "Futuro do S&P 500",
+   "valor": "n/d",
+   "variacao": "+0,4%",
+   "hora": "manhã 13/11",
+   "fonte": "Saxo"
+  },
+  {
+   "indicador": "Futuro do Nasdaq 100",
+   "valor": "n/d",
+   "variacao": "+0,6%",
+   "hora": "manhã 13/11",
+   "fonte": "Saxo"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "~5,10%",
+   "variacao": "+12 pb",
+   "hora": "fech. 12/11",
+   "fonte": "CappNotes, Saxo"
+  },
+  {
+   "indicador": "DXY",
+   "valor": "103,19",
+   "variacao": "+0,27%",
+   "hora": "fech. 12/11",
+   "fonte": "CappNotes"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 95,72",
+   "variacao": "+3,30% ontem",
+   "hora": "13/11, ~5h19",
+   "fonte": "Euribor.com.es, Report.az"
+  },
+  {
+   "indicador": "Hang Seng",
+   "valor": "23.638",
+   "variacao": "−1,55%",
+   "hora": "fech. 13/11",
+   "fonte": "DGABC"
+  },
+  {
+   "indicador": "Bitcoin",
+   "valor": "~US$ 68,5 mil",
+   "variacao": "−6,8% em 24h",
+   "hora": "13/11, ~5h49",
+   "fonte": "BitNotícias"
+  },
+  {
+   "indicador": "Ouro",
+   "valor": "US$ 3.914,70",
+   "variacao": "mínima de 1 ano ontem",
+   "hora": "manhã 13/11",
+   "fonte": "Report.az, Saxo"
+  }
+ ],
+ "acoes": [],
+ "agenda": [
+  {
+   "hora": "Madrugada",
+   "evento": "Lucros dos bancos japoneses (MUFG, SMFG, Mizuho) e da Generali",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Manhã",
+   "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "09:00",
+   "evento": "Vendas no varejo de setembro (IBGE). Consenso: −0,2% no mês, +1% em 12 meses",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10:00",
+   "evento": "Abertura da B3",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "10:30",
+   "evento": "PPI dos EUA de outubro. Consenso: +0,4% no mês, núcleo +0,3%; setembro foi +1,3%. Principal evento do dia",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "Dia todo",
+   "evento": "Repercussão dos balanços de Petrobras (lucro do 3T26 abaixo do esperado, segundo manchete do ADVFN) e Banco do Brasil",
+   "destaque": "não",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou em relação a 12/11",
+   "texto": "As chances quase não mudaram: alta de 25% para 26%, lateral de 40% para 42% e queda de 35% para 32%. O exterior está mais calmo (futuros de Nova York em alta), mas o dólar subiu 1,6% ontem, para a máxima de 17 meses, e os juros longos passaram de 15%, o que impede uma melhora maior."
+  },
+  {
+   "topico": "Riscos e o que mais surpreenderia",
+   "texto": "Principais riscos: PPI forte reforçando a alta de 0,5 ponto do Fed, dólar rompendo R$ 5,70, novos desdobramentos do pacote fiscal e ataques à infraestrutura de petróleo saudita. Surpreenderia um PPI bem abaixo do esperado com o dólar caindo mais de 1%, ou o Ibovespa fechando acima de 173 mil pontos."
+  },
+  {
+   "topico": "Argumento mais forte contra o cenário lateral",
+   "texto": "Ontem o dólar subiu 1,6% e o mercado mostrou que reage forte a surpresas. O PPI de setembro veio em 1,3%, bem acima das projeções, então a incerteza em torno do dado de hoje é alta. A chance de lateralidade pode estar inflada pela falta de dados dos futuros do Ibovespa."
+  },
+  {
+   "topico": "Vieses a vigiar",
+   "texto": "Ancoragem no fechamento de ontem, viés de recência depois da queda do índice e a tentação de achar que o Banco do Brasil explica tudo, quando dólar e juros pesam mais."
+  },
+  {
+   "topico": "Lacunas",
+   "texto": "O relatório não trouxe papéis individuais, futuro do Ibovespa, DI de hoje, minério de ferro nem dólar no pré-mercado. As fontes divergem sobre o fechamento de 12/11: o relatório usou 170.680 pontos (−0,80%), e a rotina de fechamento registrou 171.324 pontos (−0,43%); o retrato acima usa o da rotina."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "nvidia-ceo",
+   "titulo": "Nvidia: Jensen Huang deixa o comando",
+   "status": "Confirmado",
+   "quando": "Saída noticiada em 12/11; balanço em 17/11",
+   "resumo": "As bolsas da Ásia e da Europa abriram 13/11 repercutindo a saída de Jensen Huang da Nvidia, que amplia dúvidas sobre o setor de IA. Ontem a ação já tinha caído cerca de 8% no after-hours com a notícia de que o conselho avaliava a saída.",
+   "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
+   "fonte": "DGABC, O Povo, relatório do radar de 13/11",
+   "link": "https://www.dgabc.com.br/Noticia/4368538/bolsas-da-asia-fecham-sem-direcao-unica-apos-saida-de-jensen-huang-da-nvidia"
+  },
+  {
+   "id": "dolar-17-meses",
+   "titulo": "Dólar na máxima em 17 meses",
+   "status": "Confirmado",
+   "quando": "Fechamento de 12/11; faixa a vigiar hoje: R$ 5,58 a R$ 5,70",
+   "resumo": "O dólar subiu 1,61% em 12/11, a R$ 5,651, com dúvidas sobre o pacote fiscal, Treasury de 10 anos acima de 5% e apostas de alta de juros pelo Fed.",
+   "impacto": "Dólar alto encarece importados e pressiona a inflação e os juros, o que pesa em varejo, construção e empresas endividadas em dólar. Exportadoras como Petrobras e mineradoras tendem a se proteger.",
+   "fonte": "O Repórter, O Tempo, relatório do radar de 13/11",
+   "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+  },
+  {
+   "id": "fed-dezembro",
+   "titulo": "Fed pode subir os juros em dezembro; PPI sai hoje",
+   "status": "Expectativa de mercado",
+   "quando": "PPI hoje às 10h30; reunião do Fed em 8 e 9/12",
+   "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 87% de chance e já considera 0,5 ponto. O PPI de outubro (consenso +0,4% no mês) é o dado do dia; em setembro veio 1,3%.",
+   "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
+   "fonte": "Saxo, BitNotícias, relatório do radar de 13/11",
+   "link": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--13-november-2026-13112026"
+  },
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Pacote fiscal no Congresso",
+   "status": "Em andamento",
+   "quando": "Sem data confirmada de votação",
+   "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi, só a partir de 2027. As dúvidas sobre a tramitação ajudaram a levar o dólar à máxima de 17 meses em 12/11.",
+   "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
+   "fonte": "O Repórter, relatório do radar de 13/11",
+   "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+  },
+  {
+   "id": "anthropic-ipo",
+   "titulo": "IPO da Anthropic na Nasdaq",
+   "status": "Confirmado",
+   "quando": "Preço em 18/11, estreia prevista para 19/11",
+   "resumo": "A dona do Claude vai ofertar 825 milhões de ações entre US$ 70 e US$ 78, sob o ticker ANT, o que a avalia em até cerca de US$ 1,4 trilhão. No topo da faixa a oferta movimenta US$ 64,35 bi. A empresa ainda dá prejuízo e os sócios antigos podem vender ações desde o primeiro dia.",
+   "impacto": "As fontes só citam reserva por corretoras americanas, então o caminho para o brasileiro é comprar depois da estreia, por conta no exterior. Nenhum BDR foi anunciado. A estreia serve de termômetro para o apetite por IA e pode mexer com o Nasdaq e com os BDRs de tecnologia. Um especialista ouvido pelo Bora Investir sugere esperar de 6 a 12 meses antes de entrar.",
+   "fonte": "CNBC, TechCrunch, Yahoo Finance, Bora Investir",
+   "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+  },
+  {
+   "id": "novas-bolsas",
+   "titulo": "Novas bolsas para concorrer com a B3",
+   "status": "Em andamento",
+   "quando": "A5X: 1º semestre de 2027 · Base Exchange: 2º semestre de 2027",
+   "resumo": "Três projetos avançam. A Base Exchange, do Rio, controlada pela Mubadala Capital, vai negociar as mesmas ações, ETFs e FIIs já listados na B3, sem IPOs no começo. A A5X, de São Paulo, com Itaú, Ideal, XP e tecnologia da Bolsa de Londres, começa por derivativos de ações, moedas e juros. A CSD BR, que já faz registro e liquidação, mira virar bolsa em até três anos.",
+   "impacto": "A promessa é de custos de negociação menores, mas a liquidez tende a continuar concentrada na B3 por um bom tempo. Para quem acompanha B3SA3, a concorrência pode pressionar tarifas e margens, efeito que só deve aparecer depois da estreia. Os prazos já foram adiados antes: a Base falava em 2025 e a A5X em 2026.",
+   "fonte": "IstoÉ Dinheiro, Money Times, Seu Dinheiro, Investidor10, Brazil Journal, Bloomberg Línea",
+   "link": "https://www.moneytimes.com.br/concorrencia-a-vista-b3-b3sa3-pode-ser-ameacada-com-novas-bolsas/"
+  },
+  {
+   "id": "openai-ipo",
+   "titulo": "Possível IPO da OpenAI",
+   "status": "Não confirmado",
+   "quando": "27/11 em um único calendário",
+   "resumo": "O calendário de IPOs do Investing.com lista a OpenAI para 27/11, sem preço nem valor. Não encontrei confirmação em outra fonte.",
+   "impacto": "Trate como rumor. Se confirmado, seriam duas ofertas gigantes de IA disputando o mesmo capital em poucos dias.",
+   "fonte": "Investing.com",
+   "link": "https://www.investing.com/ipo-calendar/"
+  }
+ ],
+ "fechamento": []
+}

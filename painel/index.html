@@ -504,27 +504,33 @@
     margin-bottom: -1px
   }
 
-  .tv-radar-head {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 16px;
-    align-items: baseline;
-    justify-content: space-between
+  .tv-dia {
+    margin: 0;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--color-warn);
+    background: color-mix(in srgb, var(--color-warn) 10%, transparent)
   }
 
-  .tv a.tv-radar-ant {
+  .tv-dia a {
+    color: inherit;
+    font-weight: var(--cds-font-weight-medium)
+  }
+
+  .tv a.tv-fech-link {
     color: var(--color-fg-muted);
     font-size: var(--cds-font-size-caption);
     text-decoration: underline
   }
 
-  .tv-radar-frame {
-    display: block;
-    width: 100%;
-    min-height: 600px;
-    border: 1px solid var(--color-border-line);
-    border-radius: 14px;
-    background: var(--color-panel)
+  .tv-res {
+    font-variant-numeric: tabular-nums
+  }
+
+  .tv-vazio {
+    color: var(--color-fg-muted);
+    padding: 10px 12px;
+    list-style: none
   }
 
   .tv a.tv-radar-link {
@@ -956,15 +962,66 @@
       realizado</button>
     <button type="button" class="tv-tab" role="tab" id="tab-papel" data-tab="papel" aria-selected="false">Analisar
       papel</button>
-    <a class="tv-radar-link" href="radar/anteriores.html">Relatórios anteriores</a>
+    <a class="tv-radar-link" href="anteriores.html">Relatórios anteriores</a>
   </nav>
   <section class="tv-page" id="hoje">
-    <div class="tv-radar-head">
-      <p class="tv-kicker">Radar pré-mercado B3 · <span id="radar-data">relatório mais recente</span></p>
-      <a class="tv-radar-ant" href="radar/anteriores.html">Ver relatórios anteriores →</a>
-    </div>
-    <iframe class="tv-radar-frame" id="radar-frame" src="radar/index.html" title="Relatório pré-mercado mais recente" loading="eager"></iframe>
-    <p class="tv-msg" id="radar-erro" hidden>Não foi possível carregar o relatório pré-mercado. Abra pelo link <a href="radar/index.html">radar/index.html</a>.</p>
+    <p class="tv-dia" data-draw="dia-aviso" data-source="resumo" hidden></p>
+    <header id="veredito">
+      <p class="tv-kicker">Painel de tendências B3 · <span data-draw="data" data-source="resumo" data-field="data"
+          data-row="0">—</span> · <span data-draw="hora" data-source="resumo" data-field="atualizado"
+          data-row="0">—</span></p>
+      <h1 class="tv-title">Ibovespa hoje: tendência de <span data-draw="lider" data-source="lider" data-field="cenario"
+          data-row="0">—</span></h1>
+      <p class="tv-sub"><b data-draw="lider-prob" data-source="lider" data-field="agora" data-row="0">—</b> de chance
+        estimada, <b data-draw="lider-delta" data-source="lider" data-field="delta" data-row="0">—</b> pontos
+        percentuais desde o relatório da tarefa agendada.</p>
+      <div class="tv-split" data-draw="split" data-source="mercado">—</div>
+      <p class="tv-note">Passe o cursor ou toque em um cenário para ver o motivo. Análise hipotética para estudo: as
+        chances são estimativas subjetivas e podem estar erradas.</p>
+    </header>
+    <section class="tv-fech" id="hoje-fech" data-draw="hoje-fech" data-source="fechamento" hidden></section>
+    <section id="acoes">
+      <div class="tv-cols">
+        <div id="top-queda">
+          <h2 class="tv-h2">Top 10 em tendência de queda</h2>
+          <p class="tv-note">A etiqueta indica o que a notícia sugere para depois da queda. Toque em uma ação para abrir
+            os detalhes.</p>
+          <ol class="tv-list tv-list-bad" data-draw="queda" data-source="acoes"></ol>
+        </div>
+        <div id="top-subida">
+          <h2 class="tv-h2">Top 10 em tendência de subida</h2>
+          <p class="tv-note">Ordenadas pela chance estimada. Toque em uma ação para abrir os detalhes.</p>
+          <ol class="tv-list tv-list-ok" data-draw="subida" data-source="acoes"></ol>
+        </div>
+      </div>
+      <div class="tv-modal" data-draw="modal" data-source="acoes"></div>
+    </section>
+    <section id="radar">
+      <h2 class="tv-h2">Radar de notícias</h2>
+      <p class="tv-note">Assuntos de maior alcance que podem mexer com o mercado nos próximos dias, com o estado de cada
+        um: confirmado, em andamento ou ainda rumor.</p>
+      <div class="tv-news" data-draw="noticias" data-source="noticias">—</div>
+    </section>
+    <section id="agenda">
+      <h2 class="tv-h2">O que ainda sai hoje</h2>
+      <p class="tv-note">Horário de Brasília. Em destaque, os eventos com mais potencial de mexer com o índice.</p>
+      <ul class="tv-agenda" data-draw="agenda" data-source="agenda"></ul>
+    </section>
+    <section id="retrato">
+      <h2 class="tv-h2">Retrato da manhã</h2>
+      <p class="tv-note">Passe o cursor ou toque em um número para ver a hora e a fonte.</p>
+      <div class="tv-tiles" data-draw="indicadores" data-source="indicadores">—</div>
+    </section>
+    <details class="tv-notes" id="notas">
+      <summary>Notas de leitura: base dos dados, o que mudou, contra-argumento e lacunas</summary>
+      <div class="tv-leitura">
+        <div>
+          <h3>Base dos dados</h3>
+          <p data-draw="base" data-source="resumo" data-field="base" data-row="0">—</p>
+        </div>
+      </div>
+      <div class="tv-leitura" data-draw="leitura" data-source="leitura">—</div>
+    </details>
   </section>
   <section class="tv-page" id="acertos" hidden>
     <header id="acertos-topo">
@@ -1112,12 +1169,17 @@
     const max = box.clientHeight - card.offsetHeight - 8; card.style.top = Math.max(8, Math.min(selTop - 24, max)) + 'px';
     card.focus({ preventScroll: true }); card.scrollIntoView({ block: 'nearest' });
   });
+  /* Data do pregão mostrado (dd/mm/aaaa, tirada de resumo.data) e resultado de cada previsão depois do fechamento. */
+  const diaRef = () => { const r = rows('resumo'); const m = r && r[0] ? String(r[0].data).match(/\d{2}\/\d{2}\/\d{4}/) : null; return m ? m[0] : null; };
+  const resultadoDe = (item) => { const h = rows('historico'); const d = diaRef(); return h && d ? h.find((x) => x.pregao === d && x.item === item && (x.resultado === 'Acertou' || x.resultado === 'Errou')) || null : null; };
   const lista = (name, lado, t) => dash.draw(name, (box) => {
     const r = rows('acoes'); if (!r) { box.replaceChildren(); return; }
-    box.replaceChildren(...r.filter((a) => a.lado === lado).sort((a, b) => Number(a.pos) - Number(b.pos)).map((a) => {
+    const doLado = r.filter((a) => a.lado === lado);
+    if (!doLado.length) { box.replaceChildren(el('li', 'tv-vazio', 'O relatório deste pregão não trouxe papéis em tendência de ' + lado + '.')); return; }
+    box.replaceChildren(...doLado.sort((a, b) => Number(a.pos) - Number(b.pos)).map((a) => {
       const w = 'ticker=' + enc(a.ticker); const li = el('li'); const b = el('button', 'tv-rowb'); b.type = 'button'; b.style.setProperty('--p', pct(a.chance) + '%');
       const name = el('span', 'tv-name'); name.append(mark(el('span', 'tv-ticker', a.ticker), 'acoes', 'ticker', w), mark(el('span', 'tv-emp', a.empresa), 'acoes', 'empresa', w));
-      const l2 = el('span', 'tv-line2'); if (a.leitura) l2.append(mark(el('span', 'tv-tag tv-' + tagTone(a.leitura), a.leitura), 'acoes', 'leitura', w)); l2.append(mark(el('span', 'tv-gat', a.gatilho), 'acoes', 'gatilho', w));
+      const l2 = el('span', 'tv-line2'); if (a.leitura) l2.append(mark(el('span', 'tv-tag tv-' + tagTone(a.leitura), a.leitura), 'acoes', 'leitura', w)); const res = resultadoDe(a.ticker); if (res) l2.append(el('span', 'tv-tag tv-res tv-' + (res.resultado === 'Acertou' ? 'ok' : 'bad'), 'fechou ' + (res.realizado || '?') + ' · ' + res.resultado.toLowerCase())); l2.append(mark(el('span', 'tv-gat', a.gatilho), 'acoes', 'gatilho', w));
       b.append(mark(el('span', 'tv-pos', a.pos), 'acoes', 'pos', w), name, mark(el('span', 'tv-chance tv-' + t, a.chance + '%'), 'acoes', 'chance', w), l2);
       b.addEventListener('click', () => { const sec = b.closest('section'); selTop = sec ? b.getBoundingClientRect().top - sec.getBoundingClientRect().top : 0; sel = a.ticker; dash.draw('modal'); });
       li.append(b); return li;
@@ -1154,6 +1216,28 @@
     const s = fres(); if (!s) { box.replaceChildren('—'); return; } const w = 'tipo=resumo';
     const t = (label, vf, cf) => { const d = el('div'); d.append(mark(el('div', 'tv-snum', s[vf] || '—'), 'fechamento', vf, w)); if (cf) d.append(mark(el('div', 'tv-tvar ' + vcls(s[cf]), s[cf] || '—'), 'fechamento', cf, w)); d.append(el('div', 'tv-slabel', label)); return d; };
     box.replaceChildren(t('Ibovespa no fechamento', 'ibov', 'ibov_var'), t('Dólar no fechamento', 'dolar', 'dolar_var'), t('Previsões do dia que acertaram', 'acertos', null));
+  });
+  dash.draw('dia-aviso', (e) => {
+    const d = dash.dia && dash.dia.antigo ? dash.dia : null; e.hidden = !d; if (!d) return;
+    const a = el('a', null, 'Ir para o pregão mais recente'); a.href = location.pathname + '#hoje';
+    e.replaceChildren('Você está vendo um pregão anterior: ' + (diaRef() || d.data) + '. ', a, ' · ');
+    const t = el('a', null, 'Todos os pregões'); t.href = 'anteriores.html'; e.append(t);
+  });
+  dash.draw('hoje-fech', (box) => {
+    const s = fres(); const d = diaRef();
+    if (!s || !d || s.data !== d || s.status === 'Feriado') { box.hidden = true; box.replaceChildren(); return; }
+    box.hidden = false;
+    const n = (v) => Number(String(v || '').replace(/[^0-9,−+-]/g, '').replace('−', '-').replace(',', '.'));
+    const iv = n(s.ibov_var); const cen = !Number.isFinite(iv) ? null : iv < -0.5 ? 'Queda' : iv > 0.5 ? 'Alta' : 'Lateral';
+    const t = (label, vf, cf) => { const c = el('div'); c.append(el('div', 'tv-snum', s[vf] || '—')); if (cf) c.append(el('div', 'tv-tvar ' + vcls(s[cf]), s[cf] || '—')); c.append(el('div', 'tv-slabel', label)); return c; };
+    const topo = el('div'); topo.append(el('h2', 'tv-h2', 'Fechamento do pregão'), el('p', 'tv-note', 'Atualizado pela rotina de fim de pregão' + (s.hora ? ', às ' + s.hora : '') + '. As linhas do top 10 abaixo mostram quanto cada papel fechou e se a previsão acertou.'));
+    const nums = el('div', 'tv-score'); nums.append(t('Ibovespa no fechamento', 'ibov', 'ibov_var'), t('Dólar no fechamento', 'dolar', 'dolar_var'), t('Previsões do dia que acertaram', 'acertos', null));
+    if (cen) { const c = el('div'); c.append(el('div', 'tv-snum tv-' + tone(cen), cen), el('div', 'tv-slabel', 'Cenário do Ibovespa que aconteceu')); nums.append(c); }
+    const partes = [topo, nums, el('p', 'tv-msg', s.texto || '')];
+    if (s.simulacao) partes.push(el('p', 'tv-note', 'Simulação: ' + s.simulacao));
+    const link = el('a', 'tv-fech-link', 'Ver o placar em Previsto x realizado →'); link.href = '#acertos'; link.addEventListener('click', (ev) => { ev.preventDefault(); const b = document.getElementById('tab-acertos'); if (b) b.click(); });
+    partes.push(link);
+    box.replaceChildren(...partes);
   });
   const flist = (name, tipo) => dash.draw(name, (box) => {
     const r = rows('fechamento'); if (!r) { box.replaceChildren(); return; }
@@ -1367,30 +1451,4 @@
     chips();
     const m = location.hash.match(/^#papel=([A-Za-z0-9]+)/); if (m) analisar(m[1]);
   }
-</script>
-<script>
-/* Aba Hoje: mostra o relatório pré-mercado mais recente (radar/index.html) com a altura do conteúdo. */
-(function () {
-  const f = document.getElementById('radar-frame');
-  if (!f || f.dataset.pronto) return;
-  f.dataset.pronto = '1';
-  const ajusta = () => { try { const d = f.contentDocument; if (d && d.documentElement) f.style.height = d.documentElement.scrollHeight + 'px'; } catch (e) {} };
-  const pronto = () => {
-    try {
-      const d = f.contentDocument;
-      if (!d || !d.body || !d.body.childElementCount) throw new Error('vazio');
-      ajusta();
-      if (window.ResizeObserver) new ResizeObserver(ajusta).observe(d.documentElement);
-      setTimeout(ajusta, 800);
-    } catch (e) { f.hidden = true; const m = document.getElementById('radar-erro'); if (m) m.hidden = false; }
-  };
-  f.addEventListener('load', pronto);
-  try { if (f.contentDocument && f.contentDocument.readyState === 'complete' && f.contentDocument.body && f.contentDocument.body.childElementCount) pronto(); } catch (e) {}
-  fetch('radar/relatorios/index.json', { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).then((l) => {
-    if (!Array.isArray(l) || !l.length) return;
-    const x = l.slice().sort((a, b) => (a.data < b.data ? 1 : -1))[0];
-    const el = document.getElementById('radar-data');
-    if (el) el.textContent = x.rotulo + (x.resumo ? ' · ' + x.resumo : '');
-  }).catch(() => {});
-})();
 </script>

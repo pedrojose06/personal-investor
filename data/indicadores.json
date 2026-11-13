@@ -1,58 +1,72 @@
 [
  {
-  "indicador": "Ibovespa",
-  "valor": "170.920 pts",
-  "variacao": "−0,66%",
-  "hora": "10h33",
-  "fonte": "BPMoney"
- },
- {
-  "indicador": "Ibovespa, fechamento anterior",
-  "valor": "172.060 pts",
-  "variacao": "+0,42%",
-  "hora": "11/11",
-  "fonte": "Relatório do radar"
- },
- {
-  "indicador": "IPCA de outubro",
-  "valor": "0,14%",
-  "variacao": "esperado 0,25%",
-  "hora": "9h00",
-  "fonte": "IBGE, via Money Times"
- },
- {
-  "indicador": "IPCA em 12 meses",
-  "valor": "4,63%",
-  "variacao": "esperado 4,73%",
-  "hora": "9h00",
-  "fonte": "IBGE, via Ativo Virtual"
+  "indicador": "Ibovespa, fechamento de 12/11",
+  "valor": "171.324 pts",
+  "variacao": "−0,43%",
+  "hora": "12/11, 18h54",
+  "fonte": "Rotina de fechamento (o relatório da manhã trouxe 170.680 pts, −0,80%)"
  },
  {
   "indicador": "Dólar à vista",
-  "valor": "R$ 5,592",
-  "variacao": "+0,55%",
-  "hora": "9h10",
-  "fonte": "BPMoney"
+  "valor": "R$ 5,651",
+  "variacao": "+1,61%",
+  "hora": "fech. 12/11",
+  "fonte": "O Repórter, O Tempo"
  },
  {
-  "indicador": "Futuro do Nasdaq",
+  "indicador": "Futuro do S&P 500",
   "valor": "n/d",
-  "variacao": "−0,63%",
-  "hora": "7h30",
-  "fonte": "Money Times"
+  "variacao": "+0,4%",
+  "hora": "manhã 13/11",
+  "fonte": "Saxo"
  },
  {
-  "indicador": "Brent",
-  "valor": "US$ 92,25",
-  "variacao": "−0,55%",
-  "hora": "7h30",
-  "fonte": "Money Times"
+  "indicador": "Futuro do Nasdaq 100",
+  "valor": "n/d",
+  "variacao": "+0,6%",
+  "hora": "manhã 13/11",
+  "fonte": "Saxo"
  },
  {
   "indicador": "Treasury de 10 anos",
-  "valor": "4,99%",
-  "variacao": "n/d",
-  "hora": "manhã",
-  "fonte": "Relatório do radar"
+  "valor": "~5,10%",
+  "variacao": "+12 pb",
+  "hora": "fech. 12/11",
+  "fonte": "CappNotes, Saxo"
+ },
+ {
+  "indicador": "DXY",
+  "valor": "103,19",
+  "variacao": "+0,27%",
+  "hora": "fech. 12/11",
+  "fonte": "CappNotes"
+ },
+ {
+  "indicador": "Brent",
+  "valor": "US$ 95,72",
+  "variacao": "+3,30% ontem",
+  "hora": "13/11, ~5h19",
+  "fonte": "Euribor.com.es, Report.az"
+ },
+ {
+  "indicador": "Hang Seng",
+  "valor": "23.638",
+  "variacao": "−1,55%",
+  "hora": "fech. 13/11",
+  "fonte": "DGABC"
+ },
+ {
+  "indicador": "Bitcoin",
+  "valor": "~US$ 68,5 mil",
+  "variacao": "−6,8% em 24h",
+  "hora": "13/11, ~5h49",
+  "fonte": "BitNotícias"
+ },
+ {
+  "indicador": "Ouro",
+  "valor": "US$ 3.914,70",
+  "variacao": "mínima de 1 ano ontem",
+  "hora": "manhã 13/11",
+  "fonte": "Report.az, Saxo"
  }
 ]

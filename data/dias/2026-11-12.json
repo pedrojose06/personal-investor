@@ -1,0 +1,605 @@
+{
+ "resumo": [
+  {
+   "data": "quinta-feira, 12/11/2026",
+   "atualizado": "10h55 (Brasília)",
+   "base": "Relatório da tarefa Radar pré-mercado B3 (rodada das 10h45) complementado com buscas das 10h50, porque o relatório não trazia ações individuais nem o IPCA."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 35,
+   "agora": 55,
+   "motivo": "Ibovespa em −0,66% às 10h33, com Banco do Brasil caindo cerca de 11%. Dólar perto de R$ 5,60 e futuros de Nova York negativos reforçam."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 40,
+   "agora": 33,
+   "motivo": "O IPCA de 0,14% (esperado 0,25%) alivia os juros curtos e pode devolver o índice à faixa neutra ao longo do dia."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 25,
+   "agora": 12,
+   "motivo": "Pediria uma virada de mais de 1 ponto percentual com BB e Nasdaq pesando. Votação do pacote fiscal no Senado seria o gatilho mais plausível."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa",
+   "valor": "170.920 pts",
+   "variacao": "−0,66%",
+   "hora": "10h33",
+   "fonte": "BPMoney"
+  },
+  {
+   "indicador": "Ibovespa, fechamento anterior",
+   "valor": "172.060 pts",
+   "variacao": "+0,42%",
+   "hora": "11/11",
+   "fonte": "Relatório do radar"
+  },
+  {
+   "indicador": "IPCA de outubro",
+   "valor": "0,14%",
+   "variacao": "esperado 0,25%",
+   "hora": "9h00",
+   "fonte": "IBGE, via Money Times"
+  },
+  {
+   "indicador": "IPCA em 12 meses",
+   "valor": "4,63%",
+   "variacao": "esperado 4,73%",
+   "hora": "9h00",
+   "fonte": "IBGE, via Ativo Virtual"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,592",
+   "variacao": "+0,55%",
+   "hora": "9h10",
+   "fonte": "BPMoney"
+  },
+  {
+   "indicador": "Futuro do Nasdaq",
+   "valor": "n/d",
+   "variacao": "−0,63%",
+   "hora": "7h30",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 92,25",
+   "variacao": "−0,55%",
+   "hora": "7h30",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "4,99%",
+   "variacao": "n/d",
+   "hora": "manhã",
+   "fonte": "Relatório do radar"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "BBAS3",
+   "empresa": "Banco do Brasil",
+   "chance": 85,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro recorrente de R$ 1,3 bi no 3T26 (−66,5% em um ano), ROAE de 2,8% e projeções do ano pioradas. A ação caía cerca de 11% às 10h33.",
+   "gatilho": "Apresentação do resultado ao mercado: hoje, horário não encontrado",
+   "fonte": "Seu Dinheiro, BPMoney, CNN Brasil",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "O problema está no fundamento: lucro em queda de 66,5%, ROAE de 2,8%, inadimplência do agro sem estabilizar e projeções do ano pioradas. Quedas assim costumam levar mais de um pregão para serem digeridas."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "COGN3",
+   "empresa": "Cogna",
+   "chance": 70,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 37,3 mi no 3T26 (lucro de R$ 191,6 mi um ano antes), EBITDA recorrente −24,2% e receita do EAD −12,1%.",
+   "gatilho": "Teleconferência de resultados: hoje, 11h",
+   "fonte": "Release da Cogna, Mercado Hoje",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "A perda vem de mudança estrutural: o novo marco regulatório derrubou o EAD em 12,1% e o trimestre virou prejuízo. A teleconferência das 11h pode mudar a leitura."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "NVDC34",
+   "empresa": "Nvidia (BDR)",
+   "chance": 70,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A ação caiu cerca de 8% no after-hours com o conselho avaliando a saída do CEO. Futuro do Nasdaq em −0,63% às 7h30.",
+   "gatilho": "Abertura de Nova York: hoje, 11h30. Balanço da Nvidia: 17/11",
+   "fonte": "Relatório do radar, Money Times",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "A queda vem de um evento de governança (futuro do CEO), sem notícia de piora no negócio. Quedas por evento tendem a devolver parte quando a incerteza se resolve, mas a decisão do conselho e o balanço de 17/11 ainda estão em aberto."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "ENEV3",
+   "empresa": "Eneva",
+   "chance": 65,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "EBITDA de R$ 1,406 bi no 3T26, queda de 23% em um ano, com menor despacho e fim de contratos relevantes.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Mercado Hoje",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Parte da piora é atribuída a efeitos não recorrentes (o que sugere recuperação) e parte a menor despacho e fim de contratos (o que sugere continuidade). As fontes não permitem separar o peso de cada um."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "BEEF3",
+   "empresa": "Minerva",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 717,3 mi no 3T26, revertendo lucro. A recompra de até 36,6 mi de ações, aprovada junto, atenua a leitura.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O prejuízo de R$ 717 mi pesa, mas a recompra de até 36,6 mi de ações indica que a empresa vê o preço como baixo. Sinais em direções opostas."
+  },
+  {
+   "lado": "queda",
+   "pos": 6,
+   "ticker": "AMER3",
+   "empresa": "Americanas",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 352 mi no 3T26 e EBITDA ajustado −90,7%, apesar de receita +10,3%.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Business Moment",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "O EBITDA ajustado caiu 90,7% mesmo com receita maior, sinal de piora operacional e não de efeito pontual."
+  },
+  {
+   "lado": "queda",
+   "pos": 7,
+   "ticker": "NATU3",
+   "empresa": "Natura",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Pregão de 13/11",
+   "motivo": "O Itaú BBA espera resultado negativo: queda de cerca de 10% nas vendas da marca Natura e margem operacional pressionada.",
+   "gatilho": "Balanço do 3T26: hoje, após o fechamento. Teleconferência: 13/11",
+   "fonte": "EQI (relatório do Itaú BBA), Seu Dinheiro",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Depende do balanço de hoje à noite. A expectativa negativa já é conhecida, então parte pode estar no preço; uma surpresa para qualquer lado define a direção."
+  },
+  {
+   "lado": "queda",
+   "pos": 8,
+   "ticker": "YDUQ3",
+   "empresa": "Yduqs",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Pregão de 13/11",
+   "motivo": "Leitura por analogia: a Cogna, do mesmo setor, mostrou queda de 12,1% no EAD com o novo marco regulatório. Não encontrei prévia específica da Yduqs.",
+   "gatilho": "Balanço do 3T26: hoje, após o fechamento",
+   "fonte": "Release da Cogna, Rico",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Depende do balanço de hoje à noite. A leitura de queda vem só por analogia com a Cogna."
+  },
+  {
+   "lado": "queda",
+   "pos": 9,
+   "ticker": "AZUL3",
+   "empresa": "Azul",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Prejuízo de R$ 164,5 mi no 3T26, com EBITDA de R$ 1,2 bi. Não encontrei a expectativa do mercado para comparar.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Sem a expectativa do mercado para o trimestre, não dá para dizer se o prejuízo foi melhor ou pior que o previsto."
+  },
+  {
+   "lado": "queda",
+   "pos": 10,
+   "ticker": "ROXO34",
+   "empresa": "Nubank (BDR)",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Pregão de 13/11",
+   "motivo": "Sinal misto: o Itaú BBA espera resultado ligeiramente negativo, a XP espera trimestre sólido e o Safra prevê reação neutra. O risco do Nasdaq pesa contra.",
+   "gatilho": "Balanço do 3T26: hoje. As fontes divergem entre antes da abertura e após o fechamento",
+   "fonte": "EQI, Money Times, Rico, Seu Dinheiro",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "Se cair, o motivo mais provável é contágio do Nasdaq e não o resultado, que a XP espera sólido. Quedas por contágio tendem a ser devolvidas, mas o balanço de hoje pode contrariar essa leitura."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "SANB11",
+   "empresa": "Santander Brasil",
+   "chance": 68,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Subia cerca de 5% às 10h33. A fonte não explica o motivo; migração de fluxo saindo do BB é uma suposição minha.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "BPMoney",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "BPAC11",
+   "empresa": "BTG Pactual",
+   "chance": 65,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro recorde de R$ 5,3 bi no 3T26 (+17% em um ano) e ROAE de 26,4%, acima dos pares privados.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Seu Dinheiro, Money Times",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "AZZA3",
+   "empresa": "Azzas 2154",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Resultado visto como positivo: margem bruta +2,1 p.p. com menos descontos, apesar da receita de R$ 2,84 bi (−4,2%).",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Mercado Hoje",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 4,
+   "ticker": "EQTL3",
+   "empresa": "Equatorial",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Resultado classificado como robusto, com EBITDA de R$ 3,289 bi (a fonte grafa milhões). Parte veio de efeitos não recorrentes.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Mercado Hoje",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 5,
+   "ticker": "SLCE3",
+   "empresa": "SLC Agrícola",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro de R$ 192,4 mi no 3T26, revertendo prejuízo, com soja recorde e venda de terras.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 6,
+   "ticker": "MRVE3",
+   "empresa": "MRV",
+   "chance": 58,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Resultado do 3T26 classificado como positivo pela fonte. Não obtive os números.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Mercado Hoje",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 7,
+   "ticker": "CYRE3",
+   "empresa": "Cyrela",
+   "chance": 58,
+   "evidencia": "média",
+   "horizonte": "Pregão de 13/11",
+   "motivo": "Expectativa positiva do Itaú BBA para o balanço. O IPCA abaixo do esperado alivia os juros curtos, o que costuma ajudar construtoras.",
+   "gatilho": "Balanço do 3T26: hoje, após o fechamento. Teleconferência: 13/11",
+   "fonte": "EQI (relatório do Itaú BBA), Seu Dinheiro",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 8,
+   "ticker": "CPLE3",
+   "empresa": "Copel",
+   "chance": 57,
+   "evidencia": "média",
+   "horizonte": "Pregão de 13/11",
+   "motivo": "O Itaú BBA espera resultado positivo, com alta de 5,8% no volume faturado da distribuição.",
+   "gatilho": "Balanço do 3T26: hoje, após o fechamento. Teleconferência: 13/11",
+   "fonte": "EQI (relatório do Itaú BBA), Seu Dinheiro",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 9,
+   "ticker": "TAEE11",
+   "empresa": "Taesa",
+   "chance": 55,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro regulatório de R$ 363,8 mi no 3T26, +12,5% em um ano, com novos projetos.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 10,
+   "ticker": "PETR4",
+   "empresa": "Petrobras",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Subia cerca de 1% às 10h33 e fechou a compra de 70% da Logum por R$ 620 mi. O Brent em −0,55% joga contra.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "BPMoney, Money Times",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "09:00",
+   "evento": "IPCA de outubro: 0,14%, abaixo do esperado (0,25%)",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "11:00",
+   "evento": "Teleconferência de resultados da Cogna (COGN3)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "11:30",
+   "evento": "Abertura de Nova York, primeiro teste da Nvidia no mercado à vista",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "12:00",
+   "evento": "Fala de Barr (Fed) e vendas de imóveis usados nos EUA",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "13:15",
+   "evento": "Fala de Goolsbee (Fed)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "14:00",
+   "evento": "Leilão de Treasury de 30 anos",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "15:10",
+   "evento": "Falas de Daly e Schmid (Fed)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "16:00",
+   "evento": "Resultado fiscal de outubro nos EUA",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "dia todo",
+   "evento": "Senado pode votar o pacote fiscal (R$ 50 a 60 bi em 2027)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "após 18h",
+   "evento": "Balanços: B3 (B3SA3), Cemig (CMIG4), Copel (CPLE3), CPFL (CPFE3), Cyrela (CYRE3), Natura (NATU3), MBRF (MBRF3), Yduqs (YDUQ3), Vamos (VAMO3)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "13/11",
+   "evento": "Balanço da Cosan (CSAN3) e teleconferências de B3, Cyrela, Natura e Copel",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "17/11",
+   "evento": "Balanço da Nvidia",
+   "destaque": "não",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou em relação ao relatório",
+   "texto": "O relatório apontava lateral como cenário mais provável (40%) e não tinha o IPCA, o futuro do índice nem a reação ao balanço do BB. Com o índice em −0,66% e o BB em −11%, a chance de queda sobe de 35% para 55%. O gatilho de queda que o relatório listava (bancos sob pressão) se confirmou; o de alta (IPCA abaixo do esperado) também se confirmou e ainda não bastou."
+  },
+  {
+   "topico": "Tendência além de hoje",
+   "texto": "As fontes divergem. Um analista do InfoMoney vê o índice abaixo das médias de 9, 21 e 200 dias após a correção desde a máxima de 209.713 pontos, com suporte em 164.445. O Mercado Hoje classifica a tendência como neutra no médio prazo e de alta no curto."
+  },
+  {
+   "topico": "Argumento mais forte contra a leitura de queda",
+   "texto": "A queda de hoje está concentrada em um papel. O IPCA surpreendeu para baixo, o BTG entregou lucro recorde e o Santander sobe. Se o BB estabilizar e o Senado votar o pacote fiscal, o índice pode voltar à faixa lateral."
+  },
+  {
+   "topico": "Como ler a chance de cada ação",
+   "texto": "É uma estimativa subjetiva de a ação fechar na direção indicada no horizonte do cartão, baseada só nas notícias encontradas. Evidência baixa significa uma única fonte, motivo não confirmado ou leitura por analogia. Ações que divulgam após o fechamento reagem no pregão seguinte."
+  },
+  {
+   "topico": "Lacunas",
+   "texto": "Não encontrei minério de ferro, curva de DI de hoje nem as variações individuais da maioria das ações além de BBAS3, SANB11, PETR4 e VALE3 (−1% às 10h33, sem notícia associada). O perfil do doc Investidor está em branco, então as listas não foram filtradas por ativos que você acompanha."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "anthropic-ipo",
+   "titulo": "IPO da Anthropic na Nasdaq",
+   "status": "Confirmado",
+   "quando": "Preço em 18/11, estreia prevista para 19/11",
+   "resumo": "A dona do Claude vai ofertar 825 milhões de ações entre US$ 70 e US$ 78, sob o ticker ANT, o que a avalia em até cerca de US$ 1,4 trilhão. No topo da faixa a oferta movimenta US$ 64,35 bi. A empresa ainda dá prejuízo e os sócios antigos podem vender ações desde o primeiro dia.",
+   "impacto": "As fontes só citam reserva por corretoras americanas, então o caminho para o brasileiro é comprar depois da estreia, por conta no exterior. Nenhum BDR foi anunciado. A estreia serve de termômetro para o apetite por IA e pode mexer com o Nasdaq e com os BDRs de tecnologia. Um especialista ouvido pelo Bora Investir sugere esperar de 6 a 12 meses antes de entrar.",
+   "fonte": "CNBC, TechCrunch, Yahoo Finance, Bora Investir",
+   "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+  },
+  {
+   "id": "novas-bolsas",
+   "titulo": "Novas bolsas para concorrer com a B3",
+   "status": "Em andamento",
+   "quando": "A5X: 1º semestre de 2027 · Base Exchange: 2º semestre de 2027",
+   "resumo": "Três projetos avançam. A Base Exchange, do Rio, controlada pela Mubadala Capital, vai negociar as mesmas ações, ETFs e FIIs já listados na B3, sem IPOs no começo. A A5X, de São Paulo, com Itaú, Ideal, XP e tecnologia da Bolsa de Londres, começa por derivativos de ações, moedas e juros. A CSD BR, que já faz registro e liquidação, mira virar bolsa em até três anos.",
+   "impacto": "A promessa é de custos de negociação menores, mas a liquidez tende a continuar concentrada na B3 por um bom tempo. Para quem acompanha B3SA3, a concorrência pode pressionar tarifas e margens, efeito que só deve aparecer depois da estreia. Os prazos já foram adiados antes: a Base falava em 2025 e a A5X em 2026.",
+   "fonte": "IstoÉ Dinheiro, Money Times, Seu Dinheiro, Investidor10, Brazil Journal, Bloomberg Línea",
+   "link": "https://www.moneytimes.com.br/concorrencia-a-vista-b3-b3sa3-pode-ser-ameacada-com-novas-bolsas/"
+  },
+  {
+   "id": "nvidia-ceo",
+   "titulo": "Nvidia: conselho avalia a saída do CEO",
+   "status": "Em andamento",
+   "quando": "Sem data para a decisão; balanço em 17/11",
+   "resumo": "Reportagens dizem que o conselho se prepara para destituir Jensen Huang por conduta pessoal. A ação caiu cerca de 8% no after-hours de 11/11.",
+   "impacto": "Afeta o BDR NVDC34 e o humor do Nasdaq. Como a Nvidia é referência do setor de IA, o desfecho também pesa no clima em que a Anthropic estreia.",
+   "fonte": "Money Times (cita WSJ), relatório do radar",
+   "link": "https://www.moneytimes.com.br/balancos-mexem-com-o-dia-enquanto-exterior-acompanha-caso-nvidia-nvda-ibovespa-em-dolar-cai-nesta-quinta-feira-12-rens/"
+  },
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Pacote fiscal no Senado",
+   "status": "Em andamento",
+   "quando": "Votação pode ocorrer hoje ou ser adiada",
+   "resumo": "O governo propôs medidas com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit primário.",
+   "impacto": "Aprovação tende a aliviar os juros longos e fortalecer o real, o que ajuda o Ibovespa. Adiamento ou desidratação tem o efeito contrário.",
+   "fonte": "InfoMoney, relatório do radar",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-futuro-cai-com-balancos-e-ipca-no-radar-apos-proposta-fiscal-do-governo/"
+  },
+  {
+   "id": "fed-dezembro",
+   "titulo": "Fed pode subir os juros em dezembro",
+   "status": "Expectativa de mercado",
+   "quando": "Reunião em 8 e 9/12",
+   "resumo": "O mercado precifica alta de 0,25 ponto com cerca de 90% de chance, e o Treasury de 10 anos está perto de 5%.",
+   "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, pressionar o dólar para cima e pesar em ações de crescimento.",
+   "fonte": "Yahoo Finance (CME FedWatch), relatório do radar",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html"
+  },
+  {
+   "id": "openai-ipo",
+   "titulo": "Possível IPO da OpenAI",
+   "status": "Não confirmado",
+   "quando": "27/11 em um único calendário",
+   "resumo": "O calendário de IPOs do Investing.com lista a OpenAI para 27/11, sem preço nem valor. Não encontrei confirmação em outra fonte.",
+   "impacto": "Trate como rumor. Se confirmado, seriam duas ofertas gigantes de IA disputando o mesmo capital em poucos dias.",
+   "fonte": "Investing.com",
+   "link": "https://www.investing.com/ipo-calendar/"
+  }
+ ],
+ "fechamento": [
+  {
+   "tipo": "resumo",
+   "status": "Publicado",
+   "data": "12/11/2026",
+   "hora": "18h54",
+   "ibov": "171.324 pts",
+   "ibov_var": "−0,43%",
+   "dolar": "R$ 5,65",
+   "dolar_var": "+1,62%",
+   "acertos": "8 de 12",
+   "texto": "O Ibovespa caiu 0,43% puxado pelo tombo de 8,35% do Banco do Brasil, que cortou projeções e dividendos após o lucro do 3º tri recuar 66,5%; Petrobras (+2,64%) e o petróleo em alta (Brent +3,3%, com a tensão EUA–Irã) amorteceram a queda. O dólar subiu 1,62%, a R$ 5,65, maior nível em 17 meses, com dúvidas sobre o pacote fiscal no Congresso, Treasury de 10 anos acima de 5% e aposta de alta de juros pelo Fed; a renúncia de Jensen Huang na Nvidia pesou sobre tecnologia. Divergência: alguns veículos publicaram o Ibovespa a 170.680 pts (−0,80%), leitura anterior ao leilão de fechamento; usamos o fechamento de 171.324 pts (InfoMoney, Exame). Previsões: 8 acertos em 12 avaliadas, com o cenário lateral do relatório certo e a revisão de queda errada; maior acerto foi BBAS3 (queda com 85%, caiu 8,35%) e maior erro foi BEEF3 (queda com 62%, subiu 5,65%); 5 papéis ficaram sem fechamento confiável (NVDC34, ENEV3, EQTL3, MRVE3, TAEE11).",
+   "fontes": "InfoMoney (fechamento ~17h06), Exame (18h38), BPMoney (18h22), O Reporter (17h19), InfoMoney (Cogna, 18h30)"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "HAPV3",
+   "empresa": "Hapvida",
+   "var": "+14,90%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "AZZA3",
+   "empresa": "Azzas 2154",
+   "var": "+9,95%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "BEEF3",
+   "empresa": "Minerva",
+   "var": "+5,65%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "UGPA3",
+   "empresa": "Ultrapar",
+   "var": "+4,55%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "SUZB3",
+   "empresa": "Suzano",
+   "var": "+4,16%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "BBAS3",
+   "empresa": "Banco do Brasil",
+   "var": "−8,35%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "MGLU3",
+   "empresa": "Magazine Luiza",
+   "var": "−7,70%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "TEND3",
+   "empresa": "Tenda",
+   "var": "−6,95%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "CSNA3",
+   "empresa": "CSN",
+   "var": "−6,42%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "CSAN3",
+   "empresa": "Cosan",
+   "var": "−5,94%"
+  }
+ ]
+}
