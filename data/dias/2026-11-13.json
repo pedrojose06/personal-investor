@@ -2,7 +2,7 @@
  "resumo": [
   {
    "data": "sexta-feira, 13/11/2026",
-   "atualizado": "10h50 (Brasília), revisão após a abertura",
+   "atualizado": "10h50 (Brasília), revisão após a abertura · fechamento às 00h35 de 14/11 (manual)",
    "base": "Relatório da tarefa Radar pré-mercado B3 (antes das 8h30) revisado às 10h50 com a cobertura ao vivo de InfoMoney, Money Times, BPMoney e Metrópoles. O relatório da manhã não trazia papéis individuais nem a aprovação do ajuste fiscal no Senado; as listas de top 10 foram montadas depois da abertura, com parte do movimento do dia já conhecida."
   }
  ],
@@ -412,19 +412,19 @@
    "hora": "Manhã",
    "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
    "destaque": "não",
-   "status": "a vir"
+   "status": "saiu"
   },
   {
    "hora": "Dia todo",
    "evento": "Repercussão dos balanços da noite de ontem: CSN, Braskem, IRB, B3, MBRF, Yduqs, Natura, Cemig, Copel, Grupo Mateus, Nubank e outros",
    "destaque": "sim",
-   "status": "a vir"
+   "status": "saiu"
   },
   {
    "hora": "17:00",
    "evento": "Fechamento da B3 (o leilão de fechamento define o valor oficial do índice)",
    "destaque": "não",
-   "status": "a vir"
+   "status": "saiu"
   }
  ],
  "leitura": [
@@ -521,5 +521,67 @@
    "link": "https://www.investing.com/ipo-calendar/"
   }
  ],
- "fechamento": []
+ "fechamento": [
+  {
+   "tipo": "resumo",
+   "status": "Publicado",
+   "data": "13/11/2026",
+   "hora": "00h35 de 14/11 (execução manual)",
+   "ibov": "172.458 pts",
+   "ibov_var": "+0,66%",
+   "dolar": "R$ 5,66",
+   "dolar_var": "+0,11%",
+   "acertos": "5 de 8",
+   "texto": "O Ibovespa subiu 0,66% e fechou a 172.458 pontos; o dólar subiu 0,11%, a R$ 5,66. Entre os papéis, CSN (−12,06%) liderou as quedas após o balanço, enquanto Magazine Luiza (+10,47%), Cosan (+8,77%) e Minerva (+7,23%) ficaram entre as maiores altas. Previsões: 5 acertos em 8 avaliadas. O cenário lateral do relatório e o da revisão das 10h50 erraram, porque o índice passou da faixa de +0,5%; B3SA3 (queda com 55%, subiu 0,88%) também errou. Acertaram NATU3, CSNA3, CMIN3 (quedas) e CYRE3, BEEF3 (subidas); o maior acerto foi CSNA3 (queda com 75%, caiu 12,06%). 17 papéis ficaram sem fechamento confiável: YDUQ3, ROXO34, CPLE3, BRKM5, IRBR3, HAPV3, NVDC34, MSFT34, AMAR3, LIGT3, GMAT3, MBRF3, CMIG4, CPLE6, AUAU3, AZUL3, TFCO4. Limitações: esta rotina rodou manualmente no dia seguinte, depois de falhar por limite de uso; as listas de maiores altas e baixas estão incompletas (3 altas e 5 baixas encontradas em fontes) e não foram achados preços em R$. Divergências entre fontes: Ibovespa 172.457 vs 172.456 pts, dólar +0,11% vs +0,05%, volume financeiro entre R$ 16,75 bi e R$ 27,7 bi.",
+   "fontes": "InfoMoney, Suno, BPMoney (fechamento de 13/11/2026)"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "MGLU3",
+   "empresa": "Magazine Luiza",
+   "var": "+10,47%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "CSAN3",
+   "empresa": "Cosan",
+   "var": "+8,77%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "BEEF3",
+   "empresa": "Minerva",
+   "var": "+7,23%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "CSNA3",
+   "empresa": "CSN",
+   "var": "−12,06%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "AZZA3",
+   "empresa": "Azzas 2154",
+   "var": "−5,86%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "NATU3",
+   "empresa": "Natura",
+   "var": "−3,75%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "CMIN3",
+   "empresa": "CSN Mineração",
+   "var": "−3,73%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "BBAS3",
+   "empresa": "Banco do Brasil",
+   "var": "−2,45%"
+  }
+ ]
 }

@@ -27,18 +27,18 @@
   "hora": "Manhã",
   "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Dia todo",
   "evento": "Repercussão dos balanços da noite de ontem: CSN, Braskem, IRB, B3, MBRF, Yduqs, Natura, Cemig, Copel, Grupo Mateus, Nubank e outros",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "17:00",
   "evento": "Fechamento da B3 (o leilão de fechamento define o valor oficial do índice)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  }
 ]
