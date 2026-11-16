@@ -1,0 +1,76 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "16/11/2026",
+  "hora": "18h58",
+  "ibov": "169.295 pts",
+  "ibov_var": "−1,83%",
+  "dolar": "R$ 5,78",
+  "dolar_var": "+2,15%",
+  "acertos": "Sem previsões",
+  "simulacao": "Sem previsões de subida para hoje (o Radar da manhã não rodou)",
+  "texto": "O Ibovespa caiu 1,83% e fechou a 169.295 pontos, e o dólar à vista subiu 2,15%, a R$ 5,777, maior nível desde abril de 2025. Pesaram a dúvida fiscal (pacote de ajuste visto como tímido, proposta de tributar dividendos e indefinição sobre o próximo ministro da Fazenda), o rebaixamento das ações brasileiras pelo Morgan Stanley, o IBC-Br de setembro (−0,2%) e o Focus com inflação e Selic mais altas para 2027, além da queda de petróleo e minério e da forte baixa de Nova York puxada por tecnologia (Nasdaq −2,49%). Não havia previsões para hoje porque a rotina da manhã não rodou, então não há placar nem preços em reais registrados. Divergências: TMC trouxe 169.168 pts (−1,91%) e Investing −2,05% às 17h30, provavelmente antes do leilão; as listas de altas e baixas abaixo estão incompletas e misturam fechamento (Money Times, Suno) com leituras de 17h30 a 17h55 (Investing, InvestNews).",
+  "fontes": "Suno (18h30), BPMoney (18h22), Money Times (18h29), InvestNews (18h27), TradeMap, Investing.com (17h30), TMC (18h46)"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "YDUQ3",
+  "empresa": "Yduqs",
+  "var": "+2,96%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "SUZB3",
+  "empresa": "Suzano",
+  "var": "+1,62%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "TIMS3",
+  "empresa": "TIM",
+  "var": "+0,97%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "VIVT3",
+  "empresa": "Telefônica Brasil",
+  "var": "+0,62%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "VBBR3",
+  "empresa": "Vibra",
+  "var": "+0,56%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "BRAP4",
+  "empresa": "Bradespar",
+  "var": "−6,10%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "HAPV3",
+  "empresa": "Hapvida",
+  "var": "−5,63%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "MGLU3",
+  "empresa": "Magazine Luiza",
+  "var": "−5,25%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "VALE3",
+  "empresa": "Vale",
+  "var": "−4,41%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "EMBJ3",
+  "empresa": "Embraer",
+  "var": "−3,07%"
+ }
+]
