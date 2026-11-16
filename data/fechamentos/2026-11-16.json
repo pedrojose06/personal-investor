@@ -3,15 +3,15 @@
   "tipo": "resumo",
   "status": "Publicado",
   "data": "16/11/2026",
-  "hora": "18h58",
+  "hora": "18h58 (previsões recuperadas às 21h)",
   "ibov": "169.295 pts",
   "ibov_var": "−1,83%",
   "dolar": "R$ 5,78",
   "dolar_var": "+2,15%",
-  "acertos": "Sem previsões",
-  "simulacao": "Sem previsões de subida para hoje (o Radar da manhã não rodou)",
-  "texto": "O Ibovespa caiu 1,83% e fechou a 169.295 pontos, e o dólar à vista subiu 2,15%, a R$ 5,777, maior nível desde abril de 2025. Pesaram a dúvida fiscal (pacote de ajuste visto como tímido, proposta de tributar dividendos e indefinição sobre o próximo ministro da Fazenda), o rebaixamento das ações brasileiras pelo Morgan Stanley, o IBC-Br de setembro (−0,2%) e o Focus com inflação e Selic mais altas para 2027, além da queda de petróleo e minério e da forte baixa de Nova York puxada por tecnologia (Nasdaq −2,49%). Não havia previsões para hoje porque a rotina da manhã não rodou, então não há placar nem preços em reais registrados. Divergências: TMC trouxe 169.168 pts (−1,91%) e Investing −2,05% às 17h30, provavelmente antes do leilão; as listas de altas e baixas abaixo estão incompletas e misturam fechamento (Money Times, Suno) com leituras de 17h30 a 17h55 (Investing, InvestNews).",
-  "fontes": "Suno (18h30), BPMoney (18h22), Money Times (18h29), InvestNews (18h27), TradeMap, Investing.com (17h30), TMC (18h46)"
+  "acertos": "7 de 13",
+  "simulacao": "Subida, 1 ação de cada na abertura: R$ 227,18 → R$ 219,75 (−R$ 7,43; −3,27%), 4 de 7 papéis com preço; sem custos nem IR",
+  "texto": "O Ibovespa caiu 1,83% e fechou a 169.295 pontos, e o dólar à vista subiu 2,15%, a R$ 5,777, maior nível desde abril de 2025, com dúvida fiscal e sobre o próximo ministro da Fazenda, rebaixamento do Brasil pelo Morgan Stanley, IBC-Br fraco, Focus com juros mais altos, petróleo e minério em queda e Nasdaq −2,49%. As previsões do Radar da manhã não tinham sido gravadas no repositório e foram recuperadas do relatório publicado às 8h13: 7 acertos em 13 avaliadas, com o cenário de queda do Ibovespa (40%) correto; o maior acerto foi RSID3 (subida, +8,55%) e o maior erro CLSC4 (subida, −5,45%). Preços em reais completos para 11 de 15 papéis (AVGO34 sem abertura confirmada; AXIA3, SUZB3 e FESA4 sem fechamento confirmado, marcados como Sem dado). Divergências: Ibovespa −1,91% na TMC e −2,05% no Investing às 17h30, provavelmente antes do leilão; AVGO34 +0,07% (Investing) contra −0,62% (HG Brasil); as listas de altas e baixas abaixo estão incompletas.",
+  "fontes": "Suno (18h30), BPMoney (18h22), Money Times (18h29), InvestNews (18h27), TradeMap, Investing.com (17h30), TMC (18h46), HG Brasil, Genial, Google Finance, brapi, Bloomberg Línea (preços)"
  },
  {
   "tipo": "alta",
