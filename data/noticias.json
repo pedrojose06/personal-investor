@@ -68,5 +68,15 @@
   "impacto": "Pressiona PETR4 e PRIO3, que o relatório colocou na lista de queda.",
   "fonte": "Saxo 18/11; InfoMoney 5h34",
   "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
+ },
+ {
+  "id": "bancos-rebaixam-brasil",
+  "titulo": "Morgan Stanley e Goldman Sachs rebaixam a bolsa brasileira",
+  "status": "Confirmado",
+  "quando": "Morgan Stanley: relatório enviado a clientes em 15/11, divulgado em 16 e 17/11; Goldman Sachs: relatório de 17/11",
+  "resumo": "O Morgan Stanley passou as ações brasileiras de equal-weight para underweight na carteira de América Latina, com alvo de 160 mil pontos para o Ibovespa no fim de 2027, citando juros altos, desaceleração e saída de capital; diz preferir exportadoras e empresas com receita em dólar. O Goldman Sachs rebaixou para marketweight (neutro), com pouco espaço para cortes de juros em 2027, desaceleração e risco de revisões negativas de lucros.",
+  "impacto": "Reforça o argumento contra o cenário de alta e o risco de saída de capital; o recado do Morgan Stanley favorece exportadoras em relação às empresas voltadas ao mercado doméstico (interpretação a partir do relatório).",
+  "fonte": "CNN Brasil 17/11",
+  "link": "https://www.cnnbrasil.com.br/economia/money/mercado/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira/"
  }
 ]

@@ -883,5 +883,50 @@
   "fechamento": "",
   "abertura_fechamento": "",
   "fonte_preco": "Sem fechamento de 17/11 com data confirmada no relatório de 18/11"
+ },
+ {
+  "id": "2026-11-18-VALE3",
+  "pregao": "18/11/2026",
+  "item": "VALE3",
+  "previsto": "Queda",
+  "chance": 56,
+  "referencia": "Fechamento de 17/11",
+  "realizado": "",
+  "resultado": "Pendente",
+  "fech_anterior": "R$ 60,34",
+  "abertura": "",
+  "fechamento": "",
+  "abertura_fechamento": "",
+  "fonte_preco": "DGABC, Fechamento do mercado financeiro de 17/11/2026, 18h34 (Vale ON R$ 60,34, −0,59%)"
+ },
+ {
+  "id": "2026-11-18-HAPV3",
+  "pregao": "18/11/2026",
+  "item": "HAPV3",
+  "previsto": "Queda",
+  "chance": 53,
+  "referencia": "Fechamento de 17/11",
+  "realizado": "",
+  "resultado": "Pendente",
+  "fech_anterior": "",
+  "abertura": "",
+  "fechamento": "",
+  "abertura_fechamento": "",
+  "fonte_preco": "Sem fechamento de 17/11 em reais confirmado: as fontes trazem só a variação (+12,32%, +12,50% e +10,11%, que divergem)"
+ },
+ {
+  "id": "2026-11-18-TIMS3",
+  "pregao": "18/11/2026",
+  "item": "TIMS3",
+  "previsto": "Subida",
+  "chance": 53,
+  "referencia": "Fechamento de 17/11",
+  "realizado": "",
+  "resultado": "Pendente",
+  "fech_anterior": "",
+  "abertura": "",
+  "fechamento": "",
+  "abertura_fechamento": "",
+  "fonte_preco": "Sem fechamento de 17/11 em reais confirmado: a fonte traz R$ 22,28 às 11h07 (+1,87%) e o fechamento só como variação (+2,93%)"
  }
 ]

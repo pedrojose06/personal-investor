@@ -2,8 +2,8 @@
  "resumo": [
   {
    "data": "quarta-feira, 18/11/2026",
-   "atualizado": "8h13 (Brasília), relatório da manhã · gravado às 8h41 (manual)",
-   "base": "Relatório da tarefa Radar pré-mercado B3 das 8h13, com dados de 5h34 a 7h48, recuperado do HTML publicado no artefato e gravado em data/ às 8h41, porque o envio da manhã ao repositório falhou com erro 403. Sem revisão após a abertura: as probabilidades são as do relatório e os campos \"relatório\" e \"agora\" coincidem. O relatório traz 4 papéis (2 de queda e 2 de subida) e não traz evidência, gatilho nem leitura de tendência por papel. Destaques da agenda marcados a partir dos gatilhos do relatório."
+   "atualizado": "8h13 (Brasília), relatório da manhã · listas de papéis revisadas às 08h50 (manual)",
+   "base": "Relatório da tarefa Radar pré-mercado B3 das 8h13, com dados de 5h34 a 7h48, recuperado do HTML publicado no artefato e gravado em data/ às 8h41, porque o envio da manhã ao repositório falhou com erro 403. Às 8h50 refiz a pesquisa de balanços, recomendações e fatos relevantes de 17 e 18/11 e acrescentei 3 papéis às listas (VALE3 e HAPV3 na queda, TIMS3 na subida), cada um com notícia datada e fonte. As probabilidades dos cenários e as chances dos 4 papéis originais são as do relatório, sem revisão após a abertura, então os campos \"relatório\" e \"agora\" coincidem. O relatório original não trazia evidência, gatilho nem leitura de tendência por papel; esses campos foram preenchidos nesta revisão quando havia fonte. Destaques da agenda marcados a partir dos gatilhos do relatório."
   }
  ],
  "mercado": [
@@ -105,20 +105,48 @@
   {
    "lado": "queda",
    "pos": 1,
+   "ticker": "VALE3",
+   "empresa": "Vale",
+   "chance": 56,
+   "evidencia": "O ADR da Vale caía 1,25%, a US$ 10,29, no pré-mercado de Nova York (Money Times, 18/11, antes das 6h47). A VALE3 fechou −0,59% a R$ 60,34 em 17/11 (DGABC, 18h34), pressionada pelo minério de ferro segundo a Suno. Brent −1,42% e ouro −2,25% no pré-mercado (Money Times 6h47).",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR já aponta abertura mais fraca e o minério segue pressionado. Contra: o ADR pode devolver parte da queda até as 10h, o Nasdaq futuro está no azul (+0,94%) e o Morgan Stanley, ao rebaixar o Brasil, disse preferir exportadoras e empresas com receita em dólar.",
+   "gatilho": "Confirma se o ADR seguir no vermelho na abertura de Nova York (11h30, Brasília) e a VALE3 abrir abaixo de R$ 60,34; invalida se o ADR virar para alta ou o minério subir em Dalian e Cingapura.",
+   "fonte": "Money Times 18/11 (pré-mercado, ADR); DGABC 17/11 18h34; Suno 17/11; CNN Brasil 17/11 (Morgan Stanley)",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
    "ticker": "PETR4",
    "empresa": "Petrobras",
    "chance": 53,
-   "evidencia": "n/d",
+   "evidencia": "Citi cortou o preço-alvo da PETR4 de R$ 56 para R$ 48 e manteve recomendação neutra; vê plano estratégico com mais investimentos, o que pode limitar dividendos (Money Times 17/11 18h20; A Crítica 17/11). A ação fechou −0,09% a R$ 43,98 (DGABC, 17/11 18h34).",
    "horizonte": "Fechamento de hoje",
    "motivo": "Brent recuava 1,41% (US$ 91,83) e o WTI 2,07% às 5h34, e o Goldman Sachs vê possível excedente de 2 milhões de barris por dia em 2027, com Brent médio de US$ 88. Contra: a empresa recebeu R$ 1,9 bi de subvenção ao diesel.",
-   "gatilho": "n/d",
-   "fonte": "InfoMoney 5h34; Saxo 18/11; Gazeta Mercantil 17/11",
+   "gatilho": "Confirma se o Brent seguir em queda na abertura e a ação perder o fechamento de ontem; invalida se o petróleo virar para alta.",
+   "fonte": "InfoMoney 5h34; Saxo 18/11; Gazeta Mercantil 17/11; Money Times 17/11 18h20 (Citi); DGABC 17/11 18h34",
    "leitura": "Sem sinal claro",
    "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
   },
   {
    "lado": "queda",
-   "pos": 2,
+   "pos": 3,
+   "ticker": "HAPV3",
+   "empresa": "Hapvida",
+   "chance": 53,
+   "evidencia": "A HAPV3 liderou as altas do Ibovespa em 17/11: +12,32% (SBT News, 21h55) ou +12,50% (Trademap, 18h28); a SpaceMoney, às 18h07, registrava +10,11% e dizia não haver comunicado novo que explicasse a alta. No 3T26 o lucro líquido ajustado foi de R$ 107 mi (−68,3% a/a) e a receita, de R$ 8,08 bi (+3,9%). Em 12/11 a ação já havia disparado 15% após o balanço (Seu Dinheiro).",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Alta de mais de 10% em um dia, sem fato novo e com lucro em queda de 68%, abre espaço para devolução parcial. É a escolha de menor convicção das listas. Contra: o papel é muito volátil e pode haver motivo ainda não divulgado (fluxo, recompra, rumor), e quem sobe forte tende às vezes a seguir subindo.",
+   "gatilho": "Confirma se abrir em queda e devolver parte do ganho de ontem; invalida se surgir comunicado ou fato relevante que explique a alta, ou se a ação seguir subindo no leilão de abertura.",
+   "fonte": "SBT News 17/11 21h55; Trademap 17/11 18h28; SpaceMoney 17/11 18h07; Seu Dinheiro 12/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
    "ticker": "PRIO3",
    "empresa": "PRIO",
    "chance": 52,
@@ -136,11 +164,11 @@
    "ticker": "NVDC34",
    "empresa": "BDR da Nvidia",
    "chance": 66,
-   "evidencia": "n/d",
+   "evidencia": "Receita de US$ 115,8 bi contra US$ 108,9 bi esperados; lucro ajustado de US$ 2,68 por ação contra US$ 2,48 (FactSet); data center US$ 107,6 bi; guidance de US$ 130 bi (Investing.com 18/11). No after-market a ação subia cerca de 2% às 18h50 (Money Times 17/11 18h56), contra +3,7% no relatório das 5h34; o Nasdaq futuro marcava +0,94% às 6h47 (Money Times), contra +0,82% às 5h34.",
    "horizonte": "Fechamento de hoje",
    "motivo": "Receita de US$ 115,8 bi (estimativa US$ 108,9 bi) e guidance de cerca de US$ 130 bi para o trimestre seguinte; as ações subiam cerca de 3,7% no after-hours e o Nasdaq futuro +0,82%. Contra: o BDR caiu 1,26% ontem e a saída do CEO Jensen Huang segue sem sucessão.",
-   "gatilho": "n/d",
-   "fonte": "Saxo 18/11; InfoMoney 5h34; Olhar Digital 17/11",
+   "gatilho": "Confirma se Wall Street abrir (11h30, Brasília) com a Nvidia em alta e o Nasdaq no azul; invalida se o ganho do after-market se desfizer na abertura.",
+   "fonte": "Saxo 18/11; InfoMoney 5h34; Olhar Digital 17/11; Investing.com 18/11; Money Times 17/11 18h56 e 18/11 6h47",
    "leitura": "",
    "leitura_motivo": ""
   },
@@ -155,6 +183,20 @@
    "motivo": "Efeito setorial: balanço da Nvidia acima do esperado e Nasdaq futuro +0,82% às 5h34 favorecem chips. Sem notícia própria; as novas regras dos EUA para exportação de chips seguem como risco.",
    "gatilho": "n/d",
    "fonte": "InfoMoney 5h34; Saxo 18/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "TIMS3",
+   "empresa": "TIM",
+   "chance": 53,
+   "evidencia": "O Itaú BBA elevou a TIMS3 de neutra para outperform (equivale a compra) e o preço-alvo de R$ 23 para R$ 25, com retorno total de cerca de 26% até o fim de 2027 e cerca de 19% em proventos em 18 meses (InfoMoney, 17/11 12h). A ação subia 1,87% a R$ 22,28 às 11h07 e fechou +2,93% (Suno e SpaceMoney, 17/11). O banco cortou o lucro de 2026 em 3% e o de 2027 em 5%.",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A tese de dividendos e de defesa em dia de incerteza ainda pode atrair fluxo, em um mercado doméstico pressionado. Contra: a maior parte do efeito do relatório apareceu ontem (+2,93%), não há notícia nova hoje e o próprio banco reduziu as projeções de lucro.",
+   "gatilho": "Confirma se abrir acima do fechamento de 17/11 e sustentar; invalida se devolver a alta de ontem logo no início do pregão.",
+   "fonte": "InfoMoney 17/11 12h; Suno e SpaceMoney 17/11",
    "leitura": "",
    "leitura_motivo": ""
   }
@@ -191,8 +233,14 @@
    "status": "a vir"
   },
   {
-   "hora": "Tarde",
-   "evento": "Ata do Fed; horário não encontrado",
+   "hora": "14:30",
+   "evento": "Fluxo cambial semanal do Banco Central (Money Times, 18/11)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "16:00",
+   "evento": "Ata do Fed (Fomc), horário informado pelo Money Times em 18/11",
    "destaque": "sim",
    "status": "a vir"
   },
@@ -215,6 +263,10 @@
    "texto": "Ontem: Queda 40%, Lateral 30%, Alta 30%; o índice fechou na faixa lateral (+0,31%). Hoje: Alta 38%, Lateral 34%, Queda 28%. A mudança vem do balanço da Nvidia (acima do esperado, ação +3,7% no after-hours) e dos futuros de Nova York no azul, que na manhã de ontem apontavam para baixo. O dólar e o risco fiscal continuam iguais."
   },
   {
+   "topico": "Revisão das listas de papéis (8h50, manual)",
+   "texto": "Refiz a pesquisa de balanços, recomendações e fatos relevantes de 17 e 18/11. Entraram 3 papéis: VALE3 (queda, 56%), HAPV3 (queda, 53%) e TIMS3 (subida, 53%). As chances dos 4 papéis do relatório e as probabilidades dos cenários do Ibovespa não mudaram; só acrescentei evidências datadas a PETR4 (corte do alvo pelo Citi) e NVDC34 (números do balanço). As listas seguem com menos de 10 papéis porque só entra quem tem notícia concreta e fonte datada."
+  },
+  {
    "topico": "Riscos e o que mais surpreenderia",
    "texto": "Risco principal: o Senado, às 16h, aprovar destaques que desidratem o ajuste (por exemplo, teto de 0,6% ao invés de 2% pode ser lido como mais duro, enquanto a exclusão da limitação de créditos tributários reduziria a receita), somada à ata do Fed com tom de alta de juros. Surpreenderia: dólar abaixo de R$ 5,70 e Ibovespa acima de 172 mil pontos com o fiscal ainda aberto."
   },
@@ -224,11 +276,11 @@
   },
   {
    "topico": "Vieses e qualidade dos dados",
-   "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia)."
+   "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia). Os três papéis acrescentados às 8h50 têm notícia datada e fonte, mas a direção é interpretação minha; Hapvida (devolução após alta sem comunicado) é a de menor convicção. As fontes divergem em números de ontem: Hapvida +12,32% (SBT News), +12,50% (Trademap) e +10,11% (SpaceMoney, 18h07); Nvidia no after-market +2% (Money Times 18h56) contra +3,7% (relatório das 5h34)."
   },
   {
    "topico": "Lacunas",
-   "texto": "Não encontrei: EWZ no pré-mercado, DI futuro, minério de ferro, DXY, consenso do desemprego e da ata, horário da ata do Fed, lista completa de balanços de hoje, nem recomendações de bancos publicadas desde ontem (as que achei são de 5 e 10/11). Só 4 papéis entraram nas listas (2 de queda, 2 de subida), porque os demais não tinham notícia concreta. Sem fechamento anterior em reais para PRIO3 e AVGO34 (fontes com data de 16/11 e 13/11). Cosan (CSAN3, +5,18% ontem) e PicPay (PICS, Nasdaq, lucro +157% mas ação −30% por revisão de projeções) ficaram de fora por falta de lado claro."
+   "texto": "Não encontrei: DI futuro, minério de ferro de hoje, DXY, consenso do desemprego e da ata, nem o fechamento de 17/11 em reais para PRIO3, AVGO34, HAPV3 e TIMS3 (as fontes trazem só a variação). A temporada de balanços do 3T26 está no fim (as últimas empresas divulgaram em 16/11), então a lista de balanços de hoje é curta. Ficaram de fora por falta de lado claro: Banco do Brasil (BBAS3, −2,21% ontem; às 19h36 negou ter dado crédito rural a \"fazendas fantasmas\", e a fonte não diz quem fez a acusação), Cosan (CSAN3, +5,18% ontem; negocia vender fatias de Rumo, Compass e Moove, segundo o Valor), PicPay (PICS, listada na Nasdaq; lucro +157%, mas a ação chegou a cair 30% após revisão de projeções) e as usinas de açúcar e etanol (o Itaú BBA vê a pior margem em 10 anos em 2026/27, sem recomendação por papel na página consultada). Resolvido nesta revisão: o horário da ata do Fed (16h)."
   }
  ],
  "noticias": [
@@ -301,6 +353,16 @@
    "impacto": "Pressiona PETR4 e PRIO3, que o relatório colocou na lista de queda.",
    "fonte": "Saxo 18/11; InfoMoney 5h34",
    "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
+  },
+  {
+   "id": "bancos-rebaixam-brasil",
+   "titulo": "Morgan Stanley e Goldman Sachs rebaixam a bolsa brasileira",
+   "status": "Confirmado",
+   "quando": "Morgan Stanley: relatório enviado a clientes em 15/11, divulgado em 16 e 17/11; Goldman Sachs: relatório de 17/11",
+   "resumo": "O Morgan Stanley passou as ações brasileiras de equal-weight para underweight na carteira de América Latina, com alvo de 160 mil pontos para o Ibovespa no fim de 2027, citando juros altos, desaceleração e saída de capital; diz preferir exportadoras e empresas com receita em dólar. O Goldman Sachs rebaixou para marketweight (neutro), com pouco espaço para cortes de juros em 2027, desaceleração e risco de revisões negativas de lucros.",
+   "impacto": "Reforça o argumento contra o cenário de alta e o risco de saída de capital; o recado do Morgan Stanley favorece exportadoras em relação às empresas voltadas ao mercado doméstico (interpretação a partir do relatório).",
+   "fonte": "CNN Brasil 17/11",
+   "link": "https://www.cnnbrasil.com.br/economia/money/mercado/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira/"
   }
  ],
  "fechamento": []

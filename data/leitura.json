@@ -4,6 +4,10 @@
   "texto": "Ontem: Queda 40%, Lateral 30%, Alta 30%; o índice fechou na faixa lateral (+0,31%). Hoje: Alta 38%, Lateral 34%, Queda 28%. A mudança vem do balanço da Nvidia (acima do esperado, ação +3,7% no after-hours) e dos futuros de Nova York no azul, que na manhã de ontem apontavam para baixo. O dólar e o risco fiscal continuam iguais."
  },
  {
+  "topico": "Revisão das listas de papéis (8h50, manual)",
+  "texto": "Refiz a pesquisa de balanços, recomendações e fatos relevantes de 17 e 18/11. Entraram 3 papéis: VALE3 (queda, 56%), HAPV3 (queda, 53%) e TIMS3 (subida, 53%). As chances dos 4 papéis do relatório e as probabilidades dos cenários do Ibovespa não mudaram; só acrescentei evidências datadas a PETR4 (corte do alvo pelo Citi) e NVDC34 (números do balanço). As listas seguem com menos de 10 papéis porque só entra quem tem notícia concreta e fonte datada."
+ },
+ {
   "topico": "Riscos e o que mais surpreenderia",
   "texto": "Risco principal: o Senado, às 16h, aprovar destaques que desidratem o ajuste (por exemplo, teto de 0,6% ao invés de 2% pode ser lido como mais duro, enquanto a exclusão da limitação de créditos tributários reduziria a receita), somada à ata do Fed com tom de alta de juros. Surpreenderia: dólar abaixo de R$ 5,70 e Ibovespa acima de 172 mil pontos com o fiscal ainda aberto."
  },
@@ -13,10 +17,10 @@
  },
  {
   "topico": "Vieses e qualidade dos dados",
-  "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia)."
+  "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia). Os três papéis acrescentados às 8h50 têm notícia datada e fonte, mas a direção é interpretação minha; Hapvida (devolução após alta sem comunicado) é a de menor convicção. As fontes divergem em números de ontem: Hapvida +12,32% (SBT News), +12,50% (Trademap) e +10,11% (SpaceMoney, 18h07); Nvidia no after-market +2% (Money Times 18h56) contra +3,7% (relatório das 5h34)."
  },
  {
   "topico": "Lacunas",
-  "texto": "Não encontrei: EWZ no pré-mercado, DI futuro, minério de ferro, DXY, consenso do desemprego e da ata, horário da ata do Fed, lista completa de balanços de hoje, nem recomendações de bancos publicadas desde ontem (as que achei são de 5 e 10/11). Só 4 papéis entraram nas listas (2 de queda, 2 de subida), porque os demais não tinham notícia concreta. Sem fechamento anterior em reais para PRIO3 e AVGO34 (fontes com data de 16/11 e 13/11). Cosan (CSAN3, +5,18% ontem) e PicPay (PICS, Nasdaq, lucro +157% mas ação −30% por revisão de projeções) ficaram de fora por falta de lado claro."
+  "texto": "Não encontrei: DI futuro, minério de ferro de hoje, DXY, consenso do desemprego e da ata, nem o fechamento de 17/11 em reais para PRIO3, AVGO34, HAPV3 e TIMS3 (as fontes trazem só a variação). A temporada de balanços do 3T26 está no fim (as últimas empresas divulgaram em 16/11), então a lista de balanços de hoje é curta. Ficaram de fora por falta de lado claro: Banco do Brasil (BBAS3, −2,21% ontem; às 19h36 negou ter dado crédito rural a \"fazendas fantasmas\", e a fonte não diz quem fez a acusação), Cosan (CSAN3, +5,18% ontem; negocia vender fatias de Rumo, Compass e Moove, segundo o Valor), PicPay (PICS, listada na Nasdaq; lucro +157%, mas a ação chegou a cair 30% após revisão de projeções) e as usinas de açúcar e etanol (o Itaú BBA vê a pior margem em 10 anos em 2026/27, sem recomendação por papel na página consultada). Resolvido nesta revisão: o horário da ata do Fed (16h)."
  }
 ]

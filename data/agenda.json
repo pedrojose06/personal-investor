@@ -30,8 +30,14 @@
   "status": "a vir"
  },
  {
-  "hora": "Tarde",
-  "evento": "Ata do Fed; horário não encontrado",
+  "hora": "14:30",
+  "evento": "Fluxo cambial semanal do Banco Central (Money Times, 18/11)",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "16:00",
+  "evento": "Ata do Fed (Fomc), horário informado pelo Money Times em 18/11",
   "destaque": "sim",
   "status": "a vir"
  },
