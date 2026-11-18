@@ -1,0 +1,307 @@
+{
+ "resumo": [
+  {
+   "data": "quarta-feira, 18/11/2026",
+   "atualizado": "8h13 (Brasília), relatório da manhã · gravado às 8h41 (manual)",
+   "base": "Relatório da tarefa Radar pré-mercado B3 das 8h13, com dados de 5h34 a 7h48, recuperado do HTML publicado no artefato e gravado em data/ às 8h41, porque o envio da manhã ao repositório falhou com erro 403. Sem revisão após a abertura: as probabilidades são as do relatório e os campos \"relatório\" e \"agora\" coincidem. O relatório traz 4 papéis (2 de queda e 2 de subida) e não traz evidência, gatilho nem leitura de tendência por papel. Destaques da agenda marcados a partir dos gatilhos do relatório."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 28,
+   "agora": 28,
+   "motivo": "Dólar no maior nível desde abril de 2025 (R$ 5,78), Fazenda sem nome definido e Fed com viés de alta de juros (Musalem fala em várias altas até a primavera de 2027) mantêm o risco aberto; a votação dos destaques às 16h pode desidratar o ajuste."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 34,
+   "agora": 34,
+   "motivo": "Ontem o índice subiu 0,31% com exterior em queda; hoje o exterior melhora (futuros de NY no azul), mas o mercado tende a esperar o Senado (16h) e a ata do Fed antes de apostar."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 38,
+   "agora": 38,
+   "motivo": "Balanço da Nvidia acima do esperado (receita de US$ 115,8 bi contra US$ 108,9 bi estimados), futuros do Nasdaq +0,82% às 5h34 e Brent em queda aliviam o ambiente; precisa de dólar estável e Senado sem esvaziar o texto."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 17/11",
+   "valor": "169.817 pts",
+   "variacao": "+0,31%",
+   "hora": "17/11, após o leilão",
+   "fonte": "Rotina de fechamento; Rio Times e Seu Dinheiro (169.816,64)"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,7819 (fechamento); R$ 5,78 no pré",
+   "variacao": "+0,08% ontem; −0,02% hoje",
+   "hora": "7h28",
+   "fonte": "Universo da Notícia (Rio Times mostra 5,77 a 5,78, divergência pequena)"
+  },
+  {
+   "indicador": "EWZ no pré-mercado",
+   "valor": "n/d",
+   "variacao": "n/d",
+   "hora": "—",
+   "fonte": "Procurei em InfoMoney, Investing e Rio Times; sem dado"
+  },
+  {
+   "indicador": "Futuros de NY (Dow / S&P 500 / Nasdaq)",
+   "valor": "+0,15% / +0,47% / +0,82%",
+   "variacao": "pré-mercado",
+   "hora": "5h34",
+   "fonte": "InfoMoney"
+  },
+  {
+   "indicador": "S&P 500 / Dow / Nasdaq 100, fechamento de 17/11",
+   "valor": "7.340,53 (S&P)",
+   "variacao": "−1,0% / −1,6% / −0,7%",
+   "hora": "17/11",
+   "fonte": "Saxo"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "5,10%",
+   "variacao": "−3 pb",
+   "hora": "17/11",
+   "fonte": "Saxo"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 91,83",
+   "variacao": "−1,41% (fechou ontem a US$ 93,14)",
+   "hora": "5h34",
+   "fonte": "InfoMoney; Saxo"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian/Singapura)",
+   "valor": "n/d",
+   "variacao": "n/d",
+   "hora": "—",
+   "fonte": "Procurei em Saxo, InfoMoney e Universo da Notícia; sem dado"
+  },
+  {
+   "indicador": "Europa e Ásia",
+   "valor": "Stoxx 600 −0,08%, DAX +0,17%; Nikkei +0,28%, Hang Seng −0,91%",
+   "variacao": "manhã (ontem Stoxx −1,8%, Kospi −2,6%)",
+   "hora": "5h34",
+   "fonte": "InfoMoney; Saxo"
+  },
+  {
+   "indicador": "Ouro e Bitcoin",
+   "valor": "Ouro US$ 3.825 (mín. em 14 meses); Bitcoin US$ 64.643",
+   "variacao": "Bitcoin +1,20%",
+   "hora": "5h34; ouro na Ásia",
+   "fonte": "Saxo; InfoMoney"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "PETR4",
+   "empresa": "Petrobras",
+   "chance": 53,
+   "evidencia": "n/d",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Brent recuava 1,41% (US$ 91,83) e o WTI 2,07% às 5h34, e o Goldman Sachs vê possível excedente de 2 milhões de barris por dia em 2027, com Brent médio de US$ 88. Contra: a empresa recebeu R$ 1,9 bi de subvenção ao diesel.",
+   "gatilho": "n/d",
+   "fonte": "InfoMoney 5h34; Saxo 18/11; Gazeta Mercantil 17/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "PRIO3",
+   "empresa": "PRIO",
+   "chance": 52,
+   "evidencia": "n/d",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Mesma pressão do petróleo (Brent −1,41% e WTI −2,07% às 5h34); sem notícia própria da empresa. Subiu 2,12% ontem, o que deixa espaço para realização.",
+   "gatilho": "n/d",
+   "fonte": "InfoMoney 5h34; Saxo 18/11; fechamento de ontem do painel",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 66,
+   "evidencia": "n/d",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Receita de US$ 115,8 bi (estimativa US$ 108,9 bi) e guidance de cerca de US$ 130 bi para o trimestre seguinte; as ações subiam cerca de 3,7% no after-hours e o Nasdaq futuro +0,82%. Contra: o BDR caiu 1,26% ontem e a saída do CEO Jensen Huang segue sem sucessão.",
+   "gatilho": "n/d",
+   "fonte": "Saxo 18/11; InfoMoney 5h34; Olhar Digital 17/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "AVGO34",
+   "empresa": "BDR da Broadcom",
+   "chance": 57,
+   "evidencia": "n/d",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Efeito setorial: balanço da Nvidia acima do esperado e Nasdaq futuro +0,82% às 5h34 favorecem chips. Sem notícia própria; as novas regras dos EUA para exportação de chips seguem como risco.",
+   "gatilho": "n/d",
+   "fonte": "InfoMoney 5h34; Saxo 18/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "Madrugada",
+   "evento": "Balanço da Nvidia (após Nova York, 17/11): receita US$ 115,8 bi, ação +3,7% no after-hours",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "Madrugada",
+   "evento": "Senado adia destaques do ajuste fiscal; relator pediu mais tempo",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Manhã",
+   "evento": "Taxa de desemprego do 3º trimestre (IBGE); consenso não encontrado; horário não encontrado",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "10:00",
+   "evento": "Abertura da B3; futuro do Ibovespa e juros futuros começam às 9h",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Antes da abertura de NY",
+   "evento": "Balanços de Lowe's, Target e TJX (EUA)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Tarde",
+   "evento": "Ata do Fed; horário não encontrado",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "16:00",
+   "evento": "Senado vota os quatro destaques do ajuste fiscal (primeiro item da pauta)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "Depois do fechamento",
+   "evento": "Balanços de Tencent e Palo Alto; Walmart e Alibaba na quinta",
+   "destaque": "não",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou desde ontem",
+   "texto": "Ontem: Queda 40%, Lateral 30%, Alta 30%; o índice fechou na faixa lateral (+0,31%). Hoje: Alta 38%, Lateral 34%, Queda 28%. A mudança vem do balanço da Nvidia (acima do esperado, ação +3,7% no after-hours) e dos futuros de Nova York no azul, que na manhã de ontem apontavam para baixo. O dólar e o risco fiscal continuam iguais."
+  },
+  {
+   "topico": "Riscos e o que mais surpreenderia",
+   "texto": "Risco principal: o Senado, às 16h, aprovar destaques que desidratem o ajuste (por exemplo, teto de 0,6% ao invés de 2% pode ser lido como mais duro, enquanto a exclusão da limitação de créditos tributários reduziria a receita), somada à ata do Fed com tom de alta de juros. Surpreenderia: dólar abaixo de R$ 5,70 e Ibovespa acima de 172 mil pontos com o fiscal ainda aberto."
+  },
+  {
+   "topico": "Argumento mais forte contra o cenário de alta",
+   "texto": "A alta do Nvidia é um evento de uma empresa, enquanto o S&P 500 vem de quatro quedas seguidas, a Stoxx 600 teve o pior pregão desde março e o Treasury de 10 anos está em 5,10%. Sem notícia fiscal positiva, o repique pode virar Lateral, e o dólar na máxima de 17 meses dificulta ganhos fortes."
+  },
+  {
+   "topico": "Vieses e qualidade dos dados",
+   "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia)."
+  },
+  {
+   "topico": "Lacunas",
+   "texto": "Não encontrei: EWZ no pré-mercado, DI futuro, minério de ferro, DXY, consenso do desemprego e da ata, horário da ata do Fed, lista completa de balanços de hoje, nem recomendações de bancos publicadas desde ontem (as que achei são de 5 e 10/11). Só 4 papéis entraram nas listas (2 de queda, 2 de subida), porque os demais não tinham notícia concreta. Sem fechamento anterior em reais para PRIO3 e AVGO34 (fontes com data de 16/11 e 13/11). Cosan (CSAN3, +5,18% ontem) e PicPay (PICS, Nasdaq, lucro +157% mas ação −30% por revisão de projeções) ficaram de fora por falta de lado claro."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Ajuste fiscal: destaques no Senado hoje, depois Câmara",
+   "status": "Em andamento",
+   "quando": "Votação dos quatro destaques hoje, 18/11, às 16h; texto-base aprovado em 12/11; depois vai à Câmara",
+   "resumo": "A votação foi adiada ontem a pedido do relator Eduardo Braga. Quatro destaques podem mudar o texto, entre eles reduzir o teto de crescimento das despesas de 2% para 0,6% e excluir a limitação de créditos tributários. O texto-base passou em 12/11 por 45 a 31, com impacto estimado de R$ 50 a 60 bi em 2027.",
+   "impacto": "Destaques que desidratem o ajuste são o principal risco do cenário de queda; aprovação sem esvaziar o texto sustenta o cenário de alta (relatório de 18/11).",
+   "fonte": "InfoMoney 17/11",
+   "link": "https://www.infomoney.com.br/politica/senado-adia-votacao-de-destaques-do-pacote-fiscal-para-quarta-feira/"
+  },
+  {
+   "id": "equipe-economica",
+   "titulo": "Mercado aguarda nome para o Ministério da Fazenda",
+   "status": "Não confirmado",
+   "quando": "Sem data anunciada",
+   "resumo": "Reportagens de 18/11 dizem que o mercado espera a definição do comando da Fazenda junto com a votação do ajuste. Não encontrei o nome cogitado nem prazo.",
+   "impacto": "A indefinição sobre o comando da Fazenda entra entre as razões do cenário de queda (relatório de 18/11).",
+   "fonte": "Universo da Notícia 7h28",
+   "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
+  },
+  {
+   "id": "nvidia-ia",
+   "titulo": "Nvidia supera expectativas em meio à crise de confiança na IA",
+   "status": "Confirmado",
+   "quando": "Balanço divulgado depois do fechamento de Nova York em 17/11; reação na abertura de hoje (11h30, Brasília)",
+   "resumo": "Receita de US$ 115,8 bi (estimativa US$ 108,9 bi) e guidance de cerca de US$ 130 bi. Ação +3,7% no after-hours. O S&P 500 havia caído 1,0% (quarta queda seguida) e a Stoxx 600 1,8%, pior pregão desde março, com novas regras dos EUA para exportação de chips.",
+   "impacto": "Sustenta o cenário de alta e os BDRs de chips (NVDC34 e AVGO34). O relatório pondera que é um evento de uma empresa, com o S&P 500 em quatro quedas seguidas.",
+   "fonte": "Saxo 18/11; InfoMoney 5h34",
+   "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
+  },
+  {
+   "id": "fed-treasury",
+   "titulo": "Fed com viés de alta de juros e Treasury de 10 anos em 5,10%",
+   "status": "Em andamento",
+   "quando": "Ata do Fed hoje (horário não encontrado)",
+   "resumo": "Musalem, do Fed de St. Louis, sugeriu que várias altas podem ser necessárias até a primavera de 2027. Vendas no varejo americano de outubro e preços de importação (+1,1%) vieram acima do esperado. O Treasury de 10 anos caiu cerca de 3 pontos-base, a 5,10%.",
+   "impacto": "Ata com tom de juros mais altos invalida o cenário de alta (relatório de 18/11).",
+   "fonte": "Saxo 18/11",
+   "link": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+  },
+  {
+   "id": "dolar-maxima",
+   "titulo": "Dólar no maior patamar desde abril de 2025",
+   "status": "Confirmado",
+   "quando": "Fechamento de 17/11 e pré-mercado de 18/11",
+   "resumo": "PTAX de R$ 5,7851. No pré-mercado, R$ 5,78 (−0,02%). Euro a R$ 6,34.",
+   "impacto": "Dólar acima de R$ 5,82 confirma o cenário de queda; abaixo de R$ 5,78 sustenta o de alta (relatório de 18/11).",
+   "fonte": "Universo da Notícia 7h28",
+   "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
+  },
+  {
+   "id": "cosan-venda",
+   "titulo": "Cosan estuda vender participações em Rumo, Compass e Moove",
+   "status": "Não confirmado",
+   "quando": "Valor, 17/11; sem valores nem prazo",
+   "resumo": "Segundo o Valor, com fontes anônimas, há conversas ativas com interessados, sem valores. A ação subiu 5,18% ontem, a R$ 3,25. A empresa voltou ao lucro (R$ 190 mi no 3T26) e troca de CEO em janeiro.",
+   "impacto": "n/d: o relatório deixou a Cosan fora das listas por falta de lado claro.",
+   "fonte": "Finance News 17/11; Seu Dinheiro 18/11; Suno",
+   "link": "https://financenews.com.br/2026/11/rapidas-petrobras-vale-cosan-metal-leve-sao-carlos-bemobi-caixa-seguridade-usiminas/"
+  },
+  {
+   "id": "petroleo-oferta",
+   "titulo": "Petróleo cede com perspectiva de oferta maior",
+   "status": "Em andamento",
+   "quando": "Brent a US$ 91,83 às 5h34; fechou ontem a US$ 93,14",
+   "resumo": "Goldman vê possível excedente de 2 milhões de barris por dia em 2027 e Brent médio de US$ 88. Brent fechou ontem a US$ 93,14.",
+   "impacto": "Pressiona PETR4 e PRIO3, que o relatório colocou na lista de queda.",
+   "fonte": "Saxo 18/11; InfoMoney 5h34",
+   "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
+  }
+ ],
+ "fechamento": []
+}

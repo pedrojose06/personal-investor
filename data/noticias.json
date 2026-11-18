@@ -1,62 +1,72 @@
 [
  {
   "id": "pacote-fiscal",
-  "titulo": "Ajuste fiscal: destaques no Senado, depois Câmara",
+  "titulo": "Ajuste fiscal: destaques no Senado hoje, depois Câmara",
   "status": "Em andamento",
-  "quando": "Texto-base aprovado em 12/11; destaques previstos para 17/11, com votação adiada para quarta (18/11) segundo SBT News e Brasil 61; depois vai à Câmara",
-  "resumo": "O texto-base foi aprovado no Senado em 12/11 (45 a 31), com impacto estimado de R$ 45 a 60 bi em 2027. Alckmin diz não acreditar que o projeto será esvaziado. O ministro Dario Durigan falou na CAE do Senado às 10h sobre a alíquota da CBS.",
-  "impacto": "Destaques que desidratem o texto reforçam a dúvida fiscal que levou o dólar à maior cotação desde abril de 2025; aprovação sem mudanças alivia parte do prêmio de risco. Economistas chamam o pacote de correto, mas tímido.",
-  "fonte": "InfoMoney, Money Times, Investing, SBT News, Brasil 61",
-  "link": "https://www.infomoney.com.br/mercados/varejo-industria-eua-nvidia-ajuste-fiscal-agenda-17112026/"
+  "quando": "Votação dos quatro destaques hoje, 18/11, às 16h; texto-base aprovado em 12/11; depois vai à Câmara",
+  "resumo": "A votação foi adiada ontem a pedido do relator Eduardo Braga. Quatro destaques podem mudar o texto, entre eles reduzir o teto de crescimento das despesas de 2% para 0,6% e excluir a limitação de créditos tributários. O texto-base passou em 12/11 por 45 a 31, com impacto estimado de R$ 50 a 60 bi em 2027.",
+  "impacto": "Destaques que desidratem o ajuste são o principal risco do cenário de queda; aprovação sem esvaziar o texto sustenta o cenário de alta (relatório de 18/11).",
+  "fonte": "InfoMoney 17/11",
+  "link": "https://www.infomoney.com.br/politica/senado-adia-votacao-de-destaques-do-pacote-fiscal-para-quarta-feira/"
  },
  {
   "id": "equipe-economica",
-  "titulo": "Dúvida sobre a equipe econômica do próximo governo",
+  "titulo": "Mercado aguarda nome para o Ministério da Fazenda",
   "status": "Não confirmado",
   "quando": "Sem data anunciada",
-  "resumo": "A equipe econômica de Lula para o próximo mandato não foi anunciada; circulou uma lista de cotados para a Fazenda com Aluízio Mercadante, sem confirmação. Houve desgaste entre alas do governo, incluindo o Planejamento e a ala tradicional do PT.",
-  "impacto": "A incerteza sobre quem comandará a Fazenda foi citada como um dos pesos do pregão de ontem e pressiona dólar e juros longos.",
-  "fonte": "Money Times, Correio Braziliense, Investing",
-  "link": "https://www.moneytimes.com.br/preocupacao-fiscal-divide-dia-com-crise-da-ia-no-mundo-ibovespa-em-dolar-cai-nesta-terca-feira-17-rens/"
+  "resumo": "Reportagens de 18/11 dizem que o mercado espera a definição do comando da Fazenda junto com a votação do ajuste. Não encontrei o nome cogitado nem prazo.",
+  "impacto": "A indefinição sobre o comando da Fazenda entra entre as razões do cenário de queda (relatório de 18/11).",
+  "fonte": "Universo da Notícia 7h28",
+  "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
  },
  {
-  "id": "nvidia-chips",
-  "titulo": "Nvidia, crise da IA e restrição de chips",
+  "id": "nvidia-ia",
+  "titulo": "Nvidia supera expectativas em meio à crise de confiança na IA",
+  "status": "Confirmado",
+  "quando": "Balanço divulgado depois do fechamento de Nova York em 17/11; reação na abertura de hoje (11h30, Brasília)",
+  "resumo": "Receita de US$ 115,8 bi (estimativa US$ 108,9 bi) e guidance de cerca de US$ 130 bi. Ação +3,7% no after-hours. O S&P 500 havia caído 1,0% (quarta queda seguida) e a Stoxx 600 1,8%, pior pregão desde março, com novas regras dos EUA para exportação de chips.",
+  "impacto": "Sustenta o cenário de alta e os BDRs de chips (NVDC34 e AVGO34). O relatório pondera que é um evento de uma empresa, com o S&P 500 em quatro quedas seguidas.",
+  "fonte": "Saxo 18/11; InfoMoney 5h34",
+  "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
+ },
+ {
+  "id": "fed-treasury",
+  "titulo": "Fed com viés de alta de juros e Treasury de 10 anos em 5,10%",
   "status": "Em andamento",
-  "quando": "Balanço de hoje, depois do fechamento de Nova York",
-  "resumo": "Jensen Huang deixou a Nvidia e o conselho não considera a volta. Os EUA divulgaram regra provisória que exige licença para exportar chips de IA a vários países (o Brasil estaria na lista, segundo Money Times e Correio Braziliense). Nasdaq −2,49% e S&P 500 −1,91% ontem.",
-  "impacto": "Pesa nos BDRs de tecnologia e no apetite global por risco, o que reflete no Ibovespa via fluxo estrangeiro. A estreia da Anthropic é o próximo termômetro do setor.",
-  "fonte": "InfoMoney, Money Times, Exame",
-  "link": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-cercada-por-duvidas-sobre-expansao-da-ia-e-sucessao-de-ceo/"
+  "quando": "Ata do Fed hoje (horário não encontrado)",
+  "resumo": "Musalem, do Fed de St. Louis, sugeriu que várias altas podem ser necessárias até a primavera de 2027. Vendas no varejo americano de outubro e preços de importação (+1,1%) vieram acima do esperado. O Treasury de 10 anos caiu cerca de 3 pontos-base, a 5,10%.",
+  "impacto": "Ata com tom de juros mais altos invalida o cenário de alta (relatório de 18/11).",
+  "fonte": "Saxo 18/11",
+  "link": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
  },
  {
-  "id": "dolar-focus",
-  "titulo": "Dólar na maior cotação desde abril de 2025 e Focus mais duro",
+  "id": "dolar-maxima",
+  "titulo": "Dólar no maior patamar desde abril de 2025",
   "status": "Confirmado",
-  "quando": "Fechamento de 16/11 e Focus de 16/11",
-  "resumo": "O dólar fechou a R$ 5,777, tocando R$ 5,79. O Focus subiu a Selic de 2027 de 12,50% para 12,75% e o IPCA de 2027 de 4,90% para 5,00%. O IBC-Br caiu 0,2% em setembro.",
-  "impacto": "Dólar alto e juro mais longo pesam em varejo, construção e empresas endividadas; favorecem exportadoras. Juros mais altos por mais tempo reduzem o valor presente de ações de crescimento.",
-  "fonte": "Correio Braziliense, Money Times, Investing",
-  "link": "https://www.correiobraziliense.com.br/economia/2026/11/7539505-ibovespa-derrete-183-e-dolar-chega-a-rs-577-com-ajuste-fiscal-no-radar.html"
+  "quando": "Fechamento de 17/11 e pré-mercado de 18/11",
+  "resumo": "PTAX de R$ 5,7851. No pré-mercado, R$ 5,78 (−0,02%). Euro a R$ 6,34.",
+  "impacto": "Dólar acima de R$ 5,82 confirma o cenário de queda; abaixo de R$ 5,78 sustenta o de alta (relatório de 18/11).",
+  "fonte": "Universo da Notícia 7h28",
+  "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
  },
  {
-  "id": "morgan-stanley",
-  "titulo": "Morgan Stanley rebaixa Brasil para underweight",
-  "status": "Confirmado",
-  "quando": "Divulgado em 16/11",
-  "resumo": "O banco cortou o Brasil para underweight em seu portfólio de ações da América Latina e, segundo o Correio Braziliense, vê queda de 7% do Ibovespa em 2027. Bancos lideraram as perdas (IFNC −1,65%).",
-  "impacto": "Sinal de saída de fluxo estrangeiro. O efeito sobre o setor financeiro pode já estar no preço de ontem.",
-  "fonte": "Reuters via Investing, Money Times, Correio Braziliense",
-  "link": "https://br.investing.com/analysis/dolar-hoje-a-r-578-com-indefinicao-fiscal-e-aposta-em-mais-juros-nos-eua-200480754"
+  "id": "cosan-venda",
+  "titulo": "Cosan estuda vender participações em Rumo, Compass e Moove",
+  "status": "Não confirmado",
+  "quando": "Valor, 17/11; sem valores nem prazo",
+  "resumo": "Segundo o Valor, com fontes anônimas, há conversas ativas com interessados, sem valores. A ação subiu 5,18% ontem, a R$ 3,25. A empresa voltou ao lucro (R$ 190 mi no 3T26) e troca de CEO em janeiro.",
+  "impacto": "n/d: o relatório deixou a Cosan fora das listas por falta de lado claro.",
+  "fonte": "Finance News 17/11; Seu Dinheiro 18/11; Suno",
+  "link": "https://financenews.com.br/2026/11/rapidas-petrobras-vale-cosan-metal-leve-sao-carlos-bemobi-caixa-seguridade-usiminas/"
  },
  {
   "id": "petroleo-oferta",
-  "titulo": "Petróleo cede com oferta maior",
+  "titulo": "Petróleo cede com perspectiva de oferta maior",
   "status": "Em andamento",
-  "quando": "Brent a US$ 92,60 às 7h08; fechou a US$ 93,14 (+0,76%)",
-  "resumo": "A AIE projeta excedente de oferta no 4º trimestre e os embarques pelo Estreito de Ormuz estão quase totalmente restabelecidos.",
-  "impacto": "Petróleo mais baixo pesa em Petrobras, PRIO e outras petroleiras, mas alivia inflação e juros.",
-  "fonte": "Correio Braziliense, Exame, Money Times",
-  "link": "https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-com-incertezas-fiscais-e-queda-do-petroleo-davs/"
+  "quando": "Brent a US$ 91,83 às 5h34; fechou ontem a US$ 93,14",
+  "resumo": "Goldman vê possível excedente de 2 milhões de barris por dia em 2027 e Brent médio de US$ 88. Brent fechou ontem a US$ 93,14.",
+  "impacto": "Pressiona PETR4 e PRIO3, que o relatório colocou na lista de queda.",
+  "fonte": "Saxo 18/11; InfoMoney 5h34",
+  "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
  }
 ]

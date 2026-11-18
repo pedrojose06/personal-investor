@@ -1,22 +1,22 @@
 [
  {
-  "topico": "O que mudou em relação ao pregão anterior",
-  "texto": "Em 16/11 o relatório dava Alta 22%, Lateral 38% e Queda 40%, e a queda aconteceu (−1,83%). Hoje: Queda 40% (igual), Lateral 30% (−8 pontos) e Alta 30% (+8): a queda forte de ontem aumenta a chance de repique, enquanto o exterior segue fraco. A queda de ontem tira espaço para uma nova queda forte, mas o exterior pior (Europa −1%, futuros de NY no vermelho) e o Senado ainda sem resultado impedem subir a chance de alta."
- },
- {
-  "topico": "Argumento mais forte contra a queda",
-  "texto": "Depois de −1,83% e do dólar +2,15%, o preço já embute rebaixamento do Morgan Stanley, IBC-Br fraco e Focus mais duro. Se os destaques passarem sem mudar o texto, o mercado pode comprar o alívio fiscal e repicar, mesmo com o exterior fraco."
+  "topico": "O que mudou desde ontem",
+  "texto": "Ontem: Queda 40%, Lateral 30%, Alta 30%; o índice fechou na faixa lateral (+0,31%). Hoje: Alta 38%, Lateral 34%, Queda 28%. A mudança vem do balanço da Nvidia (acima do esperado, ação +3,7% no after-hours) e dos futuros de Nova York no azul, que na manhã de ontem apontavam para baixo. O dólar e o risco fiscal continuam iguais."
  },
  {
   "topico": "Riscos e o que mais surpreenderia",
-  "texto": "Riscos: destaques que esvaziem o ajuste fiscal, balanço da Nvidia fraco, novos cortes de projeção de bancos. O que mais surpreenderia: Ibovespa subir mais de 1,5% com o dólar acima de R$ 5,75, ou o Senado aprovar os destaques e o dólar cair mais de 1%."
+  "texto": "Risco principal: o Senado, às 16h, aprovar destaques que desidratem o ajuste (por exemplo, teto de 0,6% ao invés de 2% pode ser lido como mais duro, enquanto a exclusão da limitação de créditos tributários reduziria a receita), somada à ata do Fed com tom de alta de juros. Surpreenderia: dólar abaixo de R$ 5,70 e Ibovespa acima de 172 mil pontos com o fiscal ainda aberto."
  },
  {
-  "topico": "Como ler a chance de cada ação",
-  "texto": "Das duas listas, só XPBR31 tem notícia empresarial nova de peso; as demais vêm de efeito setorial (rebaixamento do Brasil, minério, chips). Por isso as chances ficam entre 51% e 62%. Há viés de narrativa: ontem explica tudo o que caiu. Evite tratar 52% como sinal forte. A chance é de direção contra o fechamento de 16/11, sem indicar tamanho."
+  "topico": "Argumento mais forte contra o cenário de alta",
+  "texto": "A alta do Nvidia é um evento de uma empresa, enquanto o S&P 500 vem de quatro quedas seguidas, a Stoxx 600 teve o pior pregão desde março e o Treasury de 10 anos está em 5,10%. Sem notícia fiscal positiva, o repique pode virar Lateral, e o dólar na máxima de 17 meses dificulta ganhos fortes."
+ },
+ {
+  "topico": "Vieses e qualidade dos dados",
+  "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia)."
  },
  {
   "topico": "Lacunas",
-  "texto": "Não encontrei: DI futuro, Treasury de 10 anos, minério de hoje e de Singapura, consensos de varejo e produção industrial dos EUA, horário do balanço da Nvidia, horário da votação dos destaques, lista de balanços da noite além de XP e BRK Ambiental e recomendações de bancos publicadas desde ontem além do Morgan Stanley. Preço em reais do fechamento de 16/11 com data confirmada: só AVGO34. O fechamento do Ibovespa diverge em 11 pts entre fontes (169.295 em Suno/Investing e rotina; 169.284 no Universo da Notícia); usei 169.295."
+  "texto": "Não encontrei: EWZ no pré-mercado, DI futuro, minério de ferro, DXY, consenso do desemprego e da ata, horário da ata do Fed, lista completa de balanços de hoje, nem recomendações de bancos publicadas desde ontem (as que achei são de 5 e 10/11). Só 4 papéis entraram nas listas (2 de queda, 2 de subida), porque os demais não tinham notícia concreta. Sem fechamento anterior em reais para PRIO3 e AVGO34 (fontes com data de 16/11 e 13/11). Cosan (CSAN3, +5,18% ontem) e PicPay (PICS, Nasdaq, lucro +157% mas ação −30% por revisão de projeções) ficaram de fora por falta de lado claro."
  }
 ]
