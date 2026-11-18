@@ -1,72 +1,62 @@
 [
  {
   "id": "pacote-fiscal",
-  "titulo": "Ajuste fiscal: Senado aprova o texto-base",
+  "titulo": "Ajuste fiscal: destaques no Senado, depois Câmara",
   "status": "Em andamento",
-  "quando": "Texto-base aprovado na noite de 12/11; destaques na terça, 17/11; depois vai à Câmara",
-  "resumo": "O Senado aprovou o texto-base do ajuste fiscal por 45 votos a 31. Prevê contingenciamento adicional, teto de 2% para o crescimento real das despesas e adiamento de repasses da Lei Kandir, com impacto de R$ 50 a 60 bi em 2027, sem mudar as metas de superávit.",
-  "impacto": "Alivia parte da dúvida que levou o dólar à máxima de 17 meses. O JPMorgan, porém, acha o ajuste insuficiente e recomenda cautela com ações brasileiras; a votação dos destaques e a passagem pela Câmara ainda podem desidratar o texto.",
-  "fonte": "InfoMoney, Money Times, Metrópoles",
-  "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+  "quando": "Texto-base aprovado em 12/11; destaques previstos para 17/11, com votação adiada para quarta (18/11) segundo SBT News e Brasil 61; depois vai à Câmara",
+  "resumo": "O texto-base foi aprovado no Senado em 12/11 (45 a 31), com impacto estimado de R$ 45 a 60 bi em 2027. Alckmin diz não acreditar que o projeto será esvaziado. O ministro Dario Durigan falou na CAE do Senado às 10h sobre a alíquota da CBS.",
+  "impacto": "Destaques que desidratem o texto reforçam a dúvida fiscal que levou o dólar à maior cotação desde abril de 2025; aprovação sem mudanças alivia parte do prêmio de risco. Economistas chamam o pacote de correto, mas tímido.",
+  "fonte": "InfoMoney, Money Times, Investing, SBT News, Brasil 61",
+  "link": "https://www.infomoney.com.br/mercados/varejo-industria-eua-nvidia-ajuste-fiscal-agenda-17112026/"
  },
  {
-  "id": "fed-dezembro",
-  "titulo": "Fed em dezembro: PPI de outubro vem abaixo do esperado",
-  "status": "Expectativa de mercado",
-  "quando": "PPI saiu hoje às 10h30; reunião do Fed em 8 e 9/12",
-  "resumo": "O PPI subiu 0,3% em outubro (esperado 0,4%), depois de 1,4% em setembro (revisado); em 12 meses, 6,5%. O mercado ainda precifica alta de 0,25 ponto em dezembro com cerca de 87% de chance.",
-  "impacto": "Juro americano mais alto costuma tirar fluxo de emergentes, subir o dólar e pesar em ações de crescimento. Um PPI acima do esperado reforça esse caminho.",
-  "fonte": "InfoMoney, TradeMap, Saxo",
-  "link": "https://trademap.com.br/noticias/news-8598899"
- },
- {
-  "id": "dolar-17-meses",
-  "titulo": "Dólar na máxima em 17 meses",
-  "status": "Confirmado",
-  "quando": "Fechamento de 12/11; faixa a vigiar hoje: R$ 5,58 a R$ 5,70",
-  "resumo": "O dólar subiu 1,61% em 12/11, a R$ 5,651, com dúvidas sobre o pacote fiscal, Treasury de 10 anos acima de 5% e apostas de alta de juros pelo Fed.",
-  "impacto": "Dólar alto encarece importados e pressiona a inflação e os juros, o que pesa em varejo, construção e empresas endividadas em dólar. Exportadoras como Petrobras e mineradoras tendem a se proteger.",
-  "fonte": "O Repórter, O Tempo, relatório do radar de 13/11",
-  "link": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
- },
- {
-  "id": "nvidia-ceo",
-  "titulo": "Nvidia: Huang deixa a empresa; CFO assume interinamente",
-  "status": "Confirmado",
-  "quando": "Balanço do 3º tri na terça, 17/11",
-  "resumo": "Jensen Huang deixou o cargo de CEO e não terá mais vínculo com a Nvidia; a CFO Colette Kress é a CEO interina. As ações caíam no pré-mercado. A Microsoft também caía mais de 1% depois de um apagão global de Outlook, Teams e Copilot.",
-  "impacto": "Pesa no BDR NVDC34 e nos BDRs de tecnologia e IA. O balanço de 17/11 é o próximo teste. Como a Nvidia é referência do setor, o clima também afeta a estreia da Anthropic.",
-  "fonte": "InfoMoney, Metrópoles, DGABC",
-  "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
- },
- {
-  "id": "anthropic-ipo",
-  "titulo": "IPO da Anthropic na Nasdaq",
-  "status": "Confirmado",
-  "quando": "Preço em 18/11, estreia prevista para 19/11",
-  "resumo": "A dona do Claude vai ofertar 825 milhões de ações entre US$ 70 e US$ 78, sob o ticker ANT, o que a avalia em até cerca de US$ 1,4 trilhão. No topo da faixa a oferta movimenta US$ 64,35 bi. A empresa ainda dá prejuízo e os sócios antigos podem vender ações desde o primeiro dia.",
-  "impacto": "As fontes só citam reserva por corretoras americanas, então o caminho para o brasileiro é comprar depois da estreia, por conta no exterior. Nenhum BDR foi anunciado. A estreia serve de termômetro para o apetite por IA e pode mexer com o Nasdaq e com os BDRs de tecnologia. Um especialista ouvido pelo Bora Investir sugere esperar de 6 a 12 meses antes de entrar.",
-  "fonte": "CNBC, TechCrunch, Yahoo Finance, Bora Investir",
-  "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
- },
- {
-  "id": "novas-bolsas",
-  "titulo": "Novas bolsas para concorrer com a B3",
-  "status": "Em andamento",
-  "quando": "A5X: 1º semestre de 2027 · Base Exchange: 2º semestre de 2027",
-  "resumo": "Três projetos avançam. A Base Exchange, do Rio, controlada pela Mubadala Capital, vai negociar as mesmas ações, ETFs e FIIs já listados na B3, sem IPOs no começo. A A5X, de São Paulo, com Itaú, Ideal, XP e tecnologia da Bolsa de Londres, começa por derivativos de ações, moedas e juros. A CSD BR, que já faz registro e liquidação, mira virar bolsa em até três anos.",
-  "impacto": "A promessa é de custos de negociação menores, mas a liquidez tende a continuar concentrada na B3 por um bom tempo. Para quem acompanha B3SA3, a concorrência pode pressionar tarifas e margens, efeito que só deve aparecer depois da estreia. Os prazos já foram adiados antes: a Base falava em 2025 e a A5X em 2026.",
-  "fonte": "IstoÉ Dinheiro, Money Times, Seu Dinheiro, Investidor10, Brazil Journal, Bloomberg Línea",
-  "link": "https://www.moneytimes.com.br/concorrencia-a-vista-b3-b3sa3-pode-ser-ameacada-com-novas-bolsas/"
- },
- {
-  "id": "openai-ipo",
-  "titulo": "Possível IPO da OpenAI",
+  "id": "equipe-economica",
+  "titulo": "Dúvida sobre a equipe econômica do próximo governo",
   "status": "Não confirmado",
-  "quando": "27/11 em um único calendário",
-  "resumo": "O calendário de IPOs do Investing.com lista a OpenAI para 27/11, sem preço nem valor. Não encontrei confirmação em outra fonte.",
-  "impacto": "Trate como rumor. Se confirmado, seriam duas ofertas gigantes de IA disputando o mesmo capital em poucos dias.",
-  "fonte": "Investing.com",
-  "link": "https://www.investing.com/ipo-calendar/"
+  "quando": "Sem data anunciada",
+  "resumo": "A equipe econômica de Lula para o próximo mandato não foi anunciada; circulou uma lista de cotados para a Fazenda com Aluízio Mercadante, sem confirmação. Houve desgaste entre alas do governo, incluindo o Planejamento e a ala tradicional do PT.",
+  "impacto": "A incerteza sobre quem comandará a Fazenda foi citada como um dos pesos do pregão de ontem e pressiona dólar e juros longos.",
+  "fonte": "Money Times, Correio Braziliense, Investing",
+  "link": "https://www.moneytimes.com.br/preocupacao-fiscal-divide-dia-com-crise-da-ia-no-mundo-ibovespa-em-dolar-cai-nesta-terca-feira-17-rens/"
+ },
+ {
+  "id": "nvidia-chips",
+  "titulo": "Nvidia, crise da IA e restrição de chips",
+  "status": "Em andamento",
+  "quando": "Balanço de hoje, depois do fechamento de Nova York",
+  "resumo": "Jensen Huang deixou a Nvidia e o conselho não considera a volta. Os EUA divulgaram regra provisória que exige licença para exportar chips de IA a vários países (o Brasil estaria na lista, segundo Money Times e Correio Braziliense). Nasdaq −2,49% e S&P 500 −1,91% ontem.",
+  "impacto": "Pesa nos BDRs de tecnologia e no apetite global por risco, o que reflete no Ibovespa via fluxo estrangeiro. A estreia da Anthropic é o próximo termômetro do setor.",
+  "fonte": "InfoMoney, Money Times, Exame",
+  "link": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-cercada-por-duvidas-sobre-expansao-da-ia-e-sucessao-de-ceo/"
+ },
+ {
+  "id": "dolar-focus",
+  "titulo": "Dólar na maior cotação desde abril de 2025 e Focus mais duro",
+  "status": "Confirmado",
+  "quando": "Fechamento de 16/11 e Focus de 16/11",
+  "resumo": "O dólar fechou a R$ 5,777, tocando R$ 5,79. O Focus subiu a Selic de 2027 de 12,50% para 12,75% e o IPCA de 2027 de 4,90% para 5,00%. O IBC-Br caiu 0,2% em setembro.",
+  "impacto": "Dólar alto e juro mais longo pesam em varejo, construção e empresas endividadas; favorecem exportadoras. Juros mais altos por mais tempo reduzem o valor presente de ações de crescimento.",
+  "fonte": "Correio Braziliense, Money Times, Investing",
+  "link": "https://www.correiobraziliense.com.br/economia/2026/11/7539505-ibovespa-derrete-183-e-dolar-chega-a-rs-577-com-ajuste-fiscal-no-radar.html"
+ },
+ {
+  "id": "morgan-stanley",
+  "titulo": "Morgan Stanley rebaixa Brasil para underweight",
+  "status": "Confirmado",
+  "quando": "Divulgado em 16/11",
+  "resumo": "O banco cortou o Brasil para underweight em seu portfólio de ações da América Latina e, segundo o Correio Braziliense, vê queda de 7% do Ibovespa em 2027. Bancos lideraram as perdas (IFNC −1,65%).",
+  "impacto": "Sinal de saída de fluxo estrangeiro. O efeito sobre o setor financeiro pode já estar no preço de ontem.",
+  "fonte": "Reuters via Investing, Money Times, Correio Braziliense",
+  "link": "https://br.investing.com/analysis/dolar-hoje-a-r-578-com-indefinicao-fiscal-e-aposta-em-mais-juros-nos-eua-200480754"
+ },
+ {
+  "id": "petroleo-oferta",
+  "titulo": "Petróleo cede com oferta maior",
+  "status": "Em andamento",
+  "quando": "Brent a US$ 92,60 às 7h08; fechou a US$ 93,14 (+0,76%)",
+  "resumo": "A AIE projeta excedente de oferta no 4º trimestre e os embarques pelo Estreito de Ormuz estão quase totalmente restabelecidos.",
+  "impacto": "Petróleo mais baixo pesa em Petrobras, PRIO e outras petroleiras, mas alivia inflação e juros.",
+  "fonte": "Correio Braziliense, Exame, Money Times",
+  "link": "https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-com-incertezas-fiscais-e-queda-do-petroleo-davs/"
  }
 ]

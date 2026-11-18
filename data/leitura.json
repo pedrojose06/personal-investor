@@ -1,22 +1,22 @@
 [
  {
-  "topico": "O que mudou desde o relatório das 8h",
-  "texto": "O relatório da manhã não tinha a aprovação do texto-base do ajuste fiscal no Senado (45 a 31, na noite de quinta), nem o PPI e o varejo. Os três vieram favoráveis: fiscal aprovado, PPI abaixo do esperado e varejo acima. Com o índice a +0,51% às 10h34, a chance de alta sobe de 26% para 38% e a de queda cai de 32% para 15%; lateral continua a mais provável, com 47%."
+  "topico": "O que mudou em relação ao pregão anterior",
+  "texto": "Em 16/11 o relatório dava Alta 22%, Lateral 38% e Queda 40%, e a queda aconteceu (−1,83%). Hoje: Queda 40% (igual), Lateral 30% (−8 pontos) e Alta 30% (+8): a queda forte de ontem aumenta a chance de repique, enquanto o exterior segue fraco. A queda de ontem tira espaço para uma nova queda forte, mas o exterior pior (Europa −1%, futuros de NY no vermelho) e o Senado ainda sem resultado impedem subir a chance de alta."
  },
  {
-  "topico": "O que mudou em relação a 12/11",
-  "texto": "Ontem o mercado reagiu mal à proposta fiscal e o dólar subiu 1,6%. Hoje a aprovação no Senado alivia parte dessa dúvida, mas os destaques ainda serão votados na terça (17/11) e o texto segue para a Câmara."
+  "topico": "Argumento mais forte contra a queda",
+  "texto": "Depois de −1,83% e do dólar +2,15%, o preço já embute rebaixamento do Morgan Stanley, IBC-Br fraco e Focus mais duro. Se os destaques passarem sem mudar o texto, o mercado pode comprar o alívio fiscal e repicar, mesmo com o exterior fraco."
  },
  {
-  "topico": "Argumento mais forte contra a leitura de alta",
-  "texto": "O JPMorgan considera o ajuste insuficiente (impacto estimado de até R$ 56,1 bi), recomenda cautela com ações brasileiras e prefere exportadoras. O dólar não caiu de forma clara e os juros futuros abriram em alta, o que sugere que o mercado ainda não comprou a melhora fiscal."
+  "topico": "Riscos e o que mais surpreenderia",
+  "texto": "Riscos: destaques que esvaziem o ajuste fiscal, balanço da Nvidia fraco, novos cortes de projeção de bancos. O que mais surpreenderia: Ibovespa subir mais de 1,5% com o dólar acima de R$ 5,75, ou o Senado aprovar os destaques e o dólar cair mais de 1%."
  },
  {
   "topico": "Como ler a chance de cada ação",
-  "texto": "Hoje as listas foram montadas às 10h50, depois da abertura, então parte do movimento já era conhecida e as chances são mais altas onde o papel já reagia ao balanço. A referência continua sendo o fechamento de 12/11. Papéis sem variação conhecida têm evidência baixa ou média."
+  "texto": "Das duas listas, só XPBR31 tem notícia empresarial nova de peso; as demais vêm de efeito setorial (rebaixamento do Brasil, minério, chips). Por isso as chances ficam entre 51% e 62%. Há viés de narrativa: ontem explica tudo o que caiu. Evite tratar 52% como sinal forte. A chance é de direção contra o fechamento de 16/11, sem indicar tamanho."
  },
  {
   "topico": "Lacunas",
-  "texto": "Faltam variações confirmadas para vários papéis com balanço (Braskem, IRB, CSN Mineração, Cemig, Copel, Nubank). O dólar diverge entre fontes (R$ 5,646 a R$ 5,663) por horários diferentes. Não encontrei o futuro do Ibovespa antes das 9h, porque o contrato só começa a negociar às 9h."
+  "texto": "Não encontrei: DI futuro, Treasury de 10 anos, minério de hoje e de Singapura, consensos de varejo e produção industrial dos EUA, horário do balanço da Nvidia, horário da votação dos destaques, lista de balanços da noite além de XP e BRK Ambiental e recomendações de bancos publicadas desde ontem além do Morgan Stanley. Preço em reais do fechamento de 16/11 com data confirmada: só AVGO34. O fechamento do Ibovespa diverge em 11 pts entre fontes (169.295 em Suno/Investing e rotina; 169.284 no Universo da Notícia); usei 169.295."
  }
 ]

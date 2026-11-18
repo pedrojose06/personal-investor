@@ -1,72 +1,79 @@
 [
  {
-  "indicador": "Ibovespa",
-  "valor": "172.205 pts",
-  "variacao": "+0,51%",
-  "hora": "10h34",
-  "fonte": "InfoMoney"
- },
- {
-  "indicador": "Ibovespa, fechamento de 12/11",
-  "valor": "171.324 pts",
-  "variacao": "−0,43%",
-  "hora": "12/11",
-  "fonte": "InfoMoney, Metrópoles, rotina de fechamento"
- },
- {
-  "indicador": "Ibovespa, abertura de 13/11",
-  "valor": "171.621 pts",
-  "variacao": "+0,17%",
-  "hora": "10h15",
-  "fonte": "Metrópoles"
+  "indicador": "Ibovespa, fechamento oficial de 16/11",
+  "valor": "169.295 pts",
+  "variacao": "−1,83%",
+  "hora": "16/11, após o leilão",
+  "fonte": "Suno 18h30, Investing 05h20, rotina de fechamento (Universo da Notícia traz 169.284, divergência de 11 pts)"
  },
  {
   "indicador": "Dólar à vista",
-  "valor": "R$ 5,646",
-  "variacao": "−0,10%",
-  "hora": "10h38",
-  "fonte": "Money Times (InfoMoney trazia R$ 5,663, +0,21%, às 9h34)"
- },
- {
-  "indicador": "PPI dos EUA, outubro",
-  "valor": "+0,3% no mês",
-  "variacao": "esperado +0,4%",
-  "hora": "10h30",
-  "fonte": "InfoMoney, TradeMap"
- },
- {
-  "indicador": "Varejo IBGE, setembro",
-  "valor": "+0,2% no mês",
-  "variacao": "esperado −0,2%",
-  "hora": "9h00",
-  "fonte": "InfoMoney (consenso Reuters)"
- },
- {
-  "indicador": "DI jan/2028",
-  "valor": "14,36%",
-  "variacao": "+0,07 pp",
-  "hora": "9h13; recuando às 10h19",
-  "fonte": "InfoMoney"
+  "valor": "R$ 5,777 (fechamento); R$ 5,79 no pré-mercado",
+  "variacao": "+2,15% ontem",
+  "hora": "7h08",
+  "fonte": "Money Times, Investing (maior nível desde abril de 2025)"
  },
  {
   "indicador": "EWZ (ETF de Brasil em NY)",
-  "valor": "US$ 31,78",
-  "variacao": "+0,88%",
-  "hora": "pré-mercado",
+  "valor": "US$ 30,68",
+  "variacao": "−0,78%",
+  "hora": "7h08",
   "fonte": "Money Times"
+ },
+ {
+  "indicador": "Futuros de NY (S&P 500 / Nasdaq / Dow)",
+  "valor": "−0,34% / −0,33% / −0,48%",
+  "variacao": "pré-mercado",
+  "hora": "7h08",
+  "fonte": "Money Times"
+ },
+ {
+  "indicador": "S&P 500 / Nasdaq / Dow, fechamento de 16/11",
+  "valor": "7.417 / 24.510 / 51.609",
+  "variacao": "−1,91% / −2,49% / −1,41%",
+  "hora": "16/11",
+  "fonte": "Money Times"
+ },
+ {
+  "indicador": "Treasury de 10 anos",
+  "valor": "n/d",
+  "variacao": "n/d",
+  "hora": "—",
+  "fonte": "Não encontrei em Money Times, Investing e InfoMoney"
  },
  {
   "indicador": "Brent",
-  "valor": "US$ 96,02",
-  "variacao": "+0,21%",
-  "hora": "manhã",
+  "valor": "US$ 92,60",
+  "variacao": "+0,17%",
+  "hora": "7h08",
+  "fonte": "Money Times (ontem −3,55%, a US$ 92,44)"
+ },
+ {
+  "indicador": "Minério de ferro (Dalian)",
+  "valor": "US$ 97,14 (fechamento de 16/11)",
+  "variacao": "−3,28% ontem",
+  "hora": "16/11",
+  "fonte": "Money Times; hoje n/d (Singapura também n/d)"
+ },
+ {
+  "indicador": "Bolsas: Europa e Ásia",
+  "valor": "DAX −1,11%, FTSE −0,92%, CAC −1,14%; Nikkei −1,23%, Hang Seng −1,03%",
+  "variacao": "manhã",
+  "hora": "7h08",
   "fonte": "Money Times"
  },
  {
-  "indicador": "Bitcoin",
-  "valor": "US$ 69.193",
-  "variacao": "−6,1%",
-  "hora": "manhã",
-  "fonte": "Money Times"
+  "indicador": "DXY, VIX, ouro, Bitcoin",
+  "valor": "103,50; 23,55; US$ 3.869; US$ 64.262 (−1,1%)",
+  "variacao": "manhã",
+  "hora": "5h20 a 7h08",
+  "fonte": "Investing, Money Times"
+ },
+ {
+  "indicador": "DI futuro",
+  "valor": "n/d",
+  "variacao": "n/d",
+  "hora": "—",
+  "fonte": "Mercado de juros abre às 9h; fechamento de ontem não encontrado"
  }
 ]

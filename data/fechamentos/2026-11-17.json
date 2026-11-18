@@ -1,0 +1,76 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "17/11/2026",
+  "hora": "23h28 (execução manual; previsões recuperadas do relatório das 8h50)",
+  "ibov": "169.817 pts",
+  "ibov_var": "+0,31%",
+  "dolar": "R$ 5,78",
+  "dolar_var": "+0,10%",
+  "acertos": "4 de 9",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 54,05 → R$ 53,60 (−R$ 0,45; −0,83%), 2 de 4 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 36,12 → R$ 35,99 (+R$ 0,13; +0,36%), 2 de 6 papéis com preço · Total: −R$ 0,32 (−0,35% sobre R$ 90,17); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa subiu 0,31% e fechou a 169.816,64 pontos, em recuperação técnica depois da queda de 1,83% de segunda. Chegou a 171.749 pontos na máxima, mais de 1% de alta pela manhã, e perdeu força à tarde, com bancos e Petrobras limitando os ganhos. O dólar à vista fechou a R$ 5,782 (+0,10%), quarta alta seguida, com a votação dos destaques do ajuste fiscal adiada no Senado para quarta (18), dúvida sobre o comando da Fazenda, Nova York em queda (S&P 500 em torno de −1%) antes do balanço da Nvidia e Brent a US$ 93,14 (+0,76%). Entre as maiores altas do índice ficaram Hapvida (+12,32%) e GPA (+10%); entre as maiores baixas, Cury (−4,15%) e Tenda (−3,18%). Previsões do Radar das 8h50: 4 acertos em 9 avaliadas. O relatório dava Queda 40%, Lateral 30% e Alta 30%, e o índice terminou na faixa lateral. Acertaram NVDC34, ITUB4, VALE3 e PRIO3; erraram BBDC4 e BRAP4 (queda prevista, subiram) e YDUQ3 e PETR4 (subida prevista, caíram). AVGO34 e XPBR31 ficaram sem dado de fechamento. Preço em reais completo (abertura e fechamento) só para NVDC34, BRAP4, YDUQ3 e PETR4, por isso a simulação cobre 2 de 4 papéis de subida e 2 de 6 de queda. Divergências: variação da Vale (−0,59%, −0,43% e −0,25% conforme a fonte, todas negativas), PETR4 (−0,09% em duas fontes e +0,09% na Bloomberg Línea às 18h), YDUQ3 (−0,82% na HG Brasil, que trazia fechamento anterior inconsistente) e as listas de maiores altas e baixas, que variam entre fontes (Hapvida de +11,03% a +12,50%). A rotina das 18h47 falhou por limite de uso da conta; este fechamento foi feito à mão, com as previsões recuperadas do relatório publicado.",
+  "fontes": "SBT News (21h55), BPMoney (18h27), TradeMap (18h28), Brasil 61, Times Brasil (18h58), HG Brasil (18h00 a 18h08), Investidor10, Bloomberg Línea (18h), Valor Investe, Investir e Começar (20h02)"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "HAPV3",
+  "empresa": "Hapvida",
+  "var": "+12,32%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "PCAR3",
+  "empresa": "GPA",
+  "var": "+10,00%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "ECOR3",
+  "empresa": "EcoRodovias",
+  "var": "+5,94%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "CSAN3",
+  "empresa": "Cosan",
+  "var": "+5,18%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "MGLU3",
+  "empresa": "Magazine Luiza",
+  "var": "+4,54%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "CURY3",
+  "empresa": "Cury",
+  "var": "−4,15%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "TEND3",
+  "empresa": "Tenda",
+  "var": "−3,18%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "BRKM5",
+  "empresa": "Braskem",
+  "var": "−3,17%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "AZZA3",
+  "empresa": "Azzas 2154",
+  "var": "−3,10%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "NATU3",
+  "empresa": "Natura",
+  "var": "−3,06%"
+ }
+]

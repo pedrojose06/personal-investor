@@ -1,0 +1,499 @@
+{
+ "resumo": [
+  {
+   "data": "terça-feira, 17/11/2026",
+   "atualizado": "8h50 (Brasília), relatório da manhã · fechamento às 23h28 (manual)",
+   "base": "Relatório da tarefa Radar pré-mercado B3 das 8h50, recuperado do HTML publicado e gravado em data/ à noite, porque o envio da manhã ao repositório falhou com erro 403. Sem revisão após a abertura: as probabilidades são as do relatório e os campos \"relatório\" e \"agora\" coincidem. O relatório não traz leitura de tendência por papel."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 40,
+   "agora": 40,
+   "motivo": "Mais provável por pouco: Europa cai cerca de 1%, Ásia fechou em baixa, EWZ −0,78% e futuros de NY −0,3% a −0,5% antes do balanço da Nvidia, com os destaques do ajuste fiscal ainda sem resultado e o Morgan Stanley com o Brasil em underweight. O tombo de ontem (−1,83%) limita o tamanho de uma nova queda."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 30,
+   "agora": 30,
+   "motivo": "Após uma queda de quase 2%, quedas e repiques costumam se alternar; dólar parado perto de R$ 5,79 e Brent estável (US$ 92,60) sugerem que parte do estresse foi digerida."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 30,
+   "agora": 30,
+   "motivo": "Repique técnico depois de uma queda forte, com Vale e bancos descontados, e votação dos destaques sem esvaziar o texto (Alckmin não espera isso). Exige exterior estável, o que o pré-mercado ainda não mostra."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 16/11",
+   "valor": "169.295 pts",
+   "variacao": "−1,83%",
+   "hora": "16/11, após o leilão",
+   "fonte": "Suno 18h30, Investing 05h20, rotina de fechamento (Universo da Notícia traz 169.284, divergência de 11 pts)"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,777 (fechamento); R$ 5,79 no pré-mercado",
+   "variacao": "+2,15% ontem",
+   "hora": "7h08",
+   "fonte": "Money Times, Investing (maior nível desde abril de 2025)"
+  },
+  {
+   "indicador": "EWZ (ETF de Brasil em NY)",
+   "valor": "US$ 30,68",
+   "variacao": "−0,78%",
+   "hora": "7h08",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "Futuros de NY (S&P 500 / Nasdaq / Dow)",
+   "valor": "−0,34% / −0,33% / −0,48%",
+   "variacao": "pré-mercado",
+   "hora": "7h08",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "S&P 500 / Nasdaq / Dow, fechamento de 16/11",
+   "valor": "7.417 / 24.510 / 51.609",
+   "variacao": "−1,91% / −2,49% / −1,41%",
+   "hora": "16/11",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "n/d",
+   "variacao": "n/d",
+   "hora": "—",
+   "fonte": "Não encontrei em Money Times, Investing e InfoMoney"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 92,60",
+   "variacao": "+0,17%",
+   "hora": "7h08",
+   "fonte": "Money Times (ontem −3,55%, a US$ 92,44)"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian)",
+   "valor": "US$ 97,14 (fechamento de 16/11)",
+   "variacao": "−3,28% ontem",
+   "hora": "16/11",
+   "fonte": "Money Times; hoje n/d (Singapura também n/d)"
+  },
+  {
+   "indicador": "Bolsas: Europa e Ásia",
+   "valor": "DAX −1,11%, FTSE −0,92%, CAC −1,14%; Nikkei −1,23%, Hang Seng −1,03%",
+   "variacao": "manhã",
+   "hora": "7h08",
+   "fonte": "Money Times"
+  },
+  {
+   "indicador": "DXY, VIX, ouro, Bitcoin",
+   "valor": "103,50; 23,55; US$ 3.869; US$ 64.262 (−1,1%)",
+   "variacao": "manhã",
+   "hora": "5h20 a 7h08",
+   "fonte": "Investing, Money Times"
+  },
+  {
+   "indicador": "DI futuro",
+   "valor": "n/d",
+   "variacao": "n/d",
+   "hora": "—",
+   "fonte": "Mercado de juros abre às 9h; fechamento de ontem não encontrado"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Nvidia perde o CEO Jensen Huang (conselho não considera a volta), novas regras dos EUA exigem licença para exportar chips de IA a vários países, inclusive o Brasil, e as ações caíam quase 3% no pré-mercado de ontem; Nasdaq −2,49%.",
+   "gatilho": "Balanço de hoje, depois do fechamento de Nova York (horário não encontrado)",
+   "fonte": "Money Times 7h08, InfoMoney 17/11, Exame 16/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "AVGO34",
+   "empresa": "BDR da Broadcom",
+   "chance": 58,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Mesma pressão sobre chips: restrição de exportação de chips de IA e Nasdaq −2,49% ontem; o BDR fechou ontem a R$ 27,43 (−0,62%).",
+   "gatilho": "Balanço da Nvidia hoje, depois do fechamento de Nova York",
+   "fonte": "InfoMoney 17/11, Money Times 16/11, HG Brasil",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "ITUB4",
+   "empresa": "Itaú Unibanco",
+   "chance": 53,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Morgan Stanley rebaixou o Brasil para underweight e o IFNC caiu 1,65% ontem; Itaú −2,29%. Sem notícia nova hoje.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 16/11, Suno 16/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "BBDC4",
+   "empresa": "Bradesco",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Mesmo motivo do Itaú: rebaixamento do Brasil pelo Morgan Stanley e queda do setor financeiro; Bradesco −2,00% ontem.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 16/11, Suno 16/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "VALE3",
+   "empresa": "Vale",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Minério de Dalian a US$ 97,14 (−3,28%), menor nível em mais de 16 meses depois de dados fracos da China; Vale −4,41% ontem, a R$ 60,70. Hoje o minério de Dalian não foi encontrado.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 16/11, Correio Braziliense, Suno",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "queda",
+   "pos": 6,
+   "ticker": "BRAP4",
+   "empresa": "Bradespar",
+   "chance": 51,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Maior baixa do Ibovespa ontem (−6,10%), refletindo Vale e o setor financeiro; sem notícia própria hoje.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 16/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O relatório da manhã não registrou leitura de tendência para este papel."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "XPBR31",
+   "empresa": "XP Inc.",
+   "chance": 57,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Lucro ajustado de R$ 1,38 bi no 3T26, divulgado ontem à noite (R$ 1,33 bi no 3T25, alta de cerca de 4%, a partir do número do ano anterior publicado na época). Não encontrei a reação, o guidance nem a teleconferência das 19h.",
+   "gatilho": "Sem evento marcado hoje; balanço saiu ontem à noite",
+   "fonte": "Money Times 16/11, TradeMap",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "YDUQ3",
+   "empresa": "Yduqs",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Compras de UBS e Morgan Stanley levaram o papel a +2,96% ontem, a R$ 9,74, contra o mercado. Sem catalisador novo hoje.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 16/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "PRIO3",
+   "empresa": "PRIO",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "ExxonMobil e Prio levaram cargas de Búzios em leilão da PPSA; Brent estável hoje, depois de −3,55% ontem.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 17/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 4,
+   "ticker": "PETR4",
+   "empresa": "Petrobras",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Petrobras disse que não assinou acordo vinculante com a BP no bloco de Bumerangue (nota após consulta da CVM) e recebeu mais R$ 1,9 bi de subsídio ao diesel; Brent estável hoje; PETR4 −2,83% ontem com o petróleo.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "TradeMap 8h00, Money Times 17/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "05:00",
+   "evento": "IPC semanal (Brasil)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Manhã",
+   "evento": "ZEW da zona do euro, desemprego do Reino Unido e balança comercial do Japão; horários não encontrados",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:00",
+   "evento": "Abertura da B3 (Ibovespa abriu perto de 170,2 mil pontos); ministro Dario Durigan na CAE do Senado (alíquota da CBS em 2027)",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:00",
+   "evento": "Senado e os destaques do ajuste fiscal: votação adiada para quarta, 18/11",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:15",
+   "evento": "ADP semanal de emprego (EUA)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "10:30",
+   "evento": "Vendas no varejo de outubro e preços de importação/exportação (EUA); consenso não encontrado",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "11:10",
+   "evento": "Fala de Christopher Waller (Fed)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "11:15",
+   "evento": "Produção industrial de outubro (EUA); consenso não encontrado",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "11:30",
+   "evento": "Beth Hammack (Fed) em evento",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "15:00",
+   "evento": "Durigan em reunião com investidores estrangeiros",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "15:30",
+   "evento": "Fala de Lane (BCE)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "16:25",
+   "evento": "John Williams (Fed) em conversa",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "17:00",
+   "evento": "Fechamento da B3: Ibovespa +0,31%, a 169.816,64 pontos",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Depois do fechamento de NY",
+   "evento": "Balanço da Nvidia (3º trimestre fiscal); reação do NVDC34 na abertura de 18/11",
+   "destaque": "sim",
+   "status": "saiu"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou em relação ao pregão anterior",
+   "texto": "Em 16/11 o relatório dava Alta 22%, Lateral 38% e Queda 40%, e a queda aconteceu (−1,83%). Hoje: Queda 40% (igual), Lateral 30% (−8 pontos) e Alta 30% (+8): a queda forte de ontem aumenta a chance de repique, enquanto o exterior segue fraco. A queda de ontem tira espaço para uma nova queda forte, mas o exterior pior (Europa −1%, futuros de NY no vermelho) e o Senado ainda sem resultado impedem subir a chance de alta."
+  },
+  {
+   "topico": "Argumento mais forte contra a queda",
+   "texto": "Depois de −1,83% e do dólar +2,15%, o preço já embute rebaixamento do Morgan Stanley, IBC-Br fraco e Focus mais duro. Se os destaques passarem sem mudar o texto, o mercado pode comprar o alívio fiscal e repicar, mesmo com o exterior fraco."
+  },
+  {
+   "topico": "Riscos e o que mais surpreenderia",
+   "texto": "Riscos: destaques que esvaziem o ajuste fiscal, balanço da Nvidia fraco, novos cortes de projeção de bancos. O que mais surpreenderia: Ibovespa subir mais de 1,5% com o dólar acima de R$ 5,75, ou o Senado aprovar os destaques e o dólar cair mais de 1%."
+  },
+  {
+   "topico": "Como ler a chance de cada ação",
+   "texto": "Das duas listas, só XPBR31 tem notícia empresarial nova de peso; as demais vêm de efeito setorial (rebaixamento do Brasil, minério, chips). Por isso as chances ficam entre 51% e 62%. Há viés de narrativa: ontem explica tudo o que caiu. Evite tratar 52% como sinal forte. A chance é de direção contra o fechamento de 16/11, sem indicar tamanho."
+  },
+  {
+   "topico": "Lacunas",
+   "texto": "Não encontrei: DI futuro, Treasury de 10 anos, minério de hoje e de Singapura, consensos de varejo e produção industrial dos EUA, horário do balanço da Nvidia, horário da votação dos destaques, lista de balanços da noite além de XP e BRK Ambiental e recomendações de bancos publicadas desde ontem além do Morgan Stanley. Preço em reais do fechamento de 16/11 com data confirmada: só AVGO34. O fechamento do Ibovespa diverge em 11 pts entre fontes (169.295 em Suno/Investing e rotina; 169.284 no Universo da Notícia); usei 169.295."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Ajuste fiscal: destaques no Senado, depois Câmara",
+   "status": "Em andamento",
+   "quando": "Texto-base aprovado em 12/11; destaques previstos para 17/11, com votação adiada para quarta (18/11) segundo SBT News e Brasil 61; depois vai à Câmara",
+   "resumo": "O texto-base foi aprovado no Senado em 12/11 (45 a 31), com impacto estimado de R$ 45 a 60 bi em 2027. Alckmin diz não acreditar que o projeto será esvaziado. O ministro Dario Durigan falou na CAE do Senado às 10h sobre a alíquota da CBS.",
+   "impacto": "Destaques que desidratem o texto reforçam a dúvida fiscal que levou o dólar à maior cotação desde abril de 2025; aprovação sem mudanças alivia parte do prêmio de risco. Economistas chamam o pacote de correto, mas tímido.",
+   "fonte": "InfoMoney, Money Times, Investing, SBT News, Brasil 61",
+   "link": "https://www.infomoney.com.br/mercados/varejo-industria-eua-nvidia-ajuste-fiscal-agenda-17112026/"
+  },
+  {
+   "id": "equipe-economica",
+   "titulo": "Dúvida sobre a equipe econômica do próximo governo",
+   "status": "Não confirmado",
+   "quando": "Sem data anunciada",
+   "resumo": "A equipe econômica de Lula para o próximo mandato não foi anunciada; circulou uma lista de cotados para a Fazenda com Aluízio Mercadante, sem confirmação. Houve desgaste entre alas do governo, incluindo o Planejamento e a ala tradicional do PT.",
+   "impacto": "A incerteza sobre quem comandará a Fazenda foi citada como um dos pesos do pregão de ontem e pressiona dólar e juros longos.",
+   "fonte": "Money Times, Correio Braziliense, Investing",
+   "link": "https://www.moneytimes.com.br/preocupacao-fiscal-divide-dia-com-crise-da-ia-no-mundo-ibovespa-em-dolar-cai-nesta-terca-feira-17-rens/"
+  },
+  {
+   "id": "nvidia-chips",
+   "titulo": "Nvidia, crise da IA e restrição de chips",
+   "status": "Em andamento",
+   "quando": "Balanço de hoje, depois do fechamento de Nova York",
+   "resumo": "Jensen Huang deixou a Nvidia e o conselho não considera a volta. Os EUA divulgaram regra provisória que exige licença para exportar chips de IA a vários países (o Brasil estaria na lista, segundo Money Times e Correio Braziliense). Nasdaq −2,49% e S&P 500 −1,91% ontem.",
+   "impacto": "Pesa nos BDRs de tecnologia e no apetite global por risco, o que reflete no Ibovespa via fluxo estrangeiro. A estreia da Anthropic é o próximo termômetro do setor.",
+   "fonte": "InfoMoney, Money Times, Exame",
+   "link": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-cercada-por-duvidas-sobre-expansao-da-ia-e-sucessao-de-ceo/"
+  },
+  {
+   "id": "dolar-focus",
+   "titulo": "Dólar na maior cotação desde abril de 2025 e Focus mais duro",
+   "status": "Confirmado",
+   "quando": "Fechamento de 16/11 e Focus de 16/11",
+   "resumo": "O dólar fechou a R$ 5,777, tocando R$ 5,79. O Focus subiu a Selic de 2027 de 12,50% para 12,75% e o IPCA de 2027 de 4,90% para 5,00%. O IBC-Br caiu 0,2% em setembro.",
+   "impacto": "Dólar alto e juro mais longo pesam em varejo, construção e empresas endividadas; favorecem exportadoras. Juros mais altos por mais tempo reduzem o valor presente de ações de crescimento.",
+   "fonte": "Correio Braziliense, Money Times, Investing",
+   "link": "https://www.correiobraziliense.com.br/economia/2026/11/7539505-ibovespa-derrete-183-e-dolar-chega-a-rs-577-com-ajuste-fiscal-no-radar.html"
+  },
+  {
+   "id": "morgan-stanley",
+   "titulo": "Morgan Stanley rebaixa Brasil para underweight",
+   "status": "Confirmado",
+   "quando": "Divulgado em 16/11",
+   "resumo": "O banco cortou o Brasil para underweight em seu portfólio de ações da América Latina e, segundo o Correio Braziliense, vê queda de 7% do Ibovespa em 2027. Bancos lideraram as perdas (IFNC −1,65%).",
+   "impacto": "Sinal de saída de fluxo estrangeiro. O efeito sobre o setor financeiro pode já estar no preço de ontem.",
+   "fonte": "Reuters via Investing, Money Times, Correio Braziliense",
+   "link": "https://br.investing.com/analysis/dolar-hoje-a-r-578-com-indefinicao-fiscal-e-aposta-em-mais-juros-nos-eua-200480754"
+  },
+  {
+   "id": "petroleo-oferta",
+   "titulo": "Petróleo cede com oferta maior",
+   "status": "Em andamento",
+   "quando": "Brent a US$ 92,60 às 7h08; fechou a US$ 93,14 (+0,76%)",
+   "resumo": "A AIE projeta excedente de oferta no 4º trimestre e os embarques pelo Estreito de Ormuz estão quase totalmente restabelecidos.",
+   "impacto": "Petróleo mais baixo pesa em Petrobras, PRIO e outras petroleiras, mas alivia inflação e juros.",
+   "fonte": "Correio Braziliense, Exame, Money Times",
+   "link": "https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-com-incertezas-fiscais-e-queda-do-petroleo-davs/"
+  }
+ ],
+ "fechamento": [
+  {
+   "tipo": "resumo",
+   "status": "Publicado",
+   "data": "17/11/2026",
+   "hora": "23h28 (execução manual; previsões recuperadas do relatório das 8h50)",
+   "ibov": "169.817 pts",
+   "ibov_var": "+0,31%",
+   "dolar": "R$ 5,78",
+   "dolar_var": "+0,10%",
+   "acertos": "4 de 9",
+   "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 54,05 → R$ 53,60 (−R$ 0,45; −0,83%), 2 de 4 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 36,12 → R$ 35,99 (+R$ 0,13; +0,36%), 2 de 6 papéis com preço · Total: −R$ 0,32 (−0,35% sobre R$ 90,17); sem custos, aluguel nem IR",
+   "texto": "O Ibovespa subiu 0,31% e fechou a 169.816,64 pontos, em recuperação técnica depois da queda de 1,83% de segunda. Chegou a 171.749 pontos na máxima, mais de 1% de alta pela manhã, e perdeu força à tarde, com bancos e Petrobras limitando os ganhos. O dólar à vista fechou a R$ 5,782 (+0,10%), quarta alta seguida, com a votação dos destaques do ajuste fiscal adiada no Senado para quarta (18), dúvida sobre o comando da Fazenda, Nova York em queda (S&P 500 em torno de −1%) antes do balanço da Nvidia e Brent a US$ 93,14 (+0,76%). Entre as maiores altas do índice ficaram Hapvida (+12,32%) e GPA (+10%); entre as maiores baixas, Cury (−4,15%) e Tenda (−3,18%). Previsões do Radar das 8h50: 4 acertos em 9 avaliadas. O relatório dava Queda 40%, Lateral 30% e Alta 30%, e o índice terminou na faixa lateral. Acertaram NVDC34, ITUB4, VALE3 e PRIO3; erraram BBDC4 e BRAP4 (queda prevista, subiram) e YDUQ3 e PETR4 (subida prevista, caíram). AVGO34 e XPBR31 ficaram sem dado de fechamento. Preço em reais completo (abertura e fechamento) só para NVDC34, BRAP4, YDUQ3 e PETR4, por isso a simulação cobre 2 de 4 papéis de subida e 2 de 6 de queda. Divergências: variação da Vale (−0,59%, −0,43% e −0,25% conforme a fonte, todas negativas), PETR4 (−0,09% em duas fontes e +0,09% na Bloomberg Línea às 18h), YDUQ3 (−0,82% na HG Brasil, que trazia fechamento anterior inconsistente) e as listas de maiores altas e baixas, que variam entre fontes (Hapvida de +11,03% a +12,50%). A rotina das 18h47 falhou por limite de uso da conta; este fechamento foi feito à mão, com as previsões recuperadas do relatório publicado.",
+   "fontes": "SBT News (21h55), BPMoney (18h27), TradeMap (18h28), Brasil 61, Times Brasil (18h58), HG Brasil (18h00 a 18h08), Investidor10, Bloomberg Línea (18h), Valor Investe, Investir e Começar (20h02)"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "HAPV3",
+   "empresa": "Hapvida",
+   "var": "+12,32%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "PCAR3",
+   "empresa": "GPA",
+   "var": "+10,00%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "ECOR3",
+   "empresa": "EcoRodovias",
+   "var": "+5,94%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "CSAN3",
+   "empresa": "Cosan",
+   "var": "+5,18%"
+  },
+  {
+   "tipo": "alta",
+   "ticker": "MGLU3",
+   "empresa": "Magazine Luiza",
+   "var": "+4,54%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "CURY3",
+   "empresa": "Cury",
+   "var": "−4,15%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "TEND3",
+   "empresa": "Tenda",
+   "var": "−3,18%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "BRKM5",
+   "empresa": "Braskem",
+   "var": "−3,17%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "AZZA3",
+   "empresa": "Azzas 2154",
+   "var": "−3,10%"
+  },
+  {
+   "tipo": "baixa",
+   "ticker": "NATU3",
+   "empresa": "Natura",
+   "var": "−3,06%"
+  }
+ ]
+}

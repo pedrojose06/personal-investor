@@ -1,44 +1,86 @@
 [
  {
-  "hora": "Madrugada",
-  "evento": "Lucros dos bancos japoneses (MUFG, SMFG, Mizuho) e da Generali",
+  "hora": "05:00",
+  "evento": "IPC semanal (Brasil)",
   "destaque": "não",
   "status": "saiu"
  },
  {
-  "hora": "09:00",
-  "evento": "Varejo de setembro (IBGE): +0,2% no mês e +1,7% em 12 meses, acima do esperado (−0,2% e +1,0%)",
+  "hora": "Manhã",
+  "evento": "ZEW da zona do euro, desemprego do Reino Unido e balança comercial do Japão; horários não encontrados",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "10:00",
+  "evento": "Abertura da B3 (Ibovespa abriu perto de 170,2 mil pontos); ministro Dario Durigan na CAE do Senado (alíquota da CBS em 2027)",
   "destaque": "sim",
   "status": "saiu"
  },
  {
   "hora": "10:00",
-  "evento": "Abertura da B3: Ibovespa abriu em leve alta, a 171.621 pontos",
+  "evento": "Senado e os destaques do ajuste fiscal: votação adiada para quarta, 18/11",
+  "destaque": "sim",
+  "status": "saiu"
+ },
+ {
+  "hora": "10:15",
+  "evento": "ADP semanal de emprego (EUA)",
   "destaque": "não",
   "status": "saiu"
  },
  {
   "hora": "10:30",
-  "evento": "PPI dos EUA de outubro: +0,3% no mês (esperado +0,4%); núcleo +0,3%, em linha",
+  "evento": "Vendas no varejo de outubro e preços de importação/exportação (EUA); consenso não encontrado",
   "destaque": "sim",
   "status": "saiu"
  },
  {
-  "hora": "Manhã",
-  "evento": "PIB da zona do euro, 3º tri (revisão); horário não encontrado",
+  "hora": "11:10",
+  "evento": "Fala de Christopher Waller (Fed)",
   "destaque": "não",
   "status": "saiu"
  },
  {
-  "hora": "Dia todo",
-  "evento": "Repercussão dos balanços da noite de ontem: CSN, Braskem, IRB, B3, MBRF, Yduqs, Natura, Cemig, Copel, Grupo Mateus, Nubank e outros",
-  "destaque": "sim",
+  "hora": "11:15",
+  "evento": "Produção industrial de outubro (EUA); consenso não encontrado",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "11:30",
+  "evento": "Beth Hammack (Fed) em evento",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "15:00",
+  "evento": "Durigan em reunião com investidores estrangeiros",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "15:30",
+  "evento": "Fala de Lane (BCE)",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "16:25",
+  "evento": "John Williams (Fed) em conversa",
+  "destaque": "não",
   "status": "saiu"
  },
  {
   "hora": "17:00",
-  "evento": "Fechamento da B3 (o leilão de fechamento define o valor oficial do índice)",
+  "evento": "Fechamento da B3: Ibovespa +0,31%, a 169.816,64 pontos",
   "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "Depois do fechamento de NY",
+  "evento": "Balanço da Nvidia (3º trimestre fiscal); reação do NVDC34 na abertura de 18/11",
+  "destaque": "sim",
   "status": "saiu"
  }
 ]
