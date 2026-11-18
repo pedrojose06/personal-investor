@@ -1,0 +1,52 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "18/11/2026",
+  "hora": "18h57",
+  "ibov": "167.538 pts",
+  "ibov_var": "−1,34%",
+  "dolar": "R$ 5,87",
+  "dolar_var": "+1,46%",
+  "acertos": "4 de 8",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 70,49 → R$ 70,43 (−R$ 0,06; −0,09%), 3 de 3 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 173,29 → R$ 170,49 (+R$ 2,80; +1,62%), 4 de 4 papéis com preço · Total: +R$ 2,74 (+1,12% sobre R$ 243,78); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa caiu 1,34% e fechou a 167.537,95 pontos (mínima de 167.099), e o dólar à vista subiu 1,46%, a R$ 5,867, o maior fechamento desde abril de 2025 e a quinta alta seguida, mesmo com dois leilões de linha do Banco Central (US$ 1 bilhão no total). Pesaram a votação dos destaques do projeto do ajuste fiscal no Senado e a dúvida sobre a equipe econômica, a ata do Fed com a possibilidade de nova alta de juros em dezembro, o petróleo em queda (Brent perto de US$ 92) e, segundo a Suno, o rebaixamento de recomendação para a bolsa brasileira pelo Goldman Sachs; Banco do Brasil (−3,42%), Vale (−2,22%, sétima queda seguida) e Petrobras (−1,84%) fecharam no vermelho. Previsões do Radar das 8h50: 4 acertos em 8 avaliadas; o relatório dava Alta 38% para o Ibovespa e o índice terminou na faixa de queda; o maior acerto em movimento foi AVGO34 (subida prevista, +6,78%) e o maior erro foi HAPV3 (queda prevista, +3,92%), com NVDC34 como erro de maior confiança (subida com 66%, −1,49%); os 7 papéis ficaram com preços em reais registrados. Divergências: dólar R$ 5,868 (+1,48%) na Agência Brasil; Petrobras R$ 43,01 e Vale R$ 59,22 a R$ 59,25 na Bloomberg Línea e no Investidor10, contra R$ 43,17 e R$ 59,00 usados aqui, que batem com as variações divulgadas pela Suno depois do pregão (−1,84% e −2,22%); Magazine Luiza +5,16% (BPMoney) e +4,65% (Suno); giro de R$ 32,6 bilhões (BPMoney) e R$ 23 bilhões (Estadão). Só 3 altas e 3 baixas foram confirmadas em fonte de fechamento (BPMoney); as demais posições das listas de cinco não apareceram com dado de fechamento.",
+  "fontes": "Suno (18h32), BPMoney, O Povo/Estadão Conteúdo (18h41), Cruzeiro FM/Agência Brasil (18h25), Metrópoles (17h31), TradeMap (16h00 e 18h05), HG Brasil (18h09 a 18h13), Investing.com, Genial (18h05 e 18h25), MarketScreener, Bloomberg Línea, Investidor10, InfoMoney"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "CMIN3",
+  "empresa": "CSN Mineração",
+  "var": "+8,21%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "BEEF3",
+  "empresa": "Minerva",
+  "var": "+5,48%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "MGLU3",
+  "empresa": "Magazine Luiza",
+  "var": "+5,16%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "TEND3",
+  "empresa": "Tenda",
+  "var": "−4,87%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "MRVE3",
+  "empresa": "MRV",
+  "var": "−4,39%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "CURY3",
+  "empresa": "Cury",
+  "var": "−3,80%"
+ }
+]

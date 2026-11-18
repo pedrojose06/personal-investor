@@ -2,75 +2,51 @@
  {
   "tipo": "resumo",
   "status": "Publicado",
-  "data": "17/11/2026",
-  "hora": "23h28 (execução manual; previsões recuperadas do relatório das 8h50)",
-  "ibov": "169.817 pts",
-  "ibov_var": "+0,31%",
-  "dolar": "R$ 5,78",
-  "dolar_var": "+0,10%",
-  "acertos": "4 de 9",
-  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 54,05 → R$ 53,60 (−R$ 0,45; −0,83%), 2 de 4 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 36,12 → R$ 35,99 (+R$ 0,13; +0,36%), 2 de 6 papéis com preço · Total: −R$ 0,32 (−0,35% sobre R$ 90,17); sem custos, aluguel nem IR",
-  "texto": "O Ibovespa subiu 0,31% e fechou a 169.816,64 pontos, em recuperação técnica depois da queda de 1,83% de segunda. Chegou a 171.749 pontos na máxima, mais de 1% de alta pela manhã, e perdeu força à tarde, com bancos e Petrobras limitando os ganhos. O dólar à vista fechou a R$ 5,782 (+0,10%), quarta alta seguida, com a votação dos destaques do ajuste fiscal adiada no Senado para quarta (18), dúvida sobre o comando da Fazenda, Nova York em queda (S&P 500 em torno de −1%) antes do balanço da Nvidia e Brent a US$ 93,14 (+0,76%). Entre as maiores altas do índice ficaram Hapvida (+12,32%) e GPA (+10%); entre as maiores baixas, Cury (−4,15%) e Tenda (−3,18%). Previsões do Radar das 8h50: 4 acertos em 9 avaliadas. O relatório dava Queda 40%, Lateral 30% e Alta 30%, e o índice terminou na faixa lateral. Acertaram NVDC34, ITUB4, VALE3 e PRIO3; erraram BBDC4 e BRAP4 (queda prevista, subiram) e YDUQ3 e PETR4 (subida prevista, caíram). AVGO34 e XPBR31 ficaram sem dado de fechamento. Preço em reais completo (abertura e fechamento) só para NVDC34, BRAP4, YDUQ3 e PETR4, por isso a simulação cobre 2 de 4 papéis de subida e 2 de 6 de queda. Divergências: variação da Vale (−0,59%, −0,43% e −0,25% conforme a fonte, todas negativas), PETR4 (−0,09% em duas fontes e +0,09% na Bloomberg Línea às 18h), YDUQ3 (−0,82% na HG Brasil, que trazia fechamento anterior inconsistente) e as listas de maiores altas e baixas, que variam entre fontes (Hapvida de +11,03% a +12,50%). A rotina das 18h47 falhou por limite de uso da conta; este fechamento foi feito à mão, com as previsões recuperadas do relatório publicado.",
-  "fontes": "SBT News (21h55), BPMoney (18h27), TradeMap (18h28), Brasil 61, Times Brasil (18h58), HG Brasil (18h00 a 18h08), Investidor10, Bloomberg Línea (18h), Valor Investe, Investir e Começar (20h02)"
+  "data": "18/11/2026",
+  "hora": "18h57",
+  "ibov": "167.538 pts",
+  "ibov_var": "−1,34%",
+  "dolar": "R$ 5,87",
+  "dolar_var": "+1,46%",
+  "acertos": "4 de 8",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 70,49 → R$ 70,43 (−R$ 0,06; −0,09%), 3 de 3 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 173,29 → R$ 170,49 (+R$ 2,80; +1,62%), 4 de 4 papéis com preço · Total: +R$ 2,74 (+1,12% sobre R$ 243,78); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa caiu 1,34% e fechou a 167.537,95 pontos (mínima de 167.099), e o dólar à vista subiu 1,46%, a R$ 5,867, o maior fechamento desde abril de 2025 e a quinta alta seguida, mesmo com dois leilões de linha do Banco Central (US$ 1 bilhão no total). Pesaram a votação dos destaques do projeto do ajuste fiscal no Senado e a dúvida sobre a equipe econômica, a ata do Fed com a possibilidade de nova alta de juros em dezembro, o petróleo em queda (Brent perto de US$ 92) e, segundo a Suno, o rebaixamento de recomendação para a bolsa brasileira pelo Goldman Sachs; Banco do Brasil (−3,42%), Vale (−2,22%, sétima queda seguida) e Petrobras (−1,84%) fecharam no vermelho. Previsões do Radar das 8h50: 4 acertos em 8 avaliadas; o relatório dava Alta 38% para o Ibovespa e o índice terminou na faixa de queda; o maior acerto em movimento foi AVGO34 (subida prevista, +6,78%) e o maior erro foi HAPV3 (queda prevista, +3,92%), com NVDC34 como erro de maior confiança (subida com 66%, −1,49%); os 7 papéis ficaram com preços em reais registrados. Divergências: dólar R$ 5,868 (+1,48%) na Agência Brasil; Petrobras R$ 43,01 e Vale R$ 59,22 a R$ 59,25 na Bloomberg Línea e no Investidor10, contra R$ 43,17 e R$ 59,00 usados aqui, que batem com as variações divulgadas pela Suno depois do pregão (−1,84% e −2,22%); Magazine Luiza +5,16% (BPMoney) e +4,65% (Suno); giro de R$ 32,6 bilhões (BPMoney) e R$ 23 bilhões (Estadão). Só 3 altas e 3 baixas foram confirmadas em fonte de fechamento (BPMoney); as demais posições das listas de cinco não apareceram com dado de fechamento.",
+  "fontes": "Suno (18h32), BPMoney, O Povo/Estadão Conteúdo (18h41), Cruzeiro FM/Agência Brasil (18h25), Metrópoles (17h31), TradeMap (16h00 e 18h05), HG Brasil (18h09 a 18h13), Investing.com, Genial (18h05 e 18h25), MarketScreener, Bloomberg Línea, Investidor10, InfoMoney"
  },
  {
   "tipo": "alta",
-  "ticker": "HAPV3",
-  "empresa": "Hapvida",
-  "var": "+12,32%"
+  "ticker": "CMIN3",
+  "empresa": "CSN Mineração",
+  "var": "+8,21%"
  },
  {
   "tipo": "alta",
-  "ticker": "PCAR3",
-  "empresa": "GPA",
-  "var": "+10,00%"
- },
- {
-  "tipo": "alta",
-  "ticker": "ECOR3",
-  "empresa": "EcoRodovias",
-  "var": "+5,94%"
- },
- {
-  "tipo": "alta",
-  "ticker": "CSAN3",
-  "empresa": "Cosan",
-  "var": "+5,18%"
+  "ticker": "BEEF3",
+  "empresa": "Minerva",
+  "var": "+5,48%"
  },
  {
   "tipo": "alta",
   "ticker": "MGLU3",
   "empresa": "Magazine Luiza",
-  "var": "+4,54%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "CURY3",
-  "empresa": "Cury",
-  "var": "−4,15%"
+  "var": "+5,16%"
  },
  {
   "tipo": "baixa",
   "ticker": "TEND3",
   "empresa": "Tenda",
-  "var": "−3,18%"
+  "var": "−4,87%"
  },
  {
   "tipo": "baixa",
-  "ticker": "BRKM5",
-  "empresa": "Braskem",
-  "var": "−3,17%"
+  "ticker": "MRVE3",
+  "empresa": "MRV",
+  "var": "−4,39%"
  },
  {
   "tipo": "baixa",
-  "ticker": "AZZA3",
-  "empresa": "Azzas 2154",
-  "var": "−3,10%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "NATU3",
-  "empresa": "Natura",
-  "var": "−3,06%"
+  "ticker": "CURY3",
+  "empresa": "Cury",
+  "var": "−3,80%"
  }
 ]

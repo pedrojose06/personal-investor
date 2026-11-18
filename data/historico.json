@@ -821,8 +821,8 @@
   "previsto": "Alta: fechar acima de +0,5%",
   "chance": 38,
   "referencia": "169.817 pts, fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−1,34%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-18-PETR4",
@@ -831,13 +831,13 @@
   "previsto": "Queda",
   "chance": 53,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,84%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 43,98",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Relatório do Radar de 18/11 (fechamento de 17/11); confere com o fechamento de 17/11 já registrado no histórico"
+  "abertura": "R$ 43,70",
+  "fechamento": "R$ 43,17",
+  "abertura_fechamento": "−1,21%",
+  "fonte_preco": "TradeMap, 18h05 (abertura e fechamento); Suno, 18h32 confirma −1,84%; divergência: Bloomberg Línea e Investidor10 trazem R$ 43,01 (−2,21%)"
  },
  {
   "id": "2026-11-18-PRIO3",
@@ -846,13 +846,13 @@
   "previsto": "Queda",
   "chance": 52,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Sem fechamento de 17/11 com data confirmada no relatório de 18/11"
+  "realizado": "−3,13%",
+  "resultado": "Acertou",
+  "fech_anterior": "R$ 63,96",
+  "abertura": "R$ 63,50",
+  "fechamento": "R$ 61,96",
+  "abertura_fechamento": "−2,43%",
+  "fonte_preco": "HG Brasil, 18h09 (mercado fechado); Investidor10 confere R$ 61,96; Genial, 18h25, traz R$ 61,87 (−3,27%); fech. anterior: Bloomberg Línea (17/11) e Genial"
  },
  {
   "id": "2026-11-18-NVDC34",
@@ -861,13 +861,13 @@
   "previsto": "Subida",
   "chance": 66,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,49%",
+  "resultado": "Errou",
   "fech_anterior": "R$ 18,74",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Relatório do Radar de 18/11 (fechamento de 17/11); confere com o fechamento de 17/11 já registrado no histórico"
+  "abertura": "R$ 19,31",
+  "fechamento": "R$ 18,46",
+  "abertura_fechamento": "−4,40%",
+  "fonte_preco": "HG Brasil, 18h13 (mercado fechado; abertura de fonte única); fech. anterior: brapi, 17/11"
  },
  {
   "id": "2026-11-18-AVGO34",
@@ -876,13 +876,13 @@
   "previsto": "Subida",
   "chance": 57,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Sem fechamento de 17/11 com data confirmada no relatório de 18/11"
+  "realizado": "+6,78%",
+  "resultado": "Acertou",
+  "fech_anterior": "R$ 27,88",
+  "abertura": "R$ 28,73",
+  "fechamento": "R$ 29,77",
+  "abertura_fechamento": "+3,62%",
+  "fonte_preco": "HG Brasil, 18h11 (mercado fechado; abertura confirmada também pela Bloomberg Línea); divergência: Bloomberg Línea traz R$ 29,60 (+6,17%); fech. anterior só da Bloomberg Línea de 18/11"
  },
  {
   "id": "2026-11-18-VALE3",
@@ -891,13 +891,13 @@
   "previsto": "Queda",
   "chance": 56,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−2,22%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 60,34",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "DGABC, Fechamento do mercado financeiro de 17/11/2026, 18h34 (Vale ON R$ 60,34, −0,59%)"
+  "abertura": "R$ 59,95",
+  "fechamento": "R$ 59,00",
+  "abertura_fechamento": "−1,58%",
+  "fonte_preco": "Investing.com (fechado) e Genial, 18h05; Suno, 18h32, confirma −2,22%; divergência: Bloomberg Línea R$ 59,22 (−1,86%) e Investidor10 R$ 59,25"
  },
  {
   "id": "2026-11-18-HAPV3",
@@ -906,13 +906,13 @@
   "previsto": "Queda",
   "chance": 53,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Sem fechamento de 17/11 em reais confirmado: as fontes trazem só a variação (+12,32%, +12,50% e +10,11%, que divergem)"
+  "realizado": "+3,92%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 6,12",
+  "abertura": "R$ 6,14",
+  "fechamento": "R$ 6,36",
+  "abertura_fechamento": "+3,58%",
+  "fonte_preco": "MarketScreener, 18/11 (mercado fechado); InfoMoney e Investidor10 conferem +3,92%; abertura: HG Brasil, Bloomberg Línea e InfoMoney; fech. anterior em 3 fontes"
  },
  {
   "id": "2026-11-18-TIMS3",
@@ -921,12 +921,12 @@
   "previsto": "Subida",
   "chance": 53,
   "referencia": "Fechamento de 17/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Sem fechamento de 17/11 em reais confirmado: a fonte traz R$ 22,28 às 11h07 (+1,87%) e o fechamento só como variação (+2,93%)"
+  "realizado": "−1,38%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 22,51",
+  "abertura": "R$ 22,45",
+  "fechamento": "R$ 22,20",
+  "abertura_fechamento": "−1,11%",
+  "fonte_preco": "MarketScreener, 18h05 (mercado fechado; fonte única do fechamento); abertura: Bloomberg Línea (fonte única); fech. anterior: brapi e HG Brasil, 17/11"
  }
 ]

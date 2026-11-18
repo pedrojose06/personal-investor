@@ -15,37 +15,37 @@
   "hora": "Manhã",
   "evento": "Taxa de desemprego do 3º trimestre (IBGE); consenso não encontrado; horário não encontrado",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10:00",
   "evento": "Abertura da B3; futuro do Ibovespa e juros futuros começam às 9h",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Antes da abertura de NY",
   "evento": "Balanços de Lowe's, Target e TJX (EUA)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "14:30",
   "evento": "Fluxo cambial semanal do Banco Central (Money Times, 18/11)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "16:00",
   "evento": "Ata do Fed (Fomc), horário informado pelo Money Times em 18/11",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "16:00",
   "evento": "Senado vota os quatro destaques do ajuste fiscal (primeiro item da pauta)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Depois do fechamento",
