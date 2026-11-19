@@ -936,8 +936,8 @@
   "previsto": "Alta: fechar acima de +0,5%",
   "chance": 42,
   "referencia": "167.538 pts, fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−0,69%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-19-KLBN11",
@@ -946,13 +946,13 @@
   "previsto": "Queda",
   "chance": 54,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,11%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 17,13",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 18h00 (mercado fechado; variação −2,00%, Money Times traz −1,95% no leilão); divergência: investimentos.com.br R$ 17,11 (−2,12%, 17h58)"
+  "abertura": "R$ 17,07",
+  "fechamento": "R$ 16,94",
+  "abertura_fechamento": "−0,76%",
+  "fonte_preco": "Google Finance, 18h05, e investimentos.com.br, 18h00 (fechamento e variação); abertura 17,07 também na HG Brasil e no InfoMoney; divergência: HG Brasil traz R$ 16,77 (−2,10%) às 18h08, sem consenso com as outras duas"
  },
  {
   "id": "2026-11-19-BBAS3",
@@ -961,13 +961,13 @@
   "previsto": "Queda",
   "chance": 52,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "R$ 14,26",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 18h08 (mercado fechado); investimentos.com.br traz R$ 14,24 (17h58); divergência na variação: −2,46% e −2,60% nessas fontes contra −3,42% na Suno"
+  "realizado": "+1,27%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 14,12",
+  "abertura": "R$ 14,16",
+  "fechamento": "R$ 14,30",
+  "abertura_fechamento": "+0,99%",
+  "fonte_preco": "Google Finance, 18h11, e Genial, 18h29 (fechamento, abertura e variação); fechamento anterior corrigido de R$ 14,26 para R$ 14,12 (Bloomberg Línea de 18/11 traz R$ 14,12, −3,42%, e a HG Brasil de 19/11 também); divergência: Bloomberg Línea mostra R$ 14,17 (+0,35%) em captura anterior ao leilão de fechamento"
  },
  {
   "id": "2026-11-19-NVDC34",
@@ -976,13 +976,13 @@
   "previsto": "Subida",
   "chance": 56,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "R$ 18,46",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 18h13 (mercado fechado); mesmo valor registrado no fechamento de 18/11 pela rotina das 18h47"
+  "realizado": "−1,04%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 18,34",
+  "abertura": "R$ 18,73",
+  "fechamento": "R$ 18,15",
+  "abertura_fechamento": "−3,10%",
+  "fonte_preco": "Google Finance, 18h10, e Genial, 18h25 (fechamento, abertura e variação); fechamento anterior corrigido de R$ 18,46 para R$ 18,34 (Dados de Mercado e Genial; o valor antigo era captura desatualizada da HG Brasil); divergência: HG Brasil traz R$ 18,19 (−0,82%) às 18h13"
  },
  {
   "id": "2026-11-19-AVGO34",
@@ -991,13 +991,13 @@
   "previsto": "Subida",
   "chance": 55,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "R$ 29,77",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 18h11 (mercado fechado); divergência: Bloomberg Línea trouxe R$ 29,60 (+6,17%) em 18/11"
+  "realizado": "−0,17%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 29,60",
+  "abertura": "R$ 30,50",
+  "fechamento": "R$ 29,55",
+  "abertura_fechamento": "−3,11%",
+  "fonte_preco": "Google Finance, 18h08 (fechamento); abertura 30,50 também na HG Brasil; fechamento anterior corrigido de R$ 29,77 para R$ 29,60 (Dados de Mercado de 18/11); divergência: HG Brasil traz R$ 29,29 (−1,05%) às 18h11 e não achei terceira fonte datada para desempatar"
  },
  {
   "id": "2026-11-19-MSFT34",
@@ -1006,13 +1006,13 @@
   "previsto": "Subida",
   "chance": 54,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "R$ 124,06",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 18h00 (mercado fechado; fonte única, variação +2,47% sobre R$ 121,07)"
+  "realizado": "−0,50%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 124,00",
+  "abertura": "R$ 126,20",
+  "fechamento": "R$ 123,38",
+  "abertura_fechamento": "−2,23%",
+  "fonte_preco": "Investing.com BR (último negócio às 17h54) e Genial, 18h06; abertura 126,20 também na HG Brasil; fechamento anterior corrigido de R$ 124,06 para R$ 124,00 (Investing.com e Genial); divergência: tabela do Investing.com, HG Brasil (18h13) e Investidor10 trazem R$ 123,92 a R$ 123,99, provavelmente negócios do after-market, e todas indicam queda"
  },
  {
   "id": "2026-11-19-GOGL34",
@@ -1021,13 +1021,13 @@
   "previsto": "Subida",
   "chance": 53,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Sem fechamento confirmado: HG Brasil mostra R$ 138,26 às 15h54 de 18/11 com mercado aberto e Investidor10 mostra R$ 138,55 sem data; campo vazio"
+  "realizado": "−1,56%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 138,55",
+  "abertura": "R$ 143,76",
+  "fechamento": "R$ 136,39",
+  "abertura_fechamento": "−5,13%",
+  "fonte_preco": "Investing.com (histórico, linha de 19/11, \"Closed\") e Genial, 18h25; fechamento anterior R$ 138,55 confirmado em 4 fontes (HG Brasil de 19/11, Investing.com, Dados de Mercado e brapi); divergência: Investidor10, sem data, mostra R$ 135,45 (−2,24%)"
  },
  {
   "id": "2026-11-19-MBRF3",
@@ -1036,12 +1036,12 @@
   "previsto": "Subida",
   "chance": 52,
   "referencia": "Fechamento de 18/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,61%",
+  "resultado": "Errou",
   "fech_anterior": "R$ 18,69",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, 18/11 20h48 (mercado fechado; variação +4,06% bate com a do TradeMap)"
+  "abertura": "R$ 18,69",
+  "fechamento": "R$ 18,39",
+  "abertura_fechamento": "−1,61%",
+  "fonte_preco": "Investing.com NG (histórico, \"Closed\") e MarketScreener (mercado fechado, −1,61%); abertura 18,69 também na Bloomberg Línea; divergência: Bloomberg Línea (captura noturna) mostra R$ 18,16 (−2,84%), provavelmente after-market, e também indica queda"
  }
 ]

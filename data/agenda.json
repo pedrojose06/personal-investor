@@ -21,67 +21,67 @@
   "hora": "9h",
   "evento": "Futuros do Ibovespa e juros futuros começam a negociar; reunião do CMN (TradeMap e Money Times: 9h, com Galípolo e Lula às 15h; InfoMoney traz 18h)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "9h30",
   "evento": "Lula assina o decreto que regulamenta o fim da escala 6x1 (InfoMoney); Durigan fala em evento do HSBC (9h30) e no fórum do Bradesco BBI (11h)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10h",
   "evento": "Abertura da B3",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10h30",
   "evento": "EUA: pedidos de seguro-desemprego (anterior 200 mil, projeção 198 mil) e índice do Fed da Filadélfia de novembro (consenso não encontrado); Lagarde (BCE) fala",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Antes da abertura de NY",
   "evento": "Balanços do Walmart e da Alibaba (horário e consenso não encontrados)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h30",
   "evento": "Abertura de Wall Street e estreia da Anthropic (ANT) na Nasdaq, com o BDR ANTH34 na B3 no mesmo dia (horário exato não encontrado)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h45",
   "evento": "Leilão de LTN e NTN-F do Tesouro",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "12h",
   "evento": "EUA: indicadores antecedentes de outubro (consenso não encontrado)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Tarde",
   "evento": "Falas do Fed: Hammack (10h50 ou 12h50, as fontes divergem), Goolsbee (14h30 ou 16h30, divergem), Barr sobre IA (18h15); leilão de T-notes de 10 anos às 15h (Exame)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "17h55",
   "evento": "Fechamento da B3; a sexta-feira (20/11) é feriado da Consciência Negra e a bolsa não abre",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "18h30",
   "evento": "Balanço patrimonial do Fed",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "20h30 e 22h",
