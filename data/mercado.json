@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 28,
-  "agora": 28,
-  "motivo": "Dólar no maior nível desde abril de 2025 (R$ 5,78), Fazenda sem nome definido e Fed com viés de alta de juros (Musalem fala em várias altas até a primavera de 2027) mantêm o risco aberto; a votação dos destaques às 16h pode desidratar o ajuste."
+  "relatorio": 26,
+  "agora": 26,
+  "motivo": "Dólar no maior nível desde abril de 2025 (R$ 5,867, quinta alta seguida), DXY a 103,8, Treasury de 10 anos a 5,07% e ata do Fed com Waller defendendo alta de 0,50 ponto em dezembro mantêm a pressão. Sexta-feira é feriado (B3 fechada), o que pode levar a redução de posições hoje, e Taiex −4,4% e Hang Seng −1,95% mostram cautela com IA e China."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 34,
-  "agora": 34,
-  "motivo": "Ontem o índice subiu 0,31% com exterior em queda; hoje o exterior melhora (futuros de NY no azul), mas o mercado tende a esperar o Senado (16h) e a ata do Fed antes de apostar."
+  "relatorio": 32,
+  "agora": 32,
+  "motivo": "O Senado aprovou o ajuste quase intacto, mas o resultado era esperado. O mercado tende a esperar a Câmara (votação prevista para 24/11), as novas medidas fiscais que o ministro Durigan prometeu e a estreia da Anthropic antes de apostar, e o feriado de amanhã reduz o volume."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 38,
-  "agora": 38,
-  "motivo": "Balanço da Nvidia acima do esperado (receita de US$ 115,8 bi contra US$ 108,9 bi estimados), futuros do Nasdaq +0,82% às 5h34 e Brent em queda aliviam o ambiente; precisa de dólar estável e Senado sem esvaziar o texto."
+  "relatorio": 42,
+  "agora": 42,
+  "motivo": "Os destaques foram derrubados no Senado (49 a 31, 47 a 30 e 45 a 32) depois do fechamento, o que traz alívio fiscal. Futuros de Nova York sobem (Nasdaq +1,86%, S&P 500 +1,07%, Dow +0,65% às 5h43), a Europa abre em alta e o minério em Dalian sobe 0,47%. Precisa de dólar abaixo de R$ 5,82 e de alívio nos DIs."
  }
 ]

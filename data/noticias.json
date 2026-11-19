@@ -1,82 +1,72 @@
 [
  {
   "id": "pacote-fiscal",
-  "titulo": "Ajuste fiscal: destaques no Senado hoje, depois Câmara",
-  "status": "Em andamento",
-  "quando": "Votação dos quatro destaques hoje, 18/11, às 16h; texto-base aprovado em 12/11; depois vai à Câmara",
-  "resumo": "A votação foi adiada ontem a pedido do relator Eduardo Braga. Quatro destaques podem mudar o texto, entre eles reduzir o teto de crescimento das despesas de 2% para 0,6% e excluir a limitação de créditos tributários. O texto-base passou em 12/11 por 45 a 31, com impacto estimado de R$ 50 a 60 bi em 2027.",
-  "impacto": "Destaques que desidratem o ajuste são o principal risco do cenário de queda; aprovação sem esvaziar o texto sustenta o cenário de alta (relatório de 18/11).",
-  "fonte": "InfoMoney 17/11",
-  "link": "https://www.infomoney.com.br/politica/senado-adia-votacao-de-destaques-do-pacote-fiscal-para-quarta-feira/"
- },
- {
-  "id": "equipe-economica",
-  "titulo": "Mercado aguarda nome para o Ministério da Fazenda",
-  "status": "Não confirmado",
-  "quando": "Sem data anunciada",
-  "resumo": "Reportagens de 18/11 dizem que o mercado espera a definição do comando da Fazenda junto com a votação do ajuste. Não encontrei o nome cogitado nem prazo.",
-  "impacto": "A indefinição sobre o comando da Fazenda entra entre as razões do cenário de queda (relatório de 18/11).",
-  "fonte": "Universo da Notícia 7h28",
-  "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
- },
- {
-  "id": "nvidia-ia",
-  "titulo": "Nvidia supera expectativas em meio à crise de confiança na IA",
+  "titulo": "Senado aprova o ajuste fiscal quase intacto; Câmara vota na terça (24/11)",
   "status": "Confirmado",
-  "quando": "Balanço divulgado depois do fechamento de Nova York em 17/11; reação na abertura de hoje (11h30, Brasília)",
-  "resumo": "Receita de US$ 115,8 bi (estimativa US$ 108,9 bi) e guidance de cerca de US$ 130 bi. Ação +3,7% no after-hours. O S&P 500 havia caído 1,0% (quarta queda seguida) e a Stoxx 600 1,8%, pior pregão desde março, com novas regras dos EUA para exportação de chips.",
-  "impacto": "Sustenta o cenário de alta e os BDRs de chips (NVDC34 e AVGO34). O relatório pondera que é um evento de uma empresa, com o S&P 500 em quatro quedas seguidas.",
-  "fonte": "Saxo 18/11; InfoMoney 5h34",
-  "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
- },
- {
-  "id": "fed-treasury",
-  "titulo": "Fed com viés de alta de juros e Treasury de 10 anos em 5,10%",
-  "status": "Em andamento",
-  "quando": "Ata do Fed hoje (horário não encontrado)",
-  "resumo": "Musalem, do Fed de St. Louis, sugeriu que várias altas podem ser necessárias até a primavera de 2027. Vendas no varejo americano de outubro e preços de importação (+1,1%) vieram acima do esperado. O Treasury de 10 anos caiu cerca de 3 pontos-base, a 5,10%.",
-  "impacto": "Ata com tom de juros mais altos invalida o cenário de alta (relatório de 18/11).",
-  "fonte": "Saxo 18/11",
-  "link": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+  "quando": "Senado: noite de 18/11; Câmara: votação prevista para terça, 24/11, ainda sem data oficial",
+  "resumo": "O governo derrubou os destaques: a trava de créditos tributários foi mantida por 49 a 31 (até R$ 18,3 bi em 2027), a proposta de limitar o crescimento da despesa a 0,6% foi rejeitada por 47 a 30 e o teto de R$ 3 bi para acertos do INSS com regimes próprios foi mantido por 45 a 32. O destaque da Lei Kandir saiu por acordo (R$ 2 bi para estados em 2027). A economia estimada vai de R$ 50 bi (relator Braga) a R$ 56 bi (O Tempo). Na Câmara são precisos 257 votos; entidades empresariais querem reabrir a compensação cruzada.",
+  "impacto": "Alívio fiscal que sustenta o cenário de alta, mas era esperado. Risco para as próximas semanas: mudanças na Câmara ou novas medidas que decepcionem. Durigan disse que anunciará outras medidas em breve.",
+  "fonte": "O Tempo 18/11 19h40; NeoFeed 18/11 20h47",
+  "link": "https://otempo.com.br/politica/2026/11/18/governo-vence-queda-de-braco-e-aprova-pacote-fiscal-quase-intacto-no-senado"
  },
  {
   "id": "dolar-maxima",
-  "titulo": "Dólar no maior patamar desde abril de 2025",
+  "titulo": "Dólar a R$ 5,87, maior valor desde abril de 2025, após cinco altas seguidas",
   "status": "Confirmado",
-  "quando": "Fechamento de 17/11 e pré-mercado de 18/11",
-  "resumo": "PTAX de R$ 5,7851. No pré-mercado, R$ 5,78 (−0,02%). Euro a R$ 6,34.",
-  "impacto": "Dólar acima de R$ 5,82 confirma o cenário de queda; abaixo de R$ 5,78 sustenta o de alta (relatório de 18/11).",
-  "fonte": "Universo da Notícia 7h28",
-  "link": "https://universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-quarta-feira-18-de-novembro-de-2026"
+  "quando": "Fechamento de 18/11; cotação de hoje não encontrada",
+  "resumo": "O dólar à vista fechou a R$ 5,8667 (+1,46%), o maior nível desde 15/04/2025, mesmo com dois leilões de linha do Banco Central (US$ 1 bi). Acumula alta de 17,6% desde 25/10 (segundo turno) e 6,9% em 2026. Morgan Stanley (underweight, Ibovespa a 160 mil pontos no fim de 2027) e Goldman Sachs (neutro) rebaixaram o Brasil em relatórios divulgados entre 15 e 17/11.",
+  "impacto": "Dólar acima de R$ 5,90 reforça o cenário de queda e pressiona empresas endividadas em dólar e setores domésticos; dólar abaixo de R$ 5,82 sustenta a alta. Favorece exportadoras, em linha com a preferência declarada do Morgan Stanley.",
+  "fonte": "eJornais 19/11 0h12; CNN Brasil 18/11 18h50; CNN Brasil 17/11",
+  "link": "https://ejornais.com.br/index.php/2026/11/19/dolar-dispara-a-r-587-e-ibovespa-cai-com-foco-em-ajuste-fiscal/"
  },
  {
-  "id": "cosan-venda",
-  "titulo": "Cosan estuda vender participações em Rumo, Compass e Moove",
-  "status": "Não confirmado",
-  "quando": "Valor, 17/11; sem valores nem prazo",
-  "resumo": "Segundo o Valor, com fontes anônimas, há conversas ativas com interessados, sem valores. A ação subiu 5,18% ontem, a R$ 3,25. A empresa voltou ao lucro (R$ 190 mi no 3T26) e troca de CEO em janeiro.",
-  "impacto": "n/d: o relatório deixou a Cosan fora das listas por falta de lado claro.",
-  "fonte": "Finance News 17/11; Seu Dinheiro 18/11; Suno",
-  "link": "https://financenews.com.br/2026/11/rapidas-petrobras-vale-cosan-metal-leve-sao-carlos-bemobi-caixa-seguridade-usiminas/"
+  "id": "fed-ata",
+  "titulo": "Ata do Fed: quase todos veem mais altas de juros; Waller defende 0,50 ponto em dezembro",
+  "status": "Confirmado",
+  "quando": "Ata divulgada em 18/11; próxima reunião em dezembro",
+  "resumo": "Os fed funds estão em 3,75% a 4,00% e o Fomc manteve a taxa em outubro por 10 votos a 2 (Cook e Hammack queriam alta de 0,25 ponto). Quase todos os diretores veem novas altas nos próximos meses; Waller defende 0,50 ponto em dezembro. O FedWatch dava 96,9% de chance de alta de 0,25 ponto. O Treasury de 10 anos fechou a 5,066% e o DXY subiu a cerca de 103,8.",
+  "impacto": "Juros americanos altos e dólar global forte pressionam emergentes, o dólar no Brasil e as ações de crescimento. Uma alta de 0,50 ponto seria um choque adicional para renda variável e para o câmbio.",
+  "fonte": "Bloomberg Línea 19/11 7h; Money Times 18/11 19h09; CNN Brasil 18/11",
+  "link": "https://www.bloomberglinea.com.br/mercados/ata-do-fed-mostra-que-quase-todos-os-diretores-preveem-mais-altas-de-juros-nos-eua/"
+ },
+ {
+  "id": "anthropic-ipo",
+  "titulo": "IPO da Anthropic: US$ 83 por ação, US$ 81,3 bi captados; estreia hoje na Nasdaq e BDR na B3",
+  "status": "Em andamento",
+  "quando": "Precificado em 18/11; estreia hoje (ticker ANT), com o BDR ANTH34 na B3; horário exato não encontrado",
+  "resumo": "Preço acima da faixa de US$ 70 a US$ 78, 980 milhões de ações e avaliação de cerca de US$ 1,5 trilhão com diluição total (US$ 1,1 trilhão sem diluição), mais US$ 26 bi em colocação privada com Google, Nvidia, AMD, Microsoft e outros. É a maior abertura de capital da história. A Exame lembra que uma estreia fraca pode contaminar o Nasdaq e que investidores podem vender outras techs para financiar a compra; os futuros do Nasdaq sobem cerca de 1,9%.",
+  "impacto": "Movimenta o apetite por IA e os BDRs de tecnologia na B3 (NVDC34, AVGO34, MSFT34, GOGL34). O ANTH34 não tem fechamento anterior para comparação. Nota: o relatório é produzido por um modelo da Anthropic; os fatos vêm de veículos independentes.",
+  "fonte": "Money Times 19/11 5h58; Exame 18/11 9h23; InfoMoney 19/11 5h43",
+  "link": "https://www.moneytimes.com.br/anthropic-capta-valor-recorde-de-us-81-bilhoes-em-ipo-alcancando-avaliacao-de-us-15-trilhao-fets/"
+ },
+ {
+  "id": "cupula-shenzhen",
+  "titulo": "Cúpula Trump, Xi e Putin termina com declaração conjunta, sem falas à imprensa",
+  "status": "Confirmado",
+  "quando": "Trilateral às 03h30 de Brasília, cerca de 90 minutos; declaração publicada em 19/11",
+  "resumo": "A reunião em Shenzhen, a primeira dos três líderes, produziu uma declaração conjunta publicada pelo Kremlin; segundo a Al Jazeera, inclui compromisso com fluxos estáveis de energia. O conteúdo completo não estava disponível nas páginas consultadas. O Kremlin diz que o processo da Ucrânia está parado, e Trump disse que resolverá o impasse com o Irã. A trégua comercial EUA e China vale até 10/01/2027.",
+  "impacto": "Baixa expectativa de entrega concreta, então o efeito direto nos mercados é limitado; petróleo e chips são os canais (Ormuz fechado segundo a Guarda Revolucionária do Irã; restrições dos EUA a chips para a China).",
+  "fonte": "TASS 19/11; Al Jazeera 19/11; Newsquawk 19/11",
+  "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+ },
+ {
+  "id": "escala-6x1",
+  "titulo": "Lula assina hoje o decreto que regulamenta o fim da escala 6x1",
+  "status": "Em andamento",
+  "quando": "Hoje, 9h30 (InfoMoney); a nova jornada começa em dezembro, segundo a promulgação do Congresso",
+  "resumo": "O decreto regulamenta o fim da escala 6x1 promulgado em outubro. Estudo da Ativa Investimentos (abril) estimou aumento médio de 9% nas despesas com pessoal e queda de 0,9 ponto percentual na margem Ebitda de dez empresas do varejo, com Azzas (−1,7 p.p.), Petz (−1,6) e Renner (−1,4) entre as mais afetadas.",
+  "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, AUAU3, RADL3, ASAI3). O texto do decreto pode trazer prazos e regras que mudam essa conta; o efeito já era conhecido, por isso a reação deve ser moderada.",
+  "fonte": "InfoMoney 19/11 6h15; Euqueroinvestir (estudo da Ativa, 22/04)",
+  "link": "https://www.infomoney.com.br/mercados/anthropic-pacote-fiscal-cupula-trump-xi-putin-agenda-19112026/"
  },
  {
   "id": "petroleo-oferta",
-  "titulo": "Petróleo cede com perspectiva de oferta maior",
+  "titulo": "Petróleo estável perto de US$ 92 com excesso de oferta e tensão em Ormuz",
   "status": "Em andamento",
-  "quando": "Brent a US$ 91,83 às 5h34; fechou ontem a US$ 93,14",
-  "resumo": "Goldman vê possível excedente de 2 milhões de barris por dia em 2027 e Brent médio de US$ 88. Brent fechou ontem a US$ 93,14.",
-  "impacto": "Pressiona PETR4 e PRIO3, que o relatório colocou na lista de queda.",
-  "fonte": "Saxo 18/11; InfoMoney 5h34",
-  "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-apos-nvidia-superar-expectativas-no-3t/"
- },
- {
-  "id": "bancos-rebaixam-brasil",
-  "titulo": "Morgan Stanley e Goldman Sachs rebaixam a bolsa brasileira",
-  "status": "Confirmado",
-  "quando": "Morgan Stanley: relatório enviado a clientes em 15/11, divulgado em 16 e 17/11; Goldman Sachs: relatório de 17/11",
-  "resumo": "O Morgan Stanley passou as ações brasileiras de equal-weight para underweight na carteira de América Latina, com alvo de 160 mil pontos para o Ibovespa no fim de 2027, citando juros altos, desaceleração e saída de capital; diz preferir exportadoras e empresas com receita em dólar. O Goldman Sachs rebaixou para marketweight (neutro), com pouco espaço para cortes de juros em 2027, desaceleração e risco de revisões negativas de lucros.",
-  "impacto": "Reforça o argumento contra o cenário de alta e o risco de saída de capital; o recado do Morgan Stanley favorece exportadoras em relação às empresas voltadas ao mercado doméstico (interpretação a partir do relatório).",
-  "fonte": "CNN Brasil 17/11",
-  "link": "https://www.cnnbrasil.com.br/economia/money/mercado/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira/"
+  "quando": "Brent a US$ 92,26 às 5h43 e US$ 92,65 às 7h07; fechou ontem a US$ 91,95",
+  "resumo": "O Brent (janeiro) caiu 1,28% ontem e o WTI 2,76%, a US$ 82,31, com estoques dos EUA subindo 3,38 milhões de barris, exportações russas maiores e segunda alta mensal de produção da Opep+. A Guarda Revolucionária do Irã diz que Ormuz segue fechado sem aceitação das condições de Teerã.",
+  "impacto": "Oferta maior pesa em PETR4 e PRIO3; tensão no Golfo limita a queda do barril. Hoje a direção é neutra e por isso nenhum dos dois entrou nas listas de papéis.",
+  "fonte": "eJornais 19/11; InfoMoney 19/11 5h43; Money Times 19/11 7h07; Newsquawk 19/11",
+  "link": "https://www.infomoney.com.br/mercados/futuros-de-ny-avancam-com-euforia-em-torno-do-ipo-recorde-da-anthropic/"
  }
 ]

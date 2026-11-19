@@ -1,0 +1,395 @@
+{
+ "resumo": [
+  {
+   "data": "quinta-feira, 19/11/2026",
+   "atualizado": "8h45 (Brasília)",
+   "base": "Dados das 0h12 às 8h30 (Brasília) de InfoMoney, Money Times, Exame, TradeMap, CNN Brasil, Bloomberg Línea, O Tempo, NeoFeed, TASS, Al Jazeera, Saxo e HG Brasil. Referência: fechamento oficial de 18/11 (167.537,95 pts, −1,34%), que bate com o arquivo de fechamento da rotina das 18h47. Não encontrei no pré-mercado: cotação do dólar de hoje, EWZ, DI futuro (o mercado de juros abre às 9h), minério em Singapura e o consenso do Fed da Filadélfia e dos indicadores antecedentes. Nenhum balanço brasileiro relevante saiu entre o fechamento de ontem e a abertura; por isso as listas de papéis são curtas (2 na queda e 5 na subida) e cada papel tem notícia datada e fonte."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 26,
+   "agora": 26,
+   "motivo": "Dólar no maior nível desde abril de 2025 (R$ 5,867, quinta alta seguida), DXY a 103,8, Treasury de 10 anos a 5,07% e ata do Fed com Waller defendendo alta de 0,50 ponto em dezembro mantêm a pressão. Sexta-feira é feriado (B3 fechada), o que pode levar a redução de posições hoje, e Taiex −4,4% e Hang Seng −1,95% mostram cautela com IA e China."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 32,
+   "agora": 32,
+   "motivo": "O Senado aprovou o ajuste quase intacto, mas o resultado era esperado. O mercado tende a esperar a Câmara (votação prevista para 24/11), as novas medidas fiscais que o ministro Durigan prometeu e a estreia da Anthropic antes de apostar, e o feriado de amanhã reduz o volume."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 42,
+   "agora": 42,
+   "motivo": "Os destaques foram derrubados no Senado (49 a 31, 47 a 30 e 45 a 32) depois do fechamento, o que traz alívio fiscal. Futuros de Nova York sobem (Nasdaq +1,86%, S&P 500 +1,07%, Dow +0,65% às 5h43), a Europa abre em alta e o minério em Dalian sobe 0,47%. Precisa de dólar abaixo de R$ 5,82 e de alívio nos DIs."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 18/11",
+   "valor": "167.538 pts (167.537,95)",
+   "variacao": "−1,34%",
+   "hora": "18/11, após o leilão",
+   "fonte": "Rotina de fechamento; Suno 18h32, AVNews, CNN Brasil e Trademap batem no valor"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,8667 no fechamento de 18/11; hoje n/d",
+   "variacao": "+1,46% ontem (quinta alta seguida)",
+   "hora": "18/11 após o pregão",
+   "fonte": "eJornais e Suno 18h32 (R$ 5,8677 na CNN Brasil, +1,48%). Cotação de hoje: procurei em InfoMoney, Money Times e Exame, sem dado"
+  },
+  {
+   "indicador": "EWZ e DXY",
+   "valor": "EWZ US$ 30,22 (fechamento de 18/11); DXY 103,79",
+   "variacao": "EWZ +0,50% ontem; DXY +0,31%",
+   "hora": "18/11",
+   "fonte": "AVNews 19/11 7h18 e Money Times 7h07 (CNN Brasil traz DXY 103,778; eJornais 103,850). EWZ no pré-mercado de hoje: n/d"
+  },
+  {
+   "indicador": "Futuros de NY (Nasdaq / S&P 500 / Dow)",
+   "valor": "+1,86% / +1,07% / +0,65%",
+   "variacao": "pré-mercado; Money Times às 7h07: +1,94% / +1,09% / +0,59%",
+   "hora": "5h43 e 7h07",
+   "fonte": "InfoMoney; Money Times"
+  },
+  {
+   "indicador": "Wall Street, fechamento de 18/11 (Dow / S&P 500 / Nasdaq)",
+   "valor": "50.197,78 / 7.323,52 / 24.429,88",
+   "variacao": "−1,11% / −0,23% / +0,42%",
+   "hora": "18/11, 19h09",
+   "fonte": "Money Times; Nvidia caiu quase 3% mesmo com balanço acima do esperado"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "5,066%",
+   "variacao": "−4 pb em 18/11",
+   "hora": "18/11, 18h50",
+   "fonte": "CNN Brasil; valor de hoje n/d"
+  },
+  {
+   "indicador": "DI futuro (jan/28 e jan/35)",
+   "valor": "14,495% e 15,245%",
+   "variacao": "+7 pb e +10 pb em 18/11",
+   "hora": "18/11, fim da tarde",
+   "fonte": "CNN Brasil; o mercado de juros abre às 9h, taxa de hoje n/d"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 92,26 (5h43) e US$ 92,65 (7h07)",
+   "variacao": "+0,34% e +0,76%; fechou ontem a US$ 91,95 (−1,28%)",
+   "hora": "5h43 e 7h07",
+   "fonte": "InfoMoney e Money Times (divergência pequena); fechamento de ontem: eJornais"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian / Singapura)",
+   "valor": "Dalian 648 iuanes (US$ 97,18); Singapura n/d",
+   "variacao": "+0,47%",
+   "hora": "5h43",
+   "fonte": "InfoMoney; procurei Singapura em Money Times e Exame, sem dado"
+  },
+  {
+   "indicador": "Ásia, Europa, ouro e Bitcoin",
+   "valor": "Nikkei +0,71%, Kospi +1,39%, Taiex −4,4%, Xangai −0,28%, Hang Seng −1,95%; Stoxx 600 +0,31%, DAX +0,63%; ouro US$ 3.735; Bitcoin US$ 63,6 mil a US$ 63,8 mil",
+   "variacao": "ouro −0,18%; Bitcoin −1,2% (Money Times) ou +1,79% (InfoMoney)",
+   "hora": "5h43 a 7h07",
+   "fonte": "Money Times 6h11 e 7h07; InfoMoney 5h43"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "KLBN11",
+   "empresa": "Klabin",
+   "chance": 54,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Klabin suspendeu as operações da unidade de Otacílio Costa (SC) depois de um incidente na caldeira de recuperação, com 10 funcionários hospitalizados, e a unit fechou o leilão em queda de 1,95% ontem (Money Times, 18/11). Sem prazo de reparo divulgado, o mercado pode seguir precificando perda de produção de celulose. Contra: parte da notícia já entrou no preço ontem, o dólar alto favorece a exportadora e um comunicado com retomada rápida reverteria o movimento.",
+   "gatilho": "Comunicado da empresa sobre dano e prazo de retomada (horário não encontrado); confirma se abrir abaixo de R$ 17,13",
+   "fonte": "Money Times 18/11 (Tempo real); HG Brasil 18/11 18h00 (R$ 17,13, −2,00%)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Não há prazo de reparo nem estimativa de volume perdido; o tamanho do dano na caldeira define se a queda continua."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "BBAS3",
+   "empresa": "Banco do Brasil",
+   "chance": 52,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O banco confirmou vazamento de nome, CPF, e-mail, agência e conta de clientes por uso indevido de credencial válida, identificado em 12/11 e comunicado em 18/11 às 18h18 (Seu Dinheiro, Money Times). O papel já carrega o 3T26 fraco (lucro de R$ 1,3 bi, −66,5%), a projeção de lucro cortada pela metade e dividendos menores, e fechou −3,42% ontem (Suno). Contra: a queda de ontem veio antes da notícia do vazamento, o alívio fiscal pode puxar os bancos e o banco diz não haver transação financeira nem senha exposta.",
+   "gatilho": "Abertura abaixo de R$ 14,26 com DI em alta confirma; invalida se o dólar cair abaixo de R$ 5,82 e os bancos liderarem o repique do índice",
+   "fonte": "Seu Dinheiro 18/11 18h18; Money Times 18/11; Seu Dinheiro (3T26); Suno 18/11 18h32; HG Brasil 18/11 18h08",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "O papel já devolveu mais de 3% ontem e o vazamento saiu depois do fechamento; o alívio fiscal e o risco de reputação puxam em sentidos opostos."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 56,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Os futuros do Nasdaq sobem 1,86% às 5h43 (InfoMoney) e 1,94% às 7h07 (Money Times) com a estreia do IPO da Anthropic, em que a Nvidia está entre os investidores da colocação privada de US$ 26 bi (Exame, 18/11). O BDR caiu 1,49% ontem depois de a ação cair quase 3% em Nova York, mesmo com balanço acima do esperado (Money Times, 19h09). Contra: a Nvidia acumula −26% em novembro, o Taiex caiu 4,4% e há novas restrições de chips à China; ontem a previsão de subida com 66% errou.",
+   "gatilho": "Abertura de Nova York às 11h30: confirma se o Nasdaq sustentar a alta; invalida se os chips virarem para baixo na abertura",
+   "fonte": "InfoMoney 19/11 5h43; Money Times 19/11 7h07 e 6h11; Exame 18/11 9h23; Money Times 18/11 19h09; HG Brasil 18/11 18h13",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "AVGO34",
+   "empresa": "BDR da Broadcom",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Efeito setorial dos futuros do Nasdaq (+1,86% às 5h43, InfoMoney) em um dia de euforia com IA. Sem notícia própria da empresa. Contra: o BDR subiu 6,78% ontem (HG Brasil) e pode devolver parte, e o Taiex −4,4% mostra fragilidade nos chips asiáticos.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se o Nasdaq perder a alta nas primeiras horas",
+   "fonte": "InfoMoney 19/11 5h43; Money Times 19/11 6h11; HG Brasil 18/11 18h11",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "MSFT34",
+   "empresa": "BDR da Microsoft",
+   "chance": 54,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Microsoft está entre os investidores da colocação privada de US$ 26 bi ao preço do IPO da Anthropic, que saiu a US$ 83, acima da faixa de US$ 70 a US$ 78 (Exame 18/11; Money Times 19/11 5h58), e os futuros do Nasdaq sobem 1,86%. Contra: o BDR já subiu 2,47% ontem e a estreia pode virar \"vender a notícia\"; a Exame aponta o risco de investidores venderem outras techs para financiar a compra.",
+   "gatilho": "Estreia da Anthropic na Nasdaq (horário exato não encontrado) e abertura de Nova York às 11h30",
+   "fonte": "Exame 18/11; Money Times 19/11 5h58; InfoMoney 19/11 5h43; HG Brasil 18/11 18h00",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 4,
+   "ticker": "GOGL34",
+   "empresa": "BDR da Alphabet",
+   "chance": 53,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O Google também entra na colocação privada de US$ 26 bi da Anthropic (Exame 18/11) e o Nasdaq futuro sobe 1,86% (InfoMoney 5h43). Contra: o BDR subiu cerca de 3% ontem (HG Brasil e Investidor10 mostram +3,09% e +3,31%) e a tese é a mesma dos outros BDRs, de modo que erra junto se o fator Anthropic/Nasdaq falhar.",
+   "gatilho": "Estreia da Anthropic na Nasdaq e abertura de Nova York às 11h30",
+   "fonte": "Exame 18/11; InfoMoney 19/11 5h43; HG Brasil 18/11 15h54; Investidor10",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 5,
+   "ticker": "MBRF3",
+   "empresa": "MBRF (Marfrig e BRF)",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A MBRF concluiu a renegociação do financiamento PPE de até US$ 535 mi (bancos já comprometeram US$ 410 mi), com custo de SOFR + 2,70% ao ano (0,425 ponto abaixo da taxa inicial), amortização só a partir de maio de 2028 e vencimento em novembro de 2031 (TradeMap, 19/11 7h47). Dólar alto favorece a exportadora. Contra: a ação subiu 4,06% ontem e o efeito direto no lucro é pequeno.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "TradeMap 19/11 7h47; HG Brasil 18/11 20h48; TradeMap 18/11 18h30",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "01h45 a 05h",
+   "evento": "Cúpula Trump, Xi e Putin em Shenzhen: bilateral Trump e Xi às 01h45, trilateral às 03h30, cerca de 90 minutos, com declaração conjunta publicada e sem falas à imprensa; os termos citam fluxo estável de energia",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "Madrugada",
+   "evento": "Senado concluiu a votação do ajuste fiscal, derrubou os destaques e enviou o texto à Câmara (votação prevista para terça, 24/11)",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "Madrugada",
+   "evento": "Ásia: Taiex −4,4%, Hang Seng −1,95%, Nikkei +0,71%; IPO da Anthropic precificado a US$ 83",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "9h",
+   "evento": "Futuros do Ibovespa e juros futuros começam a negociar; reunião do CMN (TradeMap e Money Times: 9h, com Galípolo e Lula às 15h; InfoMoney traz 18h)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "9h30",
+   "evento": "Lula assina o decreto que regulamenta o fim da escala 6x1 (InfoMoney); Durigan fala em evento do HSBC (9h30) e no fórum do Bradesco BBI (11h)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h",
+   "evento": "Abertura da B3",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h30",
+   "evento": "EUA: pedidos de seguro-desemprego (anterior 200 mil, projeção 198 mil) e índice do Fed da Filadélfia de novembro (consenso não encontrado); Lagarde (BCE) fala",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Antes da abertura de NY",
+   "evento": "Balanços do Walmart e da Alibaba (horário e consenso não encontrados)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h30",
+   "evento": "Abertura de Wall Street e estreia da Anthropic (ANT) na Nasdaq, com o BDR ANTH34 na B3 no mesmo dia (horário exato não encontrado)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h45",
+   "evento": "Leilão de LTN e NTN-F do Tesouro",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "12h",
+   "evento": "EUA: indicadores antecedentes de outubro (consenso não encontrado)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Tarde",
+   "evento": "Falas do Fed: Hammack (10h50 ou 12h50, as fontes divergem), Goolsbee (14h30 ou 16h30, divergem), Barr sobre IA (18h15); leilão de T-notes de 10 anos às 15h (Exame)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "17h55",
+   "evento": "Fechamento da B3; a sexta-feira (20/11) é feriado da Consciência Negra e a bolsa não abre",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "18h30",
+   "evento": "Balanço patrimonial do Fed",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "20h30 e 22h",
+   "evento": "Inflação ao consumidor do Japão (20h30) e decisão da LPR da China (22h)",
+   "destaque": "não",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou desde ontem",
+   "texto": "Ontem: Alta 38%, Lateral 34%, Queda 28%; o Ibovespa fechou em queda de 1,34% (167.538 pts) e o dólar em R$ 5,867. Hoje: Alta 42%, Lateral 32%, Queda 26%. Subiu o peso da alta porque o Senado derrubou os destaques e aprovou o ajuste quase intacto depois do fechamento (ontem a votação ainda estava aberta às 18h50) e os futuros de Nova York ficaram mais fortes (Nasdaq +1,86%). Pesam contra a ata do Fed (quase todos veem mais altas; Waller defende 0,50 ponto em dezembro), o dólar na máxima desde abril de 2025 e o feriado de sexta. Dos sinais de ontem, o dólar acima de R$ 5,82 e a ata dura confirmaram a queda; a alta pela Nvidia falhou (a ação caiu quase 3% em Nova York)."
+  },
+  {
+   "topico": "Riscos do dia e o que mais surpreenderia",
+   "texto": "Riscos: a estreia da Anthropic (um IPO fraco pode derrubar o Nasdaq e os BDRs; um forte pode puxar o setor de IA), o dólar acima de R$ 5,90, DIs longos acima de 15,3% e notícias do decreto da escala 6x1 (9h30) e das falas de Durigan sobre novas medidas fiscais. Surpreenderia: Ibovespa acima de 170 mil pontos (+1,5%) com o dólar ainda perto de R$ 5,87, ou o dólar abaixo de R$ 5,75 sem intervenção do Banco Central."
+  },
+  {
+   "topico": "Argumento mais forte contra o cenário de alta",
+   "texto": "A aprovação do ajuste era esperada e o dólar subiu cinco pregões seguidos mesmo com ela encaminhada: o que o mercado precifica vem sobretudo do cenário pós-eleição (o dólar subiu cerca de 17,6% desde 25/10) e só em parte do texto fiscal. Faltam a Câmara (257 votos, com entidades empresariais querendo recolocar a compensação cruzada) e as medidas que Durigan prometeu, o Fed pode subir juros acima de 0,25 ponto em dezembro, Morgan Stanley e Goldman rebaixaram o Brasil e o feriado de sexta incentiva reduzir risco. Alta exige fechar acima de cerca de 168.376 pts, e o 4T26 vem em queda de quase 10%."
+  },
+  {
+   "topico": "Calibragem e vieses",
+   "texto": "Ontem a alta tinha 38%, a queda 28% e a queda ocorreu; com três cenários, uma probabilidade de 28% se realiza cerca de 1 vez em 3,6, então um resultado isolado diz pouco, mas dois dias seguidos de ajuste puxado por um único evento (Nvidia) sugerem viés de recência. NVDC34 com 66% errou ontem; hoje baixei a chance para 56%. Quatro das cinco subidas (NVDC34, AVGO34, MSFT34, GOGL34) dependem do mesmo fator, o Nasdaq e o IPO da Anthropic, e erram juntas se ele falhar. Nota de transparência: este relatório é produzido por um modelo da Anthropic, cuja estreia em bolsa é um dos assuntos; os fatos do IPO vêm de veículos independentes (Money Times, Exame, InfoMoney)."
+  },
+  {
+   "topico": "Por que as listas de papéis são curtas",
+   "texto": "Entraram só os papéis com notícia datada e fonte. Ficaram de fora por falta de lado claro: VALE3 (sete quedas seguidas, mas o minério sobe 0,47% em Dalian), PETR4 e PRIO3 (Brent estável perto de US$ 92), construtoras como MRVE3, TEND3 e CURY3 (caíram 4% a 5% ontem, direção depende do DI), varejo exposto ao decreto da 6x1 (AZZA3, LREN3, ASAI3, RADL3), Cosan e Santander (oferta de troca por BDR). ITUB4 saiu porque as fontes de preço divergem (R$ 40,24 na HG Brasil e R$ 34,39 no Google Finance). Balanços: nenhum de empresa brasileira relevante saiu entre o fechamento de ontem e a abertura; o calendário da Safra não lista empresa brasileira em 18/11."
+  },
+  {
+   "topico": "Lacunas e divergências de fontes",
+   "texto": "Não encontrei: dólar, EWZ e DI de hoje (o mercado de juros abre às 9h), minério em Singapura, consenso do Fed da Filadélfia e dos indicadores antecedentes, horário exato da estreia da Anthropic e do BDR ANTH34, e o fechamento confirmado do GOGL34 em reais (a HG Brasil mostra R$ 138,26 às 15h54, sem fechamento; o campo ficou vazio). Divergências: Dow em 18/11 (−1,11% no Money Times, −2,73% no TradeMap, que parece misturar dias); Brent (US$ 92,26 e US$ 92,65); Nasdaq futuro (+1,86% e +1,94%); Bitcoin (−1,2% e +1,79%); economia do pacote fiscal (R$ 56 bi no O Tempo, R$ 50 bi com o relator Braga no NeoFeed); horário do CMN (9h ou 18h) e das falas do Fed; BBAS3 com variação de −3,42% (Suno) contra −2,46% e −2,60% (HG Brasil e investimentos.com.br), com preço de R$ 14,24 a R$ 14,26 nas duas últimas; KLBN11 em R$ 17,13 (HG) e R$ 17,11 (investimentos.com.br)."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Senado aprova o ajuste fiscal quase intacto; Câmara vota na terça (24/11)",
+   "status": "Confirmado",
+   "quando": "Senado: noite de 18/11; Câmara: votação prevista para terça, 24/11, ainda sem data oficial",
+   "resumo": "O governo derrubou os destaques: a trava de créditos tributários foi mantida por 49 a 31 (até R$ 18,3 bi em 2027), a proposta de limitar o crescimento da despesa a 0,6% foi rejeitada por 47 a 30 e o teto de R$ 3 bi para acertos do INSS com regimes próprios foi mantido por 45 a 32. O destaque da Lei Kandir saiu por acordo (R$ 2 bi para estados em 2027). A economia estimada vai de R$ 50 bi (relator Braga) a R$ 56 bi (O Tempo). Na Câmara são precisos 257 votos; entidades empresariais querem reabrir a compensação cruzada.",
+   "impacto": "Alívio fiscal que sustenta o cenário de alta, mas era esperado. Risco para as próximas semanas: mudanças na Câmara ou novas medidas que decepcionem. Durigan disse que anunciará outras medidas em breve.",
+   "fonte": "O Tempo 18/11 19h40; NeoFeed 18/11 20h47",
+   "link": "https://otempo.com.br/politica/2026/11/18/governo-vence-queda-de-braco-e-aprova-pacote-fiscal-quase-intacto-no-senado"
+  },
+  {
+   "id": "dolar-maxima",
+   "titulo": "Dólar a R$ 5,87, maior valor desde abril de 2025, após cinco altas seguidas",
+   "status": "Confirmado",
+   "quando": "Fechamento de 18/11; cotação de hoje não encontrada",
+   "resumo": "O dólar à vista fechou a R$ 5,8667 (+1,46%), o maior nível desde 15/04/2025, mesmo com dois leilões de linha do Banco Central (US$ 1 bi). Acumula alta de 17,6% desde 25/10 (segundo turno) e 6,9% em 2026. Morgan Stanley (underweight, Ibovespa a 160 mil pontos no fim de 2027) e Goldman Sachs (neutro) rebaixaram o Brasil em relatórios divulgados entre 15 e 17/11.",
+   "impacto": "Dólar acima de R$ 5,90 reforça o cenário de queda e pressiona empresas endividadas em dólar e setores domésticos; dólar abaixo de R$ 5,82 sustenta a alta. Favorece exportadoras, em linha com a preferência declarada do Morgan Stanley.",
+   "fonte": "eJornais 19/11 0h12; CNN Brasil 18/11 18h50; CNN Brasil 17/11",
+   "link": "https://ejornais.com.br/index.php/2026/11/19/dolar-dispara-a-r-587-e-ibovespa-cai-com-foco-em-ajuste-fiscal/"
+  },
+  {
+   "id": "fed-ata",
+   "titulo": "Ata do Fed: quase todos veem mais altas de juros; Waller defende 0,50 ponto em dezembro",
+   "status": "Confirmado",
+   "quando": "Ata divulgada em 18/11; próxima reunião em dezembro",
+   "resumo": "Os fed funds estão em 3,75% a 4,00% e o Fomc manteve a taxa em outubro por 10 votos a 2 (Cook e Hammack queriam alta de 0,25 ponto). Quase todos os diretores veem novas altas nos próximos meses; Waller defende 0,50 ponto em dezembro. O FedWatch dava 96,9% de chance de alta de 0,25 ponto. O Treasury de 10 anos fechou a 5,066% e o DXY subiu a cerca de 103,8.",
+   "impacto": "Juros americanos altos e dólar global forte pressionam emergentes, o dólar no Brasil e as ações de crescimento. Uma alta de 0,50 ponto seria um choque adicional para renda variável e para o câmbio.",
+   "fonte": "Bloomberg Línea 19/11 7h; Money Times 18/11 19h09; CNN Brasil 18/11",
+   "link": "https://www.bloomberglinea.com.br/mercados/ata-do-fed-mostra-que-quase-todos-os-diretores-preveem-mais-altas-de-juros-nos-eua/"
+  },
+  {
+   "id": "anthropic-ipo",
+   "titulo": "IPO da Anthropic: US$ 83 por ação, US$ 81,3 bi captados; estreia hoje na Nasdaq e BDR na B3",
+   "status": "Em andamento",
+   "quando": "Precificado em 18/11; estreia hoje (ticker ANT), com o BDR ANTH34 na B3; horário exato não encontrado",
+   "resumo": "Preço acima da faixa de US$ 70 a US$ 78, 980 milhões de ações e avaliação de cerca de US$ 1,5 trilhão com diluição total (US$ 1,1 trilhão sem diluição), mais US$ 26 bi em colocação privada com Google, Nvidia, AMD, Microsoft e outros. É a maior abertura de capital da história. A Exame lembra que uma estreia fraca pode contaminar o Nasdaq e que investidores podem vender outras techs para financiar a compra; os futuros do Nasdaq sobem cerca de 1,9%.",
+   "impacto": "Movimenta o apetite por IA e os BDRs de tecnologia na B3 (NVDC34, AVGO34, MSFT34, GOGL34). O ANTH34 não tem fechamento anterior para comparação. Nota: o relatório é produzido por um modelo da Anthropic; os fatos vêm de veículos independentes.",
+   "fonte": "Money Times 19/11 5h58; Exame 18/11 9h23; InfoMoney 19/11 5h43",
+   "link": "https://www.moneytimes.com.br/anthropic-capta-valor-recorde-de-us-81-bilhoes-em-ipo-alcancando-avaliacao-de-us-15-trilhao-fets/"
+  },
+  {
+   "id": "cupula-shenzhen",
+   "titulo": "Cúpula Trump, Xi e Putin termina com declaração conjunta, sem falas à imprensa",
+   "status": "Confirmado",
+   "quando": "Trilateral às 03h30 de Brasília, cerca de 90 minutos; declaração publicada em 19/11",
+   "resumo": "A reunião em Shenzhen, a primeira dos três líderes, produziu uma declaração conjunta publicada pelo Kremlin; segundo a Al Jazeera, inclui compromisso com fluxos estáveis de energia. O conteúdo completo não estava disponível nas páginas consultadas. O Kremlin diz que o processo da Ucrânia está parado, e Trump disse que resolverá o impasse com o Irã. A trégua comercial EUA e China vale até 10/01/2027.",
+   "impacto": "Baixa expectativa de entrega concreta, então o efeito direto nos mercados é limitado; petróleo e chips são os canais (Ormuz fechado segundo a Guarda Revolucionária do Irã; restrições dos EUA a chips para a China).",
+   "fonte": "TASS 19/11; Al Jazeera 19/11; Newsquawk 19/11",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+  },
+  {
+   "id": "escala-6x1",
+   "titulo": "Lula assina hoje o decreto que regulamenta o fim da escala 6x1",
+   "status": "Em andamento",
+   "quando": "Hoje, 9h30 (InfoMoney); a nova jornada começa em dezembro, segundo a promulgação do Congresso",
+   "resumo": "O decreto regulamenta o fim da escala 6x1 promulgado em outubro. Estudo da Ativa Investimentos (abril) estimou aumento médio de 9% nas despesas com pessoal e queda de 0,9 ponto percentual na margem Ebitda de dez empresas do varejo, com Azzas (−1,7 p.p.), Petz (−1,6) e Renner (−1,4) entre as mais afetadas.",
+   "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, AUAU3, RADL3, ASAI3). O texto do decreto pode trazer prazos e regras que mudam essa conta; o efeito já era conhecido, por isso a reação deve ser moderada.",
+   "fonte": "InfoMoney 19/11 6h15; Euqueroinvestir (estudo da Ativa, 22/04)",
+   "link": "https://www.infomoney.com.br/mercados/anthropic-pacote-fiscal-cupula-trump-xi-putin-agenda-19112026/"
+  },
+  {
+   "id": "petroleo-oferta",
+   "titulo": "Petróleo estável perto de US$ 92 com excesso de oferta e tensão em Ormuz",
+   "status": "Em andamento",
+   "quando": "Brent a US$ 92,26 às 5h43 e US$ 92,65 às 7h07; fechou ontem a US$ 91,95",
+   "resumo": "O Brent (janeiro) caiu 1,28% ontem e o WTI 2,76%, a US$ 82,31, com estoques dos EUA subindo 3,38 milhões de barris, exportações russas maiores e segunda alta mensal de produção da Opep+. A Guarda Revolucionária do Irã diz que Ormuz segue fechado sem aceitação das condições de Teerã.",
+   "impacto": "Oferta maior pesa em PETR4 e PRIO3; tensão no Golfo limita a queda do barril. Hoje a direção é neutra e por isso nenhum dos dois entrou nas listas de papéis.",
+   "fonte": "eJornais 19/11; InfoMoney 19/11 5h43; Money Times 19/11 7h07; Newsquawk 19/11",
+   "link": "https://www.infomoney.com.br/mercados/futuros-de-ny-avancam-com-euforia-em-torno-do-ipo-recorde-da-anthropic/"
+  }
+ ],
+ "fechamento": []
+}

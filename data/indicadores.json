@@ -1,72 +1,72 @@
 [
  {
-  "indicador": "Ibovespa, fechamento oficial de 17/11",
-  "valor": "169.817 pts",
-  "variacao": "+0,31%",
-  "hora": "17/11, após o leilão",
-  "fonte": "Rotina de fechamento; Rio Times e Seu Dinheiro (169.816,64)"
+  "indicador": "Ibovespa, fechamento oficial de 18/11",
+  "valor": "167.538 pts (167.537,95)",
+  "variacao": "−1,34%",
+  "hora": "18/11, após o leilão",
+  "fonte": "Rotina de fechamento; Suno 18h32, AVNews, CNN Brasil e Trademap batem no valor"
  },
  {
   "indicador": "Dólar à vista",
-  "valor": "R$ 5,7819 (fechamento); R$ 5,78 no pré",
-  "variacao": "+0,08% ontem; −0,02% hoje",
-  "hora": "7h28",
-  "fonte": "Universo da Notícia (Rio Times mostra 5,77 a 5,78, divergência pequena)"
+  "valor": "R$ 5,8667 no fechamento de 18/11; hoje n/d",
+  "variacao": "+1,46% ontem (quinta alta seguida)",
+  "hora": "18/11 após o pregão",
+  "fonte": "eJornais e Suno 18h32 (R$ 5,8677 na CNN Brasil, +1,48%). Cotação de hoje: procurei em InfoMoney, Money Times e Exame, sem dado"
  },
  {
-  "indicador": "EWZ no pré-mercado",
-  "valor": "n/d",
-  "variacao": "n/d",
-  "hora": "—",
-  "fonte": "Procurei em InfoMoney, Investing e Rio Times; sem dado"
+  "indicador": "EWZ e DXY",
+  "valor": "EWZ US$ 30,22 (fechamento de 18/11); DXY 103,79",
+  "variacao": "EWZ +0,50% ontem; DXY +0,31%",
+  "hora": "18/11",
+  "fonte": "AVNews 19/11 7h18 e Money Times 7h07 (CNN Brasil traz DXY 103,778; eJornais 103,850). EWZ no pré-mercado de hoje: n/d"
  },
  {
-  "indicador": "Futuros de NY (Dow / S&P 500 / Nasdaq)",
-  "valor": "+0,15% / +0,47% / +0,82%",
-  "variacao": "pré-mercado",
-  "hora": "5h34",
-  "fonte": "InfoMoney"
+  "indicador": "Futuros de NY (Nasdaq / S&P 500 / Dow)",
+  "valor": "+1,86% / +1,07% / +0,65%",
+  "variacao": "pré-mercado; Money Times às 7h07: +1,94% / +1,09% / +0,59%",
+  "hora": "5h43 e 7h07",
+  "fonte": "InfoMoney; Money Times"
  },
  {
-  "indicador": "S&P 500 / Dow / Nasdaq 100, fechamento de 17/11",
-  "valor": "7.340,53 (S&P)",
-  "variacao": "−1,0% / −1,6% / −0,7%",
-  "hora": "17/11",
-  "fonte": "Saxo"
+  "indicador": "Wall Street, fechamento de 18/11 (Dow / S&P 500 / Nasdaq)",
+  "valor": "50.197,78 / 7.323,52 / 24.429,88",
+  "variacao": "−1,11% / −0,23% / +0,42%",
+  "hora": "18/11, 19h09",
+  "fonte": "Money Times; Nvidia caiu quase 3% mesmo com balanço acima do esperado"
  },
  {
   "indicador": "Treasury de 10 anos",
-  "valor": "5,10%",
-  "variacao": "−3 pb",
-  "hora": "17/11",
-  "fonte": "Saxo"
+  "valor": "5,066%",
+  "variacao": "−4 pb em 18/11",
+  "hora": "18/11, 18h50",
+  "fonte": "CNN Brasil; valor de hoje n/d"
+ },
+ {
+  "indicador": "DI futuro (jan/28 e jan/35)",
+  "valor": "14,495% e 15,245%",
+  "variacao": "+7 pb e +10 pb em 18/11",
+  "hora": "18/11, fim da tarde",
+  "fonte": "CNN Brasil; o mercado de juros abre às 9h, taxa de hoje n/d"
  },
  {
   "indicador": "Brent",
-  "valor": "US$ 91,83",
-  "variacao": "−1,41% (fechou ontem a US$ 93,14)",
-  "hora": "5h34",
-  "fonte": "InfoMoney; Saxo"
+  "valor": "US$ 92,26 (5h43) e US$ 92,65 (7h07)",
+  "variacao": "+0,34% e +0,76%; fechou ontem a US$ 91,95 (−1,28%)",
+  "hora": "5h43 e 7h07",
+  "fonte": "InfoMoney e Money Times (divergência pequena); fechamento de ontem: eJornais"
  },
  {
-  "indicador": "Minério de ferro (Dalian/Singapura)",
-  "valor": "n/d",
-  "variacao": "n/d",
-  "hora": "—",
-  "fonte": "Procurei em Saxo, InfoMoney e Universo da Notícia; sem dado"
+  "indicador": "Minério de ferro (Dalian / Singapura)",
+  "valor": "Dalian 648 iuanes (US$ 97,18); Singapura n/d",
+  "variacao": "+0,47%",
+  "hora": "5h43",
+  "fonte": "InfoMoney; procurei Singapura em Money Times e Exame, sem dado"
  },
  {
-  "indicador": "Europa e Ásia",
-  "valor": "Stoxx 600 −0,08%, DAX +0,17%; Nikkei +0,28%, Hang Seng −0,91%",
-  "variacao": "manhã (ontem Stoxx −1,8%, Kospi −2,6%)",
-  "hora": "5h34",
-  "fonte": "InfoMoney; Saxo"
- },
- {
-  "indicador": "Ouro e Bitcoin",
-  "valor": "Ouro US$ 3.825 (mín. em 14 meses); Bitcoin US$ 64.643",
-  "variacao": "Bitcoin +1,20%",
-  "hora": "5h34; ouro na Ásia",
-  "fonte": "Saxo; InfoMoney"
+  "indicador": "Ásia, Europa, ouro e Bitcoin",
+  "valor": "Nikkei +0,71%, Kospi +1,39%, Taiex −4,4%, Xangai −0,28%, Hang Seng −1,95%; Stoxx 600 +0,31%, DAX +0,63%; ouro US$ 3.735; Bitcoin US$ 63,6 mil a US$ 63,8 mil",
+  "variacao": "ouro −0,18%; Bitcoin −1,2% (Money Times) ou +1,79% (InfoMoney)",
+  "hora": "5h43 a 7h07",
+  "fonte": "Money Times 6h11 e 7h07; InfoMoney 5h43"
  }
 ]

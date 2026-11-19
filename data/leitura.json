@@ -1,26 +1,26 @@
 [
  {
   "topico": "O que mudou desde ontem",
-  "texto": "Ontem: Queda 40%, Lateral 30%, Alta 30%; o índice fechou na faixa lateral (+0,31%). Hoje: Alta 38%, Lateral 34%, Queda 28%. A mudança vem do balanço da Nvidia (acima do esperado, ação +3,7% no after-hours) e dos futuros de Nova York no azul, que na manhã de ontem apontavam para baixo. O dólar e o risco fiscal continuam iguais."
+  "texto": "Ontem: Alta 38%, Lateral 34%, Queda 28%; o Ibovespa fechou em queda de 1,34% (167.538 pts) e o dólar em R$ 5,867. Hoje: Alta 42%, Lateral 32%, Queda 26%. Subiu o peso da alta porque o Senado derrubou os destaques e aprovou o ajuste quase intacto depois do fechamento (ontem a votação ainda estava aberta às 18h50) e os futuros de Nova York ficaram mais fortes (Nasdaq +1,86%). Pesam contra a ata do Fed (quase todos veem mais altas; Waller defende 0,50 ponto em dezembro), o dólar na máxima desde abril de 2025 e o feriado de sexta. Dos sinais de ontem, o dólar acima de R$ 5,82 e a ata dura confirmaram a queda; a alta pela Nvidia falhou (a ação caiu quase 3% em Nova York)."
  },
  {
-  "topico": "Revisão das listas de papéis (8h50, manual)",
-  "texto": "Refiz a pesquisa de balanços, recomendações e fatos relevantes de 17 e 18/11. Entraram 3 papéis: VALE3 (queda, 56%), HAPV3 (queda, 53%) e TIMS3 (subida, 53%). As chances dos 4 papéis do relatório e as probabilidades dos cenários do Ibovespa não mudaram; só acrescentei evidências datadas a PETR4 (corte do alvo pelo Citi) e NVDC34 (números do balanço). As listas seguem com menos de 10 papéis porque só entra quem tem notícia concreta e fonte datada."
- },
- {
-  "topico": "Riscos e o que mais surpreenderia",
-  "texto": "Risco principal: o Senado, às 16h, aprovar destaques que desidratem o ajuste (por exemplo, teto de 0,6% ao invés de 2% pode ser lido como mais duro, enquanto a exclusão da limitação de créditos tributários reduziria a receita), somada à ata do Fed com tom de alta de juros. Surpreenderia: dólar abaixo de R$ 5,70 e Ibovespa acima de 172 mil pontos com o fiscal ainda aberto."
+  "topico": "Riscos do dia e o que mais surpreenderia",
+  "texto": "Riscos: a estreia da Anthropic (um IPO fraco pode derrubar o Nasdaq e os BDRs; um forte pode puxar o setor de IA), o dólar acima de R$ 5,90, DIs longos acima de 15,3% e notícias do decreto da escala 6x1 (9h30) e das falas de Durigan sobre novas medidas fiscais. Surpreenderia: Ibovespa acima de 170 mil pontos (+1,5%) com o dólar ainda perto de R$ 5,87, ou o dólar abaixo de R$ 5,75 sem intervenção do Banco Central."
  },
  {
   "topico": "Argumento mais forte contra o cenário de alta",
-  "texto": "A alta do Nvidia é um evento de uma empresa, enquanto o S&P 500 vem de quatro quedas seguidas, a Stoxx 600 teve o pior pregão desde março e o Treasury de 10 anos está em 5,10%. Sem notícia fiscal positiva, o repique pode virar Lateral, e o dólar na máxima de 17 meses dificulta ganhos fortes."
+  "texto": "A aprovação do ajuste era esperada e o dólar subiu cinco pregões seguidos mesmo com ela encaminhada: o que o mercado precifica vem sobretudo do cenário pós-eleição (o dólar subiu cerca de 17,6% desde 25/10) e só em parte do texto fiscal. Faltam a Câmara (257 votos, com entidades empresariais querendo recolocar a compensação cruzada) e as medidas que Durigan prometeu, o Fed pode subir juros acima de 0,25 ponto em dezembro, Morgan Stanley e Goldman rebaixaram o Brasil e o feriado de sexta incentiva reduzir risco. Alta exige fechar acima de cerca de 168.376 pts, e o 4T26 vem em queda de quase 10%."
  },
  {
-  "topico": "Vieses e qualidade dos dados",
-  "texto": "Mais de uma fonte secundária (Saxo, InfoMoney, Universo da Notícia). Fonte do Universo da Notícia traz dólar de fechamento de 17/11 sem o valor do Ibovespa. Viés de recência: dois dias seguidos de ajuste de probabilidades dominados por um evento (Nvidia). Os três papéis acrescentados às 8h50 têm notícia datada e fonte, mas a direção é interpretação minha; Hapvida (devolução após alta sem comunicado) é a de menor convicção. As fontes divergem em números de ontem: Hapvida +12,32% (SBT News), +12,50% (Trademap) e +10,11% (SpaceMoney, 18h07); Nvidia no after-market +2% (Money Times 18h56) contra +3,7% (relatório das 5h34)."
+  "topico": "Calibragem e vieses",
+  "texto": "Ontem a alta tinha 38%, a queda 28% e a queda ocorreu; com três cenários, uma probabilidade de 28% se realiza cerca de 1 vez em 3,6, então um resultado isolado diz pouco, mas dois dias seguidos de ajuste puxado por um único evento (Nvidia) sugerem viés de recência. NVDC34 com 66% errou ontem; hoje baixei a chance para 56%. Quatro das cinco subidas (NVDC34, AVGO34, MSFT34, GOGL34) dependem do mesmo fator, o Nasdaq e o IPO da Anthropic, e erram juntas se ele falhar. Nota de transparência: este relatório é produzido por um modelo da Anthropic, cuja estreia em bolsa é um dos assuntos; os fatos do IPO vêm de veículos independentes (Money Times, Exame, InfoMoney)."
  },
  {
-  "topico": "Lacunas",
-  "texto": "Não encontrei: DI futuro, minério de ferro de hoje, DXY, consenso do desemprego e da ata, nem o fechamento de 17/11 em reais para PRIO3, AVGO34, HAPV3 e TIMS3 (as fontes trazem só a variação). A temporada de balanços do 3T26 está no fim (as últimas empresas divulgaram em 16/11), então a lista de balanços de hoje é curta. Ficaram de fora por falta de lado claro: Banco do Brasil (BBAS3, −2,21% ontem; às 19h36 negou ter dado crédito rural a \"fazendas fantasmas\", e a fonte não diz quem fez a acusação), Cosan (CSAN3, +5,18% ontem; negocia vender fatias de Rumo, Compass e Moove, segundo o Valor), PicPay (PICS, listada na Nasdaq; lucro +157%, mas a ação chegou a cair 30% após revisão de projeções) e as usinas de açúcar e etanol (o Itaú BBA vê a pior margem em 10 anos em 2026/27, sem recomendação por papel na página consultada). Resolvido nesta revisão: o horário da ata do Fed (16h)."
+  "topico": "Por que as listas de papéis são curtas",
+  "texto": "Entraram só os papéis com notícia datada e fonte. Ficaram de fora por falta de lado claro: VALE3 (sete quedas seguidas, mas o minério sobe 0,47% em Dalian), PETR4 e PRIO3 (Brent estável perto de US$ 92), construtoras como MRVE3, TEND3 e CURY3 (caíram 4% a 5% ontem, direção depende do DI), varejo exposto ao decreto da 6x1 (AZZA3, LREN3, ASAI3, RADL3), Cosan e Santander (oferta de troca por BDR). ITUB4 saiu porque as fontes de preço divergem (R$ 40,24 na HG Brasil e R$ 34,39 no Google Finance). Balanços: nenhum de empresa brasileira relevante saiu entre o fechamento de ontem e a abertura; o calendário da Safra não lista empresa brasileira em 18/11."
+ },
+ {
+  "topico": "Lacunas e divergências de fontes",
+  "texto": "Não encontrei: dólar, EWZ e DI de hoje (o mercado de juros abre às 9h), minério em Singapura, consenso do Fed da Filadélfia e dos indicadores antecedentes, horário exato da estreia da Anthropic e do BDR ANTH34, e o fechamento confirmado do GOGL34 em reais (a HG Brasil mostra R$ 138,26 às 15h54, sem fechamento; o campo ficou vazio). Divergências: Dow em 18/11 (−1,11% no Money Times, −2,73% no TradeMap, que parece misturar dias); Brent (US$ 92,26 e US$ 92,65); Nasdaq futuro (+1,86% e +1,94%); Bitcoin (−1,2% e +1,79%); economia do pacote fiscal (R$ 56 bi no O Tempo, R$ 50 bi com o relator Braga no NeoFeed); horário do CMN (9h ou 18h) e das falas do Fed; BBAS3 com variação de −3,42% (Suno) contra −2,46% e −2,60% (HG Brasil e investimentos.com.br), com preço de R$ 14,24 a R$ 14,26 nas duas últimas; KLBN11 em R$ 17,13 (HG) e R$ 17,11 (investimentos.com.br)."
  }
 ]

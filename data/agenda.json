@@ -1,55 +1,91 @@
 [
  {
-  "hora": "Madrugada",
-  "evento": "Balanço da Nvidia (após Nova York, 17/11): receita US$ 115,8 bi, ação +3,7% no after-hours",
+  "hora": "01h45 a 05h",
+  "evento": "Cúpula Trump, Xi e Putin em Shenzhen: bilateral Trump e Xi às 01h45, trilateral às 03h30, cerca de 90 minutos, com declaração conjunta publicada e sem falas à imprensa; os termos citam fluxo estável de energia",
   "destaque": "sim",
   "status": "saiu"
  },
  {
   "hora": "Madrugada",
-  "evento": "Senado adia destaques do ajuste fiscal; relator pediu mais tempo",
+  "evento": "Senado concluiu a votação do ajuste fiscal, derrubou os destaques e enviou o texto à Câmara (votação prevista para terça, 24/11)",
+  "destaque": "sim",
+  "status": "saiu"
+ },
+ {
+  "hora": "Madrugada",
+  "evento": "Ásia: Taiex −4,4%, Hang Seng −1,95%, Nikkei +0,71%; IPO da Anthropic precificado a US$ 83",
   "destaque": "não",
   "status": "saiu"
  },
  {
-  "hora": "Manhã",
-  "evento": "Taxa de desemprego do 3º trimestre (IBGE); consenso não encontrado; horário não encontrado",
+  "hora": "9h",
+  "evento": "Futuros do Ibovespa e juros futuros começam a negociar; reunião do CMN (TradeMap e Money Times: 9h, com Galípolo e Lula às 15h; InfoMoney traz 18h)",
   "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
-  "hora": "10:00",
-  "evento": "Abertura da B3; futuro do Ibovespa e juros futuros começam às 9h",
+  "hora": "9h30",
+  "evento": "Lula assina o decreto que regulamenta o fim da escala 6x1 (InfoMoney); Durigan fala em evento do HSBC (9h30) e no fórum do Bradesco BBI (11h)",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "10h",
+  "evento": "Abertura da B3",
   "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
+ },
+ {
+  "hora": "10h30",
+  "evento": "EUA: pedidos de seguro-desemprego (anterior 200 mil, projeção 198 mil) e índice do Fed da Filadélfia de novembro (consenso não encontrado); Lagarde (BCE) fala",
+  "destaque": "não",
+  "status": "a vir"
  },
  {
   "hora": "Antes da abertura de NY",
-  "evento": "Balanços de Lowe's, Target e TJX (EUA)",
+  "evento": "Balanços do Walmart e da Alibaba (horário e consenso não encontrados)",
   "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
-  "hora": "14:30",
-  "evento": "Fluxo cambial semanal do Banco Central (Money Times, 18/11)",
+  "hora": "11h30",
+  "evento": "Abertura de Wall Street e estreia da Anthropic (ANT) na Nasdaq, com o BDR ANTH34 na B3 no mesmo dia (horário exato não encontrado)",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "11h45",
+  "evento": "Leilão de LTN e NTN-F do Tesouro",
   "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
-  "hora": "16:00",
-  "evento": "Ata do Fed (Fomc), horário informado pelo Money Times em 18/11",
+  "hora": "12h",
+  "evento": "EUA: indicadores antecedentes de outubro (consenso não encontrado)",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "Tarde",
+  "evento": "Falas do Fed: Hammack (10h50 ou 12h50, as fontes divergem), Goolsbee (14h30 ou 16h30, divergem), Barr sobre IA (18h15); leilão de T-notes de 10 anos às 15h (Exame)",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "17h55",
+  "evento": "Fechamento da B3; a sexta-feira (20/11) é feriado da Consciência Negra e a bolsa não abre",
   "destaque": "sim",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
-  "hora": "16:00",
-  "evento": "Senado vota os quatro destaques do ajuste fiscal (primeiro item da pauta)",
-  "destaque": "sim",
-  "status": "saiu"
+  "hora": "18h30",
+  "evento": "Balanço patrimonial do Fed",
+  "destaque": "não",
+  "status": "a vir"
  },
  {
-  "hora": "Depois do fechamento",
-  "evento": "Balanços de Tencent e Palo Alto; Walmart e Alibaba na quinta",
+  "hora": "20h30 e 22h",
+  "evento": "Inflação ao consumidor do Japão (20h30) e decisão da LPR da China (22h)",
   "destaque": "não",
   "status": "a vir"
  }
