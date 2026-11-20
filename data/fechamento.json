@@ -1,64 +1,10 @@
 [
  {
   "tipo": "resumo",
-  "status": "Publicado",
-  "data": "19/11/2026",
-  "hora": "19h04",
-  "ibov": "166.376 pts",
-  "ibov_var": "−0,69%",
-  "dolar": "R$ 5,93",
-  "dolar_var": "+1,10%",
-  "acertos": "1 de 8",
-  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 337,88 → R$ 325,86 (−R$ 12,02; −3,56%), 5 de 5 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 31,23 → R$ 31,24 (−R$ 0,01; −0,03%), 2 de 2 papéis com preço · Total: −R$ 12,03 (−3,26% sobre R$ 369,11); sem custos, aluguel nem IR",
-  "texto": "O Ibovespa caiu 0,69% e fechou a 166.376,43 pontos (máxima de 168.498, mínima de 165.833, giro de R$ 35,9 bilhões, segundo o BPMoney às 18h24), e o dólar à vista subiu 1,10%, a R$ 5,9323, a sexta alta seguida e o maior nível desde abril de 2025, mesmo com o leilão extraordinário de US$ 1 bilhão do Banco Central (entre 12h03 e 12h08). Pesaram a indefinição sobre a equipe econômica (Lula disse não ter pressa para anunciar os ministros), o ceticismo com o ajuste fiscal que o Senado concluiu na quarta e agora segue para a Câmara, a alta dos juros futuros e a queda forte de Wall Street (Dow −2,18%, S&P 500 −2,02% e Nasdaq −2,25%) no dia da estreia da Anthropic na Nasdaq. Previsões do Radar das 8h50: 1 acerto em 8 avaliadas; o relatório dava Alta 42% para o Ibovespa e o índice terminou na faixa de queda; o único acerto foi KLBN11 (queda prevista, −1,11%); o maior erro em movimento foi MBRF3 (subida prevista, −1,61%) e o erro de maior confiança foi NVDC34 (subida com 56%, −1,04%), com BBAS3 (queda prevista, +1,27%) como a única alta entre os papéis de queda; os 7 papéis ficaram com preços em reais registrados, e todos os 5 de subida fecharam no vermelho. Divergências: Ibovespa −0,82% a 166.156 pts (Correio Braziliense, 18h21) e −0,97% a 165.911 pts (Times Brasil, 17h33), contra −0,69% no BPMoney e nas manchetes da B3 (Bora Investir) e do SpaceMoney, que adotei; em qualquer dos três o índice ficou na faixa de queda; dólar comercial R$ 5,934 (+1,15%) e R$ 5,9366 no Correio, contra R$ 5,9323 à vista (BPMoney e Reuters via Folha de Curitiba); fechamentos anteriores corrigidos nos preços: BBAS3 R$ 14,12 (era R$ 14,26), NVDC34 R$ 18,34 (era R$ 18,46), AVGO34 R$ 29,60 (era R$ 29,77), MSFT34 R$ 124,00 (era R$ 124,06) e GOGL34 R$ 138,55 (estava vazio), porque as capturas da HG Brasil de 18/11 não refletiam o fechamento; AVGO34 R$ 29,55 (Google Finance) contra R$ 29,29 (HG Brasil) e MSFT34 R$ 123,38 contra R$ 123,92 a R$ 123,99 em fontes que parecem incluir o after-market (todas indicam queda). A lista de maiores altas e baixas veio de uma só fonte (BPMoney), com 4 posições em cada ponta; a quinta de cada lado não apareceu com dado de fechamento.",
-  "fontes": "BPMoney (18h10 e 18h24), Correio Braziliense (18h21 e 18h30), Times Brasil (17h33), Folha de Curitiba/Reuters (17h26), InfoMoney, Google Finance (18h05 a 18h11), Genial (18h06 a 18h29), Investing.com, investimentos.com.br (18h00), HG Brasil, MarketScreener, Dados de Mercado, Bloomberg Línea, Money Times, Bora Investir (B3) e SpaceMoney (manchetes)"
- },
- {
-  "tipo": "alta",
-  "ticker": "USIM5",
-  "empresa": "Usiminas",
-  "var": "+2,40%"
- },
- {
-  "tipo": "alta",
-  "ticker": "FLRY3",
-  "empresa": "Fleury",
-  "var": "+2,19%"
- },
- {
-  "tipo": "alta",
-  "ticker": "GOAU4",
-  "empresa": "Metalúrgica Gerdau",
-  "var": "+1,96%"
- },
- {
-  "tipo": "alta",
-  "ticker": "TEND3",
-  "empresa": "Tenda",
-  "var": "+0,80%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "AZZA3",
-  "empresa": "Azzas 2154",
-  "var": "−6,27%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "CSNA3",
-  "empresa": "CSN",
-  "var": "−5,48%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "NATU3",
-  "empresa": "Natura",
-  "var": "−5,44%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "POMO4",
-  "empresa": "Marcopolo",
-  "var": "−5,03%"
+  "status": "Feriado",
+  "data": "20/11/2026",
+  "hora": "18h50",
+  "texto": "A B3 não abriu hoje (sexta-feira, 20/11/2026), Dia Nacional de Zumbi e da Consciência Negra, feriado nacional; sem pregão, sem fechamento e sem previsões a avaliar.",
+  "fontes": "B3 (calendário de negociação de 2026)"
  }
 ]
