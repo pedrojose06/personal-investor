@@ -1051,8 +1051,8 @@
   "previsto": "Queda: fechar abaixo de −0,5%",
   "chance": 56,
   "referencia": "166.376 pts, fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "−0,95%",
+  "resultado": "Acertou"
  },
  {
   "id": "2026-11-23-NVDC34",
@@ -1061,13 +1061,13 @@
   "previsto": "Queda",
   "chance": 84,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "+11,85%",
+  "resultado": "Errou",
   "fech_anterior": "R$ 18,15",
   "abertura": "",
-  "fechamento": "",
+  "fechamento": "R$ 20,30",
   "abertura_fechamento": "",
-  "fonte_preco": "Rotina de fechamento das 18h47 (Investing.com e Genial), fechamento de 19/11; a B3 não abriu em 20/11"
+  "fonte_preco": "BTG Pactual (dados consolidados de 23/11, sem hora) e Investing.com, R$ 20,30 (+11,85%); fechamento anterior HG Brasil (19/11); abertura de 23/11 não encontrada em página datada"
  },
  {
   "id": "2026-11-23-MUTC34",
@@ -1076,13 +1076,13 @@
   "previsto": "Queda",
   "chance": 83,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Não usado: a brapi.dev mostra R$ 689,99 em 19/11 (EOD), valor quase igual ao preço da ação em dólares; sem outra fonte"
+  "realizado": "+0,54%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 689,99",
+  "abertura": "R$ 628,19",
+  "fechamento": "R$ 693,71",
+  "abertura_fechamento": "+10,43%",
+  "fonte_preco": "HG Brasil, 18h13 (mercado fechado); abertura também no Google Finance, 18h08; fechamento anterior brapi.dev (EOD de 19/11); divergência: Google Finance mostra R$ 700,00 (+1,45%) às 18h08, antes do leilão; a abertura 9% abaixo do fechamento anterior acompanha a queda da Micron em Nova York na sexta (20/11), com a B3 fechada"
  },
  {
   "id": "2026-11-23-A1MD34",
@@ -1091,13 +1091,13 @@
   "previsto": "Queda",
   "chance": 82,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Não encontrado com data de 19/11: a brapi.dev mostra R$ 385,40 em 18/11"
+  "realizado": "−8,77%",
+  "resultado": "Acertou",
+  "fech_anterior": "R$ 362,80",
+  "abertura": "R$ 333,00",
+  "fechamento": "R$ 330,98",
+  "abertura_fechamento": "−0,61%",
+  "fonte_preco": "HG Brasil, 18h11 (mercado fechado); fechamento anterior e abertura também no TradeMap, 18h08; divergência: TradeMap (atraso de 15 min) mostra R$ 336,52 (−7,24%)"
  },
  {
   "id": "2026-11-23-AVGO34",
@@ -1106,13 +1106,13 @@
   "previsto": "Queda",
   "chance": 81,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−11,17%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 29,55",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Rotina de fechamento das 18h47 (Google Finance), fechamento de 19/11; a HG Brasil trazia R$ 29,29"
+  "abertura": "R$ 27,48",
+  "fechamento": "R$ 26,25",
+  "abertura_fechamento": "−4,48%",
+  "fonte_preco": "HG Brasil, 18h11 (mercado fechado); abertura só na HG Brasil; divergência: Investing.com mostra R$ 26,45 (−10,49%), sem data"
  },
  {
   "id": "2026-11-23-ORCL34",
@@ -1121,13 +1121,13 @@
   "previsto": "Queda",
   "chance": 73,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Não encontrado com data de 19/11: a brapi.dev mostra R$ 114,80 em 16/11"
+  "realizado": "+2,80%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 108,95",
+  "abertura": "R$ 105,50",
+  "fechamento": "R$ 112,00",
+  "abertura_fechamento": "+6,16%",
+  "fonte_preco": "Google Finance, 18h08 (abertura e fechamento), com fechamento R$ 112,00 também no Investing.com; fechamento anterior HG Brasil, 15h43, coerente com +R$ 3,05 do Google; abertura também na HG Brasil"
  },
  {
   "id": "2026-11-23-ANTH34",
@@ -1137,12 +1137,12 @@
   "chance": 72,
   "referencia": "Fechamento de 19/11",
   "realizado": "",
-  "resultado": "Pendente",
+  "resultado": "Sem dado",
   "fech_anterior": "R$ 71,70",
   "abertura": "",
   "fechamento": "",
   "abertura_fechamento": "",
-  "fonte_preco": "InfoMoney (19/11, 19h02) e brapi.dev (EOD de 19/11)"
+  "fonte_preco": "Sem cotação de 23/11 com data: brapi.dev e Mais Retorno só até 19/11 e Investidor10 (R$ 63,58) sem data, descartado; fechamento anterior brapi.dev e TradeMap (19/11, 18h13)"
  },
  {
   "id": "2026-11-23-TSLA34",
@@ -1151,13 +1151,13 @@
   "previsto": "Queda",
   "chance": 71,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Não encontrado com data de 19/11: a brapi.dev mostra R$ 68,94 em 13/11"
+  "realizado": "+3,48%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 69,19",
+  "abertura": "R$ 68,00",
+  "fechamento": "R$ 71,60",
+  "abertura_fechamento": "+5,29%",
+  "fonte_preco": "HG Brasil, 18h13 (mercado fechado); fechamento anterior brapi.dev (EOD de 19/11) e Bloomberg Línea; abertura e fechamento de fonte única datada"
  },
  {
   "id": "2026-11-23-M1TA34",
@@ -1166,13 +1166,13 @@
   "previsto": "Queda",
   "chance": 67,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−0,67%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 127,61",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "brapi.dev, fechamento de 19/11 (−0,92%)"
+  "abertura": "R$ 125,00",
+  "fechamento": "R$ 126,75",
+  "abertura_fechamento": "+1,40%",
+  "fonte_preco": "HG Brasil, 18h13 (mercado fechado, depois do leilão); abertura também no Google Finance e no Investing.com; fechamento anterior brapi.dev (EOD de 19/11); divergência: Google Finance, 18h08, e Investing.com mostram R$ 126,70 (−0,71%), último negócio antes do leilão"
  },
  {
   "id": "2026-11-23-BRKM5",
@@ -1181,13 +1181,13 @@
   "previsto": "Queda",
   "chance": 65,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Não encontrado com data de 19/11: a brapi.dev mostra R$ 2,63 em 18/11"
+  "realizado": "+11,54%",
+  "resultado": "Errou",
+  "fech_anterior": "R$ 2,60",
+  "abertura": "R$ 2,59",
+  "fechamento": "R$ 2,90",
+  "abertura_fechamento": "+11,97%",
+  "fonte_preco": "Bloomberg Línea, 18h45 (depois do leilão); abertura e fechamento anterior também na HG Brasil (11h36) e brapi.dev; divergência: investimentos.com.br, 18h00, mostra R$ 2,91 (+10,23%), antes do leilão e com base incoerente (R$ 2,64); fechamento de fonte única pós-leilão"
  },
  {
   "id": "2026-11-23-CSNA3",
@@ -1196,13 +1196,13 @@
   "previsto": "Queda",
   "chance": 63,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,17%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 3,43",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "brapi.dev, fechamento de 19/11 (−6,03%)"
+  "abertura": "R$ 3,39",
+  "fechamento": "R$ 3,39",
+  "abertura_fechamento": "0,00%",
+  "fonte_preco": "HG Brasil, 18h08 (mercado fechado); abertura também na Bloomberg Línea; fechamento anterior brapi.dev (EOD de 19/11); divergência: Bloomberg Línea, 20h50, mostra R$ 3,42 (−0,29%), com máxima abaixo do último preço"
  },
  {
   "id": "2026-11-23-ASAI3",
@@ -1212,12 +1212,12 @@
   "chance": 55,
   "referencia": "Fechamento de 19/11",
   "realizado": "",
-  "resultado": "Pendente",
-  "fech_anterior": "",
+  "resultado": "Sem dado",
+  "fech_anterior": "R$ 9,38",
   "abertura": "",
   "fechamento": "",
   "abertura_fechamento": "",
-  "fonte_preco": "Não encontrado com data de 19/11: a brapi.dev mostra R$ 9,66 em 17/11"
+  "fonte_preco": "Sem fechamento confiável: investimentos.com.br, 17h58, mostrava R$ 9,41 (+0,32%), antes do leilão de fechamento e sem confirmação posterior (Investidor10, sem data, mostrava R$ 9,36); fechamento anterior HG Brasil (19/11); abertura de 23/11 não encontrada"
  },
  {
   "id": "2026-11-23-MBRF3",
@@ -1226,13 +1226,13 @@
   "previsto": "Subida",
   "chance": 54,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−0,98%",
+  "resultado": "Errou",
   "fech_anterior": "R$ 18,39",
   "abertura": "",
-  "fechamento": "",
+  "fechamento": "R$ 18,21",
   "abertura_fechamento": "",
-  "fonte_preco": "Rotina de fechamento das 18h47 (Investing.com) e brapi.dev, fechamento de 19/11"
+  "fonte_preco": "investimentos.com.br, 17h58 (antes do leilão de fechamento; valor final não confirmado); fechamento anterior Bloomberg Línea (19/11) e brapi.dev; abertura provável de R$ 18,04 no InfoMoney, sem data, não usada"
  },
  {
   "id": "2026-11-23-RADL3",
@@ -1241,12 +1241,12 @@
   "previsto": "Subida",
   "chance": 53,
   "referencia": "Fechamento de 19/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "+7,07%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 13,72",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "brapi.dev, fechamento de 19/11 (−2,21%)"
+  "abertura": "R$ 13,60",
+  "fechamento": "R$ 14,69",
+  "abertura_fechamento": "+8,01%",
+  "fonte_preco": "B3 Bora Investir, 18h47 (fechamento oficial R$ 14,69, +7,07%); abertura Money Times, 18h54; fechamento anterior brapi.dev (EOD de 19/11); divergência: Money Times mostra R$ 14,74 (+7,43%) e investimentos.com.br, 17h58, R$ 14,60, antes do leilão"
  }
 ]

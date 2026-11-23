@@ -27,55 +27,55 @@
   "hora": "09h00",
   "evento": "Futuros do Ibovespa e juros futuros começam a negociar",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "09h30",
   "evento": "Galípolo (BC) no Macro Vision (InfoMoney e Bom Dia Mercado; o Money Times traz 9h)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10h00",
   "evento": "Abertura da B3, primeiro pregão desde 19/11",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10h30",
   "evento": "Galípolo recebe alunos do Insper; índice de atividade do Fed de Chicago (Investing)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h30",
   "evento": "Abertura de Wall Street, com BDRs de tecnologia e ANTH34 refletindo a queda de sexta",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h45",
   "evento": "PMIs preliminares dos EUA (esperado: indústria 54,6 e serviços 55,8; composto anterior 55,9)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "13h15 a 15h",
   "evento": "Durigan na OCDE (13h15), Boletim Macrofiscal (14h), balança semanal da Secex (15h); Lula com Miriam Belchior (15h)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "16h ou 17h",
   "evento": "Durigan no Macro Vision (Money Times traz 16h; InfoMoney e Bom Dia Mercado, 17h); Galípolo em reunião fechada com a B3 (16h)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "17h55",
   "evento": "Fechamento da B3",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "18h",
