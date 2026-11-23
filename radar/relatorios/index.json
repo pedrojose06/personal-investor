@@ -1,8 +1,44 @@
 [
- {"data":"2026-11-19","rotulo":"Quinta, 19/11/2026","arquivo":"relatorios/2026-11-19.html","resumo":"Alta 42% · Lateral 32% · Queda 26%"},
- {"data":"2026-11-18","rotulo":"Quarta, 18/11/2026","arquivo":"relatorios/2026-11-18.html","resumo":"Alta 38% · Lateral 34% · Queda 28%"},
- {"data":"2026-11-17","rotulo":"Terça, 17/11/2026","arquivo":"relatorios/2026-11-17.html","resumo":"Alta 30% · Lateral 30% · Queda 40%"},
- {"data":"2026-11-16","rotulo":"Segunda, 16/11/2026","arquivo":"relatorios/2026-11-16.html","resumo":"Alta 22% · Lateral 38% · Queda 40%"},
- {"data":"2026-11-13","rotulo":"Sexta, 13/11/2026","arquivo":"relatorios/2026-11-13.html","resumo":"Alta 26% · Lateral 42% · Queda 32%"},
- {"data":"2026-11-12","rotulo":"Quinta, 12/11/2026","arquivo":"relatorios/2026-11-12.html","resumo":"Alta 25% · Lateral 40% · Queda 35%"}
+ {
+  "data": "2026-11-23",
+  "rotulo": "Segunda, 23/11/2026",
+  "arquivo": "relatorios/2026-11-23.html",
+  "resumo": "Alta 18% · Lateral 26% · Queda 56%"
+ },
+ {
+  "data": "2026-11-19",
+  "rotulo": "Quinta, 19/11/2026",
+  "arquivo": "relatorios/2026-11-19.html",
+  "resumo": "Alta 42% · Lateral 32% · Queda 26%"
+ },
+ {
+  "data": "2026-11-18",
+  "rotulo": "Quarta, 18/11/2026",
+  "arquivo": "relatorios/2026-11-18.html",
+  "resumo": "Alta 38% · Lateral 34% · Queda 28%"
+ },
+ {
+  "data": "2026-11-17",
+  "rotulo": "Terça, 17/11/2026",
+  "arquivo": "relatorios/2026-11-17.html",
+  "resumo": "Alta 30% · Lateral 30% · Queda 40%"
+ },
+ {
+  "data": "2026-11-16",
+  "rotulo": "Segunda, 16/11/2026",
+  "arquivo": "relatorios/2026-11-16.html",
+  "resumo": "Alta 22% · Lateral 38% · Queda 40%"
+ },
+ {
+  "data": "2026-11-13",
+  "rotulo": "Sexta, 13/11/2026",
+  "arquivo": "relatorios/2026-11-13.html",
+  "resumo": "Alta 26% · Lateral 42% · Queda 32%"
+ },
+ {
+  "data": "2026-11-12",
+  "rotulo": "Quinta, 12/11/2026",
+  "arquivo": "relatorios/2026-11-12.html",
+  "resumo": "Alta 25% · Lateral 40% · Queda 35%"
+ }
 ]
