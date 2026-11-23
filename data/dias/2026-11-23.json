@@ -1,0 +1,492 @@
+{
+ "resumo": [
+  {
+   "data": "segunda-feira, 23/11/2026",
+   "atualizado": "8h45 (Brasília)",
+   "base": "Dados das 19h de 19/11 às 8h40 de 23/11 (Brasília) de Exame (5h00), Money Times (7h13), InfoMoney (7h58), Times Brasil, Genial, Estadão/Broadcast via DGABC, Reuters via Terra, Business Recorder e Global Banking & Finance, Yahoo Finance, Al Jazeera, Gulf News, stockanalysis.com, brapi.dev, TradeMap e Seu Dinheiro. Referência: fechamento oficial de 19/11 (166.376,43 pts, −0,69%); a B3 não abriu em 20/11 (Consciência Negra). Não encontrei: Boletim Focus de hoje (8h25), futuro do Ibovespa, DI futuro de hoje (abre às 9h), pré-mercado por ação em Nova York (exceto Anthropic), fechamento do minério em Dalian e consenso de vários indicadores. Nenhum balanço relevante saiu entre o fechamento de 19/11 e a abertura; as listas de papéis vêm de movimentos de sexta em Nova York (com a B3 fechada), de fatos relevantes e de efeitos setoriais."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 56,
+   "agora": 56,
+   "motivo": "O EWZ caiu 3,29% na sexta (US$ 28,54) com a B3 fechada e sobe 1,47% no pré-mercado (US$ 28,96, Money Times 7h13). Com o dólar a R$ 5,96, a conta aproximada dá abertura perto de −1,4% sobre 166.376 pts (estimativa minha; o futuro do Ibovespa não foi encontrado). Pesam também o dólar perto de R$ 6, o DI com 76% de chance de alta de 0,25 ponto no Copom de dezembro e a votação do ajuste fiscal na Câmara só às 18h, depois do fechamento. Fechar abaixo de 165.544 pts."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 26,
+   "agora": 26,
+   "motivo": "Cabe se os futuros de Nova York (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%) puxarem a recuperação ao longo do dia e o índice devolver a maior parte da abertura negativa. Precisa de dólar estável perto de R$ 5,95 e de DIs sem nova alta. Faixa entre 165.544 e 167.208 pts."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 18,
+   "agora": 18,
+   "motivo": "Exige fechar acima de 167.208 pts, ou seja, recuperar toda a perda implícita da sexta e ainda subir. Possível se Wall Street fechar com alta perto de 3%, o dólar recuar e a Câmara sinalizar aprovação do ajuste sem mudanças. Fed, ministro da Fazenda ainda indefinido e o fiscal seguem em aberto; por isso 18%."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 19/11",
+   "valor": "166.376 pts (166.376,43)",
+   "variacao": "−0,69%",
+   "hora": "19/11, após o leilão (B3 fechada em 20/11)",
+   "fonte": "BPMoney, Exame, Money Times 23/11 7h13 e rotina de fechamento batem; divergências: −0,81% a 166.156 (Times Brasil) e −0,97% a 165.911 (17h33); a semana fechou em −3,53%"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,9323 no fechamento de 19/11; R$ 5,9609 hoje",
+   "variacao": "+1,10% em 19/11 (maior valor desde abril de 2025); +0,20% hoje",
+   "hora": "19/11 e hoje 6h38",
+   "fonte": "Investing/BPMoney (R$ 5,9323; Exame traz R$ 5,9344 e Money Times R$ 5,9350); hoje Times Brasil 6h48 (Investing mostra R$ 5,9491, +0,24%, sem hora); BC vendeu US$ 1 bi à vista em 19/11"
+  },
+  {
+   "indicador": "EWZ (ETF do Brasil em NY)",
+   "valor": "US$ 28,54 na sexta; US$ 28,96 no pré-mercado de hoje",
+   "variacao": "−3,29% na sexta; +1,47% hoje",
+   "hora": "20/11 (fechamento) e hoje, hora não informada",
+   "fonte": "InfoMoney 20/11 18h36 (Estadão traz US$ 28,55, −3,25%); Money Times 23/11 7h13"
+  },
+  {
+   "indicador": "Futuros de Nova York (S&P 500 / Nasdaq / Dow)",
+   "valor": "+2,62% / +3,40% / +1,82%",
+   "variacao": "Times Brasil às 4h17: +2,20% / +2,95% / +1,55%; InfoMoney às 5h41: +2,36% / +3,11% / +1,63%",
+   "hora": "7h13",
+   "fonte": "Money Times; as fontes variam com o horário"
+  },
+  {
+   "indicador": "Wall Street, fechamento de 20/11 (Dow / S&P 500 / Nasdaq Composite)",
+   "valor": "48.147,33 / 6.910,39 / 22.617,73",
+   "variacao": "−1,93% / −3,70% / −5,28%",
+   "hora": "20/11, 18h",
+   "fonte": "Yahoo Finance (Motley Fool) e Reuters via Terra; a Exame traz Nasdaq −5,61% (25.028,98), que é o Nasdaq-100; VIX 35,89; Nvidia −14,01%"
+  },
+  {
+   "indicador": "Treasury de 10 anos",
+   "valor": "4,96% hoje; 4,91% a 4,94% na sexta",
+   "variacao": "sexta: −12 pb",
+   "hora": "5h51",
+   "fonte": "Reuters via Beinsure; sexta: CappNotes, BigGo, Saxo e Yahoo divergem"
+  },
+  {
+   "indicador": "DI futuro (jan/28, jan/29, jan/31)",
+   "valor": "14,850%, 15,275% e 15,420% no fechamento de 19/11; hoje n/d",
+   "variacao": "+34 pb, +34 pb e +26 pb em 19/11; jan/35 15,50% (+36 pb na semana)",
+   "hora": "19/11, 18h34",
+   "fonte": "Estadão/Broadcast via DGABC; Genial 23/11 6h21. DI de hoje: o mercado de juros abre às 9h e não achei dado"
+  },
+  {
+   "indicador": "Brent",
+   "valor": "US$ 91,73",
+   "variacao": "−0,91%",
+   "hora": "7h13",
+   "fonte": "Money Times; Gulf News traz US$ 91,96 e Saxo US$ 92,41; WTI perto de US$ 82,7 a US$ 83,0"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian / Singapura)",
+   "valor": "651,5 iuanes / US$ 88,25",
+   "variacao": "−0,69% / −0,25%",
+   "hora": "Domingo, 22h53",
+   "fonte": "Reuters via Business Recorder; Singapura abaixo de US$ 90 há cinco sessões; fechamento de Dalian de hoje n/d"
+  },
+  {
+   "indicador": "Ouro, Bitcoin e DXY",
+   "valor": "Ouro US$ 3.606 a US$ 3.649; Bitcoin US$ 60,8 mil a US$ 61,5 mil; DXY 103,92",
+   "variacao": "ouro +2,1% a +2,95% (sexta: −3% a −4,6%); Bitcoin +0,9% a +4%; DXY +0,06%",
+   "hora": "5h51 a 7h13",
+   "fonte": "Reuters, Saxo, Money Times e Yahoo divergem entre si; Bitcoin teve mínima de US$ 55.130 na sexta"
+  },
+  {
+   "indicador": "Ásia e Europa",
+   "valor": "Kospi −3,3% (mínima −5,8%), Hang Seng −0,1%, Xangai +0,15%, Taiex +2,2%; FTSE +0,33% a +0,56%, DAX +0,52% a +0,60%, Stoxx 600 +0,9% às 8h07",
+   "variacao": "Nikkei: Al Jazeera diz que o Japão está em feriado, Money Times traz −0,55%",
+   "hora": "5h41 a 8h07",
+   "fonte": "Al Jazeera, Reuters, journalarta, Brazil Stock Guide, Money Times"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 84,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Nvidia caiu 14,01% na sexta em Nova York (US$ 145,98 para US$ 125,53, sétima queda seguida) depois de a Reuters noticiar que a SEC examina possíveis problemas contábeis. No after-hours subia 3,58% (US$ 130,03), ainda 10,9% abaixo da quinta. O BDR não negociou na sexta e fechou quinta a R$ 18,15 (−1,04%) enquanto a ação caiu 3,30% em Nova York no mesmo dia, então o gap ainda não foi absorvido: para fechar acima de R$ 18,15 a ação teria de subir mais de 12% sobre a sexta. Contra: futuros do Nasdaq +3,40%, dólar mais alto (R$ 5,96, ajuda em cerca de 0,5%) e um relato de alta de 8% a 9% no pré-mercado, que não foi confirmado em segunda fonte.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "Yahoo Finance (Motley Fool) 20/11; 24/7 Wall St 20/11; stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); Investir e Cia 20/11 18h10; Money Times 23/11 7h13",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "O tombo de sexta já foi parcialmente revertido no after-hours e os futuros sobem forte; a abertura deve trazer gap negativo e a recuperação do dia pode reduzir a perda, mas dificilmente a apaga."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "MUTC34",
+   "empresa": "BDR da Micron",
+   "chance": 83,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Micron caiu 13,89% na sexta (US$ 690,44 para US$ 594,51) na liquidação de semicondutores (índice SOX −10,7%); no after-hours subia 2,71% (US$ 610,60), ainda 11,6% abaixo da quinta. O BDR não negociou na sexta, então a abertura deve incorporar a queda; para fechar acima do fechamento de 19/11 a ação teria de subir mais de 16% sobre a sexta. Contra: rebote de chips com o Nasdaq futuro em +3,40% e BDR pouco líquido, que pode abrir descolado. Preço em reais: a brapi mostra R$ 689,99 em 19/11, valor quase igual ao preço da ação em dólares, e por isso não o usei.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); Yahoo Finance 20/11; BigGo 21/11",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "Chips costumam devolver parte da queda quando os futuros sobem, mas a perda acumulada em dois dias é grande demais para ser revertida em uma sessão."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "A1MD34",
+   "empresa": "BDR da AMD",
+   "chance": 82,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A AMD caiu 13,25% na sexta (US$ 489,19 para US$ 424,39), depois de −7,72% na quinta; no after-hours subia 3,55% (US$ 439,44), ainda 10,2% abaixo da quinta. A ação precisaria subir mais de 15% sobre a sexta para o BDR fechar acima do fechamento de 19/11. Contra: rebote de chips e dólar mais alto. Preço em reais: a brapi mostra a data de 18/11 (R$ 385,40), não a de 19/11, então ficou vazio.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); BigGo 21/11; Pomegra",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "O rebote de chips pode vir forte, mas a queda de dois dias seguidos (−20%) deixa a recuperação parcial no melhor caso."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "AVGO34",
+   "empresa": "BDR da Broadcom",
+   "chance": 81,
+   "evidencia": "alta",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Broadcom caiu 12,19% na sexta (US$ 346,65 para US$ 304,41) depois do relato do analista Ming-Chi Kuo, não confirmado por Google nem Broadcom, de que o Google cortou cerca de 1 milhão de TPUs de 2027 desenhados pela Broadcom; no after-hours subia 2,34%, ainda 10,1% abaixo da quinta. O BDR fechou quinta a R$ 29,55 (−0,17%) com a ação caindo 2,09% em Nova York, e a B3 não abriu na sexta. Contra: o relato pode ser desmentido e os chips tendem a rebater com o Nasdaq futuro em +3,40%.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (AVGO, 19 e 20/11 e manchetes TheFly/TipRanks); Yahoo Finance 20/11; mfdevdan 21/11",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "Um desmentido do Google reverteria parte da queda; sem ele, o gap de sexta pesa na abertura."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "ORCL34",
+   "empresa": "BDR da Oracle",
+   "chance": 73,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Oracle caiu 8,48% na sexta (US$ 110,57 para US$ 101,19), depois de −2,92% na quinta, e no after-hours subia 2,08% (US$ 103,30), ainda 6,6% abaixo da quinta. A causa específica da queda não foi encontrada (a manchete do Benzinga de hoje só diz que a Oracle está em foco), então o motivo é o setorial de IA. Contra: grande cap com rebote forte possível e Nasdaq futuro +3,40%. Preço em reais: a brapi mostra 16/11 (R$ 114,80), então ficou vazio.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); Yahoo Finance 20/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Sem notícia própria, o movimento segue o Nasdaq: o rebote dos futuros pode reduzir a perda mais do que nos chips."
+  },
+  {
+   "lado": "queda",
+   "pos": 6,
+   "ticker": "ANTH34",
+   "empresa": "BDR da Anthropic",
+   "chance": 72,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A ação ANT (IPO a US$ 83) fechou quinta a US$ 97,17 e caiu 8,50% na sexta, a US$ 88,91 (mínima de US$ 83,05, perto do preço do IPO). No pré-mercado de hoje sobe 3,67% (cerca de US$ 91,78, 6h29, fuso não informado), ainda 5,5% abaixo da quinta. O BDR estreou e fechou quinta a R$ 71,70 (+18,94%, volume de R$ 460 mi). ETFs 2x long e short em ANT começam a negociar hoje. Contra: volatilidade extrema de papel recém-listado e Nasdaq futuro +3,40%.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se a ANT passar de US$ 97 e sustentar",
+   "fonte": "InfoMoney 19/11 19h02; CNBC via Boston Report 21/11; investinglive 23/11 6h29; brapi.dev (EOD de 19/11)",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "A ação perdeu o ganho de estreia em um dia e fechou perto do preço do IPO; o pré-mercado recupera menos de metade da queda."
+  },
+  {
+   "lado": "queda",
+   "pos": 7,
+   "ticker": "TSLA34",
+   "empresa": "BDR da Tesla",
+   "chance": 71,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Tesla caiu 7,64% na sexta (US$ 374,41 para US$ 345,82), depois de −2,43% na quinta, e no after-hours subia 1,52% (US$ 351,07), ainda 6,2% abaixo da quinta. Sem notícia própria encontrada; o motivo é a liquidação de tecnologia. Contra: rebote com os futuros em alta. Preço em reais: a brapi mostra 13/11 (R$ 68,94), então ficou vazio.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); Yahoo Finance 20/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Papel de beta alto: acompanha o Nasdaq, sem fato próprio que sustente queda ou recuperação além do mercado."
+  },
+  {
+   "lado": "queda",
+   "pos": 8,
+   "ticker": "M1TA34",
+   "empresa": "BDR da Meta",
+   "chance": 67,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Meta caiu 5,93% na sexta (US$ 596,22 para US$ 560,84), depois de −3,27% na quinta, e no after-hours subia 1,36% (US$ 568,47), ainda 4,7% abaixo da quinta. O BDR fechou quinta a R$ 127,61 (−0,92%) enquanto a ação caía 3,27% em Nova York. Contra: o rebote dos futuros (Nasdaq +3,40%) e o dólar a R$ 5,96 podem cobrir boa parte da diferença em uma ação de grande capitalização.",
+   "gatilho": "Abertura de Nova York às 11h30 e PMIs dos EUA às 11h45; invalida se a ação abrir em alta forte e sustentar",
+   "fonte": "stockanalysis.com (fechamentos de 19 e 20/11 e after-hours); brapi.dev (EOD de 19/11); Yahoo Finance 20/11",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "O gap é menor que o dos chips, então o rebote do Nasdaq tem mais chance de reduzir a perda; sem notícia própria."
+  },
+  {
+   "lado": "queda",
+   "pos": 9,
+   "ticker": "BRKM5",
+   "empresa": "Braskem",
+   "chance": 65,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR da Braskem (BAK) caiu 12,54% na sexta, a maior queda entre os ADRs brasileiros num dia em que o EWZ perdeu 3,29%, com a B3 fechada; a causa da queda não foi encontrada. O papel carrega o impasse com os credores (diferença de cerca de US$ 1 bi entre as propostas e resistência à oferta de US$ 1,1 bi, Bloomberg Línea 17/11). Contra: rebote do EWZ (+1,47%) e qualquer avanço na reestruturação (a brapi cita 90 dias para fechar a recuperação extrajudicial, fonte única). Preço em reais: a brapi mostra 18/11 (R$ 2,63), então ficou vazio.",
+   "gatilho": "Abertura da B3 às 10h; invalida se o papel abrir perto da estabilidade",
+   "fonte": "Money Times 20/11 (ADRs); Melhor Investimento 20/11; Bloomberg Línea 17/11 via XP; brapi.dev 23/11 7h52",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A causa da queda de sexta não está clara, e o papel tem histórico de oscilar forte com notícias de credores."
+  },
+  {
+   "lado": "queda",
+   "pos": 10,
+   "ticker": "CSNA3",
+   "empresa": "CSN",
+   "chance": 63,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR da CSN (SID) caiu 7,85% na sexta com a B3 fechada. O papel já caiu 6,03% em 19/11 (R$ 3,43). O 3T26 trouxe prejuízo de R$ 1,25 bi, fluxo de caixa livre negativo em R$ 3,5 bi e alavancagem de 4,23x (InfoMoney e Money Times, 13/11), e a XP aponta mineração e siderurgia com o maior desvio negativo de lucro da temporada (−32,1%, Money Times 21/11). Contra: parte da queda de quinta já está no preço, a venda da CSN Cimentos por R$ 12,7 bi ajuda e o rebote do EWZ pode puxar siderúrgicas.",
+   "gatilho": "Abertura da B3 às 10h; invalida se o papel abrir em alta",
+   "fonte": "Money Times 20/11 (ADRs) e 21/11 9h49 (XP); InfoMoney 13/11; brapi.dev (EOD de 19/11)",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "Alavancagem alta e caixa negativo são problemas de fundamento, e o minério abaixo de US$ 90 em Singapura não ajuda o setor."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "ASAI3",
+   "empresa": "Assaí",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR do Assaí (ASAI) subiu 2,49% na sexta em Nova York, a única alta relevante entre os ADRs brasileiros num dia em que o EWZ caiu 3,29%. Varejo alimentar tende a ser defensivo em dia de aversão a risco. Contra: o BTG saiu de ASAI3 em 19/11 (Seu Dinheiro), o decreto da escala 6x1 pressiona custo (portaria sai hoje) e o Ibovespa deve abrir em queda. Preço em reais: a brapi mostra 17/11 (R$ 9,66), então ficou vazio.",
+   "gatilho": "Abertura da B3 às 10h; invalida se o papel abrir em queda forte",
+   "fonte": "Money Times 20/11 (ADRs); Melhor Investimento 20/11; Seu Dinheiro 19/11 10h18",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 2,
+   "ticker": "MBRF3",
+   "empresa": "MBRF (Marfrig e BRF)",
+   "chance": 54,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Genial manteve compra com alvo de R$ 23,50 (19/11 10h28) depois de Ebitda ajustado de R$ 3,6 bi, 5,2% acima do consenso (com qualidade questionada por créditos de PIS/Cofins e dívida líquida/Ebitda de 3,45x). Exportadora, o dólar perto de R$ 6 ajuda. Contra: a ação caiu 1,61% em 19/11 (R$ 18,39) e o Ibovespa deve abrir em queda.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Genial 19/11 10h28; TradeMap 19/11 7h47; brapi.dev (EOD de 19/11)",
+   "leitura": "",
+   "leitura_motivo": ""
+  },
+  {
+   "lado": "subida",
+   "pos": 3,
+   "ticker": "RADL3",
+   "empresa": "RaiaDrogasil",
+   "chance": 53,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Fato relevante de hoje: recompra de até R$ 600 mi (127,59 mi de ações ordinárias, 18 meses). O 3T26 teve lucro ajustado de R$ 439,1 mi (+9,2%) e Ebitda ajustado de R$ 1,02 bi (+14,7%). Contra: a ação caiu 2,21% em 19/11 (R$ 13,72), o decreto da escala 6x1 pressiona custo em farmácias e a recompra de 18 meses tem efeito diluído.",
+   "gatilho": "Sem evento marcado",
+   "fonte": "Money Times 23/11 8h16; TradeMap 23/11 8h06; brapi.dev (EOD de 19/11)",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "02h10",
+   "evento": "PMI da Índia: composto 56,3, indústria 56,0 e serviços 55,3",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "05h15 a 06h30",
+   "evento": "PMIs preliminares de novembro: zona do euro composto 51,7 (indústria 52,9 contra 52,8 esperado; serviços 51,2 contra 51,8), Alemanha composto 55,0 (máxima em quatro anos), França 46,2, Reino Unido composto 52,3 (esperado 53,1)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Madrugada",
+   "evento": "Ásia: Kospi −3,3% (mínima de −5,8%), Hang Seng −0,1%, Xangai +0,15%, Taiex +2,2%; Coreia prepara fundo de estabilização e China reduz a margem de alavancagem para 80% a partir de 30/11",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "08h25",
+   "evento": "Boletim Focus (BC): números de hoje não encontrados; na semana passada, IPCA 2026 de 5,11%, Selic 2026 de 13,75% e 2027 de 12,75%, câmbio de R$ 5,40",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "09h00",
+   "evento": "Futuros do Ibovespa e juros futuros começam a negociar",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "09h30",
+   "evento": "Galípolo (BC) no Macro Vision (InfoMoney e Bom Dia Mercado; o Money Times traz 9h)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h00",
+   "evento": "Abertura da B3, primeiro pregão desde 19/11",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h30",
+   "evento": "Galípolo recebe alunos do Insper; índice de atividade do Fed de Chicago (Investing)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h30",
+   "evento": "Abertura de Wall Street, com BDRs de tecnologia e ANTH34 refletindo a queda de sexta",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h45",
+   "evento": "PMIs preliminares dos EUA (esperado: indústria 54,6 e serviços 55,8; composto anterior 55,9)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "13h15 a 15h",
+   "evento": "Durigan na OCDE (13h15), Boletim Macrofiscal (14h), balança semanal da Secex (15h); Lula com Miriam Belchior (15h)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "16h ou 17h",
+   "evento": "Durigan no Macro Vision (Money Times traz 16h; InfoMoney e Bom Dia Mercado, 17h); Galípolo em reunião fechada com a B3 (16h)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "17h55",
+   "evento": "Fechamento da B3",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "18h",
+   "evento": "Sessão extraordinária da Câmara: requerimento de urgência e votação do ajuste fiscal (pode passar para terça); fala de Williams (Fed de Nova York)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "Após o fechamento",
+   "evento": "Petrobras divulga o Plano de Negócios 2027-2031 (coletiva amanhã); balanços nos EUA: HPE, Zoom, Agilent, Symbotic e Jacobs",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "21h30",
+   "evento": "PMI do Japão (Exame; outra fonte diz que o Japão está em feriado hoje e o dado sai na terça)",
+   "destaque": "não",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou desde 19/11",
+   "texto": "Em 19/11: Alta 42%, Lateral 32%, Queda 26%; o Ibovespa fechou em −0,69% (166.376 pts), na faixa de queda, e das 8 previsões avaliadas 1 acertou. Hoje: Alta 18%, Lateral 26%, Queda 56%. A mudança vem da sexta, com a B3 fechada: Wall Street caiu forte (S&P 500 −3,70%, Nasdaq −5,28%, Nvidia −14%) e o EWZ perdeu 3,29%, o que sugere abertura perto de −1,4% (conta aproximada). Compensam parcialmente os futuros de Nova York (+2,6% a +3,4%) e o EWZ no pré-mercado (+1,47%). Dos sinais de 19/11: o dólar acima de R$ 5,90 e os DIs altos se confirmaram; a alta que dependia de Nvidia, Anthropic e Nasdaq falhou, pois a estreia da Anthropic não evitou a liquidação de sexta. O ajuste fiscal, que no relatório anterior sustentava a alta, agora é um evento para depois do fechamento (Câmara às 18h)."
+  },
+  {
+   "topico": "Riscos do dia e o que mais surpreenderia",
+   "texto": "Riscos: abertura do Ibovespa com gap maior que −1,4% se o EWZ perder o rebote; dólar acima de R$ 6,00; DIs longos acima de 15,5%; fala de Williams (18h) e PMIs dos EUA (11h45) mexendo com Nova York; notícia sobre a Nvidia e a SEC; votação do ajuste fiscal adiada para terça ou com mudanças no texto. Surpreenderia: Ibovespa fechando acima de 167.208 pts (+0,5%) com o dólar acima de R$ 5,95, ou fechando abaixo de 162.000 pts (−2,6%) com Nova York em alta."
+  },
+  {
+   "topico": "Argumento mais forte contra a queda",
+   "texto": "A queda implícita da sexta já tem boa parte do ajuste incorporado: o EWZ rebate 1,47% no pré-mercado, os futuros de Nova York sobem 2,6% a 3,4% e o after-hours de sexta já recuperava 1% a 3% em grandes empresas de tecnologia. Dias de rebote global costumam ter o Ibovespa abrindo em queda e fechando bem acima da mínima; o índice já caiu 3,53% na semana passada e o mercado pode apostar na aprovação do ajuste na Câmara antes do voto. Em contrapartida, o dólar a R$ 5,96, a curva de juros em alta e o Fed em ciclo de alta de juros limitam esse rebote, e a conta do gap vem do EWZ, cuja hora de cotação não foi informada."
+  },
+  {
+   "topico": "Calibragem e vieses",
+   "texto": "Ontem a Alta tinha 42% e não ocorreu; hoje desloquei o peso para a Queda (56%). Há risco de viés de recência: a sexta foi um dia extremo e os dias seguintes a liquidações costumam ter rebote forte. Oito das dez previsões de queda dependem do mesmo fator (a queda de sexta em Nova York ainda não refletida nos BDRs e nos ADRs); se Wall Street fechar com alta de 4% ou mais, várias erram juntas. A evidência dos BDRs é aritmética (queda de sexta contra o rebote necessário), mas BDRs pouco líquidos abrem descolados. Das previsões de subida de 19/11, todas erraram (5 de 5); hoje só listei 3 papéis com chance entre 53% e 55%, que são pouco mais que cara ou coroa."
+  },
+  {
+   "topico": "Por que a lista de subida é curta e sem balanços",
+   "texto": "A temporada de balanços acabou: nenhum balanço relevante saiu depois do fechamento de 19/11 (Paranapanema adiou o 3T26 para 27/11 e a Ambipar adiou sem data); a XP diz que só 19% das empresas superaram o Ebitda estimado, o menor percentual desde o 3T21. As listas vêm de movimentos de sexta em Nova York com a B3 fechada, de fatos relevantes (recompra da RaiaDrogasil) e de efeitos setoriais. Ficaram de fora por falta de lado claro: PETR3 e PETR4 (plano só depois do fechamento; Brent −0,91%), HAPV3 (a resposta à CVM saiu em 19/11 às 17h27 e a ação já caiu 3,14% naquele dia), VALE3 (minério abaixo de US$ 90 em Singapura, mas ADR com queda menor que o EWZ), BBAS3 (XP cortou o alvo de R$ 21 para R$ 15 em 19/11 e a Folha diz que o governo discute trocar a presidente do banco, ambos já conhecidos) e KLBN11 (Itaú BBA vê efeito contido do acidente). Cogna (COGN3, ADR −10,68%) e Cemig (CMIG4, ADR −8,16%) tiveram chance de queda perto de 62%, abaixo do corte do top 10."
+  },
+  {
+   "topico": "Lacunas e divergências de fontes",
+   "texto": "Não encontrei: Boletim Focus de hoje (8h25; usei o de 16/11 como referência), futuro do Ibovespa, DI futuro de hoje (abre às 9h), pré-mercado por ação em Nova York (só a Anthropic: +3,67% às 6h29, fuso não informado), fechamento do minério em Dalian, consenso do PMI dos EUA composto e dos indicadores do Fed de Chicago, e qualquer recomendação nova de bancos datada de 20 a 23/11. A WebSearch atingiu o limite de buscas do turno, então os preços foram lidos na brapi.dev. Preços em reais com data de 19/11: NVDC34 (R$ 18,15) e AVGO34 (R$ 29,55) da rotina de fechamento, ANTH34 (R$ 71,70), M1TA34 (R$ 127,61), CSNA3 (R$ 3,43), MBRF3 (R$ 18,39) e RADL3 (R$ 13,72); ficaram vazios A1MD34 (brapi com data de 18/11), ORCL34 (16/11), TSLA34 (13/11), BRKM5 (18/11), ASAI3 (17/11) e MUTC34 (brapi mostra R$ 689,99 em 19/11, valor quase igual ao preço da ação em dólares). Divergências: Nasdaq −5,28% (Composite) contra −5,61% (Nasdaq-100, Exame); dólar de hoje R$ 5,9609 (6h38) contra R$ 5,9491 (Investing); Nikkei (feriado ou −0,55%); relato de que Trump pediu a recontratação de Jensen Huang, não confirmado."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "wall-street-ia",
+   "titulo": "Wall Street desaba na sexta com a venda de ações de IA; futuros recuperam hoje",
+   "status": "Confirmado",
+   "quando": "Sexta, 20/11 (fechamento às 18h); futuros hoje às 7h13",
+   "resumo": "S&P 500 −3,70% (6.910,39), Dow −1,93% (48.147,33) e Nasdaq Composite −5,28% (22.617,73; a Exame traz −5,61%, que é o Nasdaq-100). A Nvidia caiu 14,01% (US$ 125,53, sétima queda seguida) depois de a Reuters noticiar que a SEC examina possíveis problemas contábeis; a Broadcom caiu 12,19% com um relato não confirmado de corte de encomendas do Google; semicondutores −10,7%; VIX a 35,89. Hoje os futuros sobem (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%).",
+   "impacto": "A B3 não negociou na sexta: o EWZ caiu 3,29% e os BDRs de tecnologia vão refletir a queda na abertura de hoje. Risco de contágio para emergentes e para o dólar; a recuperação dos futuros pode reduzir o tombo, mas não o apaga.",
+   "fonte": "Exame 23/11 5h00; Yahoo Finance (Motley Fool) 20/11; Reuters via Terra 20/11 19h30; Money Times 23/11 7h13",
+   "link": "https://exame.com/invest/mercados/ibovespa-hoje-23-11-2026/"
+  },
+  {
+   "id": "pacote-fiscal",
+   "titulo": "Câmara vota o ajuste fiscal hoje às 18h, depois do fechamento",
+   "status": "Em andamento",
+   "quando": "Sessão extraordinária às 18h; a votação pode passar para terça, 24/11",
+   "resumo": "PLP 299/2026 (Plano Moretti), aprovado no Senado por 69 a 2 em 18/11. O relator Mauro Benevides Filho (União-CE) mantém o texto do Senado para não voltar à outra Casa. Primeiro vem o requerimento de urgência, do líder do governo, Paulo Pimenta; o mérito pede 257 votos. Economia estimada de R$ 45 bi a R$ 56 bi (as fontes divergem), cerca de dois terços de receita e voltada a 2027. Resistências: CNI, Fiesp, entidades de comércio e serviços, oposição (compensação de créditos) e parte da esquerda. Nenhuma fonte traz previsão explícita de aprovação.",
+   "impacto": "Como a votação ocorre depois das 17h55, o mercado opera hoje na expectativa. Aprovação sem mudanças tende a aliviar dólar e juros amanhã; alteração do texto devolve a proposta ao Senado.",
+   "fonte": "Revista Fórum 23/11 5h48; Times Brasil 23/11; Exame 23/11 5h00; Gazeta do Povo 19/11",
+   "link": "https://timesbrasil.com.br/brasil/economia-brasileira/camara-abre-semana-decisiva-para-ajuste-fiscal/"
+  },
+  {
+   "id": "dolar-juros",
+   "titulo": "Dólar perto de R$ 6 e juros futuros em alta antes da abertura",
+   "status": "Confirmado",
+   "quando": "Fechamento de 19/11 e manhã de hoje",
+   "resumo": "O dólar à vista fechou a R$ 5,9323 em 19/11 (+1,10%, sexta alta seguida, maior valor desde abril de 2025) mesmo com a venda de US$ 1 bi à vista pelo BC; hoje está em R$ 5,9609 (+0,20%, 6h38). O real foi a pior moeda emergente da semana (−4,71%). O DI jan/28 fechou a 14,850% e o jan/31 a 15,420%, e o mercado dá 76% de chance de alta de 0,25 ponto no Copom de dezembro. CDS de 5 anos em 164 pb. Itaú BBA e BTG rebaixaram o Brasil; a Fazenda segue sem definição (a CNN Brasil diz que Moretti é avaliado).",
+   "impacto": "Dólar perto de R$ 6 e juros longos acima de 15% pesam em construtoras, varejo e empresas endividadas em dólar; ajudam exportadoras. O Focus de hoje (8h25) não foi encontrado; o de 16/11 trazia Selic de 13,75% em 2026 e 12,75% em 2027, bem abaixo da curva de juros.",
+   "fonte": "Genial 23/11 6h21; Estadão/Broadcast via DGABC 19/11 18h34; Times Brasil 23/11 6h48; Seu Dinheiro 19/11 10h18; CNN Brasil 18/11 22h05",
+   "link": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/expresso-bolsa-semanal-ajuste-fiscal-fed-dolar-juros/"
+  },
+  {
+   "id": "petrobras-plano",
+   "titulo": "Petrobras divulga o Plano de Negócios 2027-2031 depois do fechamento",
+   "status": "Expectativa de mercado",
+   "quando": "Hoje, após o fechamento; coletiva amanhã, 24/11 (13h30 segundo a Eixos; a CNN Brasil não traz hora)",
+   "resumo": "O conselho deve aprovar capex de US$ 115 bi a US$ 120 bi, contra US$ 109 bi no plano atual (Estadão), com foco em autossuficiência em diesel e Margem Equatorial. O BTG espera mais capex e leasing, o que limita dividendos extraordinários; o Goldman mantém compra (alvo de R$ 60,80 na ON) e o Citi cortou o alvo de R$ 56 para R$ 48. O 3T26 (10/11) teve lucro de R$ 39,75 bi (+21,5%), abaixo dos R$ 47,02 bi esperados. JCP de R$ 0,6741 por ação é pago hoje.",
+   "impacto": "A notícia sai depois do fechamento, então a reação fica para terça e PETR3 e PETR4 não entraram nas listas. Risco: capex maior com dividendos menores frustrar a expectativa que já existe.",
+   "fonte": "Exame 23/11 5h00; CNN Brasil 23/11 7h56; Eixos 23/11; InfoMoney 11/11 7h47; Ativo Virtual 23/11 7h45",
+   "link": "https://www.cnnbrasil.com.br/infra/petrobras-deve-anunciar-investimentos-de-ate-us-115-bi-nos-proximos-5-anos/"
+  },
+  {
+   "id": "fed",
+   "titulo": "Fed: Williams fala às 18h; mercado vê alta de 0,25 ponto em dezembro",
+   "status": "Em andamento",
+   "quando": "Williams hoje às 18h; PCE na quarta (25/11); Fomc em 8 e 9/12",
+   "resumo": "Os fed funds estão em 3,75% a 4,00%. A chance de alta de 0,25 ponto em 9/12 vai de cerca de 89% (contratos de fed funds, Reuters) a cerca de 98% (Saxo); a Reuters descarta alta de 0,50 ponto. Williams rejeitou 0,50 ponto em 17/11. O PCE de outubro sai na quarta às 10h30, com núcleo esperado em +0,3% no mês. O Treasury de 10 anos está a 4,96% (5h51) depois de 4,91% a 4,94% na sexta.",
+   "impacto": "Juros americanos altos e DXY perto de 103,9 limitam a recuperação de emergentes e do real; um PCE de 0,4% reabriria o debate de 0,50 ponto.",
+   "fonte": "Reuters via Global Banking & Finance 22/11 20h43; Stocktwits 17/11; Reuters via Beinsure 23/11 5h51",
+   "link": "https://www.globalbankingandfinance.com/dollar-edges-off-19-month-high-market-rout-yen-softens/"
+  },
+  {
+   "id": "ira-ormuz",
+   "titulo": "Irã e Ormuz: petroleiros atingidos no fim de semana, Brent perto de US$ 92",
+   "status": "Em andamento",
+   "quando": "Sábado 21 e domingo 22/11",
+   "resumo": "O bloqueio dos EUA aos portos iranianos completa 130 dias. Em 21/11 dois petroleiros foram atingidos perto de Khasab (Omã); em 22/11 Trump disse que navios iranianos que testarem o bloqueio 'irão para o fundo do mar' e Teerã ameaçou a infraestrutura de energia do Golfo. O Brent está a US$ 91,73 (−0,91%, 7h13), com excedente de cerca de 2 milhões de barris por dia no 4T segundo a AIE. O prazo para retomada de ataques diverge: depois do Ano Novo ou já na próxima semana.",
+   "impacto": "A tensão limita a queda do Brent e o excesso de oferta limita a alta; direção neutra para PETR4 e PRIO3 hoje.",
+   "fonte": "Al Jazeera 21/11; Gulf News 22/11; Money Times 23/11 7h13",
+   "link": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+  },
+  {
+   "id": "escala-6x1",
+   "titulo": "Decreto da escala 6x1 vale a partir de 16/12; portaria do Trabalho sai hoje",
+   "status": "Em andamento",
+   "quando": "Decreto assinado em 19/11; portaria a partir de hoje; ação de CNI e CNC no STF",
+   "resumo": "Lula assinou o decreto em 19/11: jornada de 44h para 42h com vigência em 16/12 e 40h em dezembro de 2027. CNI e CNC foram ao STF. O Ministério do Trabalho publica hoje a portaria com as orientações. Nenhuma varejista listada divulgou estimativa de custo.",
+   "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, RADL3, ASAI3); o tamanho depende da portaria e do STF.",
+   "fonte": "TV Sim 20/11; Jornal Cruzeiro 21/11 14h05; Seu Dinheiro 18/11",
+   "link": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/20/decreto-escala-6x1-36-milhoes-acao-stf"
+  }
+ ],
+ "fechamento": []
+}

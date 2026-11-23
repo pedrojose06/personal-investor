@@ -1,72 +1,72 @@
 [
  {
+  "id": "wall-street-ia",
+  "titulo": "Wall Street desaba na sexta com a venda de ações de IA; futuros recuperam hoje",
+  "status": "Confirmado",
+  "quando": "Sexta, 20/11 (fechamento às 18h); futuros hoje às 7h13",
+  "resumo": "S&P 500 −3,70% (6.910,39), Dow −1,93% (48.147,33) e Nasdaq Composite −5,28% (22.617,73; a Exame traz −5,61%, que é o Nasdaq-100). A Nvidia caiu 14,01% (US$ 125,53, sétima queda seguida) depois de a Reuters noticiar que a SEC examina possíveis problemas contábeis; a Broadcom caiu 12,19% com um relato não confirmado de corte de encomendas do Google; semicondutores −10,7%; VIX a 35,89. Hoje os futuros sobem (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%).",
+  "impacto": "A B3 não negociou na sexta: o EWZ caiu 3,29% e os BDRs de tecnologia vão refletir a queda na abertura de hoje. Risco de contágio para emergentes e para o dólar; a recuperação dos futuros pode reduzir o tombo, mas não o apaga.",
+  "fonte": "Exame 23/11 5h00; Yahoo Finance (Motley Fool) 20/11; Reuters via Terra 20/11 19h30; Money Times 23/11 7h13",
+  "link": "https://exame.com/invest/mercados/ibovespa-hoje-23-11-2026/"
+ },
+ {
   "id": "pacote-fiscal",
-  "titulo": "Senado aprova o ajuste fiscal quase intacto; Câmara vota na terça (24/11)",
-  "status": "Confirmado",
-  "quando": "Senado: noite de 18/11; Câmara: votação prevista para terça, 24/11, ainda sem data oficial",
-  "resumo": "O governo derrubou os destaques: a trava de créditos tributários foi mantida por 49 a 31 (até R$ 18,3 bi em 2027), a proposta de limitar o crescimento da despesa a 0,6% foi rejeitada por 47 a 30 e o teto de R$ 3 bi para acertos do INSS com regimes próprios foi mantido por 45 a 32. O destaque da Lei Kandir saiu por acordo (R$ 2 bi para estados em 2027). A economia estimada vai de R$ 50 bi (relator Braga) a R$ 56 bi (O Tempo). Na Câmara são precisos 257 votos; entidades empresariais querem reabrir a compensação cruzada.",
-  "impacto": "Alívio fiscal que sustenta o cenário de alta, mas era esperado. Risco para as próximas semanas: mudanças na Câmara ou novas medidas que decepcionem. Durigan disse que anunciará outras medidas em breve.",
-  "fonte": "O Tempo 18/11 19h40; NeoFeed 18/11 20h47",
-  "link": "https://otempo.com.br/politica/2026/11/18/governo-vence-queda-de-braco-e-aprova-pacote-fiscal-quase-intacto-no-senado"
- },
- {
-  "id": "dolar-maxima",
-  "titulo": "Dólar a R$ 5,87, maior valor desde abril de 2025, após cinco altas seguidas",
-  "status": "Confirmado",
-  "quando": "Fechamento de 18/11; cotação de hoje não encontrada",
-  "resumo": "O dólar à vista fechou a R$ 5,8667 (+1,46%), o maior nível desde 15/04/2025, mesmo com dois leilões de linha do Banco Central (US$ 1 bi). Acumula alta de 17,6% desde 25/10 (segundo turno) e 6,9% em 2026. Morgan Stanley (underweight, Ibovespa a 160 mil pontos no fim de 2027) e Goldman Sachs (neutro) rebaixaram o Brasil em relatórios divulgados entre 15 e 17/11.",
-  "impacto": "Dólar acima de R$ 5,90 reforça o cenário de queda e pressiona empresas endividadas em dólar e setores domésticos; dólar abaixo de R$ 5,82 sustenta a alta. Favorece exportadoras, em linha com a preferência declarada do Morgan Stanley.",
-  "fonte": "eJornais 19/11 0h12; CNN Brasil 18/11 18h50; CNN Brasil 17/11",
-  "link": "https://ejornais.com.br/index.php/2026/11/19/dolar-dispara-a-r-587-e-ibovespa-cai-com-foco-em-ajuste-fiscal/"
- },
- {
-  "id": "fed-ata",
-  "titulo": "Ata do Fed: quase todos veem mais altas de juros; Waller defende 0,50 ponto em dezembro",
-  "status": "Confirmado",
-  "quando": "Ata divulgada em 18/11; próxima reunião em dezembro",
-  "resumo": "Os fed funds estão em 3,75% a 4,00% e o Fomc manteve a taxa em outubro por 10 votos a 2 (Cook e Hammack queriam alta de 0,25 ponto). Quase todos os diretores veem novas altas nos próximos meses; Waller defende 0,50 ponto em dezembro. O FedWatch dava 96,9% de chance de alta de 0,25 ponto. O Treasury de 10 anos fechou a 5,066% e o DXY subiu a cerca de 103,8.",
-  "impacto": "Juros americanos altos e dólar global forte pressionam emergentes, o dólar no Brasil e as ações de crescimento. Uma alta de 0,50 ponto seria um choque adicional para renda variável e para o câmbio.",
-  "fonte": "Bloomberg Línea 19/11 7h; Money Times 18/11 19h09; CNN Brasil 18/11",
-  "link": "https://www.bloomberglinea.com.br/mercados/ata-do-fed-mostra-que-quase-todos-os-diretores-preveem-mais-altas-de-juros-nos-eua/"
- },
- {
-  "id": "anthropic-ipo",
-  "titulo": "IPO da Anthropic: US$ 83 por ação, US$ 81,3 bi captados; estreia hoje na Nasdaq e BDR na B3",
+  "titulo": "Câmara vota o ajuste fiscal hoje às 18h, depois do fechamento",
   "status": "Em andamento",
-  "quando": "Precificado em 18/11; estreia hoje (ticker ANT), com o BDR ANTH34 na B3; horário exato não encontrado",
-  "resumo": "Preço acima da faixa de US$ 70 a US$ 78, 980 milhões de ações e avaliação de cerca de US$ 1,5 trilhão com diluição total (US$ 1,1 trilhão sem diluição), mais US$ 26 bi em colocação privada com Google, Nvidia, AMD, Microsoft e outros. É a maior abertura de capital da história. A Exame lembra que uma estreia fraca pode contaminar o Nasdaq e que investidores podem vender outras techs para financiar a compra; os futuros do Nasdaq sobem cerca de 1,9%.",
-  "impacto": "Movimenta o apetite por IA e os BDRs de tecnologia na B3 (NVDC34, AVGO34, MSFT34, GOGL34). O ANTH34 não tem fechamento anterior para comparação. Nota: o relatório é produzido por um modelo da Anthropic; os fatos vêm de veículos independentes.",
-  "fonte": "Money Times 19/11 5h58; Exame 18/11 9h23; InfoMoney 19/11 5h43",
-  "link": "https://www.moneytimes.com.br/anthropic-capta-valor-recorde-de-us-81-bilhoes-em-ipo-alcancando-avaliacao-de-us-15-trilhao-fets/"
+  "quando": "Sessão extraordinária às 18h; a votação pode passar para terça, 24/11",
+  "resumo": "PLP 299/2026 (Plano Moretti), aprovado no Senado por 69 a 2 em 18/11. O relator Mauro Benevides Filho (União-CE) mantém o texto do Senado para não voltar à outra Casa. Primeiro vem o requerimento de urgência, do líder do governo, Paulo Pimenta; o mérito pede 257 votos. Economia estimada de R$ 45 bi a R$ 56 bi (as fontes divergem), cerca de dois terços de receita e voltada a 2027. Resistências: CNI, Fiesp, entidades de comércio e serviços, oposição (compensação de créditos) e parte da esquerda. Nenhuma fonte traz previsão explícita de aprovação.",
+  "impacto": "Como a votação ocorre depois das 17h55, o mercado opera hoje na expectativa. Aprovação sem mudanças tende a aliviar dólar e juros amanhã; alteração do texto devolve a proposta ao Senado.",
+  "fonte": "Revista Fórum 23/11 5h48; Times Brasil 23/11; Exame 23/11 5h00; Gazeta do Povo 19/11",
+  "link": "https://timesbrasil.com.br/brasil/economia-brasileira/camara-abre-semana-decisiva-para-ajuste-fiscal/"
  },
  {
-  "id": "cupula-shenzhen",
-  "titulo": "Cúpula Trump, Xi e Putin termina com declaração conjunta, sem falas à imprensa",
+  "id": "dolar-juros",
+  "titulo": "Dólar perto de R$ 6 e juros futuros em alta antes da abertura",
   "status": "Confirmado",
-  "quando": "Trilateral às 03h30 de Brasília, cerca de 90 minutos; declaração publicada em 19/11",
-  "resumo": "A reunião em Shenzhen, a primeira dos três líderes, produziu uma declaração conjunta publicada pelo Kremlin; segundo a Al Jazeera, inclui compromisso com fluxos estáveis de energia. O conteúdo completo não estava disponível nas páginas consultadas. O Kremlin diz que o processo da Ucrânia está parado, e Trump disse que resolverá o impasse com o Irã. A trégua comercial EUA e China vale até 10/01/2027.",
-  "impacto": "Baixa expectativa de entrega concreta, então o efeito direto nos mercados é limitado; petróleo e chips são os canais (Ormuz fechado segundo a Guarda Revolucionária do Irã; restrições dos EUA a chips para a China).",
-  "fonte": "TASS 19/11; Al Jazeera 19/11; Newsquawk 19/11",
-  "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+  "quando": "Fechamento de 19/11 e manhã de hoje",
+  "resumo": "O dólar à vista fechou a R$ 5,9323 em 19/11 (+1,10%, sexta alta seguida, maior valor desde abril de 2025) mesmo com a venda de US$ 1 bi à vista pelo BC; hoje está em R$ 5,9609 (+0,20%, 6h38). O real foi a pior moeda emergente da semana (−4,71%). O DI jan/28 fechou a 14,850% e o jan/31 a 15,420%, e o mercado dá 76% de chance de alta de 0,25 ponto no Copom de dezembro. CDS de 5 anos em 164 pb. Itaú BBA e BTG rebaixaram o Brasil; a Fazenda segue sem definição (a CNN Brasil diz que Moretti é avaliado).",
+  "impacto": "Dólar perto de R$ 6 e juros longos acima de 15% pesam em construtoras, varejo e empresas endividadas em dólar; ajudam exportadoras. O Focus de hoje (8h25) não foi encontrado; o de 16/11 trazia Selic de 13,75% em 2026 e 12,75% em 2027, bem abaixo da curva de juros.",
+  "fonte": "Genial 23/11 6h21; Estadão/Broadcast via DGABC 19/11 18h34; Times Brasil 23/11 6h48; Seu Dinheiro 19/11 10h18; CNN Brasil 18/11 22h05",
+  "link": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/expresso-bolsa-semanal-ajuste-fiscal-fed-dolar-juros/"
+ },
+ {
+  "id": "petrobras-plano",
+  "titulo": "Petrobras divulga o Plano de Negócios 2027-2031 depois do fechamento",
+  "status": "Expectativa de mercado",
+  "quando": "Hoje, após o fechamento; coletiva amanhã, 24/11 (13h30 segundo a Eixos; a CNN Brasil não traz hora)",
+  "resumo": "O conselho deve aprovar capex de US$ 115 bi a US$ 120 bi, contra US$ 109 bi no plano atual (Estadão), com foco em autossuficiência em diesel e Margem Equatorial. O BTG espera mais capex e leasing, o que limita dividendos extraordinários; o Goldman mantém compra (alvo de R$ 60,80 na ON) e o Citi cortou o alvo de R$ 56 para R$ 48. O 3T26 (10/11) teve lucro de R$ 39,75 bi (+21,5%), abaixo dos R$ 47,02 bi esperados. JCP de R$ 0,6741 por ação é pago hoje.",
+  "impacto": "A notícia sai depois do fechamento, então a reação fica para terça e PETR3 e PETR4 não entraram nas listas. Risco: capex maior com dividendos menores frustrar a expectativa que já existe.",
+  "fonte": "Exame 23/11 5h00; CNN Brasil 23/11 7h56; Eixos 23/11; InfoMoney 11/11 7h47; Ativo Virtual 23/11 7h45",
+  "link": "https://www.cnnbrasil.com.br/infra/petrobras-deve-anunciar-investimentos-de-ate-us-115-bi-nos-proximos-5-anos/"
+ },
+ {
+  "id": "fed",
+  "titulo": "Fed: Williams fala às 18h; mercado vê alta de 0,25 ponto em dezembro",
+  "status": "Em andamento",
+  "quando": "Williams hoje às 18h; PCE na quarta (25/11); Fomc em 8 e 9/12",
+  "resumo": "Os fed funds estão em 3,75% a 4,00%. A chance de alta de 0,25 ponto em 9/12 vai de cerca de 89% (contratos de fed funds, Reuters) a cerca de 98% (Saxo); a Reuters descarta alta de 0,50 ponto. Williams rejeitou 0,50 ponto em 17/11. O PCE de outubro sai na quarta às 10h30, com núcleo esperado em +0,3% no mês. O Treasury de 10 anos está a 4,96% (5h51) depois de 4,91% a 4,94% na sexta.",
+  "impacto": "Juros americanos altos e DXY perto de 103,9 limitam a recuperação de emergentes e do real; um PCE de 0,4% reabriria o debate de 0,50 ponto.",
+  "fonte": "Reuters via Global Banking & Finance 22/11 20h43; Stocktwits 17/11; Reuters via Beinsure 23/11 5h51",
+  "link": "https://www.globalbankingandfinance.com/dollar-edges-off-19-month-high-market-rout-yen-softens/"
+ },
+ {
+  "id": "ira-ormuz",
+  "titulo": "Irã e Ormuz: petroleiros atingidos no fim de semana, Brent perto de US$ 92",
+  "status": "Em andamento",
+  "quando": "Sábado 21 e domingo 22/11",
+  "resumo": "O bloqueio dos EUA aos portos iranianos completa 130 dias. Em 21/11 dois petroleiros foram atingidos perto de Khasab (Omã); em 22/11 Trump disse que navios iranianos que testarem o bloqueio 'irão para o fundo do mar' e Teerã ameaçou a infraestrutura de energia do Golfo. O Brent está a US$ 91,73 (−0,91%, 7h13), com excedente de cerca de 2 milhões de barris por dia no 4T segundo a AIE. O prazo para retomada de ataques diverge: depois do Ano Novo ou já na próxima semana.",
+  "impacto": "A tensão limita a queda do Brent e o excesso de oferta limita a alta; direção neutra para PETR4 e PRIO3 hoje.",
+  "fonte": "Al Jazeera 21/11; Gulf News 22/11; Money Times 23/11 7h13",
+  "link": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
  },
  {
   "id": "escala-6x1",
-  "titulo": "Lula assina hoje o decreto que regulamenta o fim da escala 6x1",
+  "titulo": "Decreto da escala 6x1 vale a partir de 16/12; portaria do Trabalho sai hoje",
   "status": "Em andamento",
-  "quando": "Hoje, 9h30 (InfoMoney); a nova jornada começa em dezembro, segundo a promulgação do Congresso",
-  "resumo": "O decreto regulamenta o fim da escala 6x1 promulgado em outubro. Estudo da Ativa Investimentos (abril) estimou aumento médio de 9% nas despesas com pessoal e queda de 0,9 ponto percentual na margem Ebitda de dez empresas do varejo, com Azzas (−1,7 p.p.), Petz (−1,6) e Renner (−1,4) entre as mais afetadas.",
-  "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, AUAU3, RADL3, ASAI3). O texto do decreto pode trazer prazos e regras que mudam essa conta; o efeito já era conhecido, por isso a reação deve ser moderada.",
-  "fonte": "InfoMoney 19/11 6h15; Euqueroinvestir (estudo da Ativa, 22/04)",
-  "link": "https://www.infomoney.com.br/mercados/anthropic-pacote-fiscal-cupula-trump-xi-putin-agenda-19112026/"
- },
- {
-  "id": "petroleo-oferta",
-  "titulo": "Petróleo estável perto de US$ 92 com excesso de oferta e tensão em Ormuz",
-  "status": "Em andamento",
-  "quando": "Brent a US$ 92,26 às 5h43 e US$ 92,65 às 7h07; fechou ontem a US$ 91,95",
-  "resumo": "O Brent (janeiro) caiu 1,28% ontem e o WTI 2,76%, a US$ 82,31, com estoques dos EUA subindo 3,38 milhões de barris, exportações russas maiores e segunda alta mensal de produção da Opep+. A Guarda Revolucionária do Irã diz que Ormuz segue fechado sem aceitação das condições de Teerã.",
-  "impacto": "Oferta maior pesa em PETR4 e PRIO3; tensão no Golfo limita a queda do barril. Hoje a direção é neutra e por isso nenhum dos dois entrou nas listas de papéis.",
-  "fonte": "eJornais 19/11; InfoMoney 19/11 5h43; Money Times 19/11 7h07; Newsquawk 19/11",
-  "link": "https://www.infomoney.com.br/mercados/futuros-de-ny-avancam-com-euforia-em-torno-do-ipo-recorde-da-anthropic/"
+  "quando": "Decreto assinado em 19/11; portaria a partir de hoje; ação de CNI e CNC no STF",
+  "resumo": "Lula assinou o decreto em 19/11: jornada de 44h para 42h com vigência em 16/12 e 40h em dezembro de 2027. CNI e CNC foram ao STF. O Ministério do Trabalho publica hoje a portaria com as orientações. Nenhuma varejista listada divulgou estimativa de custo.",
+  "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, RADL3, ASAI3); o tamanho depende da portaria e do STF.",
+  "fonte": "TV Sim 20/11; Jornal Cruzeiro 21/11 14h05; Seu Dinheiro 18/11",
+  "link": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/20/decreto-escala-6x1-36-milhoes-acao-stf"
  }
 ]

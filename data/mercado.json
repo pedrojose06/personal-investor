@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 26,
-  "agora": 26,
-  "motivo": "Dólar no maior nível desde abril de 2025 (R$ 5,867, quinta alta seguida), DXY a 103,8, Treasury de 10 anos a 5,07% e ata do Fed com Waller defendendo alta de 0,50 ponto em dezembro mantêm a pressão. Sexta-feira é feriado (B3 fechada), o que pode levar a redução de posições hoje, e Taiex −4,4% e Hang Seng −1,95% mostram cautela com IA e China."
+  "relatorio": 56,
+  "agora": 56,
+  "motivo": "O EWZ caiu 3,29% na sexta (US$ 28,54) com a B3 fechada e sobe 1,47% no pré-mercado (US$ 28,96, Money Times 7h13). Com o dólar a R$ 5,96, a conta aproximada dá abertura perto de −1,4% sobre 166.376 pts (estimativa minha; o futuro do Ibovespa não foi encontrado). Pesam também o dólar perto de R$ 6, o DI com 76% de chance de alta de 0,25 ponto no Copom de dezembro e a votação do ajuste fiscal na Câmara só às 18h, depois do fechamento. Fechar abaixo de 165.544 pts."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 32,
-  "agora": 32,
-  "motivo": "O Senado aprovou o ajuste quase intacto, mas o resultado era esperado. O mercado tende a esperar a Câmara (votação prevista para 24/11), as novas medidas fiscais que o ministro Durigan prometeu e a estreia da Anthropic antes de apostar, e o feriado de amanhã reduz o volume."
+  "relatorio": 26,
+  "agora": 26,
+  "motivo": "Cabe se os futuros de Nova York (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%) puxarem a recuperação ao longo do dia e o índice devolver a maior parte da abertura negativa. Precisa de dólar estável perto de R$ 5,95 e de DIs sem nova alta. Faixa entre 165.544 e 167.208 pts."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 42,
-  "agora": 42,
-  "motivo": "Os destaques foram derrubados no Senado (49 a 31, 47 a 30 e 45 a 32) depois do fechamento, o que traz alívio fiscal. Futuros de Nova York sobem (Nasdaq +1,86%, S&P 500 +1,07%, Dow +0,65% às 5h43), a Europa abre em alta e o minério em Dalian sobe 0,47%. Precisa de dólar abaixo de R$ 5,82 e de alívio nos DIs."
+  "relatorio": 18,
+  "agora": 18,
+  "motivo": "Exige fechar acima de 167.208 pts, ou seja, recuperar toda a perda implícita da sexta e ainda subir. Possível se Wall Street fechar com alta perto de 3%, o dólar recuar e a Câmara sinalizar aprovação do ajuste sem mudanças. Fed, ministro da Fazenda ainda indefinido e o fiscal seguem em aberto; por isso 18%."
  }
 ]

@@ -1,72 +1,79 @@
 [
  {
-  "indicador": "Ibovespa, fechamento oficial de 18/11",
-  "valor": "167.538 pts (167.537,95)",
-  "variacao": "−1,34%",
-  "hora": "18/11, após o leilão",
-  "fonte": "Rotina de fechamento; Suno 18h32, AVNews, CNN Brasil e Trademap batem no valor"
+  "indicador": "Ibovespa, fechamento oficial de 19/11",
+  "valor": "166.376 pts (166.376,43)",
+  "variacao": "−0,69%",
+  "hora": "19/11, após o leilão (B3 fechada em 20/11)",
+  "fonte": "BPMoney, Exame, Money Times 23/11 7h13 e rotina de fechamento batem; divergências: −0,81% a 166.156 (Times Brasil) e −0,97% a 165.911 (17h33); a semana fechou em −3,53%"
  },
  {
   "indicador": "Dólar à vista",
-  "valor": "R$ 5,8667 no fechamento de 18/11; hoje n/d",
-  "variacao": "+1,46% ontem (quinta alta seguida)",
-  "hora": "18/11 após o pregão",
-  "fonte": "eJornais e Suno 18h32 (R$ 5,8677 na CNN Brasil, +1,48%). Cotação de hoje: procurei em InfoMoney, Money Times e Exame, sem dado"
+  "valor": "R$ 5,9323 no fechamento de 19/11; R$ 5,9609 hoje",
+  "variacao": "+1,10% em 19/11 (maior valor desde abril de 2025); +0,20% hoje",
+  "hora": "19/11 e hoje 6h38",
+  "fonte": "Investing/BPMoney (R$ 5,9323; Exame traz R$ 5,9344 e Money Times R$ 5,9350); hoje Times Brasil 6h48 (Investing mostra R$ 5,9491, +0,24%, sem hora); BC vendeu US$ 1 bi à vista em 19/11"
  },
  {
-  "indicador": "EWZ e DXY",
-  "valor": "EWZ US$ 30,22 (fechamento de 18/11); DXY 103,79",
-  "variacao": "EWZ +0,50% ontem; DXY +0,31%",
-  "hora": "18/11",
-  "fonte": "AVNews 19/11 7h18 e Money Times 7h07 (CNN Brasil traz DXY 103,778; eJornais 103,850). EWZ no pré-mercado de hoje: n/d"
+  "indicador": "EWZ (ETF do Brasil em NY)",
+  "valor": "US$ 28,54 na sexta; US$ 28,96 no pré-mercado de hoje",
+  "variacao": "−3,29% na sexta; +1,47% hoje",
+  "hora": "20/11 (fechamento) e hoje, hora não informada",
+  "fonte": "InfoMoney 20/11 18h36 (Estadão traz US$ 28,55, −3,25%); Money Times 23/11 7h13"
  },
  {
-  "indicador": "Futuros de NY (Nasdaq / S&P 500 / Dow)",
-  "valor": "+1,86% / +1,07% / +0,65%",
-  "variacao": "pré-mercado; Money Times às 7h07: +1,94% / +1,09% / +0,59%",
-  "hora": "5h43 e 7h07",
-  "fonte": "InfoMoney; Money Times"
+  "indicador": "Futuros de Nova York (S&P 500 / Nasdaq / Dow)",
+  "valor": "+2,62% / +3,40% / +1,82%",
+  "variacao": "Times Brasil às 4h17: +2,20% / +2,95% / +1,55%; InfoMoney às 5h41: +2,36% / +3,11% / +1,63%",
+  "hora": "7h13",
+  "fonte": "Money Times; as fontes variam com o horário"
  },
  {
-  "indicador": "Wall Street, fechamento de 18/11 (Dow / S&P 500 / Nasdaq)",
-  "valor": "50.197,78 / 7.323,52 / 24.429,88",
-  "variacao": "−1,11% / −0,23% / +0,42%",
-  "hora": "18/11, 19h09",
-  "fonte": "Money Times; Nvidia caiu quase 3% mesmo com balanço acima do esperado"
+  "indicador": "Wall Street, fechamento de 20/11 (Dow / S&P 500 / Nasdaq Composite)",
+  "valor": "48.147,33 / 6.910,39 / 22.617,73",
+  "variacao": "−1,93% / −3,70% / −5,28%",
+  "hora": "20/11, 18h",
+  "fonte": "Yahoo Finance (Motley Fool) e Reuters via Terra; a Exame traz Nasdaq −5,61% (25.028,98), que é o Nasdaq-100; VIX 35,89; Nvidia −14,01%"
  },
  {
   "indicador": "Treasury de 10 anos",
-  "valor": "5,066%",
-  "variacao": "−4 pb em 18/11",
-  "hora": "18/11, 18h50",
-  "fonte": "CNN Brasil; valor de hoje n/d"
+  "valor": "4,96% hoje; 4,91% a 4,94% na sexta",
+  "variacao": "sexta: −12 pb",
+  "hora": "5h51",
+  "fonte": "Reuters via Beinsure; sexta: CappNotes, BigGo, Saxo e Yahoo divergem"
  },
  {
-  "indicador": "DI futuro (jan/28 e jan/35)",
-  "valor": "14,495% e 15,245%",
-  "variacao": "+7 pb e +10 pb em 18/11",
-  "hora": "18/11, fim da tarde",
-  "fonte": "CNN Brasil; o mercado de juros abre às 9h, taxa de hoje n/d"
+  "indicador": "DI futuro (jan/28, jan/29, jan/31)",
+  "valor": "14,850%, 15,275% e 15,420% no fechamento de 19/11; hoje n/d",
+  "variacao": "+34 pb, +34 pb e +26 pb em 19/11; jan/35 15,50% (+36 pb na semana)",
+  "hora": "19/11, 18h34",
+  "fonte": "Estadão/Broadcast via DGABC; Genial 23/11 6h21. DI de hoje: o mercado de juros abre às 9h e não achei dado"
  },
  {
   "indicador": "Brent",
-  "valor": "US$ 92,26 (5h43) e US$ 92,65 (7h07)",
-  "variacao": "+0,34% e +0,76%; fechou ontem a US$ 91,95 (−1,28%)",
-  "hora": "5h43 e 7h07",
-  "fonte": "InfoMoney e Money Times (divergência pequena); fechamento de ontem: eJornais"
+  "valor": "US$ 91,73",
+  "variacao": "−0,91%",
+  "hora": "7h13",
+  "fonte": "Money Times; Gulf News traz US$ 91,96 e Saxo US$ 92,41; WTI perto de US$ 82,7 a US$ 83,0"
  },
  {
   "indicador": "Minério de ferro (Dalian / Singapura)",
-  "valor": "Dalian 648 iuanes (US$ 97,18); Singapura n/d",
-  "variacao": "+0,47%",
-  "hora": "5h43",
-  "fonte": "InfoMoney; procurei Singapura em Money Times e Exame, sem dado"
+  "valor": "651,5 iuanes / US$ 88,25",
+  "variacao": "−0,69% / −0,25%",
+  "hora": "Domingo, 22h53",
+  "fonte": "Reuters via Business Recorder; Singapura abaixo de US$ 90 há cinco sessões; fechamento de Dalian de hoje n/d"
  },
  {
-  "indicador": "Ásia, Europa, ouro e Bitcoin",
-  "valor": "Nikkei +0,71%, Kospi +1,39%, Taiex −4,4%, Xangai −0,28%, Hang Seng −1,95%; Stoxx 600 +0,31%, DAX +0,63%; ouro US$ 3.735; Bitcoin US$ 63,6 mil a US$ 63,8 mil",
-  "variacao": "ouro −0,18%; Bitcoin −1,2% (Money Times) ou +1,79% (InfoMoney)",
-  "hora": "5h43 a 7h07",
-  "fonte": "Money Times 6h11 e 7h07; InfoMoney 5h43"
+  "indicador": "Ouro, Bitcoin e DXY",
+  "valor": "Ouro US$ 3.606 a US$ 3.649; Bitcoin US$ 60,8 mil a US$ 61,5 mil; DXY 103,92",
+  "variacao": "ouro +2,1% a +2,95% (sexta: −3% a −4,6%); Bitcoin +0,9% a +4%; DXY +0,06%",
+  "hora": "5h51 a 7h13",
+  "fonte": "Reuters, Saxo, Money Times e Yahoo divergem entre si; Bitcoin teve mínima de US$ 55.130 na sexta"
+ },
+ {
+  "indicador": "Ásia e Europa",
+  "valor": "Kospi −3,3% (mínima −5,8%), Hang Seng −0,1%, Xangai +0,15%, Taiex +2,2%; FTSE +0,33% a +0,56%, DAX +0,52% a +0,60%, Stoxx 600 +0,9% às 8h07",
+  "variacao": "Nikkei: Al Jazeera diz que o Japão está em feriado, Money Times traz −0,55%",
+  "hora": "5h41 a 8h07",
+  "fonte": "Al Jazeera, Reuters, journalarta, Brazil Stock Guide, Money Times"
  }
 ]
