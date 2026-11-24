@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 56,
-  "agora": 56,
-  "motivo": "O EWZ caiu 3,29% na sexta (US$ 28,54) com a B3 fechada e sobe 1,47% no pré-mercado (US$ 28,96, Money Times 7h13). Com o dólar a R$ 5,96, a conta aproximada dá abertura perto de −1,4% sobre 166.376 pts (estimativa minha; o futuro do Ibovespa não foi encontrado). Pesam também o dólar perto de R$ 6, o DI com 76% de chance de alta de 0,25 ponto no Copom de dezembro e a votação do ajuste fiscal na Câmara só às 18h, depois do fechamento. Fechar abaixo de 165.544 pts."
+  "relatorio": 38,
+  "agora": 38,
+  "motivo": "Fechar abaixo de 163.972 pts. O Ibovespa já caiu três pregões seguidos e fechou ontem no menor nível desde janeiro, mesmo com o S&P 500 em +4,74%. Os futuros de Nova York amanheceram negativos (S&P 500 −0,42% a −0,50%, Nasdaq −1,02% a −1,21%), o dólar tocou R$ 6,0055 ontem e há quem veja o ajuste fiscal como insuficiente (Convexa). Hoje saem o contingenciamento e a coletiva da Petrobras (Citi vê o plano como predominantemente negativo). Fica na frente por pouco porque futuro do Ibovespa e DI só abrem às 9h."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 26,
-  "agora": 26,
-  "motivo": "Cabe se os futuros de Nova York (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%) puxarem a recuperação ao longo do dia e o índice devolver a maior parte da abertura negativa. Precisa de dólar estável perto de R$ 5,95 e de DIs sem nova alta. Faixa entre 165.544 e 167.208 pts."
+  "relatorio": 32,
+  "agora": 32,
+  "motivo": "Faixa de 163.972 a 165.620 pts. Cabe se o alívio da aprovação do ajuste (353 a 128) compensar os futuros fracos de Nova York e a espera pelo contingenciamento, pelo PCE dos EUA (amanhã, 10h30) e pelo capex da Petrobras. Nos últimos seis pregões, dois fecharam nessa faixa (−0,43% e +0,31%)."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 18,
-  "agora": 18,
-  "motivo": "Exige fechar acima de 167.208 pts, ou seja, recuperar toda a perda implícita da sexta e ainda subir. Possível se Wall Street fechar com alta perto de 3%, o dólar recuar e a Câmara sinalizar aprovação do ajuste sem mudanças. Fed, ministro da Fazenda ainda indefinido e o fiscal seguem em aberto; por isso 18%."
+  "relatorio": 30,
+  "agora": 30,
+  "motivo": "Fechar acima de 165.620 pts. Possível se o Ibovespa recuperar parte do atraso frente a Nova York (−0,95% contra +4,74% ontem) com o risco da votação já resolvido, R$ 15,6 bi em dividendos extraordinários da Petrobras (R$ 1,21 por ação) e minério em alta de 1,00% em Dalian. Exige dólar abaixo de R$ 5,93 e DIs recuando; por isso 30% e não mais: Nasdaq futuro em queda e fiscal ainda em aberto."
  }
 ]

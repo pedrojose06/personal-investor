@@ -1,0 +1,399 @@
+{
+ "resumo": [
+  {
+   "data": "terça-feira, 24/11/2026",
+   "atualizado": "8h50 (Brasília)",
+   "base": "Dados das 19h de 23/11 às 8h40 de 24/11 (Brasília) de Exame (5h30), InfoMoney (22h35 de 23/11, 5h43 e 6h14), Money Times (6h30, 6h36, 7h00 e 8h11), Forbes Brasil (7h54), TipRanks (7h52), Brasil em Folhas (8h06), Metrópoles (7h59), PAIPEE, Mixvale, Gazeta Mercantil, Times Brasil/CNBC, Canal Rural, AVNews, A Crítica, SBT News, Investidor Institucional e DGABC. Referência: fechamento oficial de 23/11 (164.796,05 pts, −0,95%). Não encontrei: futuro do Ibovespa, DI futuro e dólar de hoje (o mercado de juros e o futuro abrem às 9h), DI de 23/11, Treasury de 10 anos, EWZ de hoje, pré-mercado das ADRs além da PBR, fechamento oficial da Nvidia, consenso da maioria dos indicadores e qualquer balanço brasileiro divulgado depois do fechamento de ontem. As listas de papéis vêm de fatos relevantes e recomendações de 23/11 à noite e do pré-mercado em Nova York."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 38,
+   "agora": 38,
+   "motivo": "Fechar abaixo de 163.972 pts. O Ibovespa já caiu três pregões seguidos e fechou ontem no menor nível desde janeiro, mesmo com o S&P 500 em +4,74%. Os futuros de Nova York amanheceram negativos (S&P 500 −0,42% a −0,50%, Nasdaq −1,02% a −1,21%), o dólar tocou R$ 6,0055 ontem e há quem veja o ajuste fiscal como insuficiente (Convexa). Hoje saem o contingenciamento e a coletiva da Petrobras (Citi vê o plano como predominantemente negativo). Fica na frente por pouco porque futuro do Ibovespa e DI só abrem às 9h."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 32,
+   "agora": 32,
+   "motivo": "Faixa de 163.972 a 165.620 pts. Cabe se o alívio da aprovação do ajuste (353 a 128) compensar os futuros fracos de Nova York e a espera pelo contingenciamento, pelo PCE dos EUA (amanhã, 10h30) e pelo capex da Petrobras. Nos últimos seis pregões, dois fecharam nessa faixa (−0,43% e +0,31%)."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 30,
+   "agora": 30,
+   "motivo": "Fechar acima de 165.620 pts. Possível se o Ibovespa recuperar parte do atraso frente a Nova York (−0,95% contra +4,74% ontem) com o risco da votação já resolvido, R$ 15,6 bi em dividendos extraordinários da Petrobras (R$ 1,21 por ação) e minério em alta de 1,00% em Dalian. Exige dólar abaixo de R$ 5,93 e DIs recuando; por isso 30% e não mais: Nasdaq futuro em queda e fiscal ainda em aberto."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 23/11",
+   "valor": "164.796 pts (164.796,05)",
+   "variacao": "−0,95%",
+   "hora": "23/11, após o leilão (máxima 166.373,68; mínima 164.129,33)",
+   "fonte": "SBT News 18h53, Investidor Institucional e rotina de fechamento batem; Gazeta (18h14, parcial) traz 165.026 (−0,81%). Menor fechamento desde 13/01; novembro −1,86%"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,9262 no fechamento de 23/11; hoje n/d",
+   "variacao": "−0,14% em 23/11 (máxima R$ 6,0055, a primeira acima de R$ 6 desde abril de 2025)",
+   "hora": "23/11 e hoje, não encontrado",
+   "fonte": "Gazeta Brasil e Campo Grande News (R$ 5,9262); Investidor Institucional traz R$ 5,92 (−0,15%). Cotação de hoje: Money Times e PAIPEE mostram o widget zerado; o dólar futuro abre às 9h"
+  },
+  {
+   "indicador": "EWZ e PBR (ADR da Petrobras) em Nova York",
+   "valor": "PBR US$ 15,76; EWZ US$ 28,92",
+   "variacao": "PBR −0,32% às 7h43; EWZ −1,09% sem hora",
+   "hora": "24/11, 7h43 (PBR)",
+   "fonte": "Money Times 8h11 (PBR) e 7h00 (EWZ). O EWZ não bate com os US$ 28,54 de 20/11 e a hora não vem, então não usei como termômetro; sem pré-mercado de VALE, ITUB e outras ADRs"
+  },
+  {
+   "indicador": "Futuros de Nova York (S&P 500 / Nasdaq / Dow)",
+   "valor": "−0,42% / −1,02% / −0,11% (Money Times 7h00); −0,50% / −1,21% (Nasdaq-100) / −0,14% (TipRanks 7h50)",
+   "variacao": "InfoMoney 5h43: +0,19% / +0,16% / +0,18%",
+   "hora": "5h43 a 7h52",
+   "fonte": "Money Times, TipRanks, InfoMoney; viraram de positivos para negativos ao longo da manhã (Brasil em Folhas 8h06 repete os números das 5h43)"
+  },
+  {
+   "indicador": "Wall Street, fechamento de 23/11 (Dow / S&P 500 / Nasdaq)",
+   "valor": "pontos n/d",
+   "variacao": "+3,01% / +4,74% / +6,51%",
+   "hora": "23/11, fechamento",
+   "fonte": "Investidor Institucional; TipRanks traz +3,0% / +4,73% / +6,51%; maior alta do S&P 500 e do Nasdaq desde 9/4/2025; Nvidia +31%, Micron +19%, AMD ~+7%, CoreWeave +22% (Forbes)"
+  },
+  {
+   "indicador": "Treasury de 10 anos e DXY",
+   "valor": "Treasury n/d; DXY 104,33 às 17h de 23/11",
+   "variacao": "DXY no maior nível desde março de 2025",
+   "hora": "23/11, 17h (DXY)",
+   "fonte": "Investidor Institucional (DXY). Treasury de hoje: procurei em Money Times, Forbes, InfoMoney e TipRanks e não achei"
+  },
+  {
+   "indicador": "DI futuro (jan/27, jan/28, jan/29, jan/31)",
+   "valor": "13,724%, 14,850%, 15,275% e 15,420% no fechamento de 19/11; 23/11 e hoje n/d",
+   "variacao": "+0,033, +0,315, +0,305 e +0,210 ponto em 19/11",
+   "hora": "19/11 (último dado encontrado); o mercado de juros abre às 9h",
+   "fonte": "InfoMoney 23/11 7h52; Money Times, PAIPEE e Exame de hoje dizem só que os juros vêm subindo, sem taxas"
+  },
+  {
+   "indicador": "Brent e WTI",
+   "valor": "Brent US$ 89,07; WTI US$ 80,02",
+   "variacao": "−0,34% / −0,19% (Money Times 7h00); InfoMoney 5h43: US$ 88,72 (−0,73%)",
+   "hora": "24/11, 5h43 a 7h00",
+   "fonte": "Money Times e InfoMoney; fechamento de 23/11: Brent US$ 89,37 (−3,46%) e WTI US$ 80,17 (−3,88%) (Gazeta e Campo Grande News)"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian / Singapura)",
+   "valor": "658,50 iuanes / n/d",
+   "variacao": "+1,00% em Dalian",
+   "hora": "24/11, fechamento de Dalian",
+   "fonte": "InfoMoney 5h43 e Brasil em Folhas 8h06; Singapura não encontrado"
+  },
+  {
+   "indicador": "Ásia, Europa, ouro e Bitcoin",
+   "valor": "Nikkei +3,91% a +4,11%, Kospi +6,32% (5.006 pts), Taiex +9%, Hang Seng −0,73%, Xangai +0,27%; Stoxx 600 +0,10%, DAX −0,11% a −0,53%; ouro US$ 3.653,50; Bitcoin US$ 60.143",
+   "variacao": "ouro −0,77%; Bitcoin −2,0%",
+   "hora": "5h43 a 8h06",
+   "fonte": "Forbes Brasil 7h54, InfoMoney 5h43, Brasil em Folhas 8h06 e Money Times 7h00; Europa varia entre as fontes"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 60,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Nvidia subiu cerca de 31% na segunda (US$ 164,38 às 15h42, o fechamento oficial não foi encontrado), com o retorno de Jensen Huang ao cargo de CEO depois de cair 14% na sexta. Hoje cai mais de 3% no pré-mercado (Forbes, 7h54) e os futuros do Nasdaq-100 estão em −1,21% (TipRanks, 7h50). O BDR fechou ontem a R$ 20,30 (+11,85%) e já embute a alta. Contra: o InfoMoney das 5h43 mostrava futuros em +0,16% (a leitura muda com o horário), Trump e Musk apoiam Huang e o pré-mercado costuma reverter. A investigação independente do conselho segue aberta e a SEC não aparece nas páginas lidas.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se a Nvidia abrir em alta e sustentar",
+   "fonte": "Forbes Brasil 24/11 7h54; TipRanks 24/11 7h52; FinanceFeeds 23/11 16h57; O Tempo/Folhapress 23/11 17h53",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A ação fez −14% na sexta e +31% na segunda; a volta de Huang e a investigação puxam em sentidos opostos, sem tendência definida."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "BRKM5",
+   "empresa": "Braskem",
+   "chance": 56,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Braskem subiu 11,92% ontem (R$ 2,91) com o acordo preliminar de US$ 4,9 bi com credores: US$ 1,3 bi da Petrobras e US$ 3,6 bi de dívida convertida em ações. O fato relevante da noite de segunda traz poucos números: diluição e preço de emissão não foram divulgados, o plano atualizado só vai à Justiça 'nas próximas semanas' (pedido de prorrogação de 20 dias úteis) e a conversão tende a diluir mais do que o desenho de outubro (Melhor Investimento). Realização de lucros depois de quase 12% é plausível. Contra: o acordo afasta a recuperação judicial e a ADR chegou a subir 27% ontem, então o fluxo comprador pode continuar.",
+   "gatilho": "Divulgação do preço de conversão e da diluição; sem evento marcado",
+   "fonte": "Money Times/Reuters 24/11 6h36; DGABC 23/11 16h; Melhor Investimento 23/11 12h48; Seu Dinheiro/Valor 23/11 16h11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Depende dos termos de diluição, que ainda não saíram; o papel já subiu quase 12% e a notícia boa está no preço."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "BBAS3",
+   "empresa": "Banco do Brasil",
+   "chance": 55,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Ativa passou a recomendar venda do Banco do Brasil (23/11, 20h30) e cortou o preço-alvo de R$ 19 para R$ 13 (cerca de −8,45% contra o fechamento de ontem), com o lucro de 2027 revisto de R$ 10,9 bi para R$ 6,6 bi e a inadimplência do agro pressionando por pelo menos mais dois trimestres. A XP manteve neutra com alvo de R$ 15 (22/11). Contra: a Ativa é uma corretora de menor porte, o tema já era conhecido, o papel caiu 0,7% a 0,8% ontem e a aprovação do ajuste pode ajudar os bancos.",
+   "gatilho": "Sem evento marcado; observar a abertura da B3 às 10h",
+   "fonte": "A Crítica (Ativa) 23/11 20h30; Seu Dinheiro (XP) 22/11 11h47; SBT News 23/11 18h53; Investidor Institucional 23/11",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Revisões de corretoras menores raramente mudam a tendência sozinhas; o efeito depende do dólar e dos DIs de hoje."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "PETR4",
+   "empresa": "Petrobras PN",
+   "chance": 54,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O plano 2027-2031 saiu depois do fechamento de ontem: capex de US$ 122 bi (contra US$ 109 bi) e produção de 3,2 milhões de boe/d. O Citi chama o plano de predominantemente negativo pela alocação de capital (capex de 2027, renováveis, compra de 42% da Neomille, aporte na Braskem), o BTG vê risco para o retorno ao acionista e o ADR (PBR) cai 0,32% às 7h43. A favor da alta: dividendos extraordinários de R$ 15,6 bi (R$ 1,21 por ação, cerca de 2,9% sobre R$ 41,32; data-com em 7/12, pagamento em 23/12). O papel já caiu 3,21% ontem com o Brent −3,46%.",
+   "gatilho": "Coletiva às 13h30 e webcast com analistas às 16h",
+   "fonte": "Money Times 24/11 7h00 e 8h11; Times Brasil/CNBC 23/11 19h47; Canal Rural 23/11 20h27; CNN Brasil 23/11 19h59; NC News 24/11 7h20",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Dividendo extraordinário e capex maior puxam em sentidos opostos e a queda de ontem já embutiu parte da notícia."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "PETR3",
+   "empresa": "Petrobras ON",
+   "chance": 53,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Mesma notícia da PETR4: plano 2027-2031 com capex de US$ 122 bi, Citi predominantemente negativo, BTG vendo risco ao retorno do acionista e PBR em −0,32% às 7h43. Os dividendos extraordinários de R$ 1,21 por ação valem igual para as duas classes (cerca de 2,6% sobre R$ 46,99). A ON caiu 3,31% ontem. Chance pouco acima de 50%: o dividendo sustenta o papel e a queda de ontem já embutiu parte da notícia.",
+   "gatilho": "Coletiva às 13h30 e webcast com analistas às 16h",
+   "fonte": "Money Times 24/11 7h00 e 8h11; Times Brasil/CNBC 23/11 19h47; CNN Brasil 23/11 19h59; AVNews 23/11 19h33",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Mesmo dilema da PETR4: dividendo extraordinário contra capex maior, com a queda de ontem já no preço."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "VALE3",
+   "empresa": "Vale",
+   "chance": 56,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O minério fechou em alta de 1,00% em Dalian (658,50 iuanes, InfoMoney 5h43), a Ásia sobe forte (Nikkei +3,9%, Kospi +6,3%) e o dólar perto de R$ 5,93 ajuda exportadoras. A Vale perdeu só 0,12% ontem (R$ 58,41) com o Ibovespa em −0,95%. O Money Times traz a manchete de que a Vale retomou parcialmente a Mina de Viga (MG), que não consegui abrir. Contra: futuros de Nova York negativos hoje, minério em Singapura e ADR da Vale não encontrados, e a Vale é uma das maiores ações do índice, sujeita ao humor geral.",
+   "gatilho": "Abertura da B3 às 10h e dólar depois das 9h; invalida se o dólar cair forte e o minério devolver a alta",
+   "fonte": "InfoMoney e Brasil em Folhas 24/11 (minério em Dalian e Ásia); DGABC 23/11 18h35; Investidor Institucional 23/11",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "Madrugada",
+   "evento": "Ásia sobe forte (Nikkei +3,91%, Kospi +6,32%, Taiex +9%), com Hang Seng −0,73% e Xangai +0,27%; Europa perto da estabilidade",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "06h00",
+   "evento": "Ifo da Alemanha (clima de negócios, novembro); resultado não encontrado",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "08h00",
+   "evento": "Confiança do consumidor da FGV (novembro; anterior 84,7; consenso n/d); resultado não encontrado",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "09h00",
+   "evento": "Futuros do Ibovespa e juros futuros começam a negociar",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "09h30",
+   "evento": "Galípolo (BC) no Comef, fechado à imprensa",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h00",
+   "evento": "Abertura da B3, depois de três quedas seguidas e do menor fechamento desde janeiro",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h00",
+   "evento": "Arrecadação federal de outubro (Receita Federal; consenso n/d)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h30",
+   "evento": "Abertura de Nova York; antes da abertura saem os balanços de Best Buy, Medtronic e Dick's",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "12h00",
+   "evento": "Confiança do consumidor dos EUA (Conference Board, novembro): consenso 92,7, anterior 91,7",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Durante o dia",
+   "evento": "Governo divulga o relatório bimestral de receitas e despesas (contingenciamento); hora não encontrada; na avaliação de setembro o total foi de R$ 16,1 bi",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "13h30",
+   "evento": "Coletiva da Petrobras sobre o Plano de Negócios 2027-2031 (Rio de Janeiro)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "15h00",
+   "evento": "Lula reúne a equipe econômica para avaliar os efeitos do ajuste e novas medidas (Metrópoles; o Money Times lista a ministra Miriam Belchior no mesmo horário)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "16h00",
+   "evento": "Webcast da Petrobras para analistas e investidores",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "17h30",
+   "evento": "Durigan (Fazenda) com a ministra Esther Dweck (Gestão)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "17h55",
+   "evento": "Fechamento da B3",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Após o fechamento",
+   "evento": "Dell divulga resultado nos EUA (HPE saiu ontem depois do fechamento; números não lidos)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "20h50",
+   "evento": "Japão: índice de preços de serviços corporativos (outubro)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Amanhã, 25/11, 10h30",
+   "evento": "EUA: PCE de outubro e segunda estimativa do PIB do 3º trimestre; Livro Bege às 16h (consenso n/d); quinta-feira 26/11 é feriado nos EUA e o IPCA-15 sai às 9h",
+   "destaque": "sim",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou desde 23/11",
+   "texto": "Ontem: Alta 18%, Lateral 26%, Queda 56%; a Queda acertou (Ibovespa −0,95%, 164.796 pts, o menor fechamento desde janeiro) e 6 de 12 previsões de papéis acertaram (ASAI3 e ANTH34 ficaram sem dado). Hoje: Alta 30%, Lateral 32%, Queda 38%. A Queda perde 18 pontos porque o fator que a sustentava (a queda de sexta em Nova York com a B3 fechada) já foi absorvido, o ajuste fiscal foi aprovado na Câmara por 353 a 128 e Wall Street subiu forte ontem (S&P 500 +4,74%). Sinais de ontem: o dólar tocou R$ 6,0055 e fechou em R$ 5,9262, a Petrobras caiu 3,21% e o plano saiu depois do fechamento, como previsto. Falhou a lista de BDRs em queda: NVDC34 subiu 11,85% e BRKM5 subiu entre 11,5% e 11,9%. Os futuros de Nova York, que ontem apontavam alta de 2,6% a 3,4%, hoje amanheceram negativos."
+  },
+  {
+   "topico": "Riscos do dia e o que mais surpreenderia",
+   "texto": "Riscos: dólar acima de R$ 6,00; DIs longos em alta quando o mercado de juros abrir às 9h; contingenciamento bem acima dos R$ 16,1 bi de setembro; revisão de capex e dividendos na coletiva (13h30) e no webcast (16h) da Petrobras; Nasdaq devolvendo a alta de ontem; PCE e PIB dos EUA amanhã (10h30) e risco de alta de juros do Fed. Surpreenderia: Ibovespa fechando acima de 166.400 pts (cerca de +1%) com o dólar acima de R$ 5,97, ou abaixo de 163.000 pts (cerca de −1,1%) com Nova York em alta e o dólar abaixo de R$ 5,90."
+  },
+  {
+   "topico": "Argumento mais forte contra a Queda",
+   "texto": "O Ibovespa fechou ontem 0,95% mais baixo com Wall Street subindo 4,7% (descolamento de 5,7 pontos), no menor nível desde janeiro e depois de três quedas seguidas. A aprovação do ajuste por 353 votos remove o risco de adiamento (o relator disse que 'o mercado está esperando essa aprovação'), a Petrobras anunciou R$ 15,6 bi em dividendos extraordinários e o minério subiu 1% em Dalian: o mercado pode comprar o fato e recuperar parte do atraso. Contra esse argumento: a Convexa vê o ajuste como pequeno e do lado da receita, o contingenciamento sai hoje e os futuros de Nova York amanheceram negativos."
+  },
+  {
+   "topico": "Calibragem e vieses",
+   "texto": "Ontem acertei a faixa do Ibovespa (56% para a Queda), mas errei as maiores apostas de papéis: NVDC34 (84% de queda) subiu 11,85% e BRKM5 (65%) subiu cerca de 11,5%. Ancoragem: ontem projetei a abertura pela queda de sexta (conta do EWZ) sem ter o futuro do Ibovespa; hoje repito a lacuna, porque futuro e DI só abrem às 9h, e por isso a distribuição fica mais plana (38/32/30). Viés de recência: três quedas seguidas podem levar a tratar a próxima como certa. Viés de confirmação: quem espera dólar a R$ 6 tende a dar peso demais à máxima de ontem, e o dólar fechou em queda (−0,14%)."
+  },
+  {
+   "topico": "Por que as listas são curtas",
+   "texto": "Só 5 papéis na queda e 1 na subida, todos com notícia concreta: Nvidia (pré-mercado), Braskem (acordo), Banco do Brasil (Ativa), Petrobras (plano e dividendos) e Vale (minério). Não encontrei balanço brasileiro divulgado depois do fechamento de ontem (o InfoMoney cita HPE e Dell nos EUA; Paranapanema adiou o 3T26 para 27/11). Saíram das listas de ontem MUTC34, A1MD34, AVGO34, ORCL34, TSLA34, M1TA34, CSNA3, ANTH34, ASAI3, MBRF3 e RADL3 por falta de dado novo (não achei o pré-mercado dessas ações em Nova York nem recomendações novas); HAPV3 (−5,84% ontem, reavaliação de portfólio) também ficou de fora sem direção clara. Não completei com palpites."
+  },
+  {
+   "topico": "Lacunas e divergências de fontes",
+   "texto": "Não encontrei: futuro do Ibovespa, DI futuro e dólar de hoje (abrem às 9h; os widgets das páginas mostravam R$ 0,00), DI de 23/11 por vértice (só o de 19/11), Treasury de 10 anos, DXY de hoje, EWZ de hoje (o Money Times traz US$ 28,92, −1,09% sem hora e sem coerência com os US$ 28,54 de 20/11), pré-mercado de VALE, ITUB e outras ADRs (só PBR), fechamento oficial da Nvidia (US$ 164,38 foi da 15h42), status da SEC, resultado do Ifo e da confiança da FGV, consenso da maioria dos indicadores, hora do contingenciamento e fala de Williams (Fed) de ontem. Divergências: futuros de NY (InfoMoney 5h43 +0,16% contra TipRanks 7h50 −1,21% no Nasdaq-100); impacto do ajuste (R$ 45,1 a 56,1 bi; Planalto até R$ 70 bi); destaques da votação (rejeitados segundo Mixvale e Gazeta; pendentes às 22h33 segundo Exame e InfoMoney); BRKM5 R$ 2,90 (rotina de fechamento) contra R$ 2,91 (Money Times e lista da B3); BBAS3 R$ 14,27 às 17h58 (−0,21%) contra queda oficial de 0,7% a 0,8%, por isso o preço ficou vazio; Ibovespa 164.796 (três fontes) contra 165.026 (Gazeta, parcial). Preços em reais: 5 de 6 papéis com fechamento anterior; a brapi.dev e o Google Finance ficaram bloqueados nesta execução por falta de permissão, e a escala 6x1 saiu do radar por falta de novidade encontrada."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "ajuste-fiscal",
+   "titulo": "Câmara aprova o ajuste fiscal por 353 a 128; texto vai à sanção e o governo promete novas medidas",
+   "status": "Confirmado",
+   "quando": "Segunda, 23/11, à noite; contingenciamento e reunião com a equipe econômica hoje",
+   "resumo": "O PLP 299/2026 foi aprovado sem mudanças em relação ao Senado (353 a 128, 5 abstenções; urgência por 318 a 135). Limita o crescimento real da despesa a 2% nos anos de contingenciamento, eleva o corte linear de benefícios tributários de 10% para 20% e permite limitar compensações cruzadas de créditos. O impacto em 2027 vai de R$ 45,1 a R$ 56,1 bi (Planalto cita até R$ 70 bi). Durigan quer enviar novas medidas ao Congresso em até duas semanas; hoje sai o contingenciamento. A Convexa vê o ajuste como pequeno e do lado da receita.",
+   "impacto": "Remove o risco de adiamento que pesava sobre o dólar e os DIs, mas o mercado pede corte de despesa. Dólar perto de R$ 6 e juros altos seguem no centro; empresas com créditos tributários na Justiça podem pagar mais em caixa.",
+   "fonte": "Exame 23/11 22h33; InfoMoney 23/11 22h35; Mixvale 24/11 6h37; Metrópoles 24/11 7h59; PAIPEE 24/11",
+   "link": "https://exame.com/brasil/camara-aprova-pacote-de-ajuste-fiscal-do-governo-lula-texto-vai-a-sancao-presidencial/"
+  },
+  {
+   "id": "petrobras-plano",
+   "titulo": "Petrobras: plano de US$ 122 bi até 2031 e R$ 15,6 bi em dividendos extraordinários",
+   "status": "Confirmado",
+   "quando": "Segunda, 23/11, depois do fechamento; coletiva hoje 13h30 e webcast 16h",
+   "resumo": "Capex de US$ 122 bi em 2027-2031 (US$ 109 bi no plano anterior), com mais de 70% em exploração e produção, produção de 3,2 milhões de boe/d, dívida bruta limitada a US$ 75 bi e Brent de US$ 74 (2027) e US$ 70 (2028 a 2031). Dividendos extraordinários de R$ 15,6 bi (R$ 1,21 por ação ON e PN; data-com 7/12, pagamento 23/12), que serão descontados da remuneração de 2026 a aprovar em 2027. O Citi vê o plano como predominantemente negativo e o PBR cai 0,32% no pré-mercado.",
+   "impacto": "PETR3 e PETR4 pesam muito no Ibovespa; a União, maior acionista, recebe boa parte do dividendo, o que ajuda o caixa do governo. Capex alto pode pressionar o retorno ao acionista nos próximos anos.",
+   "fonte": "Times Brasil/CNBC 23/11 19h47; Canal Rural 23/11 20h27; CNN Brasil 23/11 19h59; Money Times 24/11 7h00 e 8h11",
+   "link": "https://timesbrasil.com.br/brasil/petrobras-aprova-plano-de-us-122-bilhoes-ate-2031-e-promete-producao-recorde-de-32-milhoes-de-barris/"
+  },
+  {
+   "id": "braskem-acordo",
+   "titulo": "Braskem fecha acordo preliminar de US$ 4,9 bi com credores; diluição ainda não divulgada",
+   "status": "Em andamento",
+   "quando": "Segunda, 23/11 (fato relevante à noite); plano atualizado à Justiça nas próximas semanas",
+   "resumo": "Aporte de US$ 1,3 bi da Petrobras e conversão de US$ 3,6 bi de dívida em ações; dívida remanescente em torno de US$ 7 bi, com carência até 2028. Petrobras e IG4 mantêm o controle e os credores ficam sem voto. A Braskem pediu prorrogação de 20 dias úteis para apresentar o plano; preço de emissão e diluição não foram divulgados. A ação subiu 11,92% ontem.",
+   "impacto": "Reduz o risco de recuperação judicial, mas a diluição pode ser grande; Petrobras segue exposta como acionista de referência e com novo aporte.",
+   "fonte": "Money Times/Reuters 24/11 6h36; DGABC 23/11 16h; Melhor Investimento 23/11 12h48",
+   "link": "https://www.moneytimes.com.br/braskem-brkm5-anuncia-acordo-preliminar-com-credores-sobre-plano-de-reestruturacao-fets/"
+  },
+  {
+   "id": "wall-street-ia",
+   "titulo": "Wall Street dispara com a volta de Huang à Nvidia, mas os futuros de hoje amanhecem negativos",
+   "status": "Em andamento",
+   "quando": "Segunda, 23/11 (fechamento); futuros hoje 7h50",
+   "resumo": "S&P 500 +4,74%, Nasdaq +6,51% e Dow +3,01% ontem, a maior alta do S&P 500 e do Nasdaq desde 9/4/2025; a Nvidia subiu cerca de 31% depois de o conselho reconduzir Jensen Huang, e o setor de tecnologia do S&P 500 subiu 9%. Hoje a Nvidia cai mais de 3% no pré-mercado e os futuros estão em −0,4% a −0,5% (S&P 500) e −1,0% a −1,2% (Nasdaq). A investigação independente (Wachtell) continua e o Tesouro (Bessent) diz que o conselho ainda apura o caso dos chips para a China.",
+   "impacto": "BDRs de tecnologia seguem o Nasdaq e o dólar; a volatilidade extrema (−14% na sexta, +31% na segunda) pede cautela com leituras de um dia.",
+   "fonte": "Forbes Brasil 24/11 7h54; TipRanks 24/11 7h52; Investidor Institucional 23/11; FinanceFeeds 23/11",
+   "link": "https://forbes.com.br/forbes-money/2026/11/pre-mercado-recuo-nas-cotacoes-apos-rali-pela-volta-de-huang-a-nvidia/"
+  },
+  {
+   "id": "dolar-juros",
+   "titulo": "Dólar tocou R$ 6,0055 e fechou a R$ 5,9262; DIs altos, Focus piora e vagas no BC seguem abertas",
+   "status": "Em andamento",
+   "quando": "Fechamento de 23/11 e manhã de hoje",
+   "resumo": "O dólar à vista bateu R$ 6,0055 na segunda (primeira vez acima de R$ 6 desde abril de 2025) e fechou em R$ 5,9262 (−0,14%); o DXY estava em 104,33. O Focus de 23/11 subiu o IPCA de 2026 para 5,15% e o de 2027 para 5,12%, e a Selic de 2027 para 13,00%. Galípolo disse ontem que o cenário é mais desafiador para emergentes e que 'a função de reação do BC não mudou'. O governo deve indicar nomes para as vagas de diretoria do BC e do STF até meados da semana.",
+   "impacto": "Dólar alto e juros longos acima de 15% pesam sobre ações domésticas e FIIs; ajudam exportadoras. A indicação ao BC pode mexer com a curva.",
+   "fonte": "Gazeta Brasil e Campo Grande News 23/11; InfoMoney 23/11 9h33 (blog); Investidor Institucional 23/11; InfoMoney 24/11 6h14; PAIPEE 24/11 5h58",
+   "link": "https://br.paipee.com/2026/11/24/ajuste-fiscal-e-aprovado-mas-dolar-deve-seguir-em-alta/"
+  },
+  {
+   "id": "fed-pce",
+   "titulo": "EUA: PCE e PIB do 3º trimestre amanhã e risco de alta de juros do Fed em dezembro",
+   "status": "Expectativa de mercado",
+   "quando": "Quarta, 25/11, 10h30; Livro Bege 16h; Fomc em 8 e 9/12",
+   "resumo": "O PCE de outubro e a segunda estimativa do PIB saem amanhã às 10h30, com o Livro Bege às 16h; o consenso não foi encontrado. O PAIPEE e o investinglive (18/11, ata do Fed e Waller) apontam maior chance de alta de juros nos EUA. Quinta-feira 26/11 é feriado nos EUA, com sessão curta na sexta.",
+   "impacto": "Dado de inflação acima do esperado reforça o dólar global e pressiona emergentes e os juros longos brasileiros.",
+   "fonte": "BPMoney 22/11; AVNews 22/11; InfoMoney 24/11 6h14; PAIPEE 24/11; investinglive 18/11",
+   "link": "https://bpmoney.com.br/economia/agenda-da-semana-ipca-15-desemprego-no-brasil-e-inflacao-dos-eua-movimentam-mercados/"
+  },
+  {
+   "id": "ira-ormuz",
+   "titulo": "Irã e Ormuz: petróleo perto da mínima de três meses, com relato de petroleiros em chamas",
+   "status": "Não confirmado",
+   "quando": "Madrugada de hoje; Brent fechou a US$ 89,37 ontem (−3,46%)",
+   "resumo": "O TipRanks cita a Press TV, segundo a qual três petroleiros pegaram fogo depois de minas no Estreito de Ormuz; não encontrei confirmação em outra fonte. O Brent está em US$ 88,7 a US$ 89,1 (Money Times e InfoMoney), perto da mínima de três meses (Forbes e TipRanks), depois de oferta no Oriente Médio e retomada de oleoduto na Líbia pesarem ontem (CGN).",
+   "impacto": "Petróleo mais baixo pesa em Petrobras, Prio e Brava; uma escalada em Ormuz inverteria o sinal.",
+   "fonte": "TipRanks 24/11 7h52; Forbes Brasil 24/11 7h54; Money Times 24/11 7h00; Campo Grande News 23/11",
+   "link": "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia"
+  }
+ ],
+ "fechamento": []
+}

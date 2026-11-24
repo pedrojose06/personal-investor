@@ -1,72 +1,72 @@
 [
  {
-  "id": "wall-street-ia",
-  "titulo": "Wall Street desaba na sexta com a venda de ações de IA; futuros recuperam hoje",
+  "id": "ajuste-fiscal",
+  "titulo": "Câmara aprova o ajuste fiscal por 353 a 128; texto vai à sanção e o governo promete novas medidas",
   "status": "Confirmado",
-  "quando": "Sexta, 20/11 (fechamento às 18h); futuros hoje às 7h13",
-  "resumo": "S&P 500 −3,70% (6.910,39), Dow −1,93% (48.147,33) e Nasdaq Composite −5,28% (22.617,73; a Exame traz −5,61%, que é o Nasdaq-100). A Nvidia caiu 14,01% (US$ 125,53, sétima queda seguida) depois de a Reuters noticiar que a SEC examina possíveis problemas contábeis; a Broadcom caiu 12,19% com um relato não confirmado de corte de encomendas do Google; semicondutores −10,7%; VIX a 35,89. Hoje os futuros sobem (Nasdaq +3,40%, S&P 500 +2,62%, Dow +1,82%).",
-  "impacto": "A B3 não negociou na sexta: o EWZ caiu 3,29% e os BDRs de tecnologia vão refletir a queda na abertura de hoje. Risco de contágio para emergentes e para o dólar; a recuperação dos futuros pode reduzir o tombo, mas não o apaga.",
-  "fonte": "Exame 23/11 5h00; Yahoo Finance (Motley Fool) 20/11; Reuters via Terra 20/11 19h30; Money Times 23/11 7h13",
-  "link": "https://exame.com/invest/mercados/ibovespa-hoje-23-11-2026/"
- },
- {
-  "id": "pacote-fiscal",
-  "titulo": "Câmara vota o ajuste fiscal hoje às 18h, depois do fechamento",
-  "status": "Em andamento",
-  "quando": "Sessão extraordinária às 18h; a votação pode passar para terça, 24/11",
-  "resumo": "PLP 299/2026 (Plano Moretti), aprovado no Senado por 69 a 2 em 18/11. O relator Mauro Benevides Filho (União-CE) mantém o texto do Senado para não voltar à outra Casa. Primeiro vem o requerimento de urgência, do líder do governo, Paulo Pimenta; o mérito pede 257 votos. Economia estimada de R$ 45 bi a R$ 56 bi (as fontes divergem), cerca de dois terços de receita e voltada a 2027. Resistências: CNI, Fiesp, entidades de comércio e serviços, oposição (compensação de créditos) e parte da esquerda. Nenhuma fonte traz previsão explícita de aprovação.",
-  "impacto": "Como a votação ocorre depois das 17h55, o mercado opera hoje na expectativa. Aprovação sem mudanças tende a aliviar dólar e juros amanhã; alteração do texto devolve a proposta ao Senado.",
-  "fonte": "Revista Fórum 23/11 5h48; Times Brasil 23/11; Exame 23/11 5h00; Gazeta do Povo 19/11",
-  "link": "https://timesbrasil.com.br/brasil/economia-brasileira/camara-abre-semana-decisiva-para-ajuste-fiscal/"
- },
- {
-  "id": "dolar-juros",
-  "titulo": "Dólar perto de R$ 6 e juros futuros em alta antes da abertura",
-  "status": "Confirmado",
-  "quando": "Fechamento de 19/11 e manhã de hoje",
-  "resumo": "O dólar à vista fechou a R$ 5,9323 em 19/11 (+1,10%, sexta alta seguida, maior valor desde abril de 2025) mesmo com a venda de US$ 1 bi à vista pelo BC; hoje está em R$ 5,9609 (+0,20%, 6h38). O real foi a pior moeda emergente da semana (−4,71%). O DI jan/28 fechou a 14,850% e o jan/31 a 15,420%, e o mercado dá 76% de chance de alta de 0,25 ponto no Copom de dezembro. CDS de 5 anos em 164 pb. Itaú BBA e BTG rebaixaram o Brasil; a Fazenda segue sem definição (a CNN Brasil diz que Moretti é avaliado).",
-  "impacto": "Dólar perto de R$ 6 e juros longos acima de 15% pesam em construtoras, varejo e empresas endividadas em dólar; ajudam exportadoras. O Focus de hoje (8h25) não foi encontrado; o de 16/11 trazia Selic de 13,75% em 2026 e 12,75% em 2027, bem abaixo da curva de juros.",
-  "fonte": "Genial 23/11 6h21; Estadão/Broadcast via DGABC 19/11 18h34; Times Brasil 23/11 6h48; Seu Dinheiro 19/11 10h18; CNN Brasil 18/11 22h05",
-  "link": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/expresso-bolsa-semanal-ajuste-fiscal-fed-dolar-juros/"
+  "quando": "Segunda, 23/11, à noite; contingenciamento e reunião com a equipe econômica hoje",
+  "resumo": "O PLP 299/2026 foi aprovado sem mudanças em relação ao Senado (353 a 128, 5 abstenções; urgência por 318 a 135). Limita o crescimento real da despesa a 2% nos anos de contingenciamento, eleva o corte linear de benefícios tributários de 10% para 20% e permite limitar compensações cruzadas de créditos. O impacto em 2027 vai de R$ 45,1 a R$ 56,1 bi (Planalto cita até R$ 70 bi). Durigan quer enviar novas medidas ao Congresso em até duas semanas; hoje sai o contingenciamento. A Convexa vê o ajuste como pequeno e do lado da receita.",
+  "impacto": "Remove o risco de adiamento que pesava sobre o dólar e os DIs, mas o mercado pede corte de despesa. Dólar perto de R$ 6 e juros altos seguem no centro; empresas com créditos tributários na Justiça podem pagar mais em caixa.",
+  "fonte": "Exame 23/11 22h33; InfoMoney 23/11 22h35; Mixvale 24/11 6h37; Metrópoles 24/11 7h59; PAIPEE 24/11",
+  "link": "https://exame.com/brasil/camara-aprova-pacote-de-ajuste-fiscal-do-governo-lula-texto-vai-a-sancao-presidencial/"
  },
  {
   "id": "petrobras-plano",
-  "titulo": "Petrobras divulga o Plano de Negócios 2027-2031 depois do fechamento",
-  "status": "Expectativa de mercado",
-  "quando": "Hoje, após o fechamento; coletiva amanhã, 24/11 (13h30 segundo a Eixos; a CNN Brasil não traz hora)",
-  "resumo": "O conselho deve aprovar capex de US$ 115 bi a US$ 120 bi, contra US$ 109 bi no plano atual (Estadão), com foco em autossuficiência em diesel e Margem Equatorial. O BTG espera mais capex e leasing, o que limita dividendos extraordinários; o Goldman mantém compra (alvo de R$ 60,80 na ON) e o Citi cortou o alvo de R$ 56 para R$ 48. O 3T26 (10/11) teve lucro de R$ 39,75 bi (+21,5%), abaixo dos R$ 47,02 bi esperados. JCP de R$ 0,6741 por ação é pago hoje.",
-  "impacto": "A notícia sai depois do fechamento, então a reação fica para terça e PETR3 e PETR4 não entraram nas listas. Risco: capex maior com dividendos menores frustrar a expectativa que já existe.",
-  "fonte": "Exame 23/11 5h00; CNN Brasil 23/11 7h56; Eixos 23/11; InfoMoney 11/11 7h47; Ativo Virtual 23/11 7h45",
-  "link": "https://www.cnnbrasil.com.br/infra/petrobras-deve-anunciar-investimentos-de-ate-us-115-bi-nos-proximos-5-anos/"
+  "titulo": "Petrobras: plano de US$ 122 bi até 2031 e R$ 15,6 bi em dividendos extraordinários",
+  "status": "Confirmado",
+  "quando": "Segunda, 23/11, depois do fechamento; coletiva hoje 13h30 e webcast 16h",
+  "resumo": "Capex de US$ 122 bi em 2027-2031 (US$ 109 bi no plano anterior), com mais de 70% em exploração e produção, produção de 3,2 milhões de boe/d, dívida bruta limitada a US$ 75 bi e Brent de US$ 74 (2027) e US$ 70 (2028 a 2031). Dividendos extraordinários de R$ 15,6 bi (R$ 1,21 por ação ON e PN; data-com 7/12, pagamento 23/12), que serão descontados da remuneração de 2026 a aprovar em 2027. O Citi vê o plano como predominantemente negativo e o PBR cai 0,32% no pré-mercado.",
+  "impacto": "PETR3 e PETR4 pesam muito no Ibovespa; a União, maior acionista, recebe boa parte do dividendo, o que ajuda o caixa do governo. Capex alto pode pressionar o retorno ao acionista nos próximos anos.",
+  "fonte": "Times Brasil/CNBC 23/11 19h47; Canal Rural 23/11 20h27; CNN Brasil 23/11 19h59; Money Times 24/11 7h00 e 8h11",
+  "link": "https://timesbrasil.com.br/brasil/petrobras-aprova-plano-de-us-122-bilhoes-ate-2031-e-promete-producao-recorde-de-32-milhoes-de-barris/"
  },
  {
-  "id": "fed",
-  "titulo": "Fed: Williams fala às 18h; mercado vê alta de 0,25 ponto em dezembro",
+  "id": "braskem-acordo",
+  "titulo": "Braskem fecha acordo preliminar de US$ 4,9 bi com credores; diluição ainda não divulgada",
   "status": "Em andamento",
-  "quando": "Williams hoje às 18h; PCE na quarta (25/11); Fomc em 8 e 9/12",
-  "resumo": "Os fed funds estão em 3,75% a 4,00%. A chance de alta de 0,25 ponto em 9/12 vai de cerca de 89% (contratos de fed funds, Reuters) a cerca de 98% (Saxo); a Reuters descarta alta de 0,50 ponto. Williams rejeitou 0,50 ponto em 17/11. O PCE de outubro sai na quarta às 10h30, com núcleo esperado em +0,3% no mês. O Treasury de 10 anos está a 4,96% (5h51) depois de 4,91% a 4,94% na sexta.",
-  "impacto": "Juros americanos altos e DXY perto de 103,9 limitam a recuperação de emergentes e do real; um PCE de 0,4% reabriria o debate de 0,50 ponto.",
-  "fonte": "Reuters via Global Banking & Finance 22/11 20h43; Stocktwits 17/11; Reuters via Beinsure 23/11 5h51",
-  "link": "https://www.globalbankingandfinance.com/dollar-edges-off-19-month-high-market-rout-yen-softens/"
+  "quando": "Segunda, 23/11 (fato relevante à noite); plano atualizado à Justiça nas próximas semanas",
+  "resumo": "Aporte de US$ 1,3 bi da Petrobras e conversão de US$ 3,6 bi de dívida em ações; dívida remanescente em torno de US$ 7 bi, com carência até 2028. Petrobras e IG4 mantêm o controle e os credores ficam sem voto. A Braskem pediu prorrogação de 20 dias úteis para apresentar o plano; preço de emissão e diluição não foram divulgados. A ação subiu 11,92% ontem.",
+  "impacto": "Reduz o risco de recuperação judicial, mas a diluição pode ser grande; Petrobras segue exposta como acionista de referência e com novo aporte.",
+  "fonte": "Money Times/Reuters 24/11 6h36; DGABC 23/11 16h; Melhor Investimento 23/11 12h48",
+  "link": "https://www.moneytimes.com.br/braskem-brkm5-anuncia-acordo-preliminar-com-credores-sobre-plano-de-reestruturacao-fets/"
+ },
+ {
+  "id": "wall-street-ia",
+  "titulo": "Wall Street dispara com a volta de Huang à Nvidia, mas os futuros de hoje amanhecem negativos",
+  "status": "Em andamento",
+  "quando": "Segunda, 23/11 (fechamento); futuros hoje 7h50",
+  "resumo": "S&P 500 +4,74%, Nasdaq +6,51% e Dow +3,01% ontem, a maior alta do S&P 500 e do Nasdaq desde 9/4/2025; a Nvidia subiu cerca de 31% depois de o conselho reconduzir Jensen Huang, e o setor de tecnologia do S&P 500 subiu 9%. Hoje a Nvidia cai mais de 3% no pré-mercado e os futuros estão em −0,4% a −0,5% (S&P 500) e −1,0% a −1,2% (Nasdaq). A investigação independente (Wachtell) continua e o Tesouro (Bessent) diz que o conselho ainda apura o caso dos chips para a China.",
+  "impacto": "BDRs de tecnologia seguem o Nasdaq e o dólar; a volatilidade extrema (−14% na sexta, +31% na segunda) pede cautela com leituras de um dia.",
+  "fonte": "Forbes Brasil 24/11 7h54; TipRanks 24/11 7h52; Investidor Institucional 23/11; FinanceFeeds 23/11",
+  "link": "https://forbes.com.br/forbes-money/2026/11/pre-mercado-recuo-nas-cotacoes-apos-rali-pela-volta-de-huang-a-nvidia/"
+ },
+ {
+  "id": "dolar-juros",
+  "titulo": "Dólar tocou R$ 6,0055 e fechou a R$ 5,9262; DIs altos, Focus piora e vagas no BC seguem abertas",
+  "status": "Em andamento",
+  "quando": "Fechamento de 23/11 e manhã de hoje",
+  "resumo": "O dólar à vista bateu R$ 6,0055 na segunda (primeira vez acima de R$ 6 desde abril de 2025) e fechou em R$ 5,9262 (−0,14%); o DXY estava em 104,33. O Focus de 23/11 subiu o IPCA de 2026 para 5,15% e o de 2027 para 5,12%, e a Selic de 2027 para 13,00%. Galípolo disse ontem que o cenário é mais desafiador para emergentes e que 'a função de reação do BC não mudou'. O governo deve indicar nomes para as vagas de diretoria do BC e do STF até meados da semana.",
+  "impacto": "Dólar alto e juros longos acima de 15% pesam sobre ações domésticas e FIIs; ajudam exportadoras. A indicação ao BC pode mexer com a curva.",
+  "fonte": "Gazeta Brasil e Campo Grande News 23/11; InfoMoney 23/11 9h33 (blog); Investidor Institucional 23/11; InfoMoney 24/11 6h14; PAIPEE 24/11 5h58",
+  "link": "https://br.paipee.com/2026/11/24/ajuste-fiscal-e-aprovado-mas-dolar-deve-seguir-em-alta/"
+ },
+ {
+  "id": "fed-pce",
+  "titulo": "EUA: PCE e PIB do 3º trimestre amanhã e risco de alta de juros do Fed em dezembro",
+  "status": "Expectativa de mercado",
+  "quando": "Quarta, 25/11, 10h30; Livro Bege 16h; Fomc em 8 e 9/12",
+  "resumo": "O PCE de outubro e a segunda estimativa do PIB saem amanhã às 10h30, com o Livro Bege às 16h; o consenso não foi encontrado. O PAIPEE e o investinglive (18/11, ata do Fed e Waller) apontam maior chance de alta de juros nos EUA. Quinta-feira 26/11 é feriado nos EUA, com sessão curta na sexta.",
+  "impacto": "Dado de inflação acima do esperado reforça o dólar global e pressiona emergentes e os juros longos brasileiros.",
+  "fonte": "BPMoney 22/11; AVNews 22/11; InfoMoney 24/11 6h14; PAIPEE 24/11; investinglive 18/11",
+  "link": "https://bpmoney.com.br/economia/agenda-da-semana-ipca-15-desemprego-no-brasil-e-inflacao-dos-eua-movimentam-mercados/"
  },
  {
   "id": "ira-ormuz",
-  "titulo": "Irã e Ormuz: petroleiros atingidos no fim de semana, Brent perto de US$ 92",
-  "status": "Em andamento",
-  "quando": "Sábado 21 e domingo 22/11",
-  "resumo": "O bloqueio dos EUA aos portos iranianos completa 130 dias. Em 21/11 dois petroleiros foram atingidos perto de Khasab (Omã); em 22/11 Trump disse que navios iranianos que testarem o bloqueio 'irão para o fundo do mar' e Teerã ameaçou a infraestrutura de energia do Golfo. O Brent está a US$ 91,73 (−0,91%, 7h13), com excedente de cerca de 2 milhões de barris por dia no 4T segundo a AIE. O prazo para retomada de ataques diverge: depois do Ano Novo ou já na próxima semana.",
-  "impacto": "A tensão limita a queda do Brent e o excesso de oferta limita a alta; direção neutra para PETR4 e PRIO3 hoje.",
-  "fonte": "Al Jazeera 21/11; Gulf News 22/11; Money Times 23/11 7h13",
-  "link": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
- },
- {
-  "id": "escala-6x1",
-  "titulo": "Decreto da escala 6x1 vale a partir de 16/12; portaria do Trabalho sai hoje",
-  "status": "Em andamento",
-  "quando": "Decreto assinado em 19/11; portaria a partir de hoje; ação de CNI e CNC no STF",
-  "resumo": "Lula assinou o decreto em 19/11: jornada de 44h para 42h com vigência em 16/12 e 40h em dezembro de 2027. CNI e CNC foram ao STF. O Ministério do Trabalho publica hoje a portaria com as orientações. Nenhuma varejista listada divulgou estimativa de custo.",
-  "impacto": "Pressão de custo em varejo, farmácias e supermercados (AZZA3, LREN3, RADL3, ASAI3); o tamanho depende da portaria e do STF.",
-  "fonte": "TV Sim 20/11; Jornal Cruzeiro 21/11 14h05; Seu Dinheiro 18/11",
-  "link": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/20/decreto-escala-6x1-36-milhoes-acao-stf"
+  "titulo": "Irã e Ormuz: petróleo perto da mínima de três meses, com relato de petroleiros em chamas",
+  "status": "Não confirmado",
+  "quando": "Madrugada de hoje; Brent fechou a US$ 89,37 ontem (−3,46%)",
+  "resumo": "O TipRanks cita a Press TV, segundo a qual três petroleiros pegaram fogo depois de minas no Estreito de Ormuz; não encontrei confirmação em outra fonte. O Brent está em US$ 88,7 a US$ 89,1 (Money Times e InfoMoney), perto da mínima de três meses (Forbes e TipRanks), depois de oferta no Oriente Médio e retomada de oleoduto na Líbia pesarem ontem (CGN).",
+  "impacto": "Petróleo mais baixo pesa em Petrobras, Prio e Brava; uma escalada em Ormuz inverteria o sinal.",
+  "fonte": "TipRanks 24/11 7h52; Forbes Brasil 24/11 7h54; Money Times 24/11 7h00; Campo Grande News 23/11",
+  "link": "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia"
  }
 ]
