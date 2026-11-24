@@ -2,75 +2,51 @@
  {
   "tipo": "resumo",
   "status": "Publicado",
-  "data": "23/11/2026",
-  "hora": "19h14",
-  "ibov": "164.796 pts",
-  "ibov_var": "−0,95%",
-  "dolar": "R$ 5,93",
-  "dolar_var": "−0,15%",
-  "acertos": "6 de 12",
-  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 13,60 → R$ 14,69 (+R$ 1,09; +8,01%), 1 de 3 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 1.293,15 → R$ 1.367,58 (−R$ 74,43; −5,76%), 8 de 10 papéis com preço · Total: −R$ 73,34 (−5,61% sobre R$ 1.306,75); sem custos, aluguel nem IR",
-  "texto": "O Ibovespa caiu 0,95% e fechou a 164.796,05 pontos (máxima de 166.373,68, mínima de 164.129,33), no primeiro pregão desde 19/11, e o dólar à vista recuou 0,15%, a R$ 5,9262, depois de bater R$ 6,0066 pela manhã; pesaram a votação do ajuste fiscal na Câmara (sessão marcada para as 18h, depois do fechamento), o petróleo em queda (PETR4 −3,21%, PRIO3 −3,29%, BRAV3 −3,27%) e o Boletim Focus, que subiu o IPCA de 2026 para 5,15% e o dólar para R$ 5,55; o câmbio aliviou no fim do dia com a notícia (Broadcast) de nomes mais alinhados ao mercado para a diretoria do Banco Central. Wall Street disparou com a volta de Jensen Huang à Nvidia (Dow +3,01%, S&P 500 +4,74% e Nasdaq +6,51%, segundo a B3), e entre os BDRs previstos em queda NVDC34 (+11,85%), TSLA34 (+3,48%) e ORCL34 (+2,80%) subiram, enquanto AVGO34 (−11,17%) e A1MD34 (−8,77%) caíram; entre os papéis previstos em alta, RADL3 (+7,07%) foi a segunda maior alta do Ibovespa. Previsões do Radar das 8h13: 6 acertos em 12 avaliadas; o cenário de queda do Ibovespa (56%) acertou, o maior acerto em movimento foi AVGO34 (queda prevista, −11,17%) e o maior erro foi NVDC34 (queda com 84%, +11,85%), seguido de BRKM5 (+11,54%); ASAI3 (sem fechamento confiável depois do leilão) e ANTH34 (sem cotação datada de 23/11) ficaram sem dado. Preços em reais: 11 de 13 papéis com fechamento e 9 com abertura e fechamento; a simulação vendida é dominada por MUTC34 (venda a R$ 628,19 na abertura, que já embutia a queda de sexta em Nova York, e recompra a R$ 693,71).",
-  "fontes": "B3 Bora Investir (18h47) e Times Brasil/CNBC (18h34) para o Ibovespa oficial e as maiores altas e baixas (lista da B3); dólar: R$ 5,9262 (−0,15%) no Times Brasil e no Mix Vale (17h47), R$ 5,92 (−0,14%) na B3 e R$ 5,9293 (−0,05%) no BPMoney (18h10), adotado R$ 5,9262; parcial do Ibovespa às 17h03 (164.975 pts, −0,84%) descartada por ser anterior ao leilão; InfoMoney (Focus e agenda da manhã) e TradeMap (15h13); preços dos papéis: HG Brasil, Bloomberg Línea, Google Finance, Investing.com, BTG Pactual, Money Times, TradeMap, brapi.dev e investimentos.com.br"
+  "data": "24/11/2026",
+  "hora": "19h01",
+  "ibov": "164.090 pts",
+  "ibov_var": "−0,43%",
+  "dolar": "R$ 5,91",
+  "dolar_var": "−0,26%",
+  "acertos": "5 de 7",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): sem preços suficientes, 0 de 1 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 55,20 → R$ 54,73 (+R$ 0,47; +0,85%), 2 de 5 papéis com preço · Total: +R$ 0,47 (+0,85% sobre R$ 55,20); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa caiu 0,43% e fechou a 164.089,81 pontos (máxima de 167.579,78), a quarta queda seguida: subiu pela manhã com a aprovação do ajuste fiscal na Câmara e a queda dos juros futuros, mas devolveu o ganho com a Vale (−5,51%, décimo pregão seguido de baixa) e a Petrobras (PETR4 −1,82%, depois de a presidente não garantir dividendos extraordinários), e o dólar à vista recuou 0,26%, a R$ 5,9107. As previsões do dia acertaram 5 de 7: o maior acerto foi BRKM5 (−14,09%, queda prevista com 56%) e o maior erro foi VALE3 (subida prevista com 56%, caiu 5,51%), além do Ibovespa, que fechou na faixa lateral contra a queda abaixo de −0,5% prevista com 38%. Os 6 papéis têm o fechamento em reais, mas só PETR4 e BBAS3 têm também a abertura (2 de 6), porque nenhuma fonte datada trouxe a abertura dos outros quatro; os fechamentos anteriores de PETR4 (R$ 41,30) e PETR3 (R$ 47,02) foram corrigidos e os fechamentos de NVDC34, BRKM5 e BBAS3 vêm de fonte única. Divergências: Vale a R$ 55,24 (−5,43%) no InfoMoney e no Mixvale, dólar a R$ 5,908 (−0,32%) na Folha/Cruzeiro FM, matérias anteriores ao leilão com o Ibovespa quase estável, e só 3 altas e 3 baixas com variação oficial confirmada.",
+  "fontes": "BPMoney (18h22), Money Times (18h27), Suno (18h42), Gazeta Brasil (18h46), A Crítica de Campo Grande, Mixvale, TradeMap, InfoMoney, Cruzeiro FM (Folha), Misto Brasil, Investing.com, Bloomberg Línea, Dados de Mercado, HG Brasil e Investir e Coçar"
  },
  {
   "tipo": "alta",
-  "ticker": "MGLU3",
-  "empresa": "Magazine Luiza",
-  "var": "+9,63%"
+  "ticker": "COGN3",
+  "empresa": "Cogna",
+  "var": "+5,77%"
  },
  {
   "tipo": "alta",
-  "ticker": "RADL3",
-  "empresa": "RaiaDrogasil",
-  "var": "+7,07%"
- },
- {
-  "tipo": "alta",
-  "ticker": "VAMO3",
-  "empresa": "Vamos",
-  "var": "+4,42%"
- },
- {
-  "tipo": "alta",
-  "ticker": "DIRR3",
-  "empresa": "Direcional",
-  "var": "+2,29%"
- },
- {
-  "tipo": "alta",
-  "ticker": "CSAN3",
-  "empresa": "Cosan",
-  "var": "+1,95%"
- },
- {
-  "tipo": "baixa",
   "ticker": "HAPV3",
   "empresa": "Hapvida",
-  "var": "−5,84%"
+  "var": "+5,17%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "ASAI3",
+  "empresa": "Assaí",
+  "var": "+3,10%"
  },
  {
   "tipo": "baixa",
-  "ticker": "PETR3",
-  "empresa": "Petrobras ON",
-  "var": "−3,31%"
+  "ticker": "POMO4",
+  "empresa": "Marcopolo",
+  "var": "−6,39%"
  },
  {
   "tipo": "baixa",
-  "ticker": "PRIO3",
-  "empresa": "PRIO",
-  "var": "−3,29%"
+  "ticker": "NATU3",
+  "empresa": "Natura",
+  "var": "−6,37%"
  },
  {
   "tipo": "baixa",
-  "ticker": "BRAV3",
-  "empresa": "Brava Energia",
-  "var": "−3,27%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "PETR4",
-  "empresa": "Petrobras PN",
-  "var": "−3,21%"
+  "ticker": "VALE3",
+  "empresa": "Vale",
+  "var": "−5,51%"
  }
 ]

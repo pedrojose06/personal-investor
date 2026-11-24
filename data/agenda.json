@@ -21,37 +21,37 @@
   "hora": "09h00",
   "evento": "Futuros do Ibovespa e juros futuros começam a negociar",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "09h30",
   "evento": "Galípolo (BC) no Comef, fechado à imprensa",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "10h00",
   "evento": "Abertura da B3, depois de três quedas seguidas e do menor fechamento desde janeiro",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h00",
   "evento": "Arrecadação federal de outubro (Receita Federal; consenso n/d)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "11h30",
   "evento": "Abertura de Nova York; antes da abertura saem os balanços de Best Buy, Medtronic e Dick's",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "12h00",
   "evento": "Confiança do consumidor dos EUA (Conference Board, novembro): consenso 92,7, anterior 91,7",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Durante o dia",
@@ -63,31 +63,31 @@
   "hora": "13h30",
   "evento": "Coletiva da Petrobras sobre o Plano de Negócios 2027-2031 (Rio de Janeiro)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "15h00",
   "evento": "Lula reúne a equipe econômica para avaliar os efeitos do ajuste e novas medidas (Metrópoles; o Money Times lista a ministra Miriam Belchior no mesmo horário)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "16h00",
   "evento": "Webcast da Petrobras para analistas e investidores",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "17h30",
   "evento": "Durigan (Fazenda) com a ministra Esther Dweck (Gestão)",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "17h55",
   "evento": "Fechamento da B3",
   "destaque": "não",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "Após o fechamento",

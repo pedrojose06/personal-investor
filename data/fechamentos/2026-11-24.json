@@ -1,0 +1,52 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "24/11/2026",
+  "hora": "19h01",
+  "ibov": "164.090 pts",
+  "ibov_var": "−0,43%",
+  "dolar": "R$ 5,91",
+  "dolar_var": "−0,26%",
+  "acertos": "5 de 7",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): sem preços suficientes, 0 de 1 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 55,20 → R$ 54,73 (+R$ 0,47; +0,85%), 2 de 5 papéis com preço · Total: +R$ 0,47 (+0,85% sobre R$ 55,20); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa caiu 0,43% e fechou a 164.089,81 pontos (máxima de 167.579,78), a quarta queda seguida: subiu pela manhã com a aprovação do ajuste fiscal na Câmara e a queda dos juros futuros, mas devolveu o ganho com a Vale (−5,51%, décimo pregão seguido de baixa) e a Petrobras (PETR4 −1,82%, depois de a presidente não garantir dividendos extraordinários), e o dólar à vista recuou 0,26%, a R$ 5,9107. As previsões do dia acertaram 5 de 7: o maior acerto foi BRKM5 (−14,09%, queda prevista com 56%) e o maior erro foi VALE3 (subida prevista com 56%, caiu 5,51%), além do Ibovespa, que fechou na faixa lateral contra a queda abaixo de −0,5% prevista com 38%. Os 6 papéis têm o fechamento em reais, mas só PETR4 e BBAS3 têm também a abertura (2 de 6), porque nenhuma fonte datada trouxe a abertura dos outros quatro; os fechamentos anteriores de PETR4 (R$ 41,30) e PETR3 (R$ 47,02) foram corrigidos e os fechamentos de NVDC34, BRKM5 e BBAS3 vêm de fonte única. Divergências: Vale a R$ 55,24 (−5,43%) no InfoMoney e no Mixvale, dólar a R$ 5,908 (−0,32%) na Folha/Cruzeiro FM, matérias anteriores ao leilão com o Ibovespa quase estável, e só 3 altas e 3 baixas com variação oficial confirmada.",
+  "fontes": "BPMoney (18h22), Money Times (18h27), Suno (18h42), Gazeta Brasil (18h46), A Crítica de Campo Grande, Mixvale, TradeMap, InfoMoney, Cruzeiro FM (Folha), Misto Brasil, Investing.com, Bloomberg Línea, Dados de Mercado, HG Brasil e Investir e Coçar"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "COGN3",
+  "empresa": "Cogna",
+  "var": "+5,77%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "HAPV3",
+  "empresa": "Hapvida",
+  "var": "+5,17%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "ASAI3",
+  "empresa": "Assaí",
+  "var": "+3,10%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "POMO4",
+  "empresa": "Marcopolo",
+  "var": "−6,39%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "NATU3",
+  "empresa": "Natura",
+  "var": "−6,37%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "VALE3",
+  "empresa": "Vale",
+  "var": "−5,51%"
+ }
+]
