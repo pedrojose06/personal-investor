@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 38,
-  "agora": 38,
-  "motivo": "Fechar abaixo de 163.972 pts. O Ibovespa já caiu três pregões seguidos e fechou ontem no menor nível desde janeiro, mesmo com o S&P 500 em +4,74%. Os futuros de Nova York amanheceram negativos (S&P 500 −0,42% a −0,50%, Nasdaq −1,02% a −1,21%), o dólar tocou R$ 6,0055 ontem e há quem veja o ajuste fiscal como insuficiente (Convexa). Hoje saem o contingenciamento e a coletiva da Petrobras (Citi vê o plano como predominantemente negativo). Fica na frente por pouco porque futuro do Ibovespa e DI só abrem às 9h."
+  "relatorio": 46,
+  "agora": 46,
+  "motivo": "Fechar abaixo de 163.269 pts. Os futuros de Nova York amanheceram bem piores que os de ontem (S&P 500 −1,37% a −1,54% e Nasdaq-100 −2,30% a −2,55% entre 7h44 e 7h50), depois de o Nasdaq cair 1,48% e o índice de semicondutores 7,9% ontem; a Ásia derreteu (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%) com dúvidas sobre IA e temor de novas tarifas dos EUA. O ADR da Vale cai 0,75% no pré-mercado e o PCE (10h30) pode reforçar a aposta de 95% a 98% de alta de juros nos EUA em 9/12. O Ibovespa já fez quatro quedas seguidas e fechou ontem no menor nível desde janeiro. Fica na frente, mas sem folga: o índice descolou da alta de 4,74% de Nova York em 23/11 e a PEC de gastos pode aliviar dólar e juros; futuro do Ibovespa e DI só abrem às 9h."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 32,
-  "agora": 32,
-  "motivo": "Faixa de 163.972 a 165.620 pts. Cabe se o alívio da aprovação do ajuste (353 a 128) compensar os futuros fracos de Nova York e a espera pelo contingenciamento, pelo PCE dos EUA (amanhã, 10h30) e pelo capex da Petrobras. Nos últimos seis pregões, dois fecharam nessa faixa (−0,43% e +0,31%)."
+  "relatorio": 31,
+  "agora": 31,
+  "motivo": "Faixa de 163.269 a 164.910 pts. Cabe se a queda de Nova York ficar concentrada na tecnologia, que pesa pouco no Ibovespa, e o alívio fiscal compensar: os DIs recuaram ontem (jan/28 −0,19 ponto e jan/29 −0,18 ponto), o dólar fechou a R$ 5,9107 (−0,26%) e a Europa abre em alta (Stoxx 600 +0,2% a +0,5%). Nos últimos cinco pregões com relatório, dois fecharam nessa faixa (+0,31% e −0,43%)."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 30,
-  "agora": 30,
-  "motivo": "Fechar acima de 165.620 pts. Possível se o Ibovespa recuperar parte do atraso frente a Nova York (−0,95% contra +4,74% ontem) com o risco da votação já resolvido, R$ 15,6 bi em dividendos extraordinários da Petrobras (R$ 1,21 por ação) e minério em alta de 1,00% em Dalian. Exige dólar abaixo de R$ 5,93 e DIs recuando; por isso 30% e não mais: Nasdaq futuro em queda e fiscal ainda em aberto."
+  "relatorio": 23,
+  "agora": 23,
+  "motivo": "Fechar acima de 164.910 pts. Exige que o Ibovespa continue descolado de Nova York (em 23/11 caiu 0,95% com o S&P 500 em +4,74%): o contingenciamento veio menor (R$ 12,6 bi contra R$ 16,1 bi), o ajuste fiscal foi sancionado sem vetos, a PEC de gastos obrigatórios (cerca de R$ 20 bi) vai a Lula às 15h e o BC faz dois leilões de linha em dólar às 10h30. Com Nova York −1,4% a −2,5% nos futuros, ADR da Vale em queda e PCE no radar, 23% e não mais."
  }
 ]

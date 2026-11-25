@@ -1,72 +1,72 @@
 [
  {
-  "indicador": "Ibovespa, fechamento oficial de 23/11",
-  "valor": "164.796 pts (164.796,05)",
-  "variacao": "−0,95%",
-  "hora": "23/11, após o leilão (máxima 166.373,68; mínima 164.129,33)",
-  "fonte": "SBT News 18h53, Investidor Institucional e rotina de fechamento batem; Gazeta (18h14, parcial) traz 165.026 (−0,81%). Menor fechamento desde 13/01; novembro −1,86%"
+  "indicador": "Ibovespa, fechamento oficial de 24/11",
+  "valor": "164.090 pts (164.089,81)",
+  "variacao": "−0,43%",
+  "hora": "24/11, após o leilão (máxima 167.579,78, +1,69%)",
+  "fonte": "Money Times 18h27, BPMoney 18h22, InfoMoney 18h48, Investidor Institucional e Rio Times batem com a rotina de fechamento; o Cruzeiro FM traz 164.744 (erro). Menor fechamento desde 13/01, quarta queda seguida"
  },
  {
   "indicador": "Dólar à vista",
-  "valor": "R$ 5,9262 no fechamento de 23/11; hoje n/d",
-  "variacao": "−0,14% em 23/11 (máxima R$ 6,0055, a primeira acima de R$ 6 desde abril de 2025)",
-  "hora": "23/11 e hoje, não encontrado",
-  "fonte": "Gazeta Brasil e Campo Grande News (R$ 5,9262); Investidor Institucional traz R$ 5,92 (−0,15%). Cotação de hoje: Money Times e PAIPEE mostram o widget zerado; o dólar futuro abre às 9h"
+  "valor": "R$ 5,9107 no fechamento de 24/11; hoje n/d",
+  "variacao": "−0,26% em 24/11 (mínima R$ 5,8010, máxima R$ 5,9551)",
+  "hora": "24/11, 17h01; hoje, não encontrado (o câmbio futuro abre às 9h)",
+  "fonte": "Money Times 17h01 (R$ 5,9107, −0,26%); InfoMoney 17h05 (R$ 5,910, −0,27%); Reuters/Investing.com 17h09 (R$ 5,9085, −0,35%). A variação do dia vai de −0,26% a −0,40% conforme a fonte. Dólar de hoje: Money Times, InfoMoney e Reuters não trazem"
  },
  {
-  "indicador": "EWZ e PBR (ADR da Petrobras) em Nova York",
-  "valor": "PBR US$ 15,76; EWZ US$ 28,92",
-  "variacao": "PBR −0,32% às 7h43; EWZ −1,09% sem hora",
-  "hora": "24/11, 7h43 (PBR)",
-  "fonte": "Money Times 8h11 (PBR) e 7h00 (EWZ). O EWZ não bate com os US$ 28,54 de 20/11 e a hora não vem, então não usei como termômetro; sem pré-mercado de VALE, ITUB e outras ADRs"
+  "indicador": "ADRs no pré-mercado de Nova York (PBR, VALE) e EWZ",
+  "valor": "PBR US$ 15,69; VALE US$ 9,30; EWZ US$ 29,10",
+  "variacao": "PBR +0,13%; VALE −0,75%; EWZ −0,68%",
+  "hora": "25/11, 7h45 (PBR e VALE); hora do EWZ não informada",
+  "fonte": "Investing.com Brasil 7h45. O EWZ de US$ 29,10 (−0,68%) aparece no Money Times às 7h06 como fechamento de ontem e no Investing.com como pré-mercado: não usei como termômetro. ITUB e BBD: não encontrei"
  },
  {
-  "indicador": "Futuros de Nova York (S&P 500 / Nasdaq / Dow)",
-  "valor": "−0,42% / −1,02% / −0,11% (Money Times 7h00); −0,50% / −1,21% (Nasdaq-100) / −0,14% (TipRanks 7h50)",
-  "variacao": "InfoMoney 5h43: +0,19% / +0,16% / +0,18%",
-  "hora": "5h43 a 7h52",
-  "fonte": "Money Times, TipRanks, InfoMoney; viraram de positivos para negativos ao longo da manhã (Brasil em Folhas 8h06 repete os números das 5h43)"
+  "indicador": "Futuros de Nova York (S&P 500 / Nasdaq-100 / Dow)",
+  "valor": "−1,37% a −1,54% / −2,30% a −2,55% / −0,81% a −0,82%",
+  "variacao": "Mais cedo (6h32): −1,31% / −2,22% / −0,75%",
+  "hora": "25/11, 7h44 a 7h50",
+  "fonte": "TipRanks 5h44 ET, Techi 5h50 ET e Investing.com Brasil 7h45; Reuters 6h32. S&P 500 e Dow a caminho do pior novembro desde 2008 (Reuters via iux24, 7h09)"
  },
  {
-  "indicador": "Wall Street, fechamento de 23/11 (Dow / S&P 500 / Nasdaq)",
-  "valor": "pontos n/d",
-  "variacao": "+3,01% / +4,74% / +6,51%",
-  "hora": "23/11, fechamento",
-  "fonte": "Investidor Institucional; TipRanks traz +3,0% / +4,73% / +6,51%; maior alta do S&P 500 e do Nasdaq desde 9/4/2025; Nvidia +31%, Micron +19%, AMD ~+7%, CoreWeave +22% (Forbes)"
+  "indicador": "Wall Street, fechamento de 24/11 (Dow / S&P 500 / Nasdaq)",
+  "valor": "50.018,70 / 7.201,09 / 23.733,54 pts",
+  "variacao": "+0,85% / −0,50% / −1,48%",
+  "hora": "24/11, fechamento (18h BRT)",
+  "fonte": "AP via BNN Bloomberg (16h31 ET) e Reuters via Investing.com Brasil (18h16). Nvidia US$ 155,38 (−5,86%); semicondutores −7,9%; Anthropic −6,5%, abaixo do preço de IPO"
  },
  {
   "indicador": "Treasury de 10 anos e DXY",
-  "valor": "Treasury n/d; DXY 104,33 às 17h de 23/11",
-  "variacao": "DXY no maior nível desde março de 2025",
-  "hora": "23/11, 17h (DXY)",
-  "fonte": "Investidor Institucional (DXY). Treasury de hoje: procurei em Money Times, Forbes, InfoMoney e TipRanks e não achei"
- },
- {
-  "indicador": "DI futuro (jan/27, jan/28, jan/29, jan/31)",
-  "valor": "13,724%, 14,850%, 15,275% e 15,420% no fechamento de 19/11; 23/11 e hoje n/d",
-  "variacao": "+0,033, +0,315, +0,305 e +0,210 ponto em 19/11",
-  "hora": "19/11 (último dado encontrado); o mercado de juros abre às 9h",
-  "fonte": "InfoMoney 23/11 7h52; Money Times, PAIPEE e Exame de hoje dizem só que os juros vêm subindo, sem taxas"
+  "valor": "Treasury 4,898%; DXY 103,97",
+  "variacao": "−0,2 ponto-base; DXY +0,13%",
+  "hora": "25/11, publicado 7h18 (hora da cotação não informada)",
+  "fonte": "Reuters via Daily Sabah. Fechamento de ontem: Treasury 4,93% (AP) e DXY 103,79 a 103,83 (−0,48%). O Fed está em ciclo de alta (faixa de 3,75% a 4,00%) e o CME FedWatch precifica 95% a 98% de alta de 0,25 ponto em 9/12"
  },
  {
   "indicador": "Brent e WTI",
-  "valor": "Brent US$ 89,07; WTI US$ 80,02",
-  "variacao": "−0,34% / −0,19% (Money Times 7h00); InfoMoney 5h43: US$ 88,72 (−0,73%)",
-  "hora": "24/11, 5h43 a 7h00",
-  "fonte": "Money Times e InfoMoney; fechamento de 23/11: Brent US$ 89,37 (−3,46%) e WTI US$ 80,17 (−3,88%) (Gazeta e Campo Grande News)"
+  "valor": "Brent (jan) US$ 90,56; Brent (fev) US$ 88,20; WTI (jan) US$ 81,78",
+  "variacao": "−1,0% (jan); −0,65% (fev); −0,33%",
+  "hora": "25/11, 7h18 e 7h45",
+  "fonte": "Reuters via Daily Sabah (7h18); Investing.com Brasil (7h45). Fechamento de 24/11 (jan): Brent US$ 91,40 (+2,27%) e WTI US$ 82,05 (+2,35%) por relatos de navios atingidos por minas em Ormuz (Reuters). Contratos diferentes explicam parte das divergências; AP e InfoMoney trazem outros números"
  },
  {
   "indicador": "Minério de ferro (Dalian / Singapura)",
-  "valor": "658,50 iuanes / n/d",
-  "variacao": "+1,00% em Dalian",
-  "hora": "24/11, fechamento de Dalian",
-  "fonte": "InfoMoney 5h43 e Brasil em Folhas 8h06; Singapura não encontrado"
+  "valor": "657 iuanes / n/d hoje",
+  "variacao": "−0,15% em Dalian",
+  "hora": "25/11, pregão diurno de Dalian",
+  "fonte": "SMM e InfoMoney 5h49. Singapura de hoje: não encontrei; ontem (10h49) o contrato de dezembro estava a US$ 89,20 (+0,48%)"
+ },
+ {
+  "indicador": "DI futuro, fechamento de 24/11 (jan/27, jan/28, jan/29, jan/31)",
+  "valor": "13,684%, 14,455%, 14,900% e 15,155%; hoje n/d",
+  "variacao": "−0,015, −0,190, −0,180 e −0,110 ponto",
+  "hora": "24/11, atualização das 18h05; o mercado de juros abre às 9h",
+  "fonte": "InfoMoney (blog ao vivo, 18h05); Investing.com (20h44) confirma jan/29 em 14,90%"
  },
  {
   "indicador": "Ásia, Europa, ouro e Bitcoin",
-  "valor": "Nikkei +3,91% a +4,11%, Kospi +6,32% (5.006 pts), Taiex +9%, Hang Seng −0,73%, Xangai +0,27%; Stoxx 600 +0,10%, DAX −0,11% a −0,53%; ouro US$ 3.653,50; Bitcoin US$ 60.143",
-  "variacao": "ouro −0,77%; Bitcoin −2,0%",
-  "hora": "5h43 a 8h06",
-  "fonte": "Forbes Brasil 7h54, InfoMoney 5h43, Brasil em Folhas 8h06 e Money Times 7h00; Europa varia entre as fontes"
+  "valor": "Nikkei 57.011,62; Kospi 4.697,51; Taiex 38.195,43; Stoxx 600 ~634; ouro US$ 3.552 a 3.559; Bitcoin US$ 58.839",
+  "variacao": "Nikkei −2,78%, Kospi −6,16%, Taiex −4,80%, Hang Seng −1,14%, Xangai −2,03%; Stoxx 600 +0,2% a +0,5%, DAX +0,06%, FTSE +0,37%, CAC +0,93%; ouro −0,9% a −1,1%; Bitcoin −1,7%",
+  "hora": "25/11, 5h30 a 7h41",
+  "fonte": "Estadão Conteúdo via O Povo 6h06 (Ásia, fechamento); Reuters via WTBX 6h34 e Money Times 7h06 (Europa); Money Times 7h06 e Yahoo (ouro e Bitcoin). Money Times traz Nikkei −2,62%; Europa varia entre as fontes"
  }
 ]

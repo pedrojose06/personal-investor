@@ -1,109 +1,97 @@
 [
  {
   "hora": "Madrugada",
-  "evento": "Ásia sobe forte (Nikkei +3,91%, Kospi +6,32%, Taiex +9%), com Hang Seng −0,73% e Xangai +0,27%; Europa perto da estabilidade",
+  "evento": "Ásia em queda forte (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%, Xangai −2,03%, Hang Seng −1,14%); Europa abre em alta leve (Stoxx 600 +0,2% a +0,5%)",
   "destaque": "não",
   "status": "saiu"
  },
  {
-  "hora": "06h00",
-  "evento": "Ifo da Alemanha (clima de negócios, novembro); resultado não encontrado",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "08h00",
-  "evento": "Confiança do consumidor da FGV (novembro; anterior 84,7; consenso n/d); resultado não encontrado",
-  "destaque": "não",
+  "hora": "Ontem à noite",
+  "evento": "Relatório bimestral: contingenciamento de R$ 12,3 bi (de R$ 13,6 bi) e total congelado de R$ 12,6 bi (de R$ 16,1 bi); Dell, Workday, Autodesk e HP divulgam resultados nos EUA",
+  "destaque": "sim",
   "status": "saiu"
  },
  {
   "hora": "09h00",
-  "evento": "Futuros do Ibovespa e juros futuros começam a negociar",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "09h30",
-  "evento": "Galípolo (BC) no Comef, fechado à imprensa",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "10h00",
-  "evento": "Abertura da B3, depois de três quedas seguidas e do menor fechamento desde janeiro",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "11h00",
-  "evento": "Arrecadação federal de outubro (Receita Federal; consenso n/d)",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "11h30",
-  "evento": "Abertura de Nova York; antes da abertura saem os balanços de Best Buy, Medtronic e Dick's",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "12h00",
-  "evento": "Confiança do consumidor dos EUA (Conference Board, novembro): consenso 92,7, anterior 91,7",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "Durante o dia",
-  "evento": "Governo divulga o relatório bimestral de receitas e despesas (contingenciamento); hora não encontrada; na avaliação de setembro o total foi de R$ 16,1 bi",
+  "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar",
   "destaque": "sim",
   "status": "a vir"
  },
  {
-  "hora": "13h30",
-  "evento": "Coletiva da Petrobras sobre o Plano de Negócios 2027-2031 (Rio de Janeiro)",
+  "hora": "09h30",
+  "evento": "Durigan (Fazenda) recebe o CEO do Bradesco; às 11h e às 14h, Banco do Brasil e o governador da Bahia",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "10h00",
+  "evento": "Coletiva de Bruno Moretti (Planejamento) sobre o relatório bimestral de receitas e despesas",
   "destaque": "sim",
-  "status": "saiu"
+  "status": "a vir"
+ },
+ {
+  "hora": "10h00",
+  "evento": "Abertura da B3, depois de quatro quedas seguidas e do menor fechamento desde janeiro; Galípolo na reunião do Comef, fechada à imprensa",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "10h30",
+  "evento": "EUA: PCE de outubro (consenso +0,3% no mês e 3,8% em 12 meses; núcleo +0,3% e 3,2%) e PIB do 3º trimestre, segunda estimativa (consenso 3,4% a 3,5%); pedidos de seguro-desemprego (cerca de 200 mil) e bens duráveis",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "10h30",
+  "evento": "BC faz dois leilões de linha de crédito em dólar, de até US$ 2 bi cada (liquidação em 30/11)",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "11h30",
+  "evento": "Abertura de Nova York; antes dela saem os balanços da Deere e da Li Auto (hora não encontrada)",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "12h00",
+  "evento": "EUA: vendas de casas novas de outubro (consenso 650 mil, anterior 676 mil, segundo o TradeMap)",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "14h30",
+  "evento": "Fluxo cambial semanal do BC (anterior: US$ 1,293 bi)",
+  "destaque": "não",
+  "status": "a vir"
  },
  {
   "hora": "15h00",
-  "evento": "Lula reúne a equipe econômica para avaliar os efeitos do ajuste e novas medidas (Metrópoles; o Money Times lista a ministra Miriam Belchior no mesmo horário)",
-  "destaque": "não",
-  "status": "saiu"
+  "evento": "Lula reúne a equipe econômica (Alckmin, Durigan, Moretti e Belchior) no Alvorada para definir o alcance da PEC de gastos obrigatórios",
+  "destaque": "sim",
+  "status": "a vir"
  },
  {
   "hora": "16h00",
-  "evento": "Webcast da Petrobras para analistas e investidores",
+  "evento": "Livro Bege do Fed",
   "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "17h30",
-  "evento": "Durigan (Fazenda) com a ministra Esther Dweck (Gestão)",
-  "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
   "hora": "17h55",
   "evento": "Fechamento da B3",
   "destaque": "não",
-  "status": "saiu"
+  "status": "a vir"
  },
  {
-  "hora": "Após o fechamento",
-  "evento": "Dell divulga resultado nos EUA (HPE saiu ontem depois do fechamento; números não lidos)",
+  "hora": "22h00 a 23h00",
+  "evento": "Banco da Coreia do Sul decide a política monetária (o horário varia entre as fontes)",
   "destaque": "não",
   "status": "a vir"
  },
  {
-  "hora": "20h50",
-  "evento": "Japão: índice de preços de serviços corporativos (outubro)",
-  "destaque": "não",
-  "status": "a vir"
- },
- {
-  "hora": "Amanhã, 25/11, 10h30",
-  "evento": "EUA: PCE de outubro e segunda estimativa do PIB do 3º trimestre; Livro Bege às 16h (consenso n/d); quinta-feira 26/11 é feriado nos EUA e o IPCA-15 sai às 9h",
+  "hora": "Amanhã, 26/11, 9h",
+  "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; Bradesco projeta 0,36%) e IPP; os EUA ficam fechados (Ação de Graças). Dom 29/11: reunião da Opep+",
   "destaque": "sim",
   "status": "a vir"
  }

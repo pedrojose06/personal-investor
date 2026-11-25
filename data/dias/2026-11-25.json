@@ -1,0 +1,443 @@
+{
+ "resumo": [
+  {
+   "data": "quarta-feira, 25/11/2026",
+   "atualizado": "8h50 (Brasília)",
+   "base": "Dados das 19h de 24/11 às 8h45 de 25/11 (Brasília) de Money Times (7h06), InfoMoney (5h49, 6h15 e blog ao vivo de 24/11), Investing.com Brasil/Reuters (7h45), Estadão Conteúdo via O Povo (6h06), Techi (6h00 ET), TipRanks (5h44 ET), Daily Sabah/Reuters (7h18), SBT News, O Antagonista, Bloomberg Línea, Bom Dia Mercado, Rio Times, Correio Braziliense e DGABC. Referência: fechamento oficial de 24/11 (164.089,81 pts, −0,43%), igual ao da rotina das 18h47 e confirmado por cinco veículos. Não encontrei: futuro do Ibovespa, dólar e DI de hoje (abrem às 9h), EWZ em pré-mercado com hora (o número de US$ 29,10 aparece sem hora), minério em Singapura de hoje, balanço de empresa da B3 divulgado depois do fechamento de ontem, nova recomendação de banco para papéis da B3 desde ontem à noite e reação de analistas à Petrobras depois do webcast. Os BDRs de tecnologia vêm do pré-mercado de Nova York."
+  }
+ ],
+ "mercado": [
+  {
+   "cenario": "Queda",
+   "faixa": "fechar abaixo de −0,5%",
+   "relatorio": 46,
+   "agora": 46,
+   "motivo": "Fechar abaixo de 163.269 pts. Os futuros de Nova York amanheceram bem piores que os de ontem (S&P 500 −1,37% a −1,54% e Nasdaq-100 −2,30% a −2,55% entre 7h44 e 7h50), depois de o Nasdaq cair 1,48% e o índice de semicondutores 7,9% ontem; a Ásia derreteu (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%) com dúvidas sobre IA e temor de novas tarifas dos EUA. O ADR da Vale cai 0,75% no pré-mercado e o PCE (10h30) pode reforçar a aposta de 95% a 98% de alta de juros nos EUA em 9/12. O Ibovespa já fez quatro quedas seguidas e fechou ontem no menor nível desde janeiro. Fica na frente, mas sem folga: o índice descolou da alta de 4,74% de Nova York em 23/11 e a PEC de gastos pode aliviar dólar e juros; futuro do Ibovespa e DI só abrem às 9h."
+  },
+  {
+   "cenario": "Lateral",
+   "faixa": "fechar entre −0,5% e +0,5%",
+   "relatorio": 31,
+   "agora": 31,
+   "motivo": "Faixa de 163.269 a 164.910 pts. Cabe se a queda de Nova York ficar concentrada na tecnologia, que pesa pouco no Ibovespa, e o alívio fiscal compensar: os DIs recuaram ontem (jan/28 −0,19 ponto e jan/29 −0,18 ponto), o dólar fechou a R$ 5,9107 (−0,26%) e a Europa abre em alta (Stoxx 600 +0,2% a +0,5%). Nos últimos cinco pregões com relatório, dois fecharam nessa faixa (+0,31% e −0,43%)."
+  },
+  {
+   "cenario": "Alta",
+   "faixa": "fechar acima de +0,5%",
+   "relatorio": 23,
+   "agora": 23,
+   "motivo": "Fechar acima de 164.910 pts. Exige que o Ibovespa continue descolado de Nova York (em 23/11 caiu 0,95% com o S&P 500 em +4,74%): o contingenciamento veio menor (R$ 12,6 bi contra R$ 16,1 bi), o ajuste fiscal foi sancionado sem vetos, a PEC de gastos obrigatórios (cerca de R$ 20 bi) vai a Lula às 15h e o BC faz dois leilões de linha em dólar às 10h30. Com Nova York −1,4% a −2,5% nos futuros, ADR da Vale em queda e PCE no radar, 23% e não mais."
+  }
+ ],
+ "indicadores": [
+  {
+   "indicador": "Ibovespa, fechamento oficial de 24/11",
+   "valor": "164.090 pts (164.089,81)",
+   "variacao": "−0,43%",
+   "hora": "24/11, após o leilão (máxima 167.579,78, +1,69%)",
+   "fonte": "Money Times 18h27, BPMoney 18h22, InfoMoney 18h48, Investidor Institucional e Rio Times batem com a rotina de fechamento; o Cruzeiro FM traz 164.744 (erro). Menor fechamento desde 13/01, quarta queda seguida"
+  },
+  {
+   "indicador": "Dólar à vista",
+   "valor": "R$ 5,9107 no fechamento de 24/11; hoje n/d",
+   "variacao": "−0,26% em 24/11 (mínima R$ 5,8010, máxima R$ 5,9551)",
+   "hora": "24/11, 17h01; hoje, não encontrado (o câmbio futuro abre às 9h)",
+   "fonte": "Money Times 17h01 (R$ 5,9107, −0,26%); InfoMoney 17h05 (R$ 5,910, −0,27%); Reuters/Investing.com 17h09 (R$ 5,9085, −0,35%). A variação do dia vai de −0,26% a −0,40% conforme a fonte. Dólar de hoje: Money Times, InfoMoney e Reuters não trazem"
+  },
+  {
+   "indicador": "ADRs no pré-mercado de Nova York (PBR, VALE) e EWZ",
+   "valor": "PBR US$ 15,69; VALE US$ 9,30; EWZ US$ 29,10",
+   "variacao": "PBR +0,13%; VALE −0,75%; EWZ −0,68%",
+   "hora": "25/11, 7h45 (PBR e VALE); hora do EWZ não informada",
+   "fonte": "Investing.com Brasil 7h45. O EWZ de US$ 29,10 (−0,68%) aparece no Money Times às 7h06 como fechamento de ontem e no Investing.com como pré-mercado: não usei como termômetro. ITUB e BBD: não encontrei"
+  },
+  {
+   "indicador": "Futuros de Nova York (S&P 500 / Nasdaq-100 / Dow)",
+   "valor": "−1,37% a −1,54% / −2,30% a −2,55% / −0,81% a −0,82%",
+   "variacao": "Mais cedo (6h32): −1,31% / −2,22% / −0,75%",
+   "hora": "25/11, 7h44 a 7h50",
+   "fonte": "TipRanks 5h44 ET, Techi 5h50 ET e Investing.com Brasil 7h45; Reuters 6h32. S&P 500 e Dow a caminho do pior novembro desde 2008 (Reuters via iux24, 7h09)"
+  },
+  {
+   "indicador": "Wall Street, fechamento de 24/11 (Dow / S&P 500 / Nasdaq)",
+   "valor": "50.018,70 / 7.201,09 / 23.733,54 pts",
+   "variacao": "+0,85% / −0,50% / −1,48%",
+   "hora": "24/11, fechamento (18h BRT)",
+   "fonte": "AP via BNN Bloomberg (16h31 ET) e Reuters via Investing.com Brasil (18h16). Nvidia US$ 155,38 (−5,86%); semicondutores −7,9%; Anthropic −6,5%, abaixo do preço de IPO"
+  },
+  {
+   "indicador": "Treasury de 10 anos e DXY",
+   "valor": "Treasury 4,898%; DXY 103,97",
+   "variacao": "−0,2 ponto-base; DXY +0,13%",
+   "hora": "25/11, publicado 7h18 (hora da cotação não informada)",
+   "fonte": "Reuters via Daily Sabah. Fechamento de ontem: Treasury 4,93% (AP) e DXY 103,79 a 103,83 (−0,48%). O Fed está em ciclo de alta (faixa de 3,75% a 4,00%) e o CME FedWatch precifica 95% a 98% de alta de 0,25 ponto em 9/12"
+  },
+  {
+   "indicador": "Brent e WTI",
+   "valor": "Brent (jan) US$ 90,56; Brent (fev) US$ 88,20; WTI (jan) US$ 81,78",
+   "variacao": "−1,0% (jan); −0,65% (fev); −0,33%",
+   "hora": "25/11, 7h18 e 7h45",
+   "fonte": "Reuters via Daily Sabah (7h18); Investing.com Brasil (7h45). Fechamento de 24/11 (jan): Brent US$ 91,40 (+2,27%) e WTI US$ 82,05 (+2,35%) por relatos de navios atingidos por minas em Ormuz (Reuters). Contratos diferentes explicam parte das divergências; AP e InfoMoney trazem outros números"
+  },
+  {
+   "indicador": "Minério de ferro (Dalian / Singapura)",
+   "valor": "657 iuanes / n/d hoje",
+   "variacao": "−0,15% em Dalian",
+   "hora": "25/11, pregão diurno de Dalian",
+   "fonte": "SMM e InfoMoney 5h49. Singapura de hoje: não encontrei; ontem (10h49) o contrato de dezembro estava a US$ 89,20 (+0,48%)"
+  },
+  {
+   "indicador": "DI futuro, fechamento de 24/11 (jan/27, jan/28, jan/29, jan/31)",
+   "valor": "13,684%, 14,455%, 14,900% e 15,155%; hoje n/d",
+   "variacao": "−0,015, −0,190, −0,180 e −0,110 ponto",
+   "hora": "24/11, atualização das 18h05; o mercado de juros abre às 9h",
+   "fonte": "InfoMoney (blog ao vivo, 18h05); Investing.com (20h44) confirma jan/29 em 14,90%"
+  },
+  {
+   "indicador": "Ásia, Europa, ouro e Bitcoin",
+   "valor": "Nikkei 57.011,62; Kospi 4.697,51; Taiex 38.195,43; Stoxx 600 ~634; ouro US$ 3.552 a 3.559; Bitcoin US$ 58.839",
+   "variacao": "Nikkei −2,78%, Kospi −6,16%, Taiex −4,80%, Hang Seng −1,14%, Xangai −2,03%; Stoxx 600 +0,2% a +0,5%, DAX +0,06%, FTSE +0,37%, CAC +0,93%; ouro −0,9% a −1,1%; Bitcoin −1,7%",
+   "hora": "25/11, 5h30 a 7h41",
+   "fonte": "Estadão Conteúdo via O Povo 6h06 (Ásia, fechamento); Reuters via WTBX 6h34 e Money Times 7h06 (Europa); Money Times 7h06 e Yahoo (ouro e Bitcoin). Money Times traz Nikkei −2,62%; Europa varia entre as fontes"
+  }
+ ],
+ "acoes": [
+  {
+   "lado": "queda",
+   "pos": 1,
+   "ticker": "D1EL34",
+   "empresa": "BDR da Dell",
+   "chance": 70,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Dell divulgou o 3T do ano fiscal 27 ontem depois do fechamento: receita de US$ 54,94 bi (+103%; consenso cerca de US$ 49,3 bi), lucro por ação ajustado de US$ 9,45 (consenso cerca de US$ 6,59), guia anual elevado e recompra de US$ 25 bi. A ação chegou a subir 4,2% no after-hours (Investing.com Brasil, 19h48), mas inverteu: −4,4% às 6h18 e −7,0% (US$ 274,50) às 8h00 (Techi), com margem do ISG em queda no 4T, estoques de US$ 29,4 bi e custo de memória maior. Melius, Mizuho (alvo de US$ 650 para US$ 500) e Wells Fargo (de US$ 545 para US$ 400) cortaram alvos. O BDR fechou ontem a R$ 69,80 (−12,59%), acompanhando o −11,8% de Nova York no pregão regular, então o pré-mercado de hoje ainda não está no preço. Contra: os números superaram o consenso com folga e o BDR já caiu forte.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se a Dell zerar a queda do pré-mercado",
+   "fonte": "Investing.com Brasil 24/11 19h48; Techi 25/11 8h00 (6h00 ET); Investing.com 25/11 (alvos de Melius, Mizuho e Wells Fargo); 247wallst 24/11; SEC (release da Dell)",
+   "leitura": "Pode continuar caindo",
+   "leitura_motivo": "Analistas estão cortando alvos, a margem de servidores de IA pressiona (a HPE alertou para memória e NAND escassas até 2028) e o pré-mercado ainda não está no BDR."
+  },
+  {
+   "lado": "queda",
+   "pos": 2,
+   "ticker": "NVDC34",
+   "empresa": "BDR da Nvidia",
+   "chance": 68,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Nvidia fechou ontem a US$ 155,38 (−5,86%) depois de subir 31,5% na segunda; hoje cai 5,0% a US$ 147,60 (Techi, 8h00) e 5,3% a US$ 147,20 (Investing.com, 5h19 ET), com Nasdaq-100 futuro em −2,3% a −2,55% e o índice de semicondutores em −7,9% ontem. Causas citadas: dúvidas sobre o retorno do investimento em IA financiado por dívida, spreads de crédito mais largos, tarifas e aposta de alta de juros. O BDR fechou ontem a R$ 19,11 (−5,86%) e abre às 10h, antes de Nova York (11h30), então acompanha o pré-mercado. Contra: a ação fez −14%, +31% e −5,9% em três pregões, o pré-mercado já reverteu antes e o BDR pode abrir em baixa e recuperar.",
+   "gatilho": "PCE às 10h30 e abertura de Nova York às 11h30; invalida se a Nvidia abrir em alta e sustentar",
+   "fonte": "Techi 25/11 8h00 (6h00 ET); Investing.com 25/11 (5h19 ET); AP via BNN Bloomberg 24/11 (16h31 ET); Reuters via Investing.com Brasil 24/11 18h16",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A volatilidade extrema (−14%, +31%, −5,9% em três pregões) e a investigação sobre a empresa puxam em sentidos opostos; um dia só não define tendência."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
+   "ticker": "MUTC34",
+   "empresa": "BDR da Micron",
+   "chance": 67,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Micron cai 5,8% no pré-mercado (Techi, 6h00 ET) e 5,9% (Investing.com, 5h19 ET), com chips estendendo perdas por dúvidas sobre gastos em IA; na Ásia, SK Hynix caiu 11,05%, a Samsung 9,87% e o Kospi 6,16%. Ontem o índice de semicondutores caiu 7,9% e as ações de memória e armazenamento perderam mais de 5% (Reuters via Investing.com Brasil). O BDR fechou ontem a R$ 620,81 (−11,31%). Contra: queda de mais de 11% ontem já embute parte do movimento e o pré-mercado pode reverter.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se os chips reverterem no pré-mercado",
+   "fonte": "Techi 25/11 (6h00 ET); Investing.com 25/11 (5h19 ET); Reuters via Investing.com Brasil 24/11 18h16; Estadão Conteúdo via O Povo 25/11 6h06",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Papel de alta volatilidade depois de uma queda de 11,31% em um dia; o rumo depende do humor do setor de chips, sem notícia própria."
+  },
+  {
+   "lado": "queda",
+   "pos": 4,
+   "ticker": "A1MD34",
+   "empresa": "BDR da AMD",
+   "chance": 66,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A AMD cai 5,7% (Investing.com, 5h19 ET) a 6,4% (Techi, 6h00 ET) no pré-mercado, junto com a Micron (−5,8%) e a Nvidia (−5,0%), com chips em baixa por dúvidas sobre o retorno de gastos em IA e tarifas. O BDR fechou ontem a R$ 305,00 (−9,37%). Contra: o BDR já devolveu mais de 9% ontem e o pré-mercado costuma reverter em parte.",
+   "gatilho": "Abertura de Nova York às 11h30; invalida se os chips reverterem no pré-mercado",
+   "fonte": "Investing.com 25/11 (5h19 ET); Techi 25/11 (6h00 ET); TradeMap (fechamento de 24/11)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Move com o setor e sem notícia própria; depois de −9,37% ontem o repique é possível, mas o pré-mercado aponta o contrário."
+  },
+  {
+   "lado": "queda",
+   "pos": 5,
+   "ticker": "AVGO34",
+   "empresa": "BDR da Broadcom",
+   "chance": 62,
+   "evidencia": "média",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Broadcom cai 3,9% no pré-mercado (Investing.com, 5h19 ET), parte do mesmo movimento de chips que levou o índice de semicondutores a −7,9% ontem; Nasdaq-100 futuro em −2,3% a −2,55%. O BDR fechou ontem a R$ 25,26 (−4,50%). Chance menor que a de Micron e AMD porque a queda do pré-mercado é menor. Contra: o papel caiu menos ontem e pode resistir melhor.",
+   "gatilho": "Abertura de Nova York às 11h30",
+   "fonte": "Investing.com 25/11 (5h19 ET); Reuters via Investing.com Brasil 24/11 18h16; HG Brasil (fechamento de 24/11)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Sem notícia própria; segue o setor de chips e o Nasdaq."
+  },
+  {
+   "lado": "queda",
+   "pos": 6,
+   "ticker": "ITLC34",
+   "empresa": "BDR da Intel",
+   "chance": 60,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Intel cai 3,8% no pré-mercado (Investing.com, 5h19 ET), com os chips em baixa por dúvidas sobre IA financiada por dívida e tarifas. O BDR fechou ontem a R$ 53,60 (−8,55%) e acumula queda de 33,83% em um mês (Investidor10). Contra: a queda forte de ontem e a de um mês podem atrair compradores.",
+   "gatilho": "Abertura de Nova York às 11h30",
+   "fonte": "Investing.com 25/11 (5h19 ET); Investing.com Brasil (fechamento de 24/11); Investidor10",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Já caiu 8,55% ontem e 33,83% em um mês; um repique é possível, mas o pré-mercado ainda é negativo."
+  },
+  {
+   "lado": "queda",
+   "pos": 7,
+   "ticker": "TSMC34",
+   "empresa": "BDR da TSMC",
+   "chance": 57,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR da TSMC cai 3,5% no pré-mercado (Techi, 6h00 ET) e a bolsa de Taiwan caiu 4,80% hoje (Taiex 38.195,43). O BDR fechou ontem a R$ 256,90 (−4,96%). Chance mais baixa porque o BDR é de baixa liquidez (volume médio da ordem de R$ 336 mil por dia, dado aproximado do Investidor10), o que pode distorcer o preço. Contra: o ADR cai menos que os outros chips.",
+   "gatilho": "Abertura de Nova York às 11h30",
+   "fonte": "Techi 25/11 (6h00 ET); Estadão Conteúdo via O Povo 25/11 6h06; TradeMap (fechamento de 24/11)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "Sem notícia própria; BDR pouco líquido, então o movimento pode ser irregular."
+  },
+  {
+   "lado": "queda",
+   "pos": 8,
+   "ticker": "VALE3",
+   "empresa": "Vale",
+   "chance": 54,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "O ADR da Vale cai 0,75% a US$ 9,30 no pré-mercado (Investing.com Brasil, 7h45), o minério em Dalian recua 0,15% (657 iuanes) e Xangai cai 2,03%. Ontem a ação perdeu 5,51% (R$ 55,19), o décimo pregão seguido de queda: minério fraco, demanda chinesa em dúvida, estoques altos, frete e petróleo mais caros e revisões de alvos por bancos (InfoMoney, 18h11); a Vale prioriza reduzir dívida e não planeja dividendos extraordinários neste ano. Contra: dez quedas seguidas e minério estável podem dar espaço a um repique, e a ação caiu ontem com o minério em alta.",
+   "gatilho": "Abertura da B3 às 10h; invalida se o ADR virar para alta e o minério em Singapura subir",
+   "fonte": "Investing.com Brasil 25/11 7h45; InfoMoney 24/11 18h11 e 18h48; Money Times 24/11 18h27; SMM 25/11 (Dalian)",
+   "leitura": "Pode se recuperar",
+   "leitura_motivo": "Dez quedas seguidas com o minério estável sugerem exagero, mas o ADR ainda aponta fraqueza e a ação caiu ontem mesmo com o minério subindo."
+  },
+  {
+   "lado": "queda",
+   "pos": 9,
+   "ticker": "BRKM5",
+   "empresa": "Braskem",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A Braskem caiu 14,09% ontem (R$ 2,50) depois de subir quase 12% na véspera, com o acordo de princípios com credores: aumento de capital de US$ 2,25 bi (US$ 1,3 bi garantido por acionistas principais ou terceiros, com desconto de 20% sobre o preço de conversão), três opções de conversão e dívida nova a 10,5%; o Citi estima diluição de até 92% dos minoritários e o Bradesco BBI espera diluição relevante (Rio Times, 24/11). Os termos não são vinculantes, dependem de aprovações e a Justiça ainda não decidiu o pedido de 20 dias úteis para o plano atualizado. Contra: a queda de ontem já embute grande parte da diluição e a ação pode ter um repique.",
+   "gatilho": "Decisão da Justiça sobre a prorrogação e divulgação dos termos de diluição; sem evento marcado",
+   "fonte": "Rio Times 24/11; fato relevante e 6-K da Braskem (24/11, SEC); InfoMoney 24/11 8h28; Google Finance (fechamento de 24/11)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A queda de 14,09% já reflete a leitura de diluição; o que vem depende dos termos finais e da Justiça, ainda sem data."
+  },
+  {
+   "lado": "subida",
+   "pos": 1,
+   "ticker": "PETR4",
+   "empresa": "Petrobras PN",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "A PETR4 fechou ontem a R$ 40,55 (−1,82%), perto da mínima, depois de a CEO dizer que os dividendos extraordinários 'são um potencial', mas que a empresa 'não está prometendo' (Estadão via DGABC, 18h02). Os R$ 15,6 bi já aprovados (R$ 1,21 por ação, cerca de 3% do preço) têm data-com em 7/12 (ex em 8/12), o ADR (PBR) sobe 0,13% a US$ 15,69 no pré-mercado (Investing.com Brasil, 7h45) e a maioria dos bancos mantém compra: XP (alvo de R$ 52), Itaú BBA (R$ 64), Bradesco BBI (R$ 58), Goldman (R$ 56,80) e JPMorgan (R$ 56,50); o Citi é neutro. Contra: o Brent cai cerca de 1% (US$ 90,56 às 7h18), Nova York e a Ásia estão em queda forte e o papel já recuou 3,21% e 1,82% nos dois últimos pregões, o que não garante repique.",
+   "gatilho": "Sem evento marcado; observar o Brent e o Ibovespa na abertura às 10h",
+   "fonte": "DGABC/Estadão 24/11 18h02; Investing.com Brasil 25/11 7h45; Reuters via Daily Sabah 25/11 7h18; InfoMoney 24/11 8h27; Suno 24/11 11h06",
+   "leitura": "",
+   "leitura_motivo": ""
+  }
+ ],
+ "agenda": [
+  {
+   "hora": "Madrugada",
+   "evento": "Ásia em queda forte (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%, Xangai −2,03%, Hang Seng −1,14%); Europa abre em alta leve (Stoxx 600 +0,2% a +0,5%)",
+   "destaque": "não",
+   "status": "saiu"
+  },
+  {
+   "hora": "Ontem à noite",
+   "evento": "Relatório bimestral: contingenciamento de R$ 12,3 bi (de R$ 13,6 bi) e total congelado de R$ 12,6 bi (de R$ 16,1 bi); Dell, Workday, Autodesk e HP divulgam resultados nos EUA",
+   "destaque": "sim",
+   "status": "saiu"
+  },
+  {
+   "hora": "09h00",
+   "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "09h30",
+   "evento": "Durigan (Fazenda) recebe o CEO do Bradesco; às 11h e às 14h, Banco do Brasil e o governador da Bahia",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h00",
+   "evento": "Coletiva de Bruno Moretti (Planejamento) sobre o relatório bimestral de receitas e despesas",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h00",
+   "evento": "Abertura da B3, depois de quatro quedas seguidas e do menor fechamento desde janeiro; Galípolo na reunião do Comef, fechada à imprensa",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h30",
+   "evento": "EUA: PCE de outubro (consenso +0,3% no mês e 3,8% em 12 meses; núcleo +0,3% e 3,2%) e PIB do 3º trimestre, segunda estimativa (consenso 3,4% a 3,5%); pedidos de seguro-desemprego (cerca de 200 mil) e bens duráveis",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "10h30",
+   "evento": "BC faz dois leilões de linha de crédito em dólar, de até US$ 2 bi cada (liquidação em 30/11)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "11h30",
+   "evento": "Abertura de Nova York; antes dela saem os balanços da Deere e da Li Auto (hora não encontrada)",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "12h00",
+   "evento": "EUA: vendas de casas novas de outubro (consenso 650 mil, anterior 676 mil, segundo o TradeMap)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "14h30",
+   "evento": "Fluxo cambial semanal do BC (anterior: US$ 1,293 bi)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "15h00",
+   "evento": "Lula reúne a equipe econômica (Alckmin, Durigan, Moretti e Belchior) no Alvorada para definir o alcance da PEC de gastos obrigatórios",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "16h00",
+   "evento": "Livro Bege do Fed",
+   "destaque": "sim",
+   "status": "a vir"
+  },
+  {
+   "hora": "17h55",
+   "evento": "Fechamento da B3",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "22h00 a 23h00",
+   "evento": "Banco da Coreia do Sul decide a política monetária (o horário varia entre as fontes)",
+   "destaque": "não",
+   "status": "a vir"
+  },
+  {
+   "hora": "Amanhã, 26/11, 9h",
+   "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; Bradesco projeta 0,36%) e IPP; os EUA ficam fechados (Ação de Graças). Dom 29/11: reunião da Opep+",
+   "destaque": "sim",
+   "status": "a vir"
+  }
+ ],
+ "leitura": [
+  {
+   "topico": "O que mudou desde 24/11",
+   "texto": "Ontem: Alta 30%, Lateral 32%, Queda 38%; o Ibovespa fechou em −0,43% (164.089,81 pts), dentro da faixa lateral, e 5 de 7 previsões de papéis acertaram (o erro foi VALE3, subida prevista com 56%, que caiu 5,51%). Hoje: Alta 23%, Lateral 31%, Queda 46%. A Queda sobe 8 pontos e a Alta perde 7 porque Nova York virou: ontem os futuros apontavam queda leve (S&P 500 −0,4% a −0,5%) e hoje estão em −1,37% a −1,54%, com Nasdaq-100 em −2,3% a −2,55% e a Ásia em queda forte. Do lado local, o risco da votação do ajuste acabou (sanção sem vetos), o contingenciamento veio menor (R$ 12,6 bi contra R$ 16,1 bi) e há uma PEC de gastos a caminho, o que segura a Queda abaixo de 50%. Sinais de ontem: BRKM5 caiu 14,09%, o BDR da Nvidia caiu 5,86%, a PETR4 caiu 1,82% depois da coletiva, o dólar fechou em R$ 5,9107 e os DIs longos recuaram."
+  },
+  {
+   "topico": "Riscos do dia e o que mais surpreenderia",
+   "texto": "Riscos: PCE acima do esperado (+0,3% no mês e 3,8% em 12 meses no consenso) reforçando a alta de juros do Fed em 9/12; anúncio de tarifas dos EUA da Seção 301 sobre 16 economias (o Brasil não consta); dólar voltando a R$ 6,00 com a aversão a risco; DIs longos subindo na abertura das 9h; um número pior na coletiva de Moretti (10h); Nasdaq devolvendo mais depois da abertura às 11h30; frustração com a PEC de gastos na reunião das 15h. Surpreenderia: Ibovespa acima de 165.700 pts (cerca de +1%) com Nova York em queda, ou abaixo de 162.450 pts (cerca de −1%) com o dólar abaixo de R$ 5,90 e o PCE em linha."
+  },
+  {
+   "topico": "Argumento mais forte contra a Queda",
+   "texto": "O Ibovespa não acompanhou Nova York na alta: em 23/11 caiu 0,95% com o S&P 500 em +4,74% e ontem recuou só 0,43% com o Nasdaq em −1,48%. Se o descolamento continuar, a queda dos futuros pode ser em parte absorvida, porque a tecnologia pesa pouco no índice e a agenda local tem notícias que ajudam (sanção do ajuste, contingenciamento menor, PEC de gastos às 15h, leilões do BC). Contra esse argumento: o ADR da Vale cai 0,75%, o Brent recua cerca de 1%, a Ásia caiu até 6% e o dólar, que ontem recuou, pode subir com a aversão a risco global."
+  },
+  {
+   "topico": "Calibragem e vieses",
+   "texto": "Viés de recência: quatro quedas seguidas do Ibovespa e a queda de 5,9% da Nvidia ontem levam a extrapolar, mas ontem os futuros também apontavam queda e o índice fechou quase estável. Ancoragem: ontem o futuro de Nova York mudou de sinal ao longo da manhã; hoje as leituras estão coerentes entre si (S&P 500 de −1,31% a −1,54% entre 6h32 e 7h50), o que dá mais firmeza à Queda, mas futuro do Ibovespa e DI só abrem às 9h. A lista de subida de ontem errou com a Vale (−5,51% com o minério em +1,0% em Dalian): a lógica 'minério em alta ajuda a ação' falhou. Viés de confirmação: quem acompanha tecnologia pode ver a queda como oportunidade; a volatilidade do setor (Nvidia −14%, +31% e −5,9% em três pregões) pede cautela com leituras de um dia."
+  },
+  {
+   "topico": "Por que a lista de subida tem um só papel",
+   "texto": "Na queda entram 9 papéis: 7 BDRs de tecnologia, com pré-mercado concreto de Nova York (Dell −7,0%, Nvidia −5,0%, Micron −5,8%, AMD −5,7% a −6,4%, Broadcom −3,9%, Intel −3,8%, TSMC −3,5%), mais Vale e Braskem. Os 7 BDRs são, na prática, uma aposta só no setor de chips e IA e devem acertar ou errar juntos. Na subida só há a Petrobras, com 52%: com Nova York e Ásia em queda e o Brent em baixa, não achei papel da B3 com notícia concreta que sustentasse alta. Não encontrei balanço de empresa da B3 divulgado depois do fechamento de ontem (Paranapanema ficou para 27/11, Gafisa para 30/11 e Oncoclínicas está sem data) nem nova recomendação para papéis da B3 desde ontem à noite; o rebaixamento de XP (XPBR31) e B3 (B3SA3) pela Safra saiu ontem às 16h17, durante o pregão, e já pode estar no preço. Não completei com palpites."
+  },
+  {
+   "topico": "Lacunas e divergências de fontes",
+   "texto": "Não encontrei: futuro do Ibovespa, dólar e DI de hoje (abrem às 9h); EWZ em pré-mercado com hora (os US$ 29,10, −0,68%, aparecem no Money Times às 7h06 como fechamento de ontem e no Investing.com Brasil às 7h45 como pré-mercado); minério em Singapura hoje; Focus de 23/11; reação de analistas à Petrobras depois do webcast; hora exata do relatório bimestral. Divergências: Brent em contratos diferentes (janeiro: US$ 91,40 no fechamento de ontem e US$ 90,56 hoje; fevereiro: US$ 88,20); Nikkei −2,78% (Estadão Conteúdo e InfoMoney) contra −2,62% (Money Times); variação do dólar de ontem entre −0,26% e −0,40%. O IPCA-15 de novembro sai amanhã (26/11, 9h), e não hoje. Preços em reais: os 10 papéis têm fechamento anterior de 24/11, mas A1MD34 e TSMC34 vêm do TradeMap, MUTC34 e AVGO34 do HG Brasil (24/11, 20h47) com Investidor10 sem data, ITLC34 do Investing.com Brasil e BRKM5 do Google Finance (sem o ano) e do Rio Times. A brapi.dev estava defasada ou bloqueada nesta execução."
+  }
+ ],
+ "noticias": [
+  {
+   "id": "fiscal-contingenciamento-pec",
+   "titulo": "Ajuste fiscal sancionado, contingenciamento menor (R$ 12,3 bi) e PEC de gastos na mesa de Lula hoje",
+   "status": "Em andamento",
+   "quando": "Sanção e relatório bimestral em 24/11; coletiva de Moretti hoje às 10h; reunião de Lula às 15h",
+   "resumo": "Lula sancionou o ajuste fiscal sem vetos (Lei Complementar 239; impacto de R$ 45,1 bi a R$ 56,1 bi em 2027). O relatório do 5º bimestre, divulgado ontem à noite, reduziu o contingenciamento de R$ 13,6 bi para R$ 12,3 bi e o bloqueio de R$ 2,4 bi para R$ 304,3 mi (total congelado de R$ 16,1 bi para R$ 12,6 bi), contra a expectativa de aumento; sem a exclusão de R$ 10,5 bi do diesel, o contingenciamento seria de R$ 22,8 bi. O déficit primário projetado subiu de R$ 80,9 bi para R$ 89,3 bi. Hoje às 15h Lula reúne a equipe econômica no Alvorada para definir o alcance de uma PEC que limita despesas obrigatórias (cerca de R$ 20 bi, sem mexer em saúde e educação); Alcolumbre diz que poderia ser votada até o fim do ano, mas a base do governo resiste.",
+   "impacto": "Menos contingenciamento pode ser lido como menos disciplina, mas a PEC alivia o risco fiscal de 2027 e ajudou dólar e juros futuros ontem. Quem acompanha a curva de juros deve olhar a coletiva das 10h e o resultado da reunião das 15h.",
+   "fonte": "O Antagonista 25/11 8h08; SBT News 25/11; Money Times 24/11 17h20 e 25/11 7h06; Bom Dia Mercado 25/11 7h06; InfoMoney 24/11 18h48",
+   "link": "https://oantagonista.com.br/economia/governo-lula-reduz-contencao-de-gastos-no-orcamento-para-r-126-bilhoes/"
+  },
+  {
+   "id": "petrobras-petroleo",
+   "titulo": "Petrobras: plano de US$ 122 bi, R$ 15,6 bi em dividendos extraordinários e petróleo sensível a Ormuz",
+   "status": "Confirmado",
+   "quando": "Plano em 23/11; coletiva de 24/11; data-com em 7/12 e pagamento em 23/12",
+   "resumo": "O plano 2027-2031 prevê capex de US$ 122 bi (US$ 109 bi no anterior), produção de 2,9 milhões de bpd e dividendos ordinários de US$ 55 a 60 bi no quinquênio. Os R$ 15,6 bi extraordinários (R$ 1,21 por ação) estão aprovados, mas na coletiva a CEO disse que novos extras são 'um potencial' e que 'promessa é dívida', e o Ibovespa virou para baixo; a PETR4 caiu 1,82% (R$ 40,55). Bancos divergem: Citi neutro; XP, Itaú BBA, Bradesco BBI, Goldman e JPMorgan com compra. O Brent subiu 2,27% ontem (US$ 91,40, contrato de janeiro) com relatos de navios atingidos por minas em Ormuz e hoje cai cerca de 1% (US$ 90,56).",
+   "impacto": "PETR3 e PETR4 pesam muito no Ibovespa; o dividendo de R$ 1,21 pode dar suporte até a data-com (7/12), enquanto o capex alto e o petróleo em baixa limitam o ganho. Uma escalada em Ormuz inverteria o sinal para o petróleo.",
+   "fonte": "DGABC/Estadão 24/11 18h02; InfoMoney 24/11 8h27; Money Times 24/11 11h44; Reuters via Nation Thailand e Daily Sabah (Brent); Investing.com Brasil 25/11 7h43 (Irã e Ormuz)",
+   "link": "https://www.dgabc.com.br/Noticia/4370553/dividendos-extraordinarios-sao-um-potencial-mas-petrobras-nao-esta-prometendo-diz-magda"
+  },
+  {
+   "id": "ia-chips-nasdaq",
+   "titulo": "Chips e IA em queda: semicondutores −7,9% ontem, futuros do Nasdaq −2,3% e Ásia derretendo",
+   "status": "Em andamento",
+   "quando": "24/11 (fechamento) e madrugada de hoje; PCE às 10h30 e abertura de Nova York às 11h30",
+   "resumo": "O Nasdaq caiu 1,48% e o S&P 500 0,50% ontem, com o Dow em +0,85%; a Nvidia fechou a US$ 155,38 (−5,86%) e hoje cai cerca de 5% no pré-mercado. A Dell inverteu o ganho do after-hours (−7,0%) apesar de lucro e guia acima do consenso, e Micron (−5,8%), AMD (−5,7% a −6,4%), Broadcom (−3,9%) e Intel (−3,8%) caem. Na Ásia, Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%, Hang Seng −1,14% e Xangai −2,03%, com dúvidas sobre IA, juros altos e tarifas. A AP cita também as vitórias democratas nas eleições de meio de mandato e o risco de regulação mais dura. S&P 500 e Dow caminham para o pior novembro desde 2008 (Reuters).",
+   "impacto": "BDRs de tecnologia seguem o pré-mercado e a B3 abre antes de Nova York; o Ibovespa tem pouco peso em tecnologia, mas o clima de aversão a risco pode pesar sobre o dólar e as ações domésticas.",
+   "fonte": "AP via BNN Bloomberg 24/11 (16h31 ET); Reuters via Investing.com Brasil 24/11 18h16; Techi 25/11 (6h00 ET); Estadão Conteúdo via O Povo 25/11 6h06; Al Jazeera 25/11",
+   "link": "https://bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price"
+  },
+  {
+   "id": "eua-fed-tarifas",
+   "titulo": "EUA: PCE hoje, alta de juros do Fed precificada para dezembro e novas tarifas da Seção 301",
+   "status": "Expectativa de mercado",
+   "quando": "Hoje 10h30 (PCE e PIB), 16h (Livro Bege); Fomc em 8 e 9/12; EUA fechados amanhã (Ação de Graças)",
+   "resumo": "O PCE de outubro sai às 10h30 com consenso de +0,3% no mês e 3,8% em 12 meses (anterior 3,6%); o núcleo, +0,3% e 3,2%. O Fed está em ciclo de alta (faixa de 3,75% a 4,00%, com alta de 0,25 ponto em setembro e manutenção em outubro) e o CME FedWatch indica 95% a 98% de chance de nova alta em 9/12. A Reuters diz que o governo Trump deve anunciar 'a qualquer momento' tarifas sobre 16 economias (China, UE, Índia, Japão, Coreia, México e outras) após a investigação de excesso de capacidade; o Brasil não está na lista. Os EUA bloquearam o pedido do Brasil por um painel na OMC contra as tarifas de 25% e 12,5%.",
+   "impacto": "PCE acima do esperado reforça o dólar global e pressiona os juros longos brasileiros e as ações de emergentes; tarifas sobre outros países afetam o humor global e as cadeias de commodities.",
+   "fonte": "Yahoo Finance 25/11 (consensos); Reuters via Investing.com Brasil 24/11 (tarifas) e 25/11; InfoMoney 25/11 6h15; Money Times 24/11 16h21; Istoé Dinheiro 24/11",
+   "link": "https://br.investing.com/news/commodities-news/governo-trump-deve-anunciar-novas-tarifas-apos-investigacao-sobre-excesso-de-capacidade-industrial-dizem-fontes-2137202"
+  },
+  {
+   "id": "braskem-acordo",
+   "titulo": "Braskem: acordo de princípios com credores derruba a ação em 14,09% por temor de diluição",
+   "status": "Em andamento",
+   "quando": "Fato relevante de 23/11, protocolado em 24/11; plano atualizado à Justiça nas próximas semanas",
+   "resumo": "Braskem, Shine/IG4 e Petrobras fecharam acordo não vinculante com os credores do comitê: aumento de capital de US$ 2,25 bi (US$ 1,3 bi garantido por acionistas principais ou terceiros, com desconto de 20% sobre o preço de conversão), três opções de conversão de dívida e dívida nova a 10,5% sem amortização antes de 2031. A empresa pediu mais 20 dias úteis para apresentar o plano, e a Justiça ainda não decidiu. A ação caiu 14,09% (R$ 2,50) depois de subir quase 12% na véspera; o Citi estima diluição de até 92% dos minoritários.",
+   "impacto": "Afasta o risco imediato de recuperação judicial, mas a diluição pode ser grande para minoritários; a Petrobras segue como acionista de referência e com aporte novo.",
+   "fonte": "Rio Times 24/11; 6-K da Braskem na SEC 24/11; InfoMoney 24/11 8h28; Bradesco BBI e Citi via imprensa",
+   "link": "https://riotimesonline.com/braskem-shares-fall-debt-deal-dilution"
+  },
+  {
+   "id": "bc-dolar-diretoria",
+   "titulo": "BC faz dois leilões de linha em dólar hoje; Fazenda quer antecipar indicações à diretoria do BC",
+   "status": "Em andamento",
+   "quando": "Leilões às 10h30; Galípolo no Comef às 10h (fechado à imprensa); indicações previstas para as próximas semanas",
+   "resumo": "O BC fará dois leilões de linha de crédito em dólar de até US$ 2 bi cada às 10h30 (liquidação em 30/11), depois da primeira intervenção do ano em 19/11. O dólar fechou ontem a R$ 5,9107 (−0,26%), depois de tocar R$ 6,0055 na segunda. A Fazenda quer antecipar as indicações para as quatro vagas de diretoria do BC, para o Senado atual aprovar em dezembro, e sugere nomes 'amigáveis ao mercado' (nomes sondados: Marina Copola, Carolina Bohrer, Cecilia Machado e Cassiana Fernandez, segundo a Bloomberg Línea; nada confirmado). A Selic está em 13,75% desde o Copom de 4/11; o próximo Copom é em 8 e 9/12.",
+   "impacto": "Indicações vistas como ortodoxas ajudam a curva de juros e o câmbio; atraso ou nomes heterodoxos pesariam sobre dólar e DIs. Os leilões de linha têm efeito limitado, como o da semana passada.",
+   "fonte": "InfoMoney 25/11 6h15; Metrópoles 24/11; Bloomberg Línea 25/11; Estadão/Broadcast via Terra 24/11 22h04; Money Times 25/11 7h06",
+   "link": "https://www.bloomberglinea.com.br/brasil/lula-e-aconselhado-a-antecipar-indicacoes-para-diretorias-do-banco-central/"
+  },
+  {
+   "id": "vale-minerio",
+   "titulo": "Vale cai 5,51% e emenda o décimo pregão de queda, apesar do minério em alta em Dalian ontem",
+   "status": "Em andamento",
+   "quando": "24/11 (fechamento) e pré-mercado de hoje; encontro anual com o mercado em 1/12",
+   "resumo": "A Vale fechou a R$ 55,19 (−5,51%), a décima queda seguida. A cobertura cita minério fraco (cerca de US$ 90), demanda chinesa em dúvida, estoques altos, frete e petróleo mais caros (margem operacional cerca de 20% menor no 3T), revisão de alvos por bancos, cobre em queda e a prioridade de reduzir dívida, sem dividendos extraordinários neste ano. Hoje o ADR cai 0,75% no pré-mercado, o minério recua 0,15% em Dalian (657 iuanes) e Xangai cai 2,03%. Não encontrei notícia nova da empresa hoje.",
+   "impacto": "A Vale tem peso grande no Ibovespa; a sequência de quedas é um dos fatores que seguram o índice, e a perda do papel de proteção cambial tira suporte do papel quando o dólar cai.",
+   "fonte": "InfoMoney 24/11 18h11 e 18h48; Money Times 24/11 18h27; Investing.com Brasil 25/11 7h45; SMM 25/11",
+   "link": "https://www.infomoney.com.br/mercados/por-que-a-vale-vale3-caiu-mais-de-5-nesta-terca/"
+  }
+ ],
+ "fechamento": []
+}

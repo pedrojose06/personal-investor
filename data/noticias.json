@@ -1,72 +1,72 @@
 [
  {
-  "id": "ajuste-fiscal",
-  "titulo": "Câmara aprova o ajuste fiscal por 353 a 128; texto vai à sanção e o governo promete novas medidas",
-  "status": "Confirmado",
-  "quando": "Segunda, 23/11, à noite; contingenciamento e reunião com a equipe econômica hoje",
-  "resumo": "O PLP 299/2026 foi aprovado sem mudanças em relação ao Senado (353 a 128, 5 abstenções; urgência por 318 a 135). Limita o crescimento real da despesa a 2% nos anos de contingenciamento, eleva o corte linear de benefícios tributários de 10% para 20% e permite limitar compensações cruzadas de créditos. O impacto em 2027 vai de R$ 45,1 a R$ 56,1 bi (Planalto cita até R$ 70 bi). Durigan quer enviar novas medidas ao Congresso em até duas semanas; hoje sai o contingenciamento. A Convexa vê o ajuste como pequeno e do lado da receita.",
-  "impacto": "Remove o risco de adiamento que pesava sobre o dólar e os DIs, mas o mercado pede corte de despesa. Dólar perto de R$ 6 e juros altos seguem no centro; empresas com créditos tributários na Justiça podem pagar mais em caixa.",
-  "fonte": "Exame 23/11 22h33; InfoMoney 23/11 22h35; Mixvale 24/11 6h37; Metrópoles 24/11 7h59; PAIPEE 24/11",
-  "link": "https://exame.com/brasil/camara-aprova-pacote-de-ajuste-fiscal-do-governo-lula-texto-vai-a-sancao-presidencial/"
+  "id": "fiscal-contingenciamento-pec",
+  "titulo": "Ajuste fiscal sancionado, contingenciamento menor (R$ 12,3 bi) e PEC de gastos na mesa de Lula hoje",
+  "status": "Em andamento",
+  "quando": "Sanção e relatório bimestral em 24/11; coletiva de Moretti hoje às 10h; reunião de Lula às 15h",
+  "resumo": "Lula sancionou o ajuste fiscal sem vetos (Lei Complementar 239; impacto de R$ 45,1 bi a R$ 56,1 bi em 2027). O relatório do 5º bimestre, divulgado ontem à noite, reduziu o contingenciamento de R$ 13,6 bi para R$ 12,3 bi e o bloqueio de R$ 2,4 bi para R$ 304,3 mi (total congelado de R$ 16,1 bi para R$ 12,6 bi), contra a expectativa de aumento; sem a exclusão de R$ 10,5 bi do diesel, o contingenciamento seria de R$ 22,8 bi. O déficit primário projetado subiu de R$ 80,9 bi para R$ 89,3 bi. Hoje às 15h Lula reúne a equipe econômica no Alvorada para definir o alcance de uma PEC que limita despesas obrigatórias (cerca de R$ 20 bi, sem mexer em saúde e educação); Alcolumbre diz que poderia ser votada até o fim do ano, mas a base do governo resiste.",
+  "impacto": "Menos contingenciamento pode ser lido como menos disciplina, mas a PEC alivia o risco fiscal de 2027 e ajudou dólar e juros futuros ontem. Quem acompanha a curva de juros deve olhar a coletiva das 10h e o resultado da reunião das 15h.",
+  "fonte": "O Antagonista 25/11 8h08; SBT News 25/11; Money Times 24/11 17h20 e 25/11 7h06; Bom Dia Mercado 25/11 7h06; InfoMoney 24/11 18h48",
+  "link": "https://oantagonista.com.br/economia/governo-lula-reduz-contencao-de-gastos-no-orcamento-para-r-126-bilhoes/"
  },
  {
-  "id": "petrobras-plano",
-  "titulo": "Petrobras: plano de US$ 122 bi até 2031 e R$ 15,6 bi em dividendos extraordinários",
+  "id": "petrobras-petroleo",
+  "titulo": "Petrobras: plano de US$ 122 bi, R$ 15,6 bi em dividendos extraordinários e petróleo sensível a Ormuz",
   "status": "Confirmado",
-  "quando": "Segunda, 23/11, depois do fechamento; coletiva hoje 13h30 e webcast 16h",
-  "resumo": "Capex de US$ 122 bi em 2027-2031 (US$ 109 bi no plano anterior), com mais de 70% em exploração e produção, produção de 3,2 milhões de boe/d, dívida bruta limitada a US$ 75 bi e Brent de US$ 74 (2027) e US$ 70 (2028 a 2031). Dividendos extraordinários de R$ 15,6 bi (R$ 1,21 por ação ON e PN; data-com 7/12, pagamento 23/12), que serão descontados da remuneração de 2026 a aprovar em 2027. O Citi vê o plano como predominantemente negativo e o PBR cai 0,32% no pré-mercado.",
-  "impacto": "PETR3 e PETR4 pesam muito no Ibovespa; a União, maior acionista, recebe boa parte do dividendo, o que ajuda o caixa do governo. Capex alto pode pressionar o retorno ao acionista nos próximos anos.",
-  "fonte": "Times Brasil/CNBC 23/11 19h47; Canal Rural 23/11 20h27; CNN Brasil 23/11 19h59; Money Times 24/11 7h00 e 8h11",
-  "link": "https://timesbrasil.com.br/brasil/petrobras-aprova-plano-de-us-122-bilhoes-ate-2031-e-promete-producao-recorde-de-32-milhoes-de-barris/"
+  "quando": "Plano em 23/11; coletiva de 24/11; data-com em 7/12 e pagamento em 23/12",
+  "resumo": "O plano 2027-2031 prevê capex de US$ 122 bi (US$ 109 bi no anterior), produção de 2,9 milhões de bpd e dividendos ordinários de US$ 55 a 60 bi no quinquênio. Os R$ 15,6 bi extraordinários (R$ 1,21 por ação) estão aprovados, mas na coletiva a CEO disse que novos extras são 'um potencial' e que 'promessa é dívida', e o Ibovespa virou para baixo; a PETR4 caiu 1,82% (R$ 40,55). Bancos divergem: Citi neutro; XP, Itaú BBA, Bradesco BBI, Goldman e JPMorgan com compra. O Brent subiu 2,27% ontem (US$ 91,40, contrato de janeiro) com relatos de navios atingidos por minas em Ormuz e hoje cai cerca de 1% (US$ 90,56).",
+  "impacto": "PETR3 e PETR4 pesam muito no Ibovespa; o dividendo de R$ 1,21 pode dar suporte até a data-com (7/12), enquanto o capex alto e o petróleo em baixa limitam o ganho. Uma escalada em Ormuz inverteria o sinal para o petróleo.",
+  "fonte": "DGABC/Estadão 24/11 18h02; InfoMoney 24/11 8h27; Money Times 24/11 11h44; Reuters via Nation Thailand e Daily Sabah (Brent); Investing.com Brasil 25/11 7h43 (Irã e Ormuz)",
+  "link": "https://www.dgabc.com.br/Noticia/4370553/dividendos-extraordinarios-sao-um-potencial-mas-petrobras-nao-esta-prometendo-diz-magda"
+ },
+ {
+  "id": "ia-chips-nasdaq",
+  "titulo": "Chips e IA em queda: semicondutores −7,9% ontem, futuros do Nasdaq −2,3% e Ásia derretendo",
+  "status": "Em andamento",
+  "quando": "24/11 (fechamento) e madrugada de hoje; PCE às 10h30 e abertura de Nova York às 11h30",
+  "resumo": "O Nasdaq caiu 1,48% e o S&P 500 0,50% ontem, com o Dow em +0,85%; a Nvidia fechou a US$ 155,38 (−5,86%) e hoje cai cerca de 5% no pré-mercado. A Dell inverteu o ganho do after-hours (−7,0%) apesar de lucro e guia acima do consenso, e Micron (−5,8%), AMD (−5,7% a −6,4%), Broadcom (−3,9%) e Intel (−3,8%) caem. Na Ásia, Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%, Hang Seng −1,14% e Xangai −2,03%, com dúvidas sobre IA, juros altos e tarifas. A AP cita também as vitórias democratas nas eleições de meio de mandato e o risco de regulação mais dura. S&P 500 e Dow caminham para o pior novembro desde 2008 (Reuters).",
+  "impacto": "BDRs de tecnologia seguem o pré-mercado e a B3 abre antes de Nova York; o Ibovespa tem pouco peso em tecnologia, mas o clima de aversão a risco pode pesar sobre o dólar e as ações domésticas.",
+  "fonte": "AP via BNN Bloomberg 24/11 (16h31 ET); Reuters via Investing.com Brasil 24/11 18h16; Techi 25/11 (6h00 ET); Estadão Conteúdo via O Povo 25/11 6h06; Al Jazeera 25/11",
+  "link": "https://bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price"
+ },
+ {
+  "id": "eua-fed-tarifas",
+  "titulo": "EUA: PCE hoje, alta de juros do Fed precificada para dezembro e novas tarifas da Seção 301",
+  "status": "Expectativa de mercado",
+  "quando": "Hoje 10h30 (PCE e PIB), 16h (Livro Bege); Fomc em 8 e 9/12; EUA fechados amanhã (Ação de Graças)",
+  "resumo": "O PCE de outubro sai às 10h30 com consenso de +0,3% no mês e 3,8% em 12 meses (anterior 3,6%); o núcleo, +0,3% e 3,2%. O Fed está em ciclo de alta (faixa de 3,75% a 4,00%, com alta de 0,25 ponto em setembro e manutenção em outubro) e o CME FedWatch indica 95% a 98% de chance de nova alta em 9/12. A Reuters diz que o governo Trump deve anunciar 'a qualquer momento' tarifas sobre 16 economias (China, UE, Índia, Japão, Coreia, México e outras) após a investigação de excesso de capacidade; o Brasil não está na lista. Os EUA bloquearam o pedido do Brasil por um painel na OMC contra as tarifas de 25% e 12,5%.",
+  "impacto": "PCE acima do esperado reforça o dólar global e pressiona os juros longos brasileiros e as ações de emergentes; tarifas sobre outros países afetam o humor global e as cadeias de commodities.",
+  "fonte": "Yahoo Finance 25/11 (consensos); Reuters via Investing.com Brasil 24/11 (tarifas) e 25/11; InfoMoney 25/11 6h15; Money Times 24/11 16h21; Istoé Dinheiro 24/11",
+  "link": "https://br.investing.com/news/commodities-news/governo-trump-deve-anunciar-novas-tarifas-apos-investigacao-sobre-excesso-de-capacidade-industrial-dizem-fontes-2137202"
  },
  {
   "id": "braskem-acordo",
-  "titulo": "Braskem fecha acordo preliminar de US$ 4,9 bi com credores; diluição ainda não divulgada",
+  "titulo": "Braskem: acordo de princípios com credores derruba a ação em 14,09% por temor de diluição",
   "status": "Em andamento",
-  "quando": "Segunda, 23/11 (fato relevante à noite); plano atualizado à Justiça nas próximas semanas",
-  "resumo": "Aporte de US$ 1,3 bi da Petrobras e conversão de US$ 3,6 bi de dívida em ações; dívida remanescente em torno de US$ 7 bi, com carência até 2028. Petrobras e IG4 mantêm o controle e os credores ficam sem voto. A Braskem pediu prorrogação de 20 dias úteis para apresentar o plano; preço de emissão e diluição não foram divulgados. A ação subiu 11,92% ontem.",
-  "impacto": "Reduz o risco de recuperação judicial, mas a diluição pode ser grande; Petrobras segue exposta como acionista de referência e com novo aporte.",
-  "fonte": "Money Times/Reuters 24/11 6h36; DGABC 23/11 16h; Melhor Investimento 23/11 12h48",
-  "link": "https://www.moneytimes.com.br/braskem-brkm5-anuncia-acordo-preliminar-com-credores-sobre-plano-de-reestruturacao-fets/"
+  "quando": "Fato relevante de 23/11, protocolado em 24/11; plano atualizado à Justiça nas próximas semanas",
+  "resumo": "Braskem, Shine/IG4 e Petrobras fecharam acordo não vinculante com os credores do comitê: aumento de capital de US$ 2,25 bi (US$ 1,3 bi garantido por acionistas principais ou terceiros, com desconto de 20% sobre o preço de conversão), três opções de conversão de dívida e dívida nova a 10,5% sem amortização antes de 2031. A empresa pediu mais 20 dias úteis para apresentar o plano, e a Justiça ainda não decidiu. A ação caiu 14,09% (R$ 2,50) depois de subir quase 12% na véspera; o Citi estima diluição de até 92% dos minoritários.",
+  "impacto": "Afasta o risco imediato de recuperação judicial, mas a diluição pode ser grande para minoritários; a Petrobras segue como acionista de referência e com aporte novo.",
+  "fonte": "Rio Times 24/11; 6-K da Braskem na SEC 24/11; InfoMoney 24/11 8h28; Bradesco BBI e Citi via imprensa",
+  "link": "https://riotimesonline.com/braskem-shares-fall-debt-deal-dilution"
  },
  {
-  "id": "wall-street-ia",
-  "titulo": "Wall Street dispara com a volta de Huang à Nvidia, mas os futuros de hoje amanhecem negativos",
+  "id": "bc-dolar-diretoria",
+  "titulo": "BC faz dois leilões de linha em dólar hoje; Fazenda quer antecipar indicações à diretoria do BC",
   "status": "Em andamento",
-  "quando": "Segunda, 23/11 (fechamento); futuros hoje 7h50",
-  "resumo": "S&P 500 +4,74%, Nasdaq +6,51% e Dow +3,01% ontem, a maior alta do S&P 500 e do Nasdaq desde 9/4/2025; a Nvidia subiu cerca de 31% depois de o conselho reconduzir Jensen Huang, e o setor de tecnologia do S&P 500 subiu 9%. Hoje a Nvidia cai mais de 3% no pré-mercado e os futuros estão em −0,4% a −0,5% (S&P 500) e −1,0% a −1,2% (Nasdaq). A investigação independente (Wachtell) continua e o Tesouro (Bessent) diz que o conselho ainda apura o caso dos chips para a China.",
-  "impacto": "BDRs de tecnologia seguem o Nasdaq e o dólar; a volatilidade extrema (−14% na sexta, +31% na segunda) pede cautela com leituras de um dia.",
-  "fonte": "Forbes Brasil 24/11 7h54; TipRanks 24/11 7h52; Investidor Institucional 23/11; FinanceFeeds 23/11",
-  "link": "https://forbes.com.br/forbes-money/2026/11/pre-mercado-recuo-nas-cotacoes-apos-rali-pela-volta-de-huang-a-nvidia/"
+  "quando": "Leilões às 10h30; Galípolo no Comef às 10h (fechado à imprensa); indicações previstas para as próximas semanas",
+  "resumo": "O BC fará dois leilões de linha de crédito em dólar de até US$ 2 bi cada às 10h30 (liquidação em 30/11), depois da primeira intervenção do ano em 19/11. O dólar fechou ontem a R$ 5,9107 (−0,26%), depois de tocar R$ 6,0055 na segunda. A Fazenda quer antecipar as indicações para as quatro vagas de diretoria do BC, para o Senado atual aprovar em dezembro, e sugere nomes 'amigáveis ao mercado' (nomes sondados: Marina Copola, Carolina Bohrer, Cecilia Machado e Cassiana Fernandez, segundo a Bloomberg Línea; nada confirmado). A Selic está em 13,75% desde o Copom de 4/11; o próximo Copom é em 8 e 9/12.",
+  "impacto": "Indicações vistas como ortodoxas ajudam a curva de juros e o câmbio; atraso ou nomes heterodoxos pesariam sobre dólar e DIs. Os leilões de linha têm efeito limitado, como o da semana passada.",
+  "fonte": "InfoMoney 25/11 6h15; Metrópoles 24/11; Bloomberg Línea 25/11; Estadão/Broadcast via Terra 24/11 22h04; Money Times 25/11 7h06",
+  "link": "https://www.bloomberglinea.com.br/brasil/lula-e-aconselhado-a-antecipar-indicacoes-para-diretorias-do-banco-central/"
  },
  {
-  "id": "dolar-juros",
-  "titulo": "Dólar tocou R$ 6,0055 e fechou a R$ 5,9262; DIs altos, Focus piora e vagas no BC seguem abertas",
+  "id": "vale-minerio",
+  "titulo": "Vale cai 5,51% e emenda o décimo pregão de queda, apesar do minério em alta em Dalian ontem",
   "status": "Em andamento",
-  "quando": "Fechamento de 23/11 e manhã de hoje",
-  "resumo": "O dólar à vista bateu R$ 6,0055 na segunda (primeira vez acima de R$ 6 desde abril de 2025) e fechou em R$ 5,9262 (−0,14%); o DXY estava em 104,33. O Focus de 23/11 subiu o IPCA de 2026 para 5,15% e o de 2027 para 5,12%, e a Selic de 2027 para 13,00%. Galípolo disse ontem que o cenário é mais desafiador para emergentes e que 'a função de reação do BC não mudou'. O governo deve indicar nomes para as vagas de diretoria do BC e do STF até meados da semana.",
-  "impacto": "Dólar alto e juros longos acima de 15% pesam sobre ações domésticas e FIIs; ajudam exportadoras. A indicação ao BC pode mexer com a curva.",
-  "fonte": "Gazeta Brasil e Campo Grande News 23/11; InfoMoney 23/11 9h33 (blog); Investidor Institucional 23/11; InfoMoney 24/11 6h14; PAIPEE 24/11 5h58",
-  "link": "https://br.paipee.com/2026/11/24/ajuste-fiscal-e-aprovado-mas-dolar-deve-seguir-em-alta/"
- },
- {
-  "id": "fed-pce",
-  "titulo": "EUA: PCE e PIB do 3º trimestre amanhã e risco de alta de juros do Fed em dezembro",
-  "status": "Expectativa de mercado",
-  "quando": "Quarta, 25/11, 10h30; Livro Bege 16h; Fomc em 8 e 9/12",
-  "resumo": "O PCE de outubro e a segunda estimativa do PIB saem amanhã às 10h30, com o Livro Bege às 16h; o consenso não foi encontrado. O PAIPEE e o investinglive (18/11, ata do Fed e Waller) apontam maior chance de alta de juros nos EUA. Quinta-feira 26/11 é feriado nos EUA, com sessão curta na sexta.",
-  "impacto": "Dado de inflação acima do esperado reforça o dólar global e pressiona emergentes e os juros longos brasileiros.",
-  "fonte": "BPMoney 22/11; AVNews 22/11; InfoMoney 24/11 6h14; PAIPEE 24/11; investinglive 18/11",
-  "link": "https://bpmoney.com.br/economia/agenda-da-semana-ipca-15-desemprego-no-brasil-e-inflacao-dos-eua-movimentam-mercados/"
- },
- {
-  "id": "ira-ormuz",
-  "titulo": "Irã e Ormuz: petróleo perto da mínima de três meses, com relato de petroleiros em chamas",
-  "status": "Não confirmado",
-  "quando": "Madrugada de hoje; Brent fechou a US$ 89,37 ontem (−3,46%)",
-  "resumo": "O TipRanks cita a Press TV, segundo a qual três petroleiros pegaram fogo depois de minas no Estreito de Ormuz; não encontrei confirmação em outra fonte. O Brent está em US$ 88,7 a US$ 89,1 (Money Times e InfoMoney), perto da mínima de três meses (Forbes e TipRanks), depois de oferta no Oriente Médio e retomada de oleoduto na Líbia pesarem ontem (CGN).",
-  "impacto": "Petróleo mais baixo pesa em Petrobras, Prio e Brava; uma escalada em Ormuz inverteria o sinal.",
-  "fonte": "TipRanks 24/11 7h52; Forbes Brasil 24/11 7h54; Money Times 24/11 7h00; Campo Grande News 23/11",
-  "link": "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia"
+  "quando": "24/11 (fechamento) e pré-mercado de hoje; encontro anual com o mercado em 1/12",
+  "resumo": "A Vale fechou a R$ 55,19 (−5,51%), a décima queda seguida. A cobertura cita minério fraco (cerca de US$ 90), demanda chinesa em dúvida, estoques altos, frete e petróleo mais caros (margem operacional cerca de 20% menor no 3T), revisão de alvos por bancos, cobre em queda e a prioridade de reduzir dívida, sem dividendos extraordinários neste ano. Hoje o ADR cai 0,75% no pré-mercado, o minério recua 0,15% em Dalian (657 iuanes) e Xangai cai 2,03%. Não encontrei notícia nova da empresa hoje.",
+  "impacto": "A Vale tem peso grande no Ibovespa; a sequência de quedas é um dos fatores que seguram o índice, e a perda do papel de proteção cambial tira suporte do papel quando o dólar cai.",
+  "fonte": "InfoMoney 24/11 18h11 e 18h48; Money Times 24/11 18h27; Investing.com Brasil 25/11 7h45; SMM 25/11",
+  "link": "https://www.infomoney.com.br/mercados/por-que-a-vale-vale3-caiu-mais-de-5-nesta-terca/"
  }
 ]
