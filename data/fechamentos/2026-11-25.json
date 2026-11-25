@@ -1,0 +1,76 @@
+[
+ {
+  "tipo": "resumo",
+  "status": "Publicado",
+  "data": "25/11/2026",
+  "hora": "19h01",
+  "ibov": "166.685 pts",
+  "ibov_var": "+1,58%",
+  "dolar": "R$ 5,82",
+  "dolar_var": "−1,59%",
+  "acertos": "7 de 9",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 40,70 → R$ 41,36 (+R$ 0,66; +1,62%), 1 de 1 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 1.245,79 → R$ 1.259,13 (−R$ 13,34; −1,07%), 7 de 9 papéis com preço · Total: −R$ 12,68 (−0,99% sobre R$ 1.286,49); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa subiu 1,58% e fechou a 166.684,61 pontos (máxima de 167.105,33), interrompendo quatro quedas seguidas: Vale (+3,10%) e Petrobras (PETR4 +2,00%) lideraram a recuperação, com a equipe econômica estudando uma PEC para limitar despesas obrigatórias (o ministro do Planejamento disse não haver PEC pronta), o PCE de outubro nos EUA em +0,3% no mês e 3,8% em 12 meses e o Nasdaq em queda de 0,62%; o dólar à vista recuou 1,59%, a R$ 5,8168. As previsões do dia acertaram 7 de 9, com 2 sem dado: o maior acerto foi BRKM5 (−10,40%, queda prevista com 52%), o maior erro entre os papéis foi VALE3 (+3,10%, queda prevista com 54%) e o Ibovespa subiu acima de +0,5% contra a queda abaixo de −0,5% prevista com 46%, de modo que o cenário de alta (23%) prevaleceu. 8 dos 10 papéis têm abertura e fechamento em reais; D1EL34 e NVDC34 ficaram sem preço datado de hoje, e BRKM5, ITLC34, MUTC34 e TSMC34 vêm de fonte única. Divergências: A1MD34 a R$ 289,05 (−5,23%) na HG Brasil e entre R$ 293,20 e R$ 297,81 no TradeMap (com atraso de 15 minutos), AVGO34 com centavos de diferença antes do leilão, e uma matéria em inglês com o Ibovespa a 166.641,73 (+1,55%) antes do leilão, contra 166.684,61 em quatro veículos; o ranking de altas e baixas vem de uma única tabela (Bora Investir, 18h43).",
+  "fontes": "Money Times (fechamento, 18h26), Metrópoles (18h31), Bora Investir/B3 (18h43), Melhor Investimento (18h50), Bloomberg Línea, HG Brasil, TradeMap, Investing.com e Investing.com Brasil, Investidor10 e meusdividendos (conferência), The Library (divergências)"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "NATU3",
+  "empresa": "Natura",
+  "var": "+10,56%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "AZZA3",
+  "empresa": "Azzas",
+  "var": "+8,11%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "VAMO3",
+  "empresa": "Vamos",
+  "var": "+7,75%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "CSNA3",
+  "empresa": "CSN",
+  "var": "+6,48%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "MRVE3",
+  "empresa": "MRV",
+  "var": "+6,45%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "EMBJ3",
+  "empresa": "Embraer",
+  "var": "−4,00%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "SANB11",
+  "empresa": "Santander Brasil",
+  "var": "−2,60%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "ABEV3",
+  "empresa": "Ambev",
+  "var": "−1,80%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "MBRF3",
+  "empresa": "MBRF",
+  "var": "−1,58%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "VIVT3",
+  "empresa": "Telefônica Brasil",
+  "var": "−1,42%"
+ }
+]

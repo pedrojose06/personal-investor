@@ -1356,8 +1356,8 @@
   "previsto": "Queda: fechar abaixo de −0,5%",
   "chance": 46,
   "referencia": "164.090 pts, fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente"
+  "realizado": "+1,58%",
+  "resultado": "Errou"
  },
  {
   "id": "2026-11-25-D1EL34",
@@ -1367,12 +1367,12 @@
   "chance": 70,
   "referencia": "Fechamento de 24/11",
   "realizado": "",
-  "resultado": "Pendente",
+  "resultado": "Sem dado",
   "fech_anterior": "R$ 69,80",
   "abertura": "",
   "fechamento": "",
   "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, fechamento de 24/11 (24/11/2026, 20h47, −12,59%) e Investing.com Brasil (24/11, sem o ano); Investidor10 mostra o mesmo valor, sem data. Fechamento anterior de R$ 79,85 só confere a variação."
+  "fonte_preco": "Sem preço datado de 25/11: HG Brasil e brapi mostravam só o fechamento de 24/11 (R$ 69,80). Páginas sem data traziam R$ 68,40 (Investing.com Brasil, 17h54, −2,01%), R$ 67,97 (meusdividendos, −2,62%) e R$ 68,10 (Investidor10), que divergem entre si e não foram usadas. Fechamento anterior R$ 69,80 mantido."
  },
  {
   "id": "2026-11-25-NVDC34",
@@ -1382,12 +1382,12 @@
   "chance": 68,
   "referencia": "Fechamento de 24/11",
   "realizado": "",
-  "resultado": "Pendente",
+  "resultado": "Sem dado",
   "fech_anterior": "R$ 19,11",
   "abertura": "",
   "fechamento": "",
   "abertura_fechamento": "",
-  "fonte_preco": "Investing.com Brasil, fechamento de 24/11 (−5,86%, sem o ano) e Investidor10 (mesmo valor, sem data)."
+  "fonte_preco": "Sem fechamento datado de 25/11: a HG Brasil mostrava só um instantâneo das 10h12 (R$ 18,11, mercado aberto) com campos incoerentes, o Investidor10 trazia R$ 18,07 sem data e as demais páginas estavam com dados de outros dias. Fechamento anterior R$ 19,11 mantido."
  },
  {
   "id": "2026-11-25-MUTC34",
@@ -1396,13 +1396,13 @@
   "previsto": "Queda",
   "chance": 67,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−6,37%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 620,81",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, fechamento de 24/11 (24/11/2026, 20h47, −11,31%); Investidor10 mostra o mesmo valor, sem data e sem variação."
+  "abertura": "R$ 579,95",
+  "fechamento": "R$ 581,24",
+  "abertura_fechamento": "+0,22%",
+  "fonte_preco": "HG Brasil, 25/11/2026 18h13 (mercado fechado), fonte única: abertura R$ 579,95, fechamento R$ 581,24, mínima R$ 534,27. O campo \"fechamento anterior\" da HG repete o preço; o R$ 620,81 vem do Radar e bate com a variação."
  },
  {
   "id": "2026-11-25-A1MD34",
@@ -1411,13 +1411,13 @@
   "previsto": "Queda",
   "chance": 66,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−5,23%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 305,00",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "TradeMap, fechamento de 24/11 (24/11/2026, −9,37%); fonte única datada."
+  "abertura": "R$ 286,89",
+  "fechamento": "R$ 289,05",
+  "abertura_fechamento": "+0,75%",
+  "fonte_preco": "HG Brasil, 25/11/2026 18h11 (mercado fechado): abertura R$ 286,89, fechamento R$ 289,05. Divergência: o TradeMap (18h08, com atraso de 15 min) trazia R$ 297,81 (−2,36%) no cabeçalho e R$ 293,20 no bloco OHLC; adotado o dado mais tardio da HG, e as duas fontes mostram queda. A abertura de R$ 286,89 aparece nas duas. Fechamento anterior R$ 305,00 (TradeMap)."
  },
  {
   "id": "2026-11-25-AVGO34",
@@ -1426,13 +1426,13 @@
   "previsto": "Queda",
   "chance": 62,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−2,61%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 25,26",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "HG Brasil, fechamento de 24/11 (24/11/2026, 20h47, −4,50%); Investidor10 mostra o mesmo valor, sem data."
+  "abertura": "R$ 24,42",
+  "fechamento": "R$ 24,60",
+  "abertura_fechamento": "+0,74%",
+  "fonte_preco": "Investing.com (versão hk), cotação Fechado às 17h54 de Brasília; a data de 25/11/2026 aparece no FAQ da página. Horário anterior ao leilão de fechamento, então pode haver diferença de centavos: o Investidor10 mostrava R$ 24,75 (−2,02%) e o meusdividendos R$ 24,55 (−2,81%), ambos sem data. Fechamento anterior R$ 25,26 confere."
  },
  {
   "id": "2026-11-25-ITLC34",
@@ -1441,13 +1441,13 @@
   "previsto": "Queda",
   "chance": 60,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−2,15%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 53,60",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Investing.com Brasil, histórico, fechamento de 24/11/2026 (−8,55%); Investidor10 mostra o mesmo valor, sem data."
+  "abertura": "R$ 51,30",
+  "fechamento": "R$ 52,45",
+  "abertura_fechamento": "+2,24%",
+  "fonte_preco": "Investing.com Brasil, histórico, linha de 25/11/2026 com status Fechado (hora não informada), fonte única datada. Investidor10 mostrava R$ 51,89 sem data (não usado). Fechamento anterior R$ 53,60 confere."
  },
  {
   "id": "2026-11-25-TSMC34",
@@ -1456,13 +1456,13 @@
   "previsto": "Queda",
   "chance": 57,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−1,65%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 256,90",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "TradeMap, fechamento de 24/11 (24/11/2026, −4,96%); Investidor10 mostra o mesmo valor, sem data. BDR de baixa liquidez."
+  "abertura": "R$ 245,59",
+  "fechamento": "R$ 252,65",
+  "abertura_fechamento": "+2,87%",
+  "fonte_preco": "Investing.com (versões ca e ng), status Closed; a data 25/11/2026 aparece só no texto do FAQ da página. Fonte única, BDR de baixa liquidez (faixa de R$ 235,30 a R$ 252,65). Fechamento anterior R$ 256,90 confere."
  },
  {
   "id": "2026-11-25-VALE3",
@@ -1471,13 +1471,13 @@
   "previsto": "Queda",
   "chance": 54,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "+3,10%",
+  "resultado": "Errou",
   "fech_anterior": "R$ 55,19",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "TradeMap (24/11/2026, candle das 17h50 e notícia das 18h31), Money Times 18h27 e Gazeta Brasil 18h46; InfoMoney parcial (18h11) traz R$ 55,24 (−5,43%)."
+  "abertura": "R$ 55,14",
+  "fechamento": "R$ 56,90",
+  "abertura_fechamento": "+3,19%",
+  "fonte_preco": "Money Times, fechamento (25/11/2026, 18h26: R$ 56,90, +3,10%) e Bloomberg Línea (página de 25/11, carimbo 20h50). Abertura R$ 55,14 (Bloomberg Línea; a HG Brasil mostrava R$ 55,30 às 10h22). Divergência: uma matéria da The Library (18h08, anterior ao leilão) traz R$ 56,85 (+3,01%). Fechamento anterior R$ 55,19 confere."
  },
  {
   "id": "2026-11-25-BRKM5",
@@ -1486,13 +1486,13 @@
   "previsto": "Queda",
   "chance": 52,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "−10,40%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 2,50",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "Google Finance (24 de nov., 18h05, sem o ano) e Rio Times (24/11, −14,09%); fechamento anterior de R$ 2,91 confere com a variação."
+  "abertura": "R$ 2,50",
+  "fechamento": "R$ 2,24",
+  "abertura_fechamento": "−10,40%",
+  "fonte_preco": "Bloomberg Línea (página de 25/11/2026, carimbo 20h50), fonte única: abertura R$ 2,50 (igual ao fechamento anterior), fechamento R$ 2,24, faixa do dia de R$ 2,23 a R$ 2,59. Sem segunda fonte datada. Fechamento anterior R$ 2,50 confere."
  },
  {
   "id": "2026-11-25-PETR4",
@@ -1501,12 +1501,12 @@
   "previsto": "Subida",
   "chance": 52,
   "referencia": "Fechamento de 24/11",
-  "realizado": "",
-  "resultado": "Pendente",
+  "realizado": "+2,00%",
+  "resultado": "Acertou",
   "fech_anterior": "R$ 40,55",
-  "abertura": "",
-  "fechamento": "",
-  "abertura_fechamento": "",
-  "fonte_preco": "TradeMap (24/11/2026, −1,82%), Money Times 18h27 e Gazeta Brasil 18h46; confere com a rotina de fechamento."
+  "abertura": "R$ 40,70",
+  "fechamento": "R$ 41,36",
+  "abertura_fechamento": "+1,62%",
+  "fonte_preco": "Money Times, fechamento (25/11/2026, 18h26: R$ 41,36, +2,00%) e Bloomberg Línea (página de 25/11, carimbo 20h50). A Rico trazia R$ 41,37 às 18h49, sem data na página, e uma cópia da Bloomberg Línea com R$ 41,30 estava defasada. Abertura R$ 40,70 (Bloomberg Línea; a Rico confere, sem data). Fechamento anterior R$ 40,55 confere."
  }
 ]

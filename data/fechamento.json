@@ -2,51 +2,75 @@
  {
   "tipo": "resumo",
   "status": "Publicado",
-  "data": "24/11/2026",
+  "data": "25/11/2026",
   "hora": "19h01",
-  "ibov": "164.090 pts",
-  "ibov_var": "−0,43%",
-  "dolar": "R$ 5,91",
-  "dolar_var": "−0,26%",
-  "acertos": "5 de 7",
-  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): sem preços suficientes, 0 de 1 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 55,20 → R$ 54,73 (+R$ 0,47; +0,85%), 2 de 5 papéis com preço · Total: +R$ 0,47 (+0,85% sobre R$ 55,20); sem custos, aluguel nem IR",
-  "texto": "O Ibovespa caiu 0,43% e fechou a 164.089,81 pontos (máxima de 167.579,78), a quarta queda seguida: subiu pela manhã com a aprovação do ajuste fiscal na Câmara e a queda dos juros futuros, mas devolveu o ganho com a Vale (−5,51%, décimo pregão seguido de baixa) e a Petrobras (PETR4 −1,82%, depois de a presidente não garantir dividendos extraordinários), e o dólar à vista recuou 0,26%, a R$ 5,9107. As previsões do dia acertaram 5 de 7: o maior acerto foi BRKM5 (−14,09%, queda prevista com 56%) e o maior erro foi VALE3 (subida prevista com 56%, caiu 5,51%), além do Ibovespa, que fechou na faixa lateral contra a queda abaixo de −0,5% prevista com 38%. Os 6 papéis têm o fechamento em reais, mas só PETR4 e BBAS3 têm também a abertura (2 de 6), porque nenhuma fonte datada trouxe a abertura dos outros quatro; os fechamentos anteriores de PETR4 (R$ 41,30) e PETR3 (R$ 47,02) foram corrigidos e os fechamentos de NVDC34, BRKM5 e BBAS3 vêm de fonte única. Divergências: Vale a R$ 55,24 (−5,43%) no InfoMoney e no Mixvale, dólar a R$ 5,908 (−0,32%) na Folha/Cruzeiro FM, matérias anteriores ao leilão com o Ibovespa quase estável, e só 3 altas e 3 baixas com variação oficial confirmada.",
-  "fontes": "BPMoney (18h22), Money Times (18h27), Suno (18h42), Gazeta Brasil (18h46), A Crítica de Campo Grande, Mixvale, TradeMap, InfoMoney, Cruzeiro FM (Folha), Misto Brasil, Investing.com, Bloomberg Línea, Dados de Mercado, HG Brasil e Investir e Coçar"
+  "ibov": "166.685 pts",
+  "ibov_var": "+1,58%",
+  "dolar": "R$ 5,82",
+  "dolar_var": "−1,59%",
+  "acertos": "7 de 9",
+  "simulacao": "Comprado nas de subida (1 ação de cada, abertura → fechamento): R$ 40,70 → R$ 41,36 (+R$ 0,66; +1,62%), 1 de 1 papéis com preço · Vendido nas de queda (vende na abertura, recompra no fechamento): R$ 1.245,79 → R$ 1.259,13 (−R$ 13,34; −1,07%), 7 de 9 papéis com preço · Total: −R$ 12,68 (−0,99% sobre R$ 1.286,49); sem custos, aluguel nem IR",
+  "texto": "O Ibovespa subiu 1,58% e fechou a 166.684,61 pontos (máxima de 167.105,33), interrompendo quatro quedas seguidas: Vale (+3,10%) e Petrobras (PETR4 +2,00%) lideraram a recuperação, com a equipe econômica estudando uma PEC para limitar despesas obrigatórias (o ministro do Planejamento disse não haver PEC pronta), o PCE de outubro nos EUA em +0,3% no mês e 3,8% em 12 meses e o Nasdaq em queda de 0,62%; o dólar à vista recuou 1,59%, a R$ 5,8168. As previsões do dia acertaram 7 de 9, com 2 sem dado: o maior acerto foi BRKM5 (−10,40%, queda prevista com 52%), o maior erro entre os papéis foi VALE3 (+3,10%, queda prevista com 54%) e o Ibovespa subiu acima de +0,5% contra a queda abaixo de −0,5% prevista com 46%, de modo que o cenário de alta (23%) prevaleceu. 8 dos 10 papéis têm abertura e fechamento em reais; D1EL34 e NVDC34 ficaram sem preço datado de hoje, e BRKM5, ITLC34, MUTC34 e TSMC34 vêm de fonte única. Divergências: A1MD34 a R$ 289,05 (−5,23%) na HG Brasil e entre R$ 293,20 e R$ 297,81 no TradeMap (com atraso de 15 minutos), AVGO34 com centavos de diferença antes do leilão, e uma matéria em inglês com o Ibovespa a 166.641,73 (+1,55%) antes do leilão, contra 166.684,61 em quatro veículos; o ranking de altas e baixas vem de uma única tabela (Bora Investir, 18h43).",
+  "fontes": "Money Times (fechamento, 18h26), Metrópoles (18h31), Bora Investir/B3 (18h43), Melhor Investimento (18h50), Bloomberg Línea, HG Brasil, TradeMap, Investing.com e Investing.com Brasil, Investidor10 e meusdividendos (conferência), The Library (divergências)"
  },
  {
   "tipo": "alta",
-  "ticker": "COGN3",
-  "empresa": "Cogna",
-  "var": "+5,77%"
- },
- {
-  "tipo": "alta",
-  "ticker": "HAPV3",
-  "empresa": "Hapvida",
-  "var": "+5,17%"
- },
- {
-  "tipo": "alta",
-  "ticker": "ASAI3",
-  "empresa": "Assaí",
-  "var": "+3,10%"
- },
- {
-  "tipo": "baixa",
-  "ticker": "POMO4",
-  "empresa": "Marcopolo",
-  "var": "−6,39%"
- },
- {
-  "tipo": "baixa",
   "ticker": "NATU3",
   "empresa": "Natura",
-  "var": "−6,37%"
+  "var": "+10,56%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "AZZA3",
+  "empresa": "Azzas",
+  "var": "+8,11%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "VAMO3",
+  "empresa": "Vamos",
+  "var": "+7,75%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "CSNA3",
+  "empresa": "CSN",
+  "var": "+6,48%"
+ },
+ {
+  "tipo": "alta",
+  "ticker": "MRVE3",
+  "empresa": "MRV",
+  "var": "+6,45%"
  },
  {
   "tipo": "baixa",
-  "ticker": "VALE3",
-  "empresa": "Vale",
-  "var": "−5,51%"
+  "ticker": "EMBJ3",
+  "empresa": "Embraer",
+  "var": "−4,00%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "SANB11",
+  "empresa": "Santander Brasil",
+  "var": "−2,60%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "ABEV3",
+  "empresa": "Ambev",
+  "var": "−1,80%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "MBRF3",
+  "empresa": "MBRF",
+  "var": "−1,58%"
+ },
+ {
+  "tipo": "baixa",
+  "ticker": "VIVT3",
+  "empresa": "Telefônica Brasil",
+  "var": "−1,42%"
  }
 ]
