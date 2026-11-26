@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 46,
-  "agora": 46,
-  "motivo": "Fechar abaixo de 163.269 pts. Os futuros de Nova York amanheceram bem piores que os de ontem (S&P 500 −1,37% a −1,54% e Nasdaq-100 −2,30% a −2,55% entre 7h44 e 7h50), depois de o Nasdaq cair 1,48% e o índice de semicondutores 7,9% ontem; a Ásia derreteu (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%) com dúvidas sobre IA e temor de novas tarifas dos EUA. O ADR da Vale cai 0,75% no pré-mercado e o PCE (10h30) pode reforçar a aposta de 95% a 98% de alta de juros nos EUA em 9/12. O Ibovespa já fez quatro quedas seguidas e fechou ontem no menor nível desde janeiro. Fica na frente, mas sem folga: o índice descolou da alta de 4,74% de Nova York em 23/11 e a PEC de gastos pode aliviar dólar e juros; futuro do Ibovespa e DI só abrem às 9h."
+  "relatorio": 21,
+  "agora": 21,
+  "motivo": "Fechar abaixo de 165.851 pts. Exigiria um IPCA-15 acima do consenso, com os DIs devolvendo o alívio de ontem, sinais de recusa de Trabuco ou de enfraquecimento da PEC de gastos, ou uma realização forte depois do +1,58%. Brent em baixa (−0,8%), minério parado em Dalian e pouca liquidez sem Nova York podem ampliar o movimento. Fica em último porque a Europa abriu em alta forte (Stoxx 600 +1,68% às 6h35) e a Ásia fechou em sua maioria positiva."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 31,
-  "agora": 31,
-  "motivo": "Faixa de 163.269 a 164.910 pts. Cabe se a queda de Nova York ficar concentrada na tecnologia, que pesa pouco no Ibovespa, e o alívio fiscal compensar: os DIs recuaram ontem (jan/28 −0,19 ponto e jan/29 −0,18 ponto), o dólar fechou a R$ 5,9107 (−0,26%) e a Europa abre em alta (Stoxx 600 +0,2% a +0,5%). Nos últimos cinco pregões com relatório, dois fecharam nessa faixa (+0,31% e −0,43%)."
+  "relatorio": 46,
+  "agora": 46,
+  "motivo": "Faixa de 165.851 a 167.518 pts. É o cenário mais provável: Nova York fechada pela Ação de Graças reduz o volume e tira a principal referência, o índice já subiu 1,58% ontem com o convite a Trabuco e a PEC, e o mercado tende a esperar a resposta do banqueiro (até 30/11) e o desenho da proposta."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 23,
-  "agora": 23,
-  "motivo": "Fechar acima de 164.910 pts. Exige que o Ibovespa continue descolado de Nova York (em 23/11 caiu 0,95% com o S&P 500 em +4,74%): o contingenciamento veio menor (R$ 12,6 bi contra R$ 16,1 bi), o ajuste fiscal foi sancionado sem vetos, a PEC de gastos obrigatórios (cerca de R$ 20 bi) vai a Lula às 15h e o BC faz dois leilões de linha em dólar às 10h30. Com Nova York −1,4% a −2,5% nos futuros, ADR da Vale em queda e PCE no radar, 23% e não mais."
+  "relatorio": 33,
+  "agora": 33,
+  "motivo": "Fechar acima de 167.518 pts. Pede continuidade: Europa em alta forte (DAX +2,17%, CAC +2,01% às 6h50), Ásia positiva, tarifas propostas pelos EUA lidas como mais brandas que o temido, queda dos DIs ontem (jan/28 −0,18, jan/29 −0,20 e jan/31 −0,23 ponto) e noticiário favorável sobre a Fazenda e a PEC."
  }
 ]

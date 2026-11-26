@@ -1,97 +1,85 @@
 [
  {
   "hora": "Madrugada",
-  "evento": "Ásia em queda forte (Kospi −6,16%, Taiex −4,80%, Nikkei −2,78%, Xangai −2,03%, Hang Seng −1,14%); Europa abre em alta leve (Stoxx 600 +0,2% a +0,5%)",
+  "evento": "Ásia fecha em sua maioria em alta (Taiex +2,50%, Hang Seng +1,19%, Nikkei +0,86%); Banco da Coreia sobe os juros em 0,25 ponto, a 3,25%; Europa abre em alta forte (Stoxx 600 +1,68%)",
   "destaque": "não",
   "status": "saiu"
  },
  {
   "hora": "Ontem à noite",
-  "evento": "Relatório bimestral: contingenciamento de R$ 12,3 bi (de R$ 13,6 bi) e total congelado de R$ 12,6 bi (de R$ 16,1 bi); Dell, Workday, Autodesk e HP divulgam resultados nos EUA",
+  "evento": "Trabuco pede tempo para responder ao convite para a Fazenda (até 30/11); governo reage às tarifas propostas pelos EUA sobre aviões e açúcar",
   "destaque": "sim",
+  "status": "saiu"
+ },
+ {
+  "hora": "07h30",
+  "evento": "Banco da Inglaterra publica relatório",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "08h00",
+  "evento": "Sondagem de confiança da indústria",
+  "destaque": "não",
+  "status": "saiu"
+ },
+ {
+  "hora": "08h30",
+  "evento": "BC: transações correntes de outubro (consenso −US$ 3,1 bi; anterior −US$ 5,1 bi) e investimento direto (consenso US$ 8 bi; anterior US$ 11,29 bi); resultado não capturado",
+  "destaque": "não",
   "status": "saiu"
  },
  {
   "hora": "09h00",
-  "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar",
+  "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; anterior 0,32% e 4,62%) e IPP de outubro (anterior +1,54%)",
   "destaque": "sim",
-  "status": "saiu"
+  "status": "a vir"
+ },
+ {
+  "hora": "09h00",
+  "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar; Galípolo faz palestra fechada",
+  "destaque": "sim",
+  "status": "a vir"
  },
  {
   "hora": "09h30",
-  "evento": "Durigan (Fazenda) recebe o CEO do Bradesco; às 11h e às 14h, Banco do Brasil e o governador da Bahia",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "10h00",
-  "evento": "Coletiva de Bruno Moretti (Planejamento) sobre o relatório bimestral de receitas e despesas",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "10h00",
-  "evento": "Abertura da B3, depois de quatro quedas seguidas e do menor fechamento desde janeiro; Galípolo na reunião do Comef, fechada à imprensa",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "10h30",
-  "evento": "EUA: PCE de outubro (consenso +0,3% no mês e 3,8% em 12 meses; núcleo +0,3% e 3,2%) e PIB do 3º trimestre, segunda estimativa (consenso 3,4% a 3,5%); pedidos de seguro-desemprego (cerca de 200 mil) e bens duráveis",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "10h30",
-  "evento": "BC faz dois leilões de linha de crédito em dólar, de até US$ 2 bi cada (liquidação em 30/11)",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "11h30",
-  "evento": "Abertura de Nova York; antes dela saem os balanços da Deere e da Li Auto (hora não encontrada)",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "12h00",
-  "evento": "EUA: vendas de casas novas de outubro (consenso 650 mil, anterior 676 mil, segundo o TradeMap)",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "14h30",
-  "evento": "Fluxo cambial semanal do BC (anterior: US$ 1,293 bi)",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "15h00",
-  "evento": "Lula reúne a equipe econômica (Alckmin, Durigan, Moretti e Belchior) no Alvorada para definir o alcance da PEC de gastos obrigatórios",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "16h00",
-  "evento": "Livro Bege do Fed",
-  "destaque": "sim",
-  "status": "saiu"
- },
- {
-  "hora": "17h55",
-  "evento": "Fechamento da B3",
-  "destaque": "não",
-  "status": "saiu"
- },
- {
-  "hora": "22h00 a 23h00",
-  "evento": "Banco da Coreia do Sul decide a política monetária (o horário varia entre as fontes)",
+  "evento": "Ata da última reunião do BCE",
   "destaque": "não",
   "status": "a vir"
  },
  {
-  "hora": "Amanhã, 26/11, 9h",
-  "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; Bradesco projeta 0,36%) e IPP; os EUA ficam fechados (Ação de Graças). Dom 29/11: reunião da Opep+",
+  "hora": "10h00",
+  "evento": "Abertura da B3; Durigan participa de encontro da XP Asset",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "11h00",
+  "evento": "Moretti em seminário do PT; Lula recebe Cleitinho",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "15h00",
+  "evento": "Coletiva do BC sobre o setor externo; Lula recebe o ministro da Educação",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "Ao longo do dia",
+  "evento": "Comissão Mista de Orçamento pode votar o relatório preliminar de 2027; Nova York fechada (Ação de Graças)",
+  "destaque": "sim",
+  "status": "a vir"
+ },
+ {
+  "hora": "20h30",
+  "evento": "Japão: inflação de Tóquio",
+  "destaque": "não",
+  "status": "a vir"
+ },
+ {
+  "hora": "Amanhã, 27/11",
+  "evento": "IGP-M (8h), PNAD de emprego (9h; consenso 5,1%, anterior 5,2%), resultado do governo central (14h30), pregão curto em Nova York e início da consulta do USTR. Dom 29/11: Opep+",
   "destaque": "sim",
   "status": "a vir"
  }
