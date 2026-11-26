@@ -56,17 +56,17 @@
   "fonte": "Bom Dia Mercado e DGABC"
  },
  {
-  "indicador": "Ásia e Europa",
-  "valor": "Taiex, Nikkei, Kospi, Hang Seng e Xangai; Stoxx 600 636,54",
-  "variacao": "+2,50%, +0,86%, +0,29%, +1,19% e +0,01%; Stoxx 600 +1,68%, Londres +1,48%, Paris +2,01%, Frankfurt +2,17%",
-  "hora": "26/11, 6h08 (Ásia) e 6h35–6h50 (Europa)",
-  "fonte": "Money Times 6h08 e DGABC/Estadão 6h52"
+  "indicador": "Ásia, Europa, ouro e Bitcoin",
+  "valor": "Stoxx 600 636,54; ouro ~US$ 3.600; Bitcoin ~US$ 60.897",
+  "variacao": "Taiex +2,50%, Nikkei +0,86%, Kospi +0,29%, Hang Seng +1,19%, Xangai +0,01%; Stoxx 600 +1,68%, Londres +1,48%, Paris +2,01%, Frankfurt +2,17%; Bitcoin +3,7%",
+  "hora": "26/11, 6h08 (Ásia), 6h35–6h50 (Europa) e 7h18 (ouro e Bitcoin)",
+  "fonte": "Money Times 6h08 e 7h18; DGABC/Estadão 6h52"
  },
  {
-  "indicador": "Ouro e Bitcoin",
-  "valor": "Ouro ~US$ 3.600; Bitcoin ~US$ 60.897",
-  "variacao": "ouro +0,92% em 25/11; Bitcoin +3,7%",
-  "hora": "26/11, 7h18",
-  "fonte": "Money Times"
+  "indicador": "IPCA-15 de novembro",
+  "valor": "+0,22% no mês; 4,64% em 12 meses; 4,38% no ano",
+  "variacao": "esperado +0,34% e 4,78%; outubro +0,32% e 4,62%",
+  "hora": "26/11, 9h00",
+  "fonte": "TradeMap, com dados do IBGE (página do IBGE não abriu). Alimentação +1,51%; transportes −0,71%"
  }
 ]

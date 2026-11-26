@@ -2,31 +2,31 @@
  "resumo": [
   {
    "data": "quinta-feira, 26/11/2026",
-   "atualizado": "8h47 (Brasília)",
-   "base": "Dados das 18h de 25/11 à manhã de 26/11 (Brasília) de Money Times (6h08 e 7h18), Exame, InfoMoney, DGABC/Estadão (6h52), Business Recorder/Reuters, SBT News, Metrópoles (4h30), Agenda do Poder, Bom Dia Mercado, TV Sim, Teletime, Ativo Virtual, oespecialista (Safra), InvestNews, Investing.com e Rio Times. Referência: fechamento oficial de 25/11 (166.684,61 pts, +1,58%), o mesmo da rotina das 18h47. Não encontrei: futuro do Ibovespa, dólar e DI de hoje (abrem às 9h), EWZ em pré-mercado e Treasury de hoje (feriado nos EUA), balanço de empresa da B3 divulgado depois do fechamento de ontem, teleconferências e confirmação de leilão do Tesouro hoje. O doc 'Investidor' do projeto está em branco, então acompanhei os temas macro do projeto. O IPCA-15 (9h) ainda não tinha saído quando as chances foram definidas."
+   "atualizado": "9h15 (Brasília)",
+   "base": "Dados das 18h de 25/11 à manhã de 26/11 (Brasília) de Money Times (6h08 e 7h18), Exame, InfoMoney, DGABC/Estadão (6h52), Business Recorder/Reuters, SBT News, Metrópoles (4h30), Agenda do Poder, Bom Dia Mercado, TV Sim, Teletime, Ativo Virtual, oespecialista (Safra), InvestNews, Investing.com, Rio Times e TradeMap (IPCA-15 e setor externo, 8h30 e 9h). Referência: fechamento oficial de 25/11 (166.684,61 pts, +1,58%), o mesmo da rotina das 18h47. Não encontrei: futuro do Ibovespa, dólar e DI de hoje com hora (abrem às 9h), EWZ em pré-mercado e Treasury de hoje (feriado nos EUA), balanço de empresa da B3 divulgado depois do fechamento de ontem, teleconferências e confirmação de leilão do Tesouro hoje. O doc 'Investidor' do projeto está em branco, então acompanhei os temas macro do projeto. As chances foram revisadas às 9h15, antes da abertura, depois do IPCA-15; a primeira versão, das 8h47, era Alta 33%, Lateral 46% e Queda 21%."
   }
  ],
  "mercado": [
   {
    "cenario": "Queda",
    "faixa": "fechar abaixo de −0,5%",
-   "relatorio": 21,
-   "agora": 21,
-   "motivo": "Fechar abaixo de 165.851 pts. Exigiria um IPCA-15 acima do consenso, com os DIs devolvendo o alívio de ontem, sinais de recusa de Trabuco ou de enfraquecimento da PEC de gastos, ou uma realização forte depois do +1,58%. Brent em baixa (−0,8%), minério parado em Dalian e pouca liquidez sem Nova York podem ampliar o movimento. Fica em último porque a Europa abriu em alta forte (Stoxx 600 +1,68% às 6h35) e a Ásia fechou em sua maioria positiva."
+   "relatorio": 16,
+   "agora": 16,
+   "motivo": "Fechar abaixo de 165.851 pts. Exigiria recusa de Trabuco, enfraquecimento da PEC de gastos ou uma realização forte depois do +1,58% que se sobreponha ao IPCA-15 favorável. Brent em baixa (−0,8%), minério parado em Dalian e pouca liquidez sem Nova York podem ampliar o movimento. Fica em último porque a inflação veio bem abaixo do esperado e a Europa abriu em alta forte."
   },
   {
    "cenario": "Lateral",
    "faixa": "fechar entre −0,5% e +0,5%",
-   "relatorio": 46,
-   "agora": 46,
-   "motivo": "Faixa de 165.851 a 167.518 pts. É o cenário mais provável: Nova York fechada pela Ação de Graças reduz o volume e tira a principal referência, o índice já subiu 1,58% ontem com o convite a Trabuco e a PEC, e o mercado tende a esperar a resposta do banqueiro (até 30/11) e o desenho da proposta."
+   "relatorio": 44,
+   "agora": 44,
+   "motivo": "Faixa de 165.851 a 167.518 pts. Segue um pouco à frente: Nova York fechada pela Ação de Graças reduz o volume, o índice já subiu 1,58% ontem com o convite a Trabuco e a PEC, e o mercado tende a esperar a resposta do banqueiro (até 30/11). O IPCA-15 baixo reduziu a vantagem sobre a Alta."
   },
   {
    "cenario": "Alta",
    "faixa": "fechar acima de +0,5%",
-   "relatorio": 33,
-   "agora": 33,
-   "motivo": "Fechar acima de 167.518 pts. Pede continuidade: Europa em alta forte (DAX +2,17%, CAC +2,01% às 6h50), Ásia positiva, tarifas propostas pelos EUA lidas como mais brandas que o temido, queda dos DIs ontem (jan/28 −0,18, jan/29 −0,20 e jan/31 −0,23 ponto) e noticiário favorável sobre a Fazenda e a PEC."
+   "relatorio": 40,
+   "agora": 40,
+   "motivo": "Fechar acima de 167.518 pts. O IPCA-15 de +0,22% (esperado +0,34%) favorece nova queda dos juros e as ações domésticas, somado à Europa em alta forte (DAX +2,17% às 6h50), à Ásia positiva, às tarifas dos EUA lidas como brandas e à queda dos DIs ontem."
   }
  ],
  "indicadores": [
@@ -87,80 +87,24 @@
    "fonte": "Bom Dia Mercado e DGABC"
   },
   {
-   "indicador": "Ásia e Europa",
-   "valor": "Taiex, Nikkei, Kospi, Hang Seng e Xangai; Stoxx 600 636,54",
-   "variacao": "+2,50%, +0,86%, +0,29%, +1,19% e +0,01%; Stoxx 600 +1,68%, Londres +1,48%, Paris +2,01%, Frankfurt +2,17%",
-   "hora": "26/11, 6h08 (Ásia) e 6h35–6h50 (Europa)",
-   "fonte": "Money Times 6h08 e DGABC/Estadão 6h52"
+   "indicador": "Ásia, Europa, ouro e Bitcoin",
+   "valor": "Stoxx 600 636,54; ouro ~US$ 3.600; Bitcoin ~US$ 60.897",
+   "variacao": "Taiex +2,50%, Nikkei +0,86%, Kospi +0,29%, Hang Seng +1,19%, Xangai +0,01%; Stoxx 600 +1,68%, Londres +1,48%, Paris +2,01%, Frankfurt +2,17%; Bitcoin +3,7%",
+   "hora": "26/11, 6h08 (Ásia), 6h35–6h50 (Europa) e 7h18 (ouro e Bitcoin)",
+   "fonte": "Money Times 6h08 e 7h18; DGABC/Estadão 6h52"
   },
   {
-   "indicador": "Ouro e Bitcoin",
-   "valor": "Ouro ~US$ 3.600; Bitcoin ~US$ 60.897",
-   "variacao": "ouro +0,92% em 25/11; Bitcoin +3,7%",
-   "hora": "26/11, 7h18",
-   "fonte": "Money Times"
+   "indicador": "IPCA-15 de novembro",
+   "valor": "+0,22% no mês; 4,64% em 12 meses; 4,38% no ano",
+   "variacao": "esperado +0,34% e 4,78%; outubro +0,32% e 4,62%",
+   "hora": "26/11, 9h00",
+   "fonte": "TradeMap, com dados do IBGE (página do IBGE não abriu). Alimentação +1,51%; transportes −0,71%"
   }
  ],
  "acoes": [
   {
    "lado": "queda",
    "pos": 1,
-   "ticker": "NATU3",
-   "empresa": "Natura",
-   "chance": 57,
-   "evidencia": "média",
-   "horizonte": "Fechamento de hoje",
-   "motivo": "Na revisão do varejo, a Safra ficou com recomendação neutra para a Natura e cortou o preço-alvo de R$ 8,50 para R$ 5,00, citando Selic mais alta em 2027 (12,7% contra 12,2%) e custo de capital de 15%. A ação subiu 10,56% ontem (R$ 4,71), no rali que veio com a queda dos juros, o que abre espaço para realização. Contra: se os DIs caírem mais, o varejo volta a subir, e o novo alvo ainda fica um pouco acima do preço.",
-   "gatilho": "DI a partir das 9h (IPCA-15); invalida se os juros longos caírem com força",
-   "fonte": "oespecialista/Safra, 25/11 17h09; Money Times e Dados de Mercado (preço de 25/11)",
-   "leitura": "Sem sinal claro",
-   "leitura_motivo": "A revisão de alvo é negativa, mas o rumo depende sobretudo dos juros, que estão reagindo ao noticiário fiscal."
-  },
-  {
-   "lado": "queda",
-   "pos": 2,
-   "ticker": "AZZA3",
-   "empresa": "Azzas 2154",
-   "chance": 55,
-   "evidencia": "média",
-   "horizonte": "Fechamento de hoje",
-   "motivo": "A Safra cortou o preço-alvo de R$ 19,50 para R$ 16,30, com recomendação neutra, na mesma revisão do varejo. A ação subiu 8,11% ontem (R$ 15,33) e ficou perto do novo alvo, com pouco espaço pelas contas da casa. Contra: a queda dos DIs favorece o consumo discricionário.",
-   "gatilho": "DI a partir das 9h (IPCA-15); invalida se os juros longos caírem com força",
-   "fonte": "oespecialista/Safra, 25/11 17h09; Money Times e Dados de Mercado (preço de 25/11)",
-   "leitura": "Sem sinal claro",
-   "leitura_motivo": "Movimento ligado aos juros; sem notícia própria da empresa confirmada além da revisão."
-  },
-  {
-   "lado": "queda",
-   "pos": 3,
-   "ticker": "SBFG3",
-   "empresa": "Grupo SBF",
-   "chance": 55,
-   "evidencia": "média",
-   "horizonte": "Fechamento de hoje",
-   "motivo": "A Safra cortou o preço-alvo de R$ 14,00 para R$ 6,00, o maior corte da lista, mantendo compra. A ação subiu 8,44% ontem (R$ 4,24). Corte grande de alvo depois de alta forte favorece realização. Contra: a recomendação segue de compra e o papel é muito sensível a uma nova queda dos juros.",
-   "gatilho": "DI a partir das 9h (IPCA-15); invalida se o varejo continuar o rali",
-   "fonte": "oespecialista/Safra, 25/11 17h09; Dados de Mercado e HG Brasil (preço de 25/11)",
-   "leitura": "Sem sinal claro",
-   "leitura_motivo": "Recomendação de compra e alvo muito menor apontam em direções diferentes."
-  },
-  {
-   "lado": "queda",
-   "pos": 4,
-   "ticker": "CEAB3",
-   "empresa": "C&A",
-   "chance": 54,
-   "evidencia": "baixa",
-   "horizonte": "Fechamento de hoje",
-   "motivo": "A Safra cortou o preço-alvo de R$ 15,50 para R$ 10,50, mantendo compra. A ação subiu 6,01% ontem (R$ 7,58), no mesmo rali do varejo, e pode devolver parte do ganho. Contra: o alvo novo ainda está bem acima do preço.",
-   "gatilho": "DI a partir das 9h (IPCA-15); invalida se os juros longos caírem com força",
-   "fonte": "oespecialista/Safra, 25/11 17h09; Dados de Mercado e TradeMap (preço de 25/11)",
-   "leitura": "Sem sinal claro",
-   "leitura_motivo": "Evidência fraca: o corte de alvo convive com recomendação de compra."
-  },
-  {
-   "lado": "queda",
-   "pos": 5,
    "ticker": "KLBN11",
    "empresa": "Klabin",
    "chance": 53,
@@ -174,7 +118,21 @@
   },
   {
    "lado": "queda",
-   "pos": 6,
+   "pos": 2,
+   "ticker": "NATU3",
+   "empresa": "Natura",
+   "chance": 52,
+   "evidencia": "baixa",
+   "horizonte": "Fechamento de hoje",
+   "motivo": "Na revisão do varejo, a Safra ficou com recomendação neutra para a Natura e cortou o preço-alvo de R$ 8,50 para R$ 5,00, citando Selic mais alta em 2027. A ação subiu 10,56% ontem (R$ 4,71), o que abre espaço para realização. Contra, e com peso: o IPCA-15 de hoje veio bem abaixo do esperado (+0,22% contra +0,34%), o que favorece juros menores e o varejo. Por isso a chance caiu de 57% para 52%.",
+   "gatilho": "DI depois do IPCA-15; invalida se os juros longos caírem com força",
+   "fonte": "oespecialista/Safra, 25/11 17h09; TradeMap (IPCA-15, 26/11, 9h); Money Times e Dados de Mercado (preço de 25/11)",
+   "leitura": "Sem sinal claro",
+   "leitura_motivo": "A revisão de alvo é negativa e a inflação baixa é positiva; os dois efeitos se contrapõem."
+  },
+  {
+   "lado": "queda",
+   "pos": 3,
    "ticker": "EMBJ3",
    "empresa": "Embraer",
    "chance": 52,
@@ -188,7 +146,7 @@
   },
   {
    "lado": "queda",
-   "pos": 7,
+   "pos": 4,
    "ticker": "BRKM5",
    "empresa": "Braskem",
    "chance": 52,
@@ -205,10 +163,10 @@
    "pos": 1,
    "ticker": "SMFT3",
    "empresa": "Smart Fit",
-   "chance": 56,
+   "chance": 58,
    "evidencia": "média",
    "horizonte": "Fechamento de hoje",
-   "motivo": "A empresa anunciou JCP de R$ 545 milhões (R$ 0,890397 por ação; data-base 1/12, ex em 2/12) e um aumento de capital privado de R$ 51,6 a 347,3 milhões a R$ 12,89. A Safra manteve compra, com alvo de R$ 25,00 (antes R$ 25,50), e a colocou como preferida do varejo, elevando o lucro estimado de 2027 em 4,0%. A ação subiu 4,84% ontem (R$ 18,83). Contra: o aumento de capital sai a um preço bem abaixo da tela e dilui quem não acompanhar.",
+   "motivo": "A empresa anunciou JCP de R$ 545 milhões (R$ 0,890397 por ação; data-base 1/12, ex em 2/12) e um aumento de capital privado de R$ 51,6 a 347,3 milhões a R$ 12,89. A Safra manteve compra, com alvo de R$ 25,00 (antes R$ 25,50), e a colocou como preferida do varejo, elevando o lucro estimado de 2027 em 4,0%. A ação subiu 4,84% ontem (R$ 18,83). O IPCA-15 abaixo do esperado também ajuda ações ligadas aos juros. Contra: o aumento de capital sai a um preço bem abaixo da tela e dilui quem não acompanhar.",
    "gatilho": "Abertura da B3 às 10h; invalida se o mercado focar na diluição",
    "fonte": "Ativo Virtual (25/11, 19h02); InfoMoney (26/11, 8h01); oespecialista/Safra; Dados de Mercado (preço de 25/11, fonte única)",
    "leitura": "",
@@ -219,10 +177,10 @@
    "pos": 2,
    "ticker": "CSAN3",
    "empresa": "Cosan",
-   "chance": 54,
+   "chance": 56,
    "evidencia": "média",
    "horizonte": "Fechamento de hoje",
-   "motivo": "Segundo a Reuters, a Cosan contratou o BTG para vender participações minoritárias na Rumo e na Compass; há interessados citados na Rumo (Grupo México, Cofco, Bunge, Ultra). A dívida líquida é de R$ 9,5 bilhões, e a venda ajudaria a reduzi-la. A ação subiu 5,88% ontem (R$ 3,42). Contra: o processo é preliminar e as conversas já tinham sido noticiadas em 17/11.",
+   "motivo": "Segundo a Reuters, a Cosan contratou o BTG para vender participações minoritárias na Rumo e na Compass; há interessados citados na Rumo (Grupo México, Cofco, Bunge, Ultra). A dívida líquida é de R$ 9,5 bilhões, e a venda ajudaria a reduzi-la. A ação subiu 5,88% ontem (R$ 3,42). Com dívida alta, a empresa também tende a se beneficiar de juros menores depois do IPCA-15. Contra: o processo é preliminar e as conversas já tinham sido noticiadas em 17/11.",
    "gatilho": "Sem evento marcado; confirmação ou negativa da empresa",
    "fonte": "Reuters via InfoMoney (25/11, 19h10); TradeMap e Dados de Mercado (preço de 25/11)",
    "leitura": "",
@@ -247,7 +205,7 @@
    "pos": 4,
    "ticker": "RAIL3",
    "empresa": "Rumo",
-   "chance": 51,
+   "chance": 52,
    "evidencia": "baixa",
    "horizonte": "Fechamento de hoje",
    "motivo": "A mesma notícia da Reuters cita quatro interessados na participação que a Cosan estuda vender na Rumo, e esse interesse pode favorecer a ação. Fechou ontem a R$ 17,03 (+1,01%). Contra: é venda de participação minoritária, sem oferta aos demais acionistas confirmada, e o processo é preliminar.",
@@ -284,21 +242,21 @@
   },
   {
    "hora": "08h30",
-   "evento": "BC: transações correntes de outubro (consenso −US$ 3,1 bi; anterior −US$ 5,1 bi) e investimento direto (consenso US$ 8 bi; anterior US$ 11,29 bi); resultado não capturado",
+   "evento": "BC: transações correntes de outubro: déficit de US$ 3,97 bi (esperado US$ 3,1 bi; setembro US$ 5,10 bi) e investimento direto de US$ 9,09 bi (esperado US$ 8 bi)",
    "destaque": "não",
    "status": "saiu"
   },
   {
    "hora": "09h00",
-   "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; anterior 0,32% e 4,62%) e IPP de outubro (anterior +1,54%)",
+   "evento": "IPCA-15 de novembro: +0,22% no mês (esperado +0,34%) e 4,64% em 12 meses (esperado 4,78%). IPP de outubro também às 9h (resultado não capturado)",
    "destaque": "sim",
-   "status": "a vir"
+   "status": "saiu"
   },
   {
    "hora": "09h00",
    "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar; Galípolo faz palestra fechada",
    "destaque": "sim",
-   "status": "a vir"
+   "status": "saiu"
   },
   {
    "hora": "09h30",
@@ -346,30 +304,40 @@
  "leitura": [
   {
    "topico": "O que mudou desde 25/11",
-   "texto": "Ontem: Alta 23%, Lateral 31%, Queda 46%; o Ibovespa subiu 1,58% (166.684,61 pts), então o cenário que estava na frente errou. Nos papéis, 7 de 8 previsões com dado acertaram (o erro foi VALE3) e duas ficaram sem preço. Hoje: Alta 33%, Lateral 46%, Queda 21%. A Queda perde 25 pontos porque a Ásia e a Europa viraram para cima, os futuros de Nova York mostram leve ganho, os DIs recuaram forte ontem e as tarifas propostas pelos EUA foram lidas como mais brandas que o temido. A Lateral ganha 15 pontos pelo feriado nos EUA e pela espera da resposta de Trabuco. Sinais de ontem: dólar −1,59% (R$ 5,8168), DIs longos até −0,23 ponto e BRKM5 −10,40%."
+   "texto": "Ontem: Alta 23%, Lateral 31%, Queda 46%; o Ibovespa subiu 1,58% (166.684,61 pts), então o cenário que estava na frente errou. Nos papéis, 7 de 8 previsões com dado acertaram (o erro foi VALE3) e duas ficaram sem preço. Hoje: Alta 40%, Lateral 44%, Queda 16%. A Queda perde 30 pontos com Ásia e Europa em alta, DIs em forte queda ontem, tarifas dos EUA lidas como brandas e, às 9h, IPCA-15 bem abaixo do esperado (+0,22% contra +0,34%; 4,64% em 12 meses contra 4,78%). A primeira versão de hoje (8h47) era Alta 33%, Lateral 46%, Queda 21%: a inflação tirou 5 pontos da Queda e 2 da Lateral e deu 7 à Alta."
   },
   {
    "topico": "Riscos do dia e o que mais surpreenderia",
-   "texto": "Riscos: IPCA-15 acima do consenso reabrindo a alta dos DIs; recusa de Trabuco ou nome visto como menos comprometido com o ajuste; resistência no Congresso à PEC de gastos; liquidez baixa sem Nova York, que exagera movimentos; escalada no Oriente Médio (os houthis dizem ter atacado Ras Tanura; há relatos de minas iranianas perto de Ormuz) puxando o petróleo; piora na disputa de tarifas. Surpreenderia: Ibovespa acima de 168.350 pts (cerca de +1%) em dia sem Nova York, ou abaixo de 165.020 pts (cerca de −1%) com o IPCA-15 em linha e sem notícia de Brasília."
+   "texto": "Riscos: recusa de Trabuco ou nome visto como menos comprometido com o ajuste; resistência no Congresso à PEC de gastos; realização depois do +1,58%; liquidez baixa sem Nova York, que exagera movimentos; escalada no Oriente Médio (os houthis dizem ter atacado Ras Tanura; há relatos de minas iranianas perto de Ormuz); IPCA-15 baixo puxado por itens voláteis, como passagem aérea (−9,57%), com alimentos em alta (+1,51%). Surpreenderia: Ibovespa acima de 168.350 pts (cerca de +1%) em dia sem Nova York, ou abaixo de 165.020 pts (cerca de −1%) depois de uma inflação tão favorável e sem notícia de Brasília."
   },
   {
    "topico": "Argumento mais forte contra a Lateral",
-   "texto": "A faixa de ±0,5% segurou pouco o índice nas últimas semanas: 6 dos últimos 8 pregões fecharam fora dela (só 17/11 e 24/11 ficaram dentro). O risco fiscal e político está em movimento: a resposta de Trabuco ou o texto da PEC podem sair a qualquer hora e, com pouca liquidez, levar o índice além de 0,5% para qualquer lado. A favor da Lateral: Nova York fechada, preço já ajustado depois do +1,58% e prazo de Trabuco só em 30/11."
+   "texto": "A faixa de ±0,5% segurou pouco o índice nas últimas semanas: 6 dos últimos 8 pregões fecharam fora dela (só 17/11 e 24/11 ficaram dentro). Hoje há um dado de inflação bem melhor que o esperado e a Europa em alta, o que joga a favor de romper para cima. A vantagem da Lateral sobre a Alta é de só 4 pontos. A favor dela: Nova York fechada, preço já ajustado depois do +1,58% e prazo de Trabuco só em 30/11."
   },
   {
    "topico": "Composição das listas",
-   "texto": "Queda (7 papéis): quatro são do varejo (NATU3, AZZA3, SBFG3, CEAB3), apoiados na mesma revisão da Safra depois de altas de 6% a 11% ontem. Na prática é uma aposta só: se o IPCA-15 vier abaixo do consenso e os DIs caírem mais, as quatro podem errar juntas. Os outros três são KLBN11, EMBJ3 e BRKM5. Subida (4 papéis): SMFT3, CSAN3, TIMS3 e RAIL3; CSAN3 e RAIL3 dependem da mesma notícia. Ficaram de fora RIAA3, LREN3, TFCO4 e VIVA3 (para não concentrar mais no varejo), CYRE3, SMTO3, YDUQ3, IRBR3, PETR4 e BDRs (Nova York fechada). Não completei com palpites."
+   "texto": "Queda (4 papéis): KLBN11, NATU3, EMBJ3 e BRKM5. Subida (4 papéis): SMFT3, CSAN3, TIMS3 e RAIL3; CSAN3 e RAIL3 dependem da mesma notícia. Na versão das 8h47 a queda tinha também AZZA3, SBFG3 e CEAB3, apoiados na revisão de alvos da Safra; saíram porque o IPCA-15 abaixo do esperado favorece o varejo e os sinais passaram a se anular. Ficaram de fora das duas listas, além deles, RIAA3, LREN3, TFCO4, VIVA3, CYRE3, SMTO3, YDUQ3, IRBR3, PETR4 e BDRs (Nova York fechada). Não completei com palpites."
   },
   {
    "topico": "Calibragem e vieses",
-   "texto": "Histórico do radar até ontem: o cenário principal do Ibovespa acertou 3 de 9 relatórios (33%); papéis em queda, 33 de 49 (67%); em subida, 11 de 26 (42%). Isso pede chances modestas, sobretudo na subida. Viés de recência: o +1,58% de ontem e o rali lá fora convidam a extrapolar a alta. Ancoragem: o convite a Trabuco ainda não é nomeação. A revisão da Safra saiu ontem com o pregão aberto (17h09), e parte pode já estar no preço."
+   "texto": "Histórico do radar até ontem: o cenário principal do Ibovespa acertou 3 de 9 relatórios (33%); papéis em queda, 33 de 49 (67%); em subida, 11 de 26 (42%). Isso pede chances modestas, sobretudo na subida. Viés de recência: o +1,58% de ontem e o rali lá fora convidam a extrapolar a alta. Ancoragem: o convite a Trabuco ainda não é nomeação. Um dado favorável logo antes da abertura pode ser precificado no começo do pregão e não sustentar até o fechamento."
   },
   {
    "topico": "Lacunas e divergências de fontes",
-   "texto": "Não encontrei: futuro do Ibovespa, dólar e DI de hoje antes das 9h; EWZ em pré-mercado (Nova York fechada); Treasury de hoje; balanço divulgado depois do fechamento de ontem (temporada encerrada; Paranapanema em 27/11, Gafisa em 30/11, Oncoclínicas sem data); resultado das transações correntes; confirmação de leilão do Tesouro. O doc 'Investidor' do projeto está em branco. Divergências: dólar de ontem de R$ 5,8168 a R$ 5,82; Brent de hoje de cerca de US$ 91 a US$ 93,86; CEAB3 a R$ 7,58 (o TradeMap mostrava R$ 7,52 às 17h30). Preços de BRKM5 e SMFT3 têm uma só fonte datada (Dados de Mercado). Os 11 papéis têm fechamento de 25/11 em reais. Manchetes sem leitura do texto (MBRF, saída de acionista na SBF) não entraram como fato."
+   "texto": "Não encontrei: futuro do Ibovespa, dólar e DI de hoje com hora, nem a reação deles ao IPCA-15; EWZ em pré-mercado (Nova York fechada); Treasury de hoje; balanço divulgado depois do fechamento de ontem (temporada encerrada; Paranapanema em 27/11, Gafisa em 30/11, Oncoclínicas sem data); resultado do IPP; confirmação de leilão do Tesouro. O IPCA-15 vem de uma só fonte (TradeMap, com dados do IBGE). O doc 'Investidor' do projeto está em branco. Divergências: dólar de ontem de R$ 5,8168 a R$ 5,82; Brent de hoje de cerca de US$ 91 a US$ 93,86; CEAB3 a R$ 7,58 (o TradeMap mostrava R$ 7,52 às 17h30). Preços de BRKM5 e SMFT3 têm uma só fonte datada (Dados de Mercado). Os 8 papéis têm fechamento de 25/11 em reais."
   }
  ],
  "noticias": [
+  {
+   "id": "ipca15-novembro",
+   "titulo": "IPCA-15 de novembro sobe 0,22%, bem abaixo do esperado",
+   "status": "Confirmado",
+   "quando": "26/11, 9h",
+   "resumo": "A prévia da inflação ficou em +0,22% (esperado +0,34%; outubro +0,32%), com 4,64% em 12 meses (esperado 4,78%) e 4,38% no ano. Alimentação e bebidas subiram 1,51% e transportes caíram 0,71% (passagem aérea −9,57%; gasolina −1,23%). Às 8h30, o BC informou déficit em transações correntes de US$ 3,97 bilhões em outubro, maior que o esperado, e investimento direto de US$ 9,09 bilhões.",
+   "impacto": "Reforça a expectativa de juros menores e favorece prefixados e ações domésticas. O Copom decide em 8 e 9/12. A alta dos alimentos pede cautela.",
+   "fonte": "TradeMap (26/11, 8h30 e 9h), com dados do IBGE e do BC",
+   "link": "https://trademap.com.br/noticias/news-8638079"
+  },
   {
    "id": "fiscal-contingenciamento-pec",
    "titulo": "Lula convida Trabuco para a Fazenda e PEC para limitar gastos obrigatórios segue em discussão",
@@ -401,22 +369,12 @@
    "link": "https://www.infomoney.com.br/mercados/petr4-santander-rebaixa-acoes-da-petrobras-para-neutra-com-percepcao-maior-de-risco/"
   },
   {
-   "id": "ia-chips-nasdaq",
-   "titulo": "Nasdaq recupera boa parte da queda do dia; Ásia e Europa sobem hoje",
-   "status": "Em andamento",
-   "quando": "25/11 (fechamento) e madrugada de 26/11",
-   "resumo": "O Nasdaq chegou a cair mais de 4% ontem e fechou em −0,62%; a Nvidia caiu 3,9%, com alerta da S&P ao conselho da empresa. Hoje a Ásia fechou em sua maioria em alta e os bancos e as ações de tecnologia puxam a Europa (cerca de +2,4% a +2,5% por setor).",
-   "impacto": "Com Nova York fechada, os BDRs ficam sem referência direta hoje; o alívio global ajuda o humor com emergentes.",
-   "fonte": "Money Times (6h08); DGABC/Estadão (6h52)",
-   "link": "https://www.dgabc.com.br/Noticia/4370802/bolsas-da-europa-avancam-com-bancos-e-tecnologia-apos-alivio-sobre-tarifas-dos-eua"
-  },
-  {
    "id": "varejo-safra",
    "titulo": "Safra corta preço-alvo de 9 de 10 ações do varejo e prefere Smart Fit",
    "status": "Confirmado",
    "quando": "Publicado em 25/11, 17h09",
    "resumo": "A casa elevou a Selic projetada para 2027 (12,7% contra 12,2%) e o custo de capital (15% contra 14,3%). Cortou, entre outros, SBFG3 (R$ 14,00 para R$ 6,00), NATU3 (R$ 8,50 para R$ 5,00), CEAB3 (R$ 15,50 para R$ 10,50) e AZZA3 (R$ 19,50 para R$ 16,30). SMFT3 é a preferida, com alvo de R$ 25,00; a empresa também anunciou JCP e aumento de capital.",
-   "impacto": "Várias ações do varejo subiram forte ontem com a queda dos juros; a revisão pode estimular realização, e uma nova queda dos DIs pode anular o efeito.",
+   "impacto": "Várias ações do varejo subiram forte ontem com a queda dos juros; a revisão pode estimular realização, mas o IPCA-15 baixo de hoje joga no sentido contrário.",
    "fonte": "oespecialista/Safra (25/11, 17h09); InfoMoney (26/11, 8h01)",
    "link": "https://oespecialista.safra.com.br/precos-alvo-varejo-safra-revisa-dez-acoes"
   },

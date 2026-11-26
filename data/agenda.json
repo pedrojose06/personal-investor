@@ -25,21 +25,21 @@
  },
  {
   "hora": "08h30",
-  "evento": "BC: transações correntes de outubro (consenso −US$ 3,1 bi; anterior −US$ 5,1 bi) e investimento direto (consenso US$ 8 bi; anterior US$ 11,29 bi); resultado não capturado",
+  "evento": "BC: transações correntes de outubro: déficit de US$ 3,97 bi (esperado US$ 3,1 bi; setembro US$ 5,10 bi) e investimento direto de US$ 9,09 bi (esperado US$ 8 bi)",
   "destaque": "não",
   "status": "saiu"
  },
  {
   "hora": "09h00",
-  "evento": "IPCA-15 de novembro (consenso 0,34% no mês e 4,78% em 12 meses; anterior 0,32% e 4,62%) e IPP de outubro (anterior +1,54%)",
+  "evento": "IPCA-15 de novembro: +0,22% no mês (esperado +0,34%) e 4,64% em 12 meses (esperado 4,78%). IPP de outubro também às 9h (resultado não capturado)",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "09h00",
   "evento": "Futuros do Ibovespa, dólar e juros futuros começam a negociar; Galípolo faz palestra fechada",
   "destaque": "sim",
-  "status": "a vir"
+  "status": "saiu"
  },
  {
   "hora": "09h30",

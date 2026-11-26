@@ -1,5 +1,15 @@
 [
  {
+  "id": "ipca15-novembro",
+  "titulo": "IPCA-15 de novembro sobe 0,22%, bem abaixo do esperado",
+  "status": "Confirmado",
+  "quando": "26/11, 9h",
+  "resumo": "A prévia da inflação ficou em +0,22% (esperado +0,34%; outubro +0,32%), com 4,64% em 12 meses (esperado 4,78%) e 4,38% no ano. Alimentação e bebidas subiram 1,51% e transportes caíram 0,71% (passagem aérea −9,57%; gasolina −1,23%). Às 8h30, o BC informou déficit em transações correntes de US$ 3,97 bilhões em outubro, maior que o esperado, e investimento direto de US$ 9,09 bilhões.",
+  "impacto": "Reforça a expectativa de juros menores e favorece prefixados e ações domésticas. O Copom decide em 8 e 9/12. A alta dos alimentos pede cautela.",
+  "fonte": "TradeMap (26/11, 8h30 e 9h), com dados do IBGE e do BC",
+  "link": "https://trademap.com.br/noticias/news-8638079"
+ },
+ {
   "id": "fiscal-contingenciamento-pec",
   "titulo": "Lula convida Trabuco para a Fazenda e PEC para limitar gastos obrigatórios segue em discussão",
   "status": "Em andamento",
@@ -30,22 +40,12 @@
   "link": "https://www.infomoney.com.br/mercados/petr4-santander-rebaixa-acoes-da-petrobras-para-neutra-com-percepcao-maior-de-risco/"
  },
  {
-  "id": "ia-chips-nasdaq",
-  "titulo": "Nasdaq recupera boa parte da queda do dia; Ásia e Europa sobem hoje",
-  "status": "Em andamento",
-  "quando": "25/11 (fechamento) e madrugada de 26/11",
-  "resumo": "O Nasdaq chegou a cair mais de 4% ontem e fechou em −0,62%; a Nvidia caiu 3,9%, com alerta da S&P ao conselho da empresa. Hoje a Ásia fechou em sua maioria em alta e os bancos e as ações de tecnologia puxam a Europa (cerca de +2,4% a +2,5% por setor).",
-  "impacto": "Com Nova York fechada, os BDRs ficam sem referência direta hoje; o alívio global ajuda o humor com emergentes.",
-  "fonte": "Money Times (6h08); DGABC/Estadão (6h52)",
-  "link": "https://www.dgabc.com.br/Noticia/4370802/bolsas-da-europa-avancam-com-bancos-e-tecnologia-apos-alivio-sobre-tarifas-dos-eua"
- },
- {
   "id": "varejo-safra",
   "titulo": "Safra corta preço-alvo de 9 de 10 ações do varejo e prefere Smart Fit",
   "status": "Confirmado",
   "quando": "Publicado em 25/11, 17h09",
   "resumo": "A casa elevou a Selic projetada para 2027 (12,7% contra 12,2%) e o custo de capital (15% contra 14,3%). Cortou, entre outros, SBFG3 (R$ 14,00 para R$ 6,00), NATU3 (R$ 8,50 para R$ 5,00), CEAB3 (R$ 15,50 para R$ 10,50) e AZZA3 (R$ 19,50 para R$ 16,30). SMFT3 é a preferida, com alvo de R$ 25,00; a empresa também anunciou JCP e aumento de capital.",
-  "impacto": "Várias ações do varejo subiram forte ontem com a queda dos juros; a revisão pode estimular realização, e uma nova queda dos DIs pode anular o efeito.",
+  "impacto": "Várias ações do varejo subiram forte ontem com a queda dos juros; a revisão pode estimular realização, mas o IPCA-15 baixo de hoje joga no sentido contrário.",
   "fonte": "oespecialista/Safra (25/11, 17h09); InfoMoney (26/11, 8h01)",
   "link": "https://oespecialista.safra.com.br/precos-alvo-varejo-safra-revisa-dez-acoes"
  },

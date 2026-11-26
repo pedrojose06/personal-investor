@@ -2,22 +2,22 @@
  {
   "cenario": "Queda",
   "faixa": "fechar abaixo de −0,5%",
-  "relatorio": 21,
-  "agora": 21,
-  "motivo": "Fechar abaixo de 165.851 pts. Exigiria um IPCA-15 acima do consenso, com os DIs devolvendo o alívio de ontem, sinais de recusa de Trabuco ou de enfraquecimento da PEC de gastos, ou uma realização forte depois do +1,58%. Brent em baixa (−0,8%), minério parado em Dalian e pouca liquidez sem Nova York podem ampliar o movimento. Fica em último porque a Europa abriu em alta forte (Stoxx 600 +1,68% às 6h35) e a Ásia fechou em sua maioria positiva."
+  "relatorio": 16,
+  "agora": 16,
+  "motivo": "Fechar abaixo de 165.851 pts. Exigiria recusa de Trabuco, enfraquecimento da PEC de gastos ou uma realização forte depois do +1,58% que se sobreponha ao IPCA-15 favorável. Brent em baixa (−0,8%), minério parado em Dalian e pouca liquidez sem Nova York podem ampliar o movimento. Fica em último porque a inflação veio bem abaixo do esperado e a Europa abriu em alta forte."
  },
  {
   "cenario": "Lateral",
   "faixa": "fechar entre −0,5% e +0,5%",
-  "relatorio": 46,
-  "agora": 46,
-  "motivo": "Faixa de 165.851 a 167.518 pts. É o cenário mais provável: Nova York fechada pela Ação de Graças reduz o volume e tira a principal referência, o índice já subiu 1,58% ontem com o convite a Trabuco e a PEC, e o mercado tende a esperar a resposta do banqueiro (até 30/11) e o desenho da proposta."
+  "relatorio": 44,
+  "agora": 44,
+  "motivo": "Faixa de 165.851 a 167.518 pts. Segue um pouco à frente: Nova York fechada pela Ação de Graças reduz o volume, o índice já subiu 1,58% ontem com o convite a Trabuco e a PEC, e o mercado tende a esperar a resposta do banqueiro (até 30/11). O IPCA-15 baixo reduziu a vantagem sobre a Alta."
  },
  {
   "cenario": "Alta",
   "faixa": "fechar acima de +0,5%",
-  "relatorio": 33,
-  "agora": 33,
-  "motivo": "Fechar acima de 167.518 pts. Pede continuidade: Europa em alta forte (DAX +2,17%, CAC +2,01% às 6h50), Ásia positiva, tarifas propostas pelos EUA lidas como mais brandas que o temido, queda dos DIs ontem (jan/28 −0,18, jan/29 −0,20 e jan/31 −0,23 ponto) e noticiário favorável sobre a Fazenda e a PEC."
+  "relatorio": 40,
+  "agora": 40,
+  "motivo": "Fechar acima de 167.518 pts. O IPCA-15 de +0,22% (esperado +0,34%) favorece nova queda dos juros e as ações domésticas, somado à Europa em alta forte (DAX +2,17% às 6h50), à Ásia positiva, às tarifas dos EUA lidas como brandas e à queda dos DIs ontem."
  }
 ]
